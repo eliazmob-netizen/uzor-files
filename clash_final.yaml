@@ -1,0 +1,590 @@
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 127.0.0.1:9090
+external-ui: ui
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports:
+      - 80
+      - 8080-8880
+      override-destination: true
+    TLS:
+      ports:
+      - 443
+      - 8443
+    QUIC:
+      ports:
+      - 443
+      - 8443
+hosts:
+  google.com: forcesafesearch.google.com
+  www.google.com: forcesafesearch.google.com
+  www.google.ru: forcesafesearch.google.com
+  www.google.co.uk: forcesafesearch.google.com
+  youtube.com: restrict.youtube.com
+  www.youtube.com: restrict.youtube.com
+  m.youtube.com: restrict.youtube.com
+  youtubei.googleapis.com: restrict.youtube.com
+  youtube.googleapis.com: restrict.youtube.com
+  bing.com: strict.bing.com
+  www.bing.com: strict.bing.com
+  duckduckgo.com: safe.duckduckgo.com
+  www.duckduckgo.com: safe.duckduckgo.com
+  yandex.ru: 213.180.193.56
+  www.yandex.ru: 213.180.193.56
+  ya.ru: 213.180.193.56
+dns:
+  enable: true
+  ipv6: false
+  default-nameserver:
+  - 223.5.5.5
+  - 8.8.8.8
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - '*.lan'
+  - localhost.ptlogin2.qq.com
+  - +.srv.nintendo.net
+  - +.stun.*.*
+  - +.stun.*.*.*
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  fallback:
+  - https://1.1.1.1/dns-query
+  - https://8.8.8.8/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
+proxies:
+- name: 🇳🇱 Нидерланды - Амстердам | Arfench | 5.75 Mbps 📺360p
+  type: ss
+  server: 82.38.31.26
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 Нидерланды - Амстердам | Arfench | 5.65 Mbps 📺360p
+  type: ss
+  server: 82.38.31.171
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇮🇷 Иран | ChatGPT-053 | 5.08 Mbps 📺360p
+  type: vless
+  server: 93.115.24.135
+  port: 443
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: admin.betust.net
+  reality-opts:
+    public-key: zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w
+    short-id: '000000003e137406'
+- name: 🇱🇹 Литва - Шяуляй | Arfench | 4.75 Mbps 📺360p
+  type: vless
+  server: 93.115.24.135
+  port: 443
+  uuid: fb37d713-0ed3-4146-b085-a5c879a9aafa
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: admin.betust.net
+  reality-opts:
+    public-key: zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w
+    short-id: '000000003e137406'
+- name: 🇮🇹 Италия - Милан | aiboboxx_README.md | 4.07 Mbps 📺360p
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 Италия | 10ium_3 | 3.48 Mbps 📺360p
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇷🇸 Сербия - Белград | liketolivefree | 3.44 Mbps 📺360p
+  type: vless
+  server: rs5.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: rs5.univesalsrv.com
+  reality-opts:
+    public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
+    short-id: '4872856d5489c37d'
+  grpc-opts:
+    grpc-service-name: gw.v1.ObjectService
+- name: 🇳🇱 Нидерланды - Амстердам | Arfench | 2.89 Mbps 📺360p
+  type: vless
+  server: book.jarbook.net
+  port: 443
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  tls: true
+  network: grpc
+  client-fingerprint: chrome
+  servername: reg.jarbook.net
+  reality-opts:
+    public-key: nUUSNvkc5Xy6LRCP4yeFvbI8wFMx7gdgruPMNBq7jzo
+    short-id: '00000000dceb4214'
+  grpc-opts:
+    grpc-service-name: BookCatalog
+- name: 🇷🇺 Россия - Москва | Arfench | 2.81 Mbps 📺360p
+  type: vless
+  server: 13.143.184.226
+  port: 443
+  uuid: b5d044c5-1e70-49bb-a650-08b1de516691
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: msc1.serverslocal.ru
+  reality-opts:
+    public-key: qPh1iuwpELosLWTxOXyfCiMghs_sjSzCOGbkiF0gdkk
+    short-id: 'f7e66e308136e1a1'
+- name: 🇮🇹 Италия - Милан | aiboboxx_README.md | 2.67 Mbps 📺360p
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱 Нидерланды - Амстердам | mheidari98 All | 2.35 Mbps 📺360p
+  type: vless
+  server: 84.32.101.84
+  port: 443
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: reg.jarbook.net
+  reality-opts:
+    public-key: nUUSNvkc5Xy6LRCP4yeFvbI8wFMx7gdgruPMNBq7jzo
+    short-id: '00000000dceb4214'
+  grpc-opts:
+    grpc-service-name: BookCatalog
+- name: 🇱🇹 Литва | sakha1370 | 2.01 Mbps 📺360p
+  type: vless
+  server: 88.216.70.39
+  port: 443
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: tickets.betust.net
+  reality-opts:
+    public-key: TRaUsnzFf-AhWUuW4RQUQOBYTdM-qJdLDTTkzQNkcRw
+    short-id: '00000000f70764f8'
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | Arfench | 1.73 Mbps 📺360p
+  type: vless
+  server: 88.216.70.39
+  port: 443
+  uuid: fb37d713-0ed3-4146-b085-a5c879a9aafa
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: tickets.betust.net
+  reality-opts:
+    public-key: TRaUsnzFf-AhWUuW4RQUQOBYTdM-qJdLDTTkzQNkcRw
+    short-id: '00000000f70764f8'
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 1.70 Mbps 📺360p
+  type: vless
+  server: tickets.betust.net
+  port: 443
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: tickets.betust.net
+  reality-opts:
+    public-key: TRaUsnzFf-AhWUuW4RQUQOBYTdM-qJdLDTTkzQNkcRw
+    short-id: '00000000f70764f8'
+- name: 🇳🇱 Нидерланды | 4n0nymou3 | 1.63 Mbps 📺360p
+  type: ss
+  server: 82.38.31.175
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇷🇺 Россия - Москва | mheidari98 All | 1.62 Mbps 📺360p
+  type: vless
+  server: cdn372.whitenw.net
+  port: 12443
+  uuid: 769f34f0-1500-488f-b414-03bc90666502
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: catalog.mimowhat.online
+  reality-opts:
+    public-key: HyJQdnrodVK1USi-VyOC_pIvy1Ploj4Kf7kpO0vopSo
+    short-id: '78c8c6801d59cc19'
+- name: 🇦🇺 Австралия | NiREvil | 1.62 Mbps 📺360p
+  type: ss
+  server: 103.11.76.248
+  port: 28679
+  cipher: 2022-blake3-aes-128-gcm
+  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+- name: 🇺🇸 США | 10ium_3 | 1.60 Mbps 📺360p
+  type: ss
+  server: 103.11.76.248
+  port: 28679
+  cipher: 2022-blake3-aes-128-gcm
+  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+- name: 🇮🇹 Италия - Милан | barry-far_2 | 1.14 Mbps 📺360p
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 Италия | 10ium_3 | 0.92 Mbps 📺360p
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸 США | 4n0nymou3 | 0.86 Mbps 📺360p
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸 США | 4n0nymou3 | 0.75 Mbps 📺360p
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 Италия | 10ium_3 | 0.74 Mbps 📺360p
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇩🇪 Германия | mheidari98 All | 0.70 Mbps 📺360p
+  type: vless
+  server: 5.230.219.109
+  port: 8444
+  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: volkswagen.de
+  reality-opts:
+    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
+    short-id: '000000001a2b3c4d'
+proxy-providers:
+  top_source:
+    type: http
+    url: https://raw.githubusercontent.com/Arfench/roskompozor/refs/heads/main/cleaned_configs.txt
+    interval: 3600
+    path: ./providers/top_source.yaml
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 20
+proxy-groups:
+- name: 🚀 Выбор
+  type: select
+  proxies:
+  - 🌐 Все серверы
+  - 🇷🇺 Только РФ
+  - 🌍 Без РФ
+  - 🌍 Страны
+  - 🛡 Реклама
+  - 🔞 18+
+  - 🎯 Direct
+- name: 🌐 Все серверы
+  type: url-test
+  proxies:
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 5.75 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 5.65 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 5.08 Mbps 📺360p
+  - 🇱🇹 Литва - Шяуляй | Arfench | 4.75 Mbps 📺360p
+  - 🇮🇹 Италия - Милан | aiboboxx_README.md | 4.07 Mbps 📺360p
+  - 🇮🇹 Италия | 10ium_3 | 3.48 Mbps 📺360p
+  - 🇷🇸 Сербия - Белград | liketolivefree | 3.44 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 2.89 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Arfench | 2.81 Mbps 📺360p
+  - 🇮🇹 Италия - Милан | aiboboxx_README.md | 2.67 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | mheidari98 All | 2.35 Mbps 📺360p
+  - 🇱🇹 Литва | sakha1370 | 2.01 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Arfench | 1.73 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 1.70 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 4n0nymou3 | 1.63 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | mheidari98 All | 1.62 Mbps 📺360p
+  - 🇦🇺 Австралия | NiREvil | 1.62 Mbps 📺360p
+  - 🇺🇸 США | 10ium_3 | 1.60 Mbps 📺360p
+  - 🇮🇹 Италия - Милан | barry-far_2 | 1.14 Mbps 📺360p
+  - 🇮🇹 Италия | 10ium_3 | 0.92 Mbps 📺360p
+  - 🇺🇸 США | 4n0nymou3 | 0.86 Mbps 📺360p
+  - 🇺🇸 США | 4n0nymou3 | 0.75 Mbps 📺360p
+  - 🇮🇹 Италия | 10ium_3 | 0.74 Mbps 📺360p
+  - 🇩🇪 Германия | mheidari98 All | 0.70 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🇷🇺 Только РФ
+  type: url-test
+  proxies:
+  - 🇷🇺 Россия - Москва | Arfench | 2.81 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | mheidari98 All | 1.62 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🌍 Без РФ
+  type: url-test
+  proxies:
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 5.75 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 5.65 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 5.08 Mbps 📺360p
+  - 🇱🇹 Литва - Шяуляй | Arfench | 4.75 Mbps 📺360p
+  - 🇮🇹 Италия - Милан | aiboboxx_README.md | 4.07 Mbps 📺360p
+  - 🇮🇹 Италия | 10ium_3 | 3.48 Mbps 📺360p
+  - 🇷🇸 Сербия - Белград | liketolivefree | 3.44 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 2.89 Mbps 📺360p
+  - 🇮🇹 Италия - Милан | aiboboxx_README.md | 2.67 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | mheidari98 All | 2.35 Mbps 📺360p
+  - 🇱🇹 Литва | sakha1370 | 2.01 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Arfench | 1.73 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 1.70 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 4n0nymou3 | 1.63 Mbps 📺360p
+  - 🇦🇺 Австралия | NiREvil | 1.62 Mbps 📺360p
+  - 🇺🇸 США | 10ium_3 | 1.60 Mbps 📺360p
+  - 🇮🇹 Италия - Милан | barry-far_2 | 1.14 Mbps 📺360p
+  - 🇮🇹 Италия | 10ium_3 | 0.92 Mbps 📺360p
+  - 🇺🇸 США | 4n0nymou3 | 0.86 Mbps 📺360p
+  - 🇺🇸 США | 4n0nymou3 | 0.75 Mbps 📺360p
+  - 🇮🇹 Италия | 10ium_3 | 0.74 Mbps 📺360p
+  - 🇩🇪 Германия | mheidari98 All | 0.70 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇹 Италия
+  type: url-test
+  proxies:
+  - 🇮🇹 Италия - Милан | aiboboxx_README.md | 4.07 Mbps 📺360p
+  - 🇮🇹 Италия | 10ium_3 | 3.48 Mbps 📺360p
+  - 🇮🇹 Италия - Милан | aiboboxx_README.md | 2.67 Mbps 📺360p
+  - 🇮🇹 Италия - Милан | barry-far_2 | 1.14 Mbps 📺360p
+  - 🇮🇹 Италия | 10ium_3 | 0.92 Mbps 📺360p
+  - 🇮🇹 Италия | 10ium_3 | 0.74 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇳🇱 Нидерланды
+  type: url-test
+  proxies:
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 5.75 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 5.65 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 2.89 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | mheidari98 All | 2.35 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 4n0nymou3 | 1.63 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇩🇪 Германия
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Arfench | 1.73 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 1.70 Mbps 📺360p
+  - 🇩🇪 Германия | mheidari98 All | 0.70 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇺🇸 США
+  type: url-test
+  proxies:
+  - 🇺🇸 США | 10ium_3 | 1.60 Mbps 📺360p
+  - 🇺🇸 США | 4n0nymou3 | 0.86 Mbps 📺360p
+  - 🇺🇸 США | 4n0nymou3 | 0.75 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇱🇹 Литва
+  type: url-test
+  proxies:
+  - 🇱🇹 Литва - Шяуляй | Arfench | 4.75 Mbps 📺360p
+  - 🇱🇹 Литва | sakha1370 | 2.01 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇷 Иран
+  type: url-test
+  proxies:
+  - 🇮🇷 Иран | ChatGPT-053 | 5.08 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇷🇸 Сербия
+  type: url-test
+  proxies:
+  - 🇷🇸 Сербия - Белград | liketolivefree | 3.44 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇦🇺 Австралия
+  type: url-test
+  proxies:
+  - 🇦🇺 Австралия | NiREvil | 1.62 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🌍 Страны
+  type: select
+  proxies:
+  - 🗺 🇮🇹 Италия
+  - 🗺 🇳🇱 Нидерланды
+  - 🗺 🇩🇪 Германия
+  - 🗺 🇺🇸 США
+  - 🗺 🇱🇹 Литва
+  - 🗺 🇮🇷 Иран
+  - 🗺 🇷🇸 Сербия
+  - 🗺 🇦🇺 Австралия
+- name: 🎯 Direct
+  type: select
+  proxies:
+  - DIRECT
+- name: 🛡 Реклама
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: 🔞 18+
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+rule-providers:
+  oisd-big:
+    type: http
+    behavior: domain
+    url: https://github.com/legiz-ru/mihomo-rule-sets/raw/main/oisd/big.mrs
+    path: ./ruleset/oisd_big.mrs
+    interval: 86400
+    format: mrs
+  anti-ad:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    path: ./ruleset/anti-ad.yaml
+    interval: 86400
+    format: yaml
+  advertising:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.yaml
+    path: ./ruleset/advertising.yaml
+    interval: 86400
+    format: yaml
+  hijacking:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
+    path: ./ruleset/hijacking.yaml
+    interval: 86400
+    format: yaml
+  privacy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy.yaml
+    path: ./ruleset/privacy.yaml
+    interval: 86400
+    format: yaml
+  hagezi-proplus:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/MiHomoer/MiHomo-Hagezi/release/HageziProPlus.mrs
+    path: ./ruleset/hagezi-proplus.mrs
+    interval: 86400
+    format: mrs
+  oisd-nsfw-small:
+    type: http
+    behavior: domain
+    url: https://github.com/legiz-ru/mihomo-rule-sets/raw/main/oisd/nsfw_small.mrs
+    path: ./ruleset/oisd_nsfw_small.mrs
+    interval: 86400
+    format: mrs
+rules:
+- AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
+- RULE-SET,oisd-big,🛡 Реклама
+- RULE-SET,anti-ad,🛡 Реклама
+- RULE-SET,advertising,🛡 Реклама
+- RULE-SET,hijacking,🛡 Реклама
+- RULE-SET,privacy,🛡 Реклама
+- RULE-SET,hagezi-proplus,🛡 Реклама
+- DOMAIN-SUFFIX,doubleclick.net,🛡 Реклама
+- DOMAIN-SUFFIX,googlesyndication.com,🛡 Реклама
+- DOMAIN-SUFFIX,googletagmanager.com,🛡 Реклама
+- DOMAIN-SUFFIX,googletagservices.com,🛡 Реклама
+- DOMAIN-SUFFIX,adnxs.com,🛡 Реклама
+- DOMAIN-SUFFIX,rubiconproject.com,🛡 Реклама
+- DOMAIN-SUFFIX,pubmatic.com,🛡 Реклама
+- DOMAIN-SUFFIX,openx.net,🛡 Реклама
+- DOMAIN-SUFFIX,amazon-adsystem.com,🛡 Реклама
+- DOMAIN-SUFFIX,media.net,🛡 Реклама
+- DOMAIN-SUFFIX,criteo.com,🛡 Реклама
+- DOMAIN-SUFFIX,taboola.com,🛡 Реклама
+- DOMAIN-SUFFIX,outbrain.com,🛡 Реклама
+- DOMAIN-SUFFIX,revcontent.com,🛡 Реклама
+- DOMAIN-SUFFIX,ads.yahoo.com,🛡 Реклама
+- DOMAIN-SUFFIX,advertising.com,🛡 Реклама
+- DOMAIN-SUFFIX,yandex-team.ru,🛡 Реклама
+- DOMAIN-KEYWORD,direct.yandex,🛡 Реклама
+- DOMAIN-SUFFIX,begun.ru,🛡 Реклама
+- DOMAIN-SUFFIX,smi2.ru,🛡 Реклама
+- DOMAIN-SUFFIX,rel.ru,🛡 Реклама
+- DOMAIN-SUFFIX,adriver.ru,🛡 Реклама
+- DOMAIN-SUFFIX,soloway.ru,🛡 Реклама
+- DOMAIN-SUFFIX,adserver.ru,🛡 Реклама
+- DOMAIN-SUFFIX,adman.ru,🛡 Реклама
+- DOMAIN-SUFFIX,marketgid.com,🛡 Реклама
+- DOMAIN-SUFFIX,gmads.net,🛡 Реклама
+- DOMAIN-SUFFIX,hotjar.com,🛡 Реклама
+- DOMAIN-SUFFIX,mixpanel.com,🛡 Реклама
+- DOMAIN-SUFFIX,segment.com,🛡 Реклама
+- DOMAIN-SUFFIX,fullstory.com,🛡 Реклама
+- DOMAIN-SUFFIX,intercom.io,🛡 Реклама
+- DOMAIN-SUFFIX,heap.io,🛡 Реклама
+- DOMAIN-KEYWORD,phishing,🛡 Реклама
+- DOMAIN-KEYWORD,malware,🛡 Реклама
+- DOMAIN-KEYWORD,trojan-download,🛡 Реклама
+- DOMAIN-SUFFIX,popads.net,🛡 Реклама
+- DOMAIN-SUFFIX,popcash.net,🛡 Реклама
+- DOMAIN-SUFFIX,propellerads.com,🛡 Реклама
+- DOMAIN-SUFFIX,exoclick.com,🛡 Реклама
+- DOMAIN-SUFFIX,trafficjunky.net,🛡 Реклама
+- DOMAIN-SUFFIX,juicyads.com,🛡 Реклама
+- RULE-SET,oisd-nsfw-small,🔞 18+
+- GEOIP,CN,DIRECT
+- MATCH,🚀 Выбор

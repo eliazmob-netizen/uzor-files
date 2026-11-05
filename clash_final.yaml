@@ -63,80 +63,124 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия | wuqb2i4f | 6.43 Mbps 📺360p
+- name: 🇳🇱 Нидерланды - Амстердам | ChatGPT-053 | 5.68 Mbps 📺360p
+  type: ss
+  server: 82.38.31.220
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇷🇸 Сербия - Белград | penhandev_1 | 5.63 Mbps 📺360p
   type: vless
-  server: 147.45.148.6
+  server: rs5.univesalsrv.com
   port: 443
-  uuid: 3bb97d46-789b-4229-88f6-9beb222a4137
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: rs5.univesalsrv.com
+  reality-opts:
+    public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
+    short-id: '4872856d5489c37d'
+  grpc-opts:
+    grpc-service-name: gw.v1.ObjectService
+- name: 🇷🇸 Сербия - Белград | penhandev_1 | 5.61 Mbps 📺360p
+  type: vless
+  server: rs3.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: rs3.univesalsrv.com
+  reality-opts:
+    public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ
+    short-id: '35d05b666e2c6cdf'
+  grpc-opts:
+    grpc-service-name: edge.v2.FeedService
+- name: 🇱🇹 Литва - Шяуляй | Arfench | 5.10 Mbps 📺360p
+  type: vless
+  server: 84.32.215.96
+  port: 443
+  uuid: fb37d713-0ed3-4146-b085-a5c879a9aafa
   tls: true
   network: raw
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  servername: yoy-api.bachidze.com
+  servername: app26.betust.net
   reality-opts:
-    public-key: ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI
-    short-id: '0000000000000000'
-- name: 🇬🇧 Великобритания | AzadNet | 6.36 Mbps 📺360p
-  type: ss
-  server: 82.38.31.178
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 Нидерланды - Амстердам | Arfench | 6.22 Mbps 📺360p
-  type: ss
-  server: 82.38.31.178
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 Нидерланды - Амстердам | Arfench | 6.10 Mbps 📺360p
-  type: ss
-  server: 82.38.31.26
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇺🇸 США | 4n0nymou3_proxy_configs_tested.txt | 5.23 Mbps 📺360p
+    public-key: 5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc
+    short-id: '00000000d44d6d46'
+- name: 🇱🇹 Литва - Шяуляй | barry-far_3 | 5.04 Mbps 📺360p
+  type: vless
+  server: app26.betust.net
+  port: 443
+  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: app26.betust.net
+  reality-opts:
+    public-key: 5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc
+    short-id: '00000000d44d6d46'
+- name: 🇺🇸 США | 4n0nymou3_proxy_configs_tested.txt | 4.99 Mbps 📺360p
   type: ss
   server: 202.50.253.63
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 Италия - Милан | acymz | 5.13 Mbps 📺360p
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 Италия | 0xRadikal_configs.txt | 5.01 Mbps 📺360p
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 Италия | 0xRadikal_configs.txt | 4.92 Mbps 📺360p
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 Италия | 10ium_3 | 4.86 Mbps 📺360p
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇬🇧 Великобритания | 10ium_3 | 4.77 Mbps 📺360p
-  type: ss
-  server: 82.38.31.171
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇮🇹 Италия - Милан | Arfench | 4.51 Mbps 📺360p
+- name: 🇮🇹 Италия | 0xRadikal_configs.txt | 4.83 Mbps 📺360p
   type: ss
   server: 202.50.253.72
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇱🇹 Литва - Шяуляй | ChatGPT-053 | 4.44 Mbps 📺360p
+- name: 🇮🇹 Италия | 10ium_3 | 4.77 Mbps 📺360p
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸 США | 0xRadikal_configs.txt | 4.59 Mbps 📺360p
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱 Нидерланды - Амстердам | Arfench | 4.46 Mbps 📺360p
+  type: vless
+  server: 185.86.13.248
+  port: 443
+  uuid: b1e4bfe2-2b12-11f1-92cb-12ba70109d32
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: nl03-gos.everycom.store
+  reality-opts:
+    public-key: qyVTRBNzBF7TwtkzeB_Q9jN9aYhGWX7F4SUCOjxK9VU
+    short-id: '0000000000000000'
+- name: 🇩🇪 Германия | TIROK547_raw_configs.txt | 3.58 Mbps 📺360p
+  type: vless
+  server: 150.40.126.24
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: rs5.univesalsrv.com
+  reality-opts:
+    public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
+    short-id: '4872856d5489c37d'
+  grpc-opts:
+    grpc-service-name: gw.v1.ObjectService
+- name: 🇳🇱 Нидерланды - Амстердам | barry-far_2 | 3.42 Mbps 📺360p
+  type: ss
+  server: 82.38.31.46
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇱🇹 Литва - Шяуляй | ALIILAPRO | 3.35 Mbps 📺360p
   type: vless
   server: 84.32.215.96
   port: 443
@@ -149,38 +193,86 @@ proxies:
   reality-opts:
     public-key: 5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc
     short-id: '00000000d44d6d46'
-- name: 🇱🇹 Литва - Шяуляй | morpheusadam_iran.txt | 4.33 Mbps 📺360p
+- name: 🇮🇹 Италия | 0xRadikal_configs.txt | 2.81 Mbps 📺360p
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇵🇱 Польша | wuqb2i4f Mix-URI | 2.58 Mbps 📺360p
   type: vless
-  server: app26.betust.net
+  server: 191.217.211.161
   port: 443
-  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+  uuid: 0806e6e2-e01d-482c-b530-be3b57d486d4
   tls: true
-  network: tcp
+  network: raw
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: app26.betust.net
+  servername: pl1.song69.fun
   reality-opts:
-    public-key: 5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc
-    short-id: '00000000d44d6d46'
-- name: 🇮🇹 Италия | 10ium_3 | 4.10 Mbps 📺360p
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 Италия | 0xRadikal_configs.txt_3 | 2.86 Mbps 📺360p
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱 Нидерланды - Амстердам | Arfench | 2.82 Mbps 📺360p
+    public-key: 5H_MmyfvF4SkwS84wTbLmtcZDecXJIJtZ3uisiKQpSM
+    short-id: '000000000c774b50'
+- name: 🇷🇸 Сербия - Белград | TIROK547_raw_configs.txt | 1.90 Mbps 📺360p
+  type: vless
+  server: 150.40.126.21
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: rs3.univesalsrv.com
+  reality-opts:
+    public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ
+    short-id: '35d05b666e2c6cdf'
+  grpc-opts:
+    grpc-service-name: edge.v2.FeedService
+- name: 🇩🇪 Германия | wiki_2 | 1.86 Mbps 📺360p
+  type: vless
+  server: 88.216.70.128
+  port: 443
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  tls: true
+  network: tcp
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  servername: tickets.betust.net
+  reality-opts:
+    public-key: TRaUsnzFf-AhWUuW4RQUQOBYTdM-qJdLDTTkzQNkcRw
+    short-id: '00000000f70764f8'
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 1.85 Mbps 📺360p
+  type: vless
+  server: tickets.betust.net
+  port: 443
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: tickets.betust.net
+  reality-opts:
+    public-key: TRaUsnzFf-AhWUuW4RQUQOBYTdM-qJdLDTTkzQNkcRw
+    short-id: '00000000f70764f8'
+- name: 🇳🇱 Нидерланды - Амстердам | Arfench | 1.69 Mbps 📺360p
   type: ss
   server: 82.38.31.46
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇺🇸 США | barry-far_3 | 2.00 Mbps 📺360p
+- name: 🇳🇱 Нидерланды - Амстердам | sakha1370 | 1.42 Mbps 📺360p
+  type: vless
+  server: book.jarbook.net
+  port: 443
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  tls: true
+  network: grpc
+  client-fingerprint: chrome
+  servername: reg.jarbook.net
+  reality-opts:
+    public-key: nUUSNvkc5Xy6LRCP4yeFvbI8wFMx7gdgruPMNBq7jzo
+    short-id: '00000000dceb4214'
+  grpc-opts:
+    grpc-service-name: BookCatalog
+- name: 🇪🇪 Эстония - Таллин | Arfench | 1.39 Mbps 📺360p
   type: vless
   server: 31.77.236.114
   port: 443
@@ -193,52 +285,52 @@ proxies:
   reality-opts:
     public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
     short-id: '000000001a2b3c4d'
-- name: 🇮🇹 Италия | 10ium_3 | 1.99 Mbps 📺360p
+- name: 🇮🇹 Италия - Милан | aiboboxx_README.md | 1.37 Mbps 📺360p
   type: ss
-  server: 202.50.253.90
+  server: 202.50.253.45
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇧🇪 Бельгия | morpheusadam_iran.txt | 1.81 Mbps 📺360p
+- name: 🇦🇺 Австралия | NiREvil | 1.26 Mbps 📺360p
+  type: ss
+  server: 103.11.76.248
+  port: 28679
+  cipher: 2022-blake3-aes-128-gcm
+  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+- name: 🇳🇱 Нидерланды - Амстердам | barry-far_3 | 1.20 Mbps 📺360p
   type: vless
-  server: 150.40.126.21
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  tls: true
-  network: grpc
-  client-fingerprint: chrome
-  servername: rs3.univesalsrv.com
-  reality-opts:
-    public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ
-    short-id: '35d05b666e2c6cdf'
-  grpc-opts:
-    grpc-service-name: edge.v2.FeedService
-- name: 🇷🇺 Россия - Москва | Arfench | 1.24 Mbps 📺360p
-  type: vless
-  server: 13.143.184.226
-  port: 443
-  uuid: b5d044c5-1e70-49bb-a650-08b1de516691
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: msc1.serverslocal.ru
-  reality-opts:
-    public-key: qPh1iuwpELosLWTxOXyfCiMghs_sjSzCOGbkiF0gdkk
-    short-id: 'f7e66e308136e1a1'
-- name: 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 1.18 Mbps 📺360p
-  type: vless
-  server: tickets.betust.net
+  server: 84.32.101.84
   port: 443
   uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
   tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: tickets.betust.net
+  network: grpc
+  client-fingerprint: chrome
+  servername: reg.jarbook.net
   reality-opts:
-    public-key: TRaUsnzFf-AhWUuW4RQUQOBYTdM-qJdLDTTkzQNkcRw
-    short-id: '00000000f70764f8'
+    public-key: nUUSNvkc5Xy6LRCP4yeFvbI8wFMx7gdgruPMNBq7jzo
+    short-id: '00000000dceb4214'
+  grpc-opts:
+    grpc-service-name: BookCatalog
+- name: 🇺🇸 США | 0xRadikal_configs.txt_3 | 0.73 Mbps 📺360p
+  type: ss
+  server: 103.11.76.248
+  port: 28679
+  cipher: 2022-blake3-aes-128-gcm
+  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+- name: 🇳🇱 Нидерланды - Амстердам | ChatGPT-053 | 0.68 Mbps 📺360p
+  type: vless
+  server: 79.141.164.124
+  port: 443
+  uuid: 78c6b54f-3057-4af2-9ceb-1d1e3b12c623
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: nla.kosmosapp.net
+  reality-opts:
+    public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+    short-id: '27350908de933e09'
+  grpc-opts:
+    grpc-service-name: neurex
 proxy-providers:
   top_source:
     type: http
@@ -254,7 +346,6 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
   - 🌍 Без РФ
   - 🌍 Страны
   - 🛡 Реклама
@@ -263,36 +354,32 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия | wuqb2i4f | 6.43 Mbps 📺360p
-  - 🇬🇧 Великобритания | AzadNet | 6.36 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | Arfench | 6.22 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | Arfench | 6.10 Mbps 📺360p
-  - 🇺🇸 США | 4n0nymou3_proxy_configs_tested.txt | 5.23 Mbps 📺360p
-  - 🇮🇹 Италия - Милан | acymz | 5.13 Mbps 📺360p
-  - 🇮🇹 Италия | 0xRadikal_configs.txt | 5.01 Mbps 📺360p
-  - 🇮🇹 Италия | 0xRadikal_configs.txt | 4.92 Mbps 📺360p
-  - 🇮🇹 Италия | 10ium_3 | 4.86 Mbps 📺360p
-  - 🇬🇧 Великобритания | 10ium_3 | 4.77 Mbps 📺360p
-  - 🇮🇹 Италия - Милан | Arfench | 4.51 Mbps 📺360p
-  - 🇱🇹 Литва - Шяуляй | ChatGPT-053 | 4.44 Mbps 📺360p
-  - 🇱🇹 Литва - Шяуляй | morpheusadam_iran.txt | 4.33 Mbps 📺360p
-  - 🇮🇹 Италия | 10ium_3 | 4.10 Mbps 📺360p
-  - 🇮🇹 Италия | 0xRadikal_configs.txt_3 | 2.86 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | Arfench | 2.82 Mbps 📺360p
-  - 🇺🇸 США | barry-far_3 | 2.00 Mbps 📺360p
-  - 🇮🇹 Италия | 10ium_3 | 1.99 Mbps 📺360p
-  - 🇧🇪 Бельгия | morpheusadam_iran.txt | 1.81 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | Arfench | 1.24 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 1.18 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🇷🇺 Только РФ
-  type: url-test
-  proxies:
-  - 🇷🇺 Россия | wuqb2i4f | 6.43 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | Arfench | 1.24 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | ChatGPT-053 | 5.68 Mbps 📺360p
+  - 🇷🇸 Сербия - Белград | penhandev_1 | 5.63 Mbps 📺360p
+  - 🇷🇸 Сербия - Белград | penhandev_1 | 5.61 Mbps 📺360p
+  - 🇱🇹 Литва - Шяуляй | Arfench | 5.10 Mbps 📺360p
+  - 🇱🇹 Литва - Шяуляй | barry-far_3 | 5.04 Mbps 📺360p
+  - 🇺🇸 США | 4n0nymou3_proxy_configs_tested.txt | 4.99 Mbps 📺360p
+  - 🇮🇹 Италия | 0xRadikal_configs.txt | 4.83 Mbps 📺360p
+  - 🇮🇹 Италия | 10ium_3 | 4.77 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs.txt | 4.59 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 4.46 Mbps 📺360p
+  - 🇩🇪 Германия | TIROK547_raw_configs.txt | 3.58 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | barry-far_2 | 3.42 Mbps 📺360p
+  - 🇱🇹 Литва - Шяуляй | ALIILAPRO | 3.35 Mbps 📺360p
+  - 🇮🇹 Италия | 0xRadikal_configs.txt | 2.81 Mbps 📺360p
+  - 🇵🇱 Польша | wuqb2i4f Mix-URI | 2.58 Mbps 📺360p
+  - 🇷🇸 Сербия - Белград | TIROK547_raw_configs.txt | 1.90 Mbps 📺360p
+  - 🇩🇪 Германия | wiki_2 | 1.86 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 1.85 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 1.69 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | sakha1370 | 1.42 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | Arfench | 1.39 Mbps 📺360p
+  - 🇮🇹 Италия - Милан | aiboboxx_README.md | 1.37 Mbps 📺360p
+  - 🇦🇺 Австралия | NiREvil | 1.26 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | barry-far_3 | 1.20 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs.txt_3 | 0.73 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | ChatGPT-053 | 0.68 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -300,40 +387,32 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания | AzadNet | 6.36 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | Arfench | 6.22 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | Arfench | 6.10 Mbps 📺360p
-  - 🇺🇸 США | 4n0nymou3_proxy_configs_tested.txt | 5.23 Mbps 📺360p
-  - 🇮🇹 Италия - Милан | acymz | 5.13 Mbps 📺360p
-  - 🇮🇹 Италия | 0xRadikal_configs.txt | 5.01 Mbps 📺360p
-  - 🇮🇹 Италия | 0xRadikal_configs.txt | 4.92 Mbps 📺360p
-  - 🇮🇹 Италия | 10ium_3 | 4.86 Mbps 📺360p
-  - 🇬🇧 Великобритания | 10ium_3 | 4.77 Mbps 📺360p
-  - 🇮🇹 Италия - Милан | Arfench | 4.51 Mbps 📺360p
-  - 🇱🇹 Литва - Шяуляй | ChatGPT-053 | 4.44 Mbps 📺360p
-  - 🇱🇹 Литва - Шяуляй | morpheusadam_iran.txt | 4.33 Mbps 📺360p
-  - 🇮🇹 Италия | 10ium_3 | 4.10 Mbps 📺360p
-  - 🇮🇹 Италия | 0xRadikal_configs.txt_3 | 2.86 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | Arfench | 2.82 Mbps 📺360p
-  - 🇺🇸 США | barry-far_3 | 2.00 Mbps 📺360p
-  - 🇮🇹 Италия | 10ium_3 | 1.99 Mbps 📺360p
-  - 🇧🇪 Бельгия | morpheusadam_iran.txt | 1.81 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 1.18 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇮🇹 Италия
-  type: url-test
-  proxies:
-  - 🇮🇹 Италия - Милан | acymz | 5.13 Mbps 📺360p
-  - 🇮🇹 Италия | 0xRadikal_configs.txt | 5.01 Mbps 📺360p
-  - 🇮🇹 Италия | 0xRadikal_configs.txt | 4.92 Mbps 📺360p
-  - 🇮🇹 Италия | 10ium_3 | 4.86 Mbps 📺360p
-  - 🇮🇹 Италия - Милан | Arfench | 4.51 Mbps 📺360p
-  - 🇮🇹 Италия | 10ium_3 | 4.10 Mbps 📺360p
-  - 🇮🇹 Италия | 0xRadikal_configs.txt_3 | 2.86 Mbps 📺360p
-  - 🇮🇹 Италия | 10ium_3 | 1.99 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | ChatGPT-053 | 5.68 Mbps 📺360p
+  - 🇷🇸 Сербия - Белград | penhandev_1 | 5.63 Mbps 📺360p
+  - 🇷🇸 Сербия - Белград | penhandev_1 | 5.61 Mbps 📺360p
+  - 🇱🇹 Литва - Шяуляй | Arfench | 5.10 Mbps 📺360p
+  - 🇱🇹 Литва - Шяуляй | barry-far_3 | 5.04 Mbps 📺360p
+  - 🇺🇸 США | 4n0nymou3_proxy_configs_tested.txt | 4.99 Mbps 📺360p
+  - 🇮🇹 Италия | 0xRadikal_configs.txt | 4.83 Mbps 📺360p
+  - 🇮🇹 Италия | 10ium_3 | 4.77 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs.txt | 4.59 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 4.46 Mbps 📺360p
+  - 🇩🇪 Германия | TIROK547_raw_configs.txt | 3.58 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | barry-far_2 | 3.42 Mbps 📺360p
+  - 🇱🇹 Литва - Шяуляй | ALIILAPRO | 3.35 Mbps 📺360p
+  - 🇮🇹 Италия | 0xRadikal_configs.txt | 2.81 Mbps 📺360p
+  - 🇵🇱 Польша | wuqb2i4f Mix-URI | 2.58 Mbps 📺360p
+  - 🇷🇸 Сербия - Белград | TIROK547_raw_configs.txt | 1.90 Mbps 📺360p
+  - 🇩🇪 Германия | wiki_2 | 1.86 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 1.85 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 1.69 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | sakha1370 | 1.42 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | Arfench | 1.39 Mbps 📺360p
+  - 🇮🇹 Италия - Милан | aiboboxx_README.md | 1.37 Mbps 📺360p
+  - 🇦🇺 Австралия | NiREvil | 1.26 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | barry-far_3 | 1.20 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs.txt_3 | 0.73 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | ChatGPT-053 | 0.68 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -341,27 +420,34 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды - Амстердам | Arfench | 6.22 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | Arfench | 6.10 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | Arfench | 2.82 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | ChatGPT-053 | 5.68 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 4.46 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | barry-far_2 | 3.42 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | Arfench | 1.69 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | sakha1370 | 1.42 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | barry-far_3 | 1.20 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | ChatGPT-053 | 0.68 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇬🇧 Великобритания
+- name: 🗺 🇮🇹 Италия
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания | AzadNet | 6.36 Mbps 📺360p
-  - 🇬🇧 Великобритания | 10ium_3 | 4.77 Mbps 📺360p
+  - 🇮🇹 Италия | 0xRadikal_configs.txt | 4.83 Mbps 📺360p
+  - 🇮🇹 Италия | 10ium_3 | 4.77 Mbps 📺360p
+  - 🇮🇹 Италия | 0xRadikal_configs.txt | 2.81 Mbps 📺360p
+  - 🇮🇹 Италия - Милан | aiboboxx_README.md | 1.37 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇺🇸 США
+- name: 🗺 🇷🇸 Сербия
   type: url-test
   proxies:
-  - 🇺🇸 США | 4n0nymou3_proxy_configs_tested.txt | 5.23 Mbps 📺360p
-  - 🇺🇸 США | barry-far_3 | 2.00 Mbps 📺360p
+  - 🇷🇸 Сербия - Белград | penhandev_1 | 5.63 Mbps 📺360p
+  - 🇷🇸 Сербия - Белград | penhandev_1 | 5.61 Mbps 📺360p
+  - 🇷🇸 Сербия - Белград | TIROK547_raw_configs.txt | 1.90 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -369,16 +455,19 @@ proxy-groups:
 - name: 🗺 🇱🇹 Литва
   type: url-test
   proxies:
-  - 🇱🇹 Литва - Шяуляй | ChatGPT-053 | 4.44 Mbps 📺360p
-  - 🇱🇹 Литва - Шяуляй | morpheusadam_iran.txt | 4.33 Mbps 📺360p
+  - 🇱🇹 Литва - Шяуляй | Arfench | 5.10 Mbps 📺360p
+  - 🇱🇹 Литва - Шяуляй | barry-far_3 | 5.04 Mbps 📺360p
+  - 🇱🇹 Литва - Шяуляй | ALIILAPRO | 3.35 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇧🇪 Бельгия
+- name: 🗺 🇺🇸 США
   type: url-test
   proxies:
-  - 🇧🇪 Бельгия | morpheusadam_iran.txt | 1.81 Mbps 📺360p
+  - 🇺🇸 США | 4n0nymou3_proxy_configs_tested.txt | 4.99 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs.txt | 4.59 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs.txt_3 | 0.73 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -386,7 +475,33 @@ proxy-groups:
 - name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 1.18 Mbps 📺360p
+  - 🇩🇪 Германия | TIROK547_raw_configs.txt | 3.58 Mbps 📺360p
+  - 🇩🇪 Германия | wiki_2 | 1.86 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 1.85 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇵🇱 Польша
+  type: url-test
+  proxies:
+  - 🇵🇱 Польша | wuqb2i4f Mix-URI | 2.58 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇪🇪 Эстония
+  type: url-test
+  proxies:
+  - 🇪🇪 Эстония - Таллин | Arfench | 1.39 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇦🇺 Австралия
+  type: url-test
+  proxies:
+  - 🇦🇺 Австралия | NiREvil | 1.26 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -394,13 +509,15 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇮🇹 Италия
   - 🗺 🇳🇱 Нидерланды
-  - 🗺 🇬🇧 Великобритания
-  - 🗺 🇺🇸 США
+  - 🗺 🇮🇹 Италия
+  - 🗺 🇷🇸 Сербия
   - 🗺 🇱🇹 Литва
-  - 🗺 🇧🇪 Бельгия
+  - 🗺 🇺🇸 США
   - 🗺 🇩🇪 Германия
+  - 🗺 🇵🇱 Польша
+  - 🗺 🇪🇪 Эстония
+  - 🗺 🇦🇺 Австралия
 - name: 🎯 Direct
   type: select
   proxies:

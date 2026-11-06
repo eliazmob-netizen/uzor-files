@@ -63,210 +63,19 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇫🇮 Финляндия | wiki_2 | 6.80 Mbps 📺360p
+- name: 🇳🇱 Нидерланды | wiki_2 | 1.15 Mbps 📺360p
   type: vless
-  server: 87.121.89.165
+  server: 185.103.100.211
   port: 443
-  uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: hosting.sywl5.club
-  reality-opts:
-    public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
-    short-id: 'fa6ca0ce38e58033'
-- name: 🇮🇷 Иран | wiki_2 | 5.62 Mbps 📺360p
-  type: vless
-  server: 178.20.28.3
-  port: 8443
-  uuid: cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1
-  tls: true
-  network: grpc
-  client-fingerprint: chrome
-  servername: res.cdn.office.net
-  reality-opts:
-    public-key: 4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo
-    short-id: '0000000000000000'
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇳🇱 Нидерланды | v2.alicivil.workers.dev_2 | 5.32 Mbps 📺360p
-  type: vless
-  server: 31.76.110.231
-  port: 443
-  uuid: 73a0f995-f2f1-4d47-a99d-a6dcc1952bf9
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: nl-3.it-crp.ru
-  reality-opts:
-    public-key: HLKQ0JvyaZ16JNdl0pbEPkiVRYJDiZNzGz9prDMiw2s
-    short-id: '000000a1b2c3d4b5'
-- name: 🇩🇪 Германия - Франкфурт-на-Майне | morpheusadam_iran.txt | 4.72 Mbps 📺360p
-  type: vless
-  server: 31.56.18.191
-  port: 443
-  uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
+  uuid: 5ad13ef8-ced8-43b5-9d8c-f046a3ce9ddc
   tls: true
   network: tcp
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  servername: last.syoknew.work
+  servername: msk2e.g-magnum.icu
   reality-opts:
-    public-key: P5RCcSo4SB1D5z7BnpIt9OUyjG650oX7DOg3_uEDqy4
-    short-id: '0913aec861b849e9'
-- name: 🇵🇱 Польша | wiki_2 | 4.63 Mbps 📺360p
-  type: vless
-  server: 144.31.241.24
-  port: 443
-  uuid: 1eed6518-6cc6-4263-a629-16c86e5d98d0
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: dfad5148.con.rasterparcel.tech
-  reality-opts:
-    public-key: PAqGM0sKOwWkHhhI8UKztzThI1V7o994ZwD6V8qYd0s
-    short-id: '5823fa569cc01687'
-- name: 🇳🇱 Нидерланды - Амстердам | Arfench | 4.59 Mbps 📺360p
-  type: vless
-  server: 138.124.245.102
-  port: 443
-  uuid: 727a9178-d7f0-4142-8205-b0d19959ded0
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: bol.com
-  reality-opts:
-    public-key: yyXZsa238GRW90w5DweXAdRTtVSuK9oZF_dihKQ41So
-    short-id: '9e5a335de26d1f5a'
-- name: 🇱🇹 Литва | wiki_2 | 4.33 Mbps 📺360p
-  type: vless
-  server: 88.216.127.165
-  port: 443
-  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: admin.betust.net
-  reality-opts:
-    public-key: zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w
-    short-id: '000000003e137406'
-- name: 🇳🇱 Нидерланды - Амстердам | wiki_2 | 4.15 Mbps 📺360p
-  type: vless
-  server: 45.88.13.8
-  port: 8443
-  uuid: cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1
-  tls: true
-  network: grpc
-  client-fingerprint: chrome
-  servername: download.nvidia.com
-  reality-opts:
-    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
-    short-id: '0000000000000000'
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇺🇸 США | morpheusadam_iran.txt | 3.91 Mbps 📺360p
-  type: vless
-  server: 177.202.74.214
-  port: 443
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: gemsubbgem.world
-  reality-opts:
-    public-key: 6PJlXT9xrgJP8RXfhpWDMKPh4eqGt_IZmenc_a6v0gg
-    short-id: '0000000000000000'
-- name: 🇺🇸 США - ОремCity name (optional, probably does not need a translation) |
-    Arfench | 3.46 Mbps 📺360p
-  type: vless
-  server: gemsubbgem.world
-  port: 443
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  tls: true
-  network: raw
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: gemsubbgem.world
-  reality-opts:
-    public-key: 6PJlXT9xrgJP8RXfhpWDMKPh4eqGt_IZmenc_a6v0gg
-    short-id: '0000000000000000'
-- name: 🇲🇩 Молдова | SoliSpirit_3 | 3.00 Mbps 📺360p
-  type: vless
-  server: md.flicker.work
-  port: 443
-  uuid: 255a8044-3337-473e-af26-46a37208adcc
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: md.flicker.work
-  reality-opts:
-    public-key: wRmMiCGZjpdyIxZSPF0EGeFcsBk8TDqPu9pYRxLzIEA
-    short-id: '0000000000000000'
-- name: 🇯🇵 Япония | Arfench | 2.76 Mbps 📺360p
-  type: vless
-  server: 193.233.199.84
-  port: 443
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: fi3game.japancase.site
-  reality-opts:
-    public-key: 1ONSjyJWD3lAomwIqFmmzb6lAhg077bvMJ7rGJCDk0g
-    short-id: '38559e47f5536913'
-- name: 🇵🇱 Польша - Варшава | Shadowmere B64 | 2.71 Mbps 📺360p
-  type: ss
-  server: 201.10.91.31
-  port: 1080
-  cipher: aes-256-gcm
-  password: FJo_V-KMvriDekN0CYkdNH0C
-- name: 🇺🇸 США - Чикаго | Arfench | 2.15 Mbps 📺360p
-  type: vless
-  server: 84.32.129.184
-  port: 443
-  uuid: fb37d713-0ed3-4146-b085-a5c879a9aafa
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: subscribe.goonars.com
-  reality-opts:
-    public-key: ZZihyRejv8lHTwTnNCGF0IB6U9kS-L34L3v0ch6k_30
-    short-id: '000000004f339f5f'
-- name: 🇩🇪 Германия - Франкфурт-на-Майне | barry-far_3 | 2.02 Mbps 📺360p
-  type: vless
-  server: 88.216.70.128
-  port: 443
-  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: tickets.betust.net
-  reality-opts:
-    public-key: TRaUsnzFf-AhWUuW4RQUQOBYTdM-qJdLDTTkzQNkcRw
-    short-id: '00000000f70764f8'
-- name: 🇯🇵 Япония | morpheusadam_iran.txt | 1.36 Mbps 📺360p
-  type: vless
-  server: 136.148.77.248
-  port: 443
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: us2.japancase.site
-  reality-opts:
-    public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
-    short-id: '41ae8e266bc3346f'
+    public-key: sRmbdpwZ5gtUVEu1BMXE71DRHDWhBLCoLh6QiFazm2U
+    short-id: '00000000001b2a3f'
 proxy-providers:
   top_source:
     type: http
@@ -290,23 +99,7 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇫🇮 Финляндия | wiki_2 | 6.80 Mbps 📺360p
-  - 🇮🇷 Иран | wiki_2 | 5.62 Mbps 📺360p
-  - 🇳🇱 Нидерланды | v2.alicivil.workers.dev_2 | 5.32 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | morpheusadam_iran.txt | 4.72 Mbps 📺360p
-  - 🇵🇱 Польша | wiki_2 | 4.63 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | Arfench | 4.59 Mbps 📺360p
-  - 🇱🇹 Литва | wiki_2 | 4.33 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | wiki_2 | 4.15 Mbps 📺360p
-  - 🇺🇸 США | morpheusadam_iran.txt | 3.91 Mbps 📺360p
-  - 🇺🇸 США - ОремCity name (optional, probably does not need a translation) | Arfench
-    | 3.46 Mbps 📺360p
-  - 🇲🇩 Молдова | SoliSpirit_3 | 3.00 Mbps 📺360p
-  - 🇯🇵 Япония | Arfench | 2.76 Mbps 📺360p
-  - 🇵🇱 Польша - Варшава | Shadowmere B64 | 2.71 Mbps 📺360p
-  - 🇺🇸 США - Чикаго | Arfench | 2.15 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | barry-far_3 | 2.02 Mbps 📺360p
-  - 🇯🇵 Япония | morpheusadam_iran.txt | 1.36 Mbps 📺360p
+  - 🇳🇱 Нидерланды | wiki_2 | 1.15 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -314,23 +107,7 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇫🇮 Финляндия | wiki_2 | 6.80 Mbps 📺360p
-  - 🇮🇷 Иран | wiki_2 | 5.62 Mbps 📺360p
-  - 🇳🇱 Нидерланды | v2.alicivil.workers.dev_2 | 5.32 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | morpheusadam_iran.txt | 4.72 Mbps 📺360p
-  - 🇵🇱 Польша | wiki_2 | 4.63 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | Arfench | 4.59 Mbps 📺360p
-  - 🇱🇹 Литва | wiki_2 | 4.33 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | wiki_2 | 4.15 Mbps 📺360p
-  - 🇺🇸 США | morpheusadam_iran.txt | 3.91 Mbps 📺360p
-  - 🇺🇸 США - ОремCity name (optional, probably does not need a translation) | Arfench
-    | 3.46 Mbps 📺360p
-  - 🇲🇩 Молдова | SoliSpirit_3 | 3.00 Mbps 📺360p
-  - 🇯🇵 Япония | Arfench | 2.76 Mbps 📺360p
-  - 🇵🇱 Польша - Варшава | Shadowmere B64 | 2.71 Mbps 📺360p
-  - 🇺🇸 США - Чикаго | Arfench | 2.15 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | barry-far_3 | 2.02 Mbps 📺360p
-  - 🇯🇵 Япония | morpheusadam_iran.txt | 1.36 Mbps 📺360p
+  - 🇳🇱 Нидерланды | wiki_2 | 1.15 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -338,79 +115,7 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | v2.alicivil.workers.dev_2 | 5.32 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | Arfench | 4.59 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | wiki_2 | 4.15 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇺🇸 США
-  type: url-test
-  proxies:
-  - 🇺🇸 США | morpheusadam_iran.txt | 3.91 Mbps 📺360p
-  - 🇺🇸 США - ОремCity name (optional, probably does not need a translation) | Arfench
-    | 3.46 Mbps 📺360p
-  - 🇺🇸 США - Чикаго | Arfench | 2.15 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇩🇪 Германия
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия - Франкфурт-на-Майне | morpheusadam_iran.txt | 4.72 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | barry-far_3 | 2.02 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇵🇱 Польша
-  type: url-test
-  proxies:
-  - 🇵🇱 Польша | wiki_2 | 4.63 Mbps 📺360p
-  - 🇵🇱 Польша - Варшава | Shadowmere B64 | 2.71 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇯🇵 Япония
-  type: url-test
-  proxies:
-  - 🇯🇵 Япония | Arfench | 2.76 Mbps 📺360p
-  - 🇯🇵 Япония | morpheusadam_iran.txt | 1.36 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇫🇮 Финляндия
-  type: url-test
-  proxies:
-  - 🇫🇮 Финляндия | wiki_2 | 6.80 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇮🇷 Иран
-  type: url-test
-  proxies:
-  - 🇮🇷 Иран | wiki_2 | 5.62 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇱🇹 Литва
-  type: url-test
-  proxies:
-  - 🇱🇹 Литва | wiki_2 | 4.33 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇲🇩 Молдова
-  type: url-test
-  proxies:
-  - 🇲🇩 Молдова | SoliSpirit_3 | 3.00 Mbps 📺360p
+  - 🇳🇱 Нидерланды | wiki_2 | 1.15 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -419,14 +124,6 @@ proxy-groups:
   type: select
   proxies:
   - 🗺 🇳🇱 Нидерланды
-  - 🗺 🇺🇸 США
-  - 🗺 🇩🇪 Германия
-  - 🗺 🇵🇱 Польша
-  - 🗺 🇯🇵 Япония
-  - 🗺 🇫🇮 Финляндия
-  - 🗺 🇮🇷 Иран
-  - 🗺 🇱🇹 Литва
-  - 🗺 🇲🇩 Молдова
 - name: 🎯 Direct
   type: select
   proxies:

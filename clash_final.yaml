@@ -63,165 +63,23 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия - Москва | VOID-Anonymity_url_work.txt | 12.45 Mbps 📺360p
+- name: 🇺🇸 США - Чикаго | sakha1370 | 1.10 Mbps 📺360p
   type: vless
-  server: 188.130.209.204
+  server: subscribe.goonars.com
   port: 443
-  uuid: 4a0812f0-f9d7-4afd-9ae3-6c38e1e59485
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: promo-digital.wb.ru
-  reality-opts:
-    public-key: 3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc
-    short-id: 'd3f314d0b692f63d'
-- name: 🇬🇪 Грузия - Тбилиси | SoliSpirit_3 | 7.30 Mbps 📺360p
-  type: vless
-  server: 93.190.9.194
-  port: 3090
-  uuid: 1589e19a-4ff8-4064-b58a-97f8bfd91b3f
-  tls: false
-  network: grpc
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: vless
-- name: 🇳🇱 Нидерланды - Амстердам | SoliSpirit_3 | 5.69 Mbps 📺360p
-  type: vless
-  server: book.jarbook.net
-  port: 443
-  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
-  tls: true
-  network: grpc
-  client-fingerprint: chrome
-  servername: reg.jarbook.net
-  reality-opts:
-    public-key: nUUSNvkc5Xy6LRCP4yeFvbI8wFMx7gdgruPMNBq7jzo
-    short-id: '00000000dceb4214'
-  grpc-opts:
-    grpc-service-name: BookCatalog
-- name: 🇱🇹 Литва | morpheusadam_iran.txt | 5.43 Mbps 📺360p
-  type: vless
-  server: litauto.plus-hit.ru
-  port: 443
-  uuid: 9f9c913b-0b78-4d14-a4db-560794cbc90f
-  tls: true
-  network: raw
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: litauto.plus-hit.ru
-  reality-opts:
-    public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA
-    short-id: '7c8e3d4a9b1f26d3'
-- name: 🇱🇹 Литва - Шяуляй | LalatinaHub Nodes | 5.34 Mbps 📺360p
-  type: vless
-  server: app26.betust.net
-  port: 443
-  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: app26.betust.net
-  reality-opts:
-    public-key: 5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc
-    short-id: '00000000d44d6d46'
-- name: 🇩🇪 Германия | morpheusadam_iran.txt | 5.29 Mbps 📺360p
-  type: vless
-  server: 78.17.215.170
-  port: 443
-  uuid: 2cd9dc41-aace-41e3-b9bf-436875f0c0d2
+  uuid: fb37d713-0ed3-4146-b085-a5c879a9aafa
   tls: true
   network: raw
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: prism996.filebeam.website
+  servername: subscribe.goonars.com
   reality-opts:
-    public-key: xcTXD3of3Yt5hHdIwYGZ1LjMBgiL6sqj5J33J4U4ozM
-    short-id: '00000000a7c31f92'
-- name: 🇺🇸 США | wiki_2 | 4.48 Mbps 📺360p
-  type: vless
-  server: 71b840t.de7.h1clayd.click
-  port: 443
-  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 71b840t.de7.h1clayd.click
-  reality-opts:
-    public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE
-    short-id: 'e572b6579ea525d4'
-- name: 🇳🇱 Нидерланды - Амстердам | ShatakVPN_vless.txt | 3.61 Mbps 📺360p
-  type: vless
-  server: 84.32.96.250
-  port: 443
-  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: reg.jarbook.net
-  reality-opts:
-    public-key: nUUSNvkc5Xy6LRCP4yeFvbI8wFMx7gdgruPMNBq7jzo
-    short-id: '00000000dceb4214'
-  grpc-opts:
-    grpc-service-name: BookCatalog
-- name: 🇵🇱 Польша | sub_ermao.net_6 | 2.75 Mbps 📺360p
-  type: vless
-  server: pl3.japancase.site
-  port: 443
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: pl3.japancase.site
-  reality-opts:
-    public-key: COvqGpB7lUdZshmbn5zdqiVi81n8Iyha8RbEHtK93xc
-    short-id: '5037f0423dc4e4ff'
-- name: 🇱🇻 Латвия | morpheusadam_iran.txt | 2.51 Mbps 📺360p
-  type: vless
-  server: 81.177.215.122
-  port: 443
-  uuid: 9f9c913b-0b78-4d14-a4db-560794cbc90f
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: latino.plus-hit.ru
-  reality-opts:
-    public-key: d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI
-    short-id: '7c8e3d4a9b1f26d3'
-- name: 🇦🇹 Австрия | free18 Clash | 1.71 Mbps 📺360p
-  type: vless
-  server: at1.japancase.site
-  port: 443
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: at1.japancase.site
-  reality-opts:
-    public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
-    short-id: '41ae8e266bc3346f'
-- name: 🇦🇹 Австрия | sub_ermao.net | 1.26 Mbps 📺360p
-  type: vless
-  server: 178.22.31.171
-  port: 443
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: at1.japancase.site
-  reality-opts:
-    public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
-    short-id: '41ae8e266bc3346f'
+    public-key: ZZihyRejv8lHTwTnNCGF0IB6U9kS-L34L3v0ch6k_30
+    short-id: '000000004f339f5f'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/iran.txt
+    url: https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/all_valid_proxies.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -233,7 +91,6 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
   - 🌍 Без РФ
   - 🌍 Страны
   - 🛡 Реклама
@@ -242,26 +99,7 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Москва | VOID-Anonymity_url_work.txt | 12.45 Mbps 📺360p
-  - 🇬🇪 Грузия - Тбилиси | SoliSpirit_3 | 7.30 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | SoliSpirit_3 | 5.69 Mbps 📺360p
-  - 🇱🇹 Литва | morpheusadam_iran.txt | 5.43 Mbps 📺360p
-  - 🇱🇹 Литва - Шяуляй | LalatinaHub Nodes | 5.34 Mbps 📺360p
-  - 🇩🇪 Германия | morpheusadam_iran.txt | 5.29 Mbps 📺360p
-  - 🇺🇸 США | wiki_2 | 4.48 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | ShatakVPN_vless.txt | 3.61 Mbps 📺360p
-  - 🇵🇱 Польша | sub_ermao.net_6 | 2.75 Mbps 📺360p
-  - 🇱🇻 Латвия | morpheusadam_iran.txt | 2.51 Mbps 📺360p
-  - 🇦🇹 Австрия | free18 Clash | 1.71 Mbps 📺360p
-  - 🇦🇹 Австрия | sub_ermao.net | 1.26 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🇷🇺 Только РФ
-  type: url-test
-  proxies:
-  - 🇷🇺 Россия - Москва | VOID-Anonymity_url_work.txt | 12.45 Mbps 📺360p
+  - 🇺🇸 США - Чикаго | sakha1370 | 1.10 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -269,60 +107,7 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇬🇪 Грузия - Тбилиси | SoliSpirit_3 | 7.30 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | SoliSpirit_3 | 5.69 Mbps 📺360p
-  - 🇱🇹 Литва | morpheusadam_iran.txt | 5.43 Mbps 📺360p
-  - 🇱🇹 Литва - Шяуляй | LalatinaHub Nodes | 5.34 Mbps 📺360p
-  - 🇩🇪 Германия | morpheusadam_iran.txt | 5.29 Mbps 📺360p
-  - 🇺🇸 США | wiki_2 | 4.48 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | ShatakVPN_vless.txt | 3.61 Mbps 📺360p
-  - 🇵🇱 Польша | sub_ermao.net_6 | 2.75 Mbps 📺360p
-  - 🇱🇻 Латвия | morpheusadam_iran.txt | 2.51 Mbps 📺360p
-  - 🇦🇹 Австрия | free18 Clash | 1.71 Mbps 📺360p
-  - 🇦🇹 Австрия | sub_ermao.net | 1.26 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇳🇱 Нидерланды
-  type: url-test
-  proxies:
-  - 🇳🇱 Нидерланды - Амстердам | SoliSpirit_3 | 5.69 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | ShatakVPN_vless.txt | 3.61 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇱🇹 Литва
-  type: url-test
-  proxies:
-  - 🇱🇹 Литва | morpheusadam_iran.txt | 5.43 Mbps 📺360p
-  - 🇱🇹 Литва - Шяуляй | LalatinaHub Nodes | 5.34 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇦🇹 Австрия
-  type: url-test
-  proxies:
-  - 🇦🇹 Австрия | free18 Clash | 1.71 Mbps 📺360p
-  - 🇦🇹 Австрия | sub_ermao.net | 1.26 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇬🇪 Грузия
-  type: url-test
-  proxies:
-  - 🇬🇪 Грузия - Тбилиси | SoliSpirit_3 | 7.30 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇩🇪 Германия
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия | morpheusadam_iran.txt | 5.29 Mbps 📺360p
+  - 🇺🇸 США - Чикаго | sakha1370 | 1.10 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -330,23 +115,7 @@ proxy-groups:
 - name: 🗺 🇺🇸 США
   type: url-test
   proxies:
-  - 🇺🇸 США | wiki_2 | 4.48 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇵🇱 Польша
-  type: url-test
-  proxies:
-  - 🇵🇱 Польша | sub_ermao.net_6 | 2.75 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇱🇻 Латвия
-  type: url-test
-  proxies:
-  - 🇱🇻 Латвия | morpheusadam_iran.txt | 2.51 Mbps 📺360p
+  - 🇺🇸 США - Чикаго | sakha1370 | 1.10 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -354,14 +123,7 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇳🇱 Нидерланды
-  - 🗺 🇱🇹 Литва
-  - 🗺 🇦🇹 Австрия
-  - 🗺 🇬🇪 Грузия
-  - 🗺 🇩🇪 Германия
   - 🗺 🇺🇸 США
-  - 🗺 🇵🇱 Польша
-  - 🗺 🇱🇻 Латвия
 - name: 🎯 Direct
   type: select
   proxies:

@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия | wiki_2 | 11.63 Mbps 📺360p
+- name: 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 4.26 Mbps 📺360p
   type: vless
   server: 188.130.209.212
   port: 443
@@ -76,103 +76,36 @@ proxies:
   reality-opts:
     public-key: 6vubZmkLVtaiFF8JyGFy7XSy2pc7ywN4P625QLKw8wc
     short-id: '11979c0c9b2da371'
-- name: 🇳🇱 Нидерланды - Амстердам | sakha1370 | 3.89 Mbps 📺360p
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | hamedcode_2 | 2.72 Mbps 📺360p
   type: vless
-  server: book.jarbook.net
-  port: 443
-  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
-  tls: true
-  network: grpc
-  client-fingerprint: chrome
-  servername: reg.jarbook.net
-  reality-opts:
-    public-key: nUUSNvkc5Xy6LRCP4yeFvbI8wFMx7gdgruPMNBq7jzo
-    short-id: '00000000dceb4214'
-  grpc-opts:
-    grpc-service-name: BookCatalog
-- name: 🇺🇸 США - Вашингтон | sakha1370 | 3.84 Mbps 📺360p
-  type: vless
-  server: hollandlanzerotte.xyz
+  server: gemsubbgem.world
   port: 443
   uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
   tls: true
   network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: gemsubbgem.world
+  reality-opts:
+    public-key: 6PJlXT9xrgJP8RXfhpWDMKPh4eqGt_IZmenc_a6v0gg
+    short-id: '0000000000000000'
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 2.57 Mbps 📺360p
+  type: vless
+  server: 94.156.170.64
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  tls: true
+  network: raw
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: hollandlanzerotte.xyz
+  servername: gemsubbgem.world
   reality-opts:
-    public-key: EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc
+    public-key: 6PJlXT9xrgJP8RXfhpWDMKPh4eqGt_IZmenc_a6v0gg
     short-id: '0000000000000000'
-- name: 🇺🇸 США - Вашингтон | SoliSpirit_3 | 3.75 Mbps 📺360p
-  type: vless
-  server: 48.102.160.212
-  port: 443
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: hollandlanzerotte.xyz
-  reality-opts:
-    public-key: EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc
-    short-id: '0000000000000000'
-- name: 🇦🇺 Австралия | sakha1370 | 2.11 Mbps 📺360p
-  type: vless
-  server: 88.216.57.210
-  port: 443
-  uuid: fb37d713-0ed3-4146-b085-a5c879a9aafa
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: subscribe.goonars.com
-  reality-opts:
-    public-key: ZZihyRejv8lHTwTnNCGF0IB6U9kS-L34L3v0ch6k_30
-    short-id: '000000004f339f5f'
-- name: 🇳🇱 Нидерланды | iboxz_1 | 1.63 Mbps 📺360p
-  type: vless
-  server: 84.32.101.79
-  port: 443
-  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: app.betust.net
-  reality-opts:
-    public-key: xNzdfy4hPv-IgM_MSn64FNQdb-UPu78pmM-GBE1HhSo
-    short-id: '00000000ef5d4ad5'
-- name: 🇺🇸 США - ОремCity name (optional, probably does not need a translation) |
-    penhandev_1 | 1.30 Mbps 📺360p
-  type: vless
-  server: sundaylanzgem.site
-  port: 443
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: sundaylanzgem.site
-  reality-opts:
-    public-key: -BN9yCN0ECqxOPoJOan1-CIMEYc5e7wdJwaeDxsUM20
-    short-id: '0000000000000000'
-- name: 🇹🇷 Турция - Стамбул | SoliSpirit_3 | 0.85 Mbps 📺360p
-  type: vless
-  server: 81.177.215.122
-  port: 443
-  uuid: 9f9c913b-0b78-4d14-a4db-560794cbc90f
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: latino.plus-hit.ru
-  reality-opts:
-    public-key: d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI
-    short-id: '7c8e3d4a9b1f26d3'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/all_valid_proxies.txt
+    url: https://raw.githubusercontent.com/Edsel-Rahimi/Ariston/data/nodes.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -193,15 +126,9 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия | wiki_2 | 11.63 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | sakha1370 | 3.89 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | sakha1370 | 3.84 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | SoliSpirit_3 | 3.75 Mbps 📺360p
-  - 🇦🇺 Австралия | sakha1370 | 2.11 Mbps 📺360p
-  - 🇳🇱 Нидерланды | iboxz_1 | 1.63 Mbps 📺360p
-  - 🇺🇸 США - ОремCity name (optional, probably does not need a translation) | penhandev_1
-    | 1.30 Mbps 📺360p
-  - 🇹🇷 Турция - Стамбул | SoliSpirit_3 | 0.85 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 4.26 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | hamedcode_2 | 2.72 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 2.57 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -209,7 +136,7 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | wiki_2 | 11.63 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 4.26 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -217,50 +144,17 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды - Амстердам | sakha1370 | 3.89 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | sakha1370 | 3.84 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | SoliSpirit_3 | 3.75 Mbps 📺360p
-  - 🇦🇺 Австралия | sakha1370 | 2.11 Mbps 📺360p
-  - 🇳🇱 Нидерланды | iboxz_1 | 1.63 Mbps 📺360p
-  - 🇺🇸 США - ОремCity name (optional, probably does not need a translation) | penhandev_1
-    | 1.30 Mbps 📺360p
-  - 🇹🇷 Турция - Стамбул | SoliSpirit_3 | 0.85 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | hamedcode_2 | 2.72 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 2.57 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇺🇸 США
+- name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇺🇸 США - Вашингтон | sakha1370 | 3.84 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | SoliSpirit_3 | 3.75 Mbps 📺360p
-  - 🇺🇸 США - ОремCity name (optional, probably does not need a translation) | penhandev_1
-    | 1.30 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇳🇱 Нидерланды
-  type: url-test
-  proxies:
-  - 🇳🇱 Нидерланды - Амстердам | sakha1370 | 3.89 Mbps 📺360p
-  - 🇳🇱 Нидерланды | iboxz_1 | 1.63 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇦🇺 Австралия
-  type: url-test
-  proxies:
-  - 🇦🇺 Австралия | sakha1370 | 2.11 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇹🇷 Турция
-  type: url-test
-  proxies:
-  - 🇹🇷 Турция - Стамбул | SoliSpirit_3 | 0.85 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | hamedcode_2 | 2.72 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 2.57 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -268,10 +162,7 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇺🇸 США
-  - 🗺 🇳🇱 Нидерланды
-  - 🗺 🇦🇺 Австралия
-  - 🗺 🇹🇷 Турция
+  - 🗺 🇩🇪 Германия
 - name: 🎯 Direct
   type: select
   proxies:

@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 14.16 Mbps 📺360p
+- name: 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 15.41 Mbps 📺360p
   type: vless
   server: znz8713lpegu.apruxdomain.online
   port: 443
@@ -76,7 +76,7 @@ proxies:
   reality-opts:
     public-key: obFanw7jqCcrXOlFqJhdOUsduntz_7jte8A11f3MSmQ
     short-id: '6d0092600a52a7c9'
-- name: 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 13.47 Mbps 📺360p
+- name: 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 13.84 Mbps 📺360p
   type: vless
   server: 188.130.209.212
   port: 443
@@ -89,7 +89,33 @@ proxies:
   reality-opts:
     public-key: 6vubZmkLVtaiFF8JyGFy7XSy2pc7ywN4P625QLKw8wc
     short-id: '11979c0c9b2da371'
-- name: 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 9.09 Mbps 📺360p
+- name: 🇺🇸 США - Вашингтон | sakha1370 | 5.13 Mbps 📺360p
+  type: vless
+  server: hollandlanzerotte.xyz
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: hollandlanzerotte.xyz
+  reality-opts:
+    public-key: EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc
+    short-id: '0000000000000000'
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 4.83 Mbps 📺360p
+  type: vless
+  server: gemsubbgem.world
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: gemsubbgem.world
+  reality-opts:
+    public-key: 6PJlXT9xrgJP8RXfhpWDMKPh4eqGt_IZmenc_a6v0gg
+    short-id: '0000000000000000'
+- name: 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 4.03 Mbps 📺360p
   type: vless
   server: 9e72bbg.msk2.h1clayd.click
   port: 443
@@ -103,61 +129,7 @@ proxies:
     short-id: 'cc07501e28b18687'
   grpc-opts:
     grpc-service-name: 93013a569b78
-- name: 🇳🇱 Нидерланды - Амстердам | sakha1370 | 6.82 Mbps 📺360p
-  type: vless
-  server: book.jarbook.net
-  port: 443
-  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: reg.jarbook.net
-  reality-opts:
-    public-key: nUUSNvkc5Xy6LRCP4yeFvbI8wFMx7gdgruPMNBq7jzo
-    short-id: '00000000dceb4214'
-  grpc-opts:
-    grpc-service-name: BookCatalog
-- name: 🇺🇸 США - ОремCity name (optional, probably does not need a translation) |
-    sakha1370 | 4.95 Mbps 📺360p
-  type: vless
-  server: sundaylanzgem.site
-  port: 443
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: sundaylanzgem.site
-  reality-opts:
-    public-key: -BN9yCN0ECqxOPoJOan1-CIMEYc5e7wdJwaeDxsUM20
-    short-id: '0000000000000000'
-- name: 🇺🇸 США - Вашингтон | sakha1370 | 4.71 Mbps 📺360p
-  type: vless
-  server: hollandlanzerotte.xyz
-  port: 443
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: hollandlanzerotte.xyz
-  reality-opts:
-    public-key: EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc
-    short-id: '0000000000000000'
-- name: 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 4.56 Mbps 📺360p
-  type: vless
-  server: gemsubbgem.world
-  port: 443
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: gemsubbgem.world
-  reality-opts:
-    public-key: 6PJlXT9xrgJP8RXfhpWDMKPh4eqGt_IZmenc_a6v0gg
-    short-id: '0000000000000000'
-- name: 🇳🇱 Нидерланды | morpheusadam_iran.txt | 3.50 Mbps 📺360p
+- name: 🇳🇱 Нидерланды | morpheusadam_iran.txt | 3.44 Mbps 📺360p
   type: vless
   server: 177.1.187.226
   port: 8443
@@ -170,7 +142,7 @@ proxies:
   reality-opts:
     public-key: y3u1F-c0ty_fGNRSVxcrMrLDEvCN2EflCiDlyk0YERo
     short-id: '0000000000000000'
-- name: 🇰🇿 Казахстан - Алматы | morpheusadam_iran.txt | 2.66 Mbps 📺360p
+- name: 🇰🇿 Казахстан - Алматы | morpheusadam_iran.txt | 2.69 Mbps 📺360p
   type: vless
   server: kz-cdn-prsv-forum.keno.su
   port: 443
@@ -183,20 +155,7 @@ proxies:
   reality-opts:
     public-key: Au1rmQdDRjlEJk17IfLQv5PBUEEosMWNhAlrWZj6mnY
     short-id: '0000000014324280'
-- name: 🇸🇰 Словакия | sakha1370 | 2.55 Mbps 📺360p
-  type: vless
-  server: 196.245.153.110
-  port: 443
-  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
-  tls: true
-  network: tcp
-  client-fingerprint: ios
-  flow: xtls-rprx-vision
-  servername: 230b29t.es8.h1clayd.click
-  reality-opts:
-    public-key: JvnTbjxkV9nXKoDRA_tmeY6aeOTnJXSBU3yNp9ZUnH0
-    short-id: '91313fc9f7571857'
-- name: 🇮🇷 Иран | Free-V2ray-Configs_vless_servers.txt | 2.36 Mbps 📺360p
+- name: 🇮🇷 Иран | Free-V2ray-Configs_vless_servers.txt | 2.25 Mbps 📺360p
   type: vless
   server: 5.160.131.102
   port: 51097
@@ -204,7 +163,7 @@ proxies:
   tls: false
   network: tcp
   client-fingerprint: chrome
-- name: 🇷🇺 Россия | morpheusadam_iran.txt | 2.18 Mbps 📺360p
+- name: 🇷🇺 Россия | morpheusadam_iran.txt | 2.15 Mbps 📺360p
   type: vless
   server: 177.1.187.227
   port: 8443
@@ -217,7 +176,20 @@ proxies:
   reality-opts:
     public-key: R4druLIO_Vb9TrkYUUWsof5S4e5kwaAjh9qQob2kLlI
     short-id: '0000000000000000'
-- name: 🇪🇸 Испания - Валенсия | Edsel-Rahimi_nodes.txt | 1.62 Mbps 📺360p
+- name: 🇸🇰 Словакия | sakha1370 | 1.88 Mbps 📺360p
+  type: vless
+  server: 196.245.153.110
+  port: 443
+  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
+  tls: true
+  network: tcp
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  servername: 230b29t.es8.h1clayd.click
+  reality-opts:
+    public-key: JvnTbjxkV9nXKoDRA_tmeY6aeOTnJXSBU3yNp9ZUnH0
+    short-id: '91313fc9f7571857'
+- name: 🇪🇸 Испания - Валенсия | Edsel-Rahimi_nodes.txt | 1.80 Mbps 📺360p
   type: vless
   server: 196.245.52.188
   port: 443
@@ -230,7 +202,7 @@ proxies:
   reality-opts:
     public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
     short-id: 'ce43937e79bc30f0'
-- name: 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.56 Mbps 📺360p
+- name: 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.69 Mbps 📺360p
   type: vless
   server: esso-music-coroborito.keno.su
   port: 443
@@ -242,6 +214,20 @@ proxies:
   servername: esso-music-coroborito.keno.su
   reality-opts:
     public-key: _MeP-WwmolUvi6wMXNoSs_zo6miG_OW7xk4ibzADiHY
+    short-id: '0000000000000000'
+- name: 🇺🇸 США - ОремCity name (optional, probably does not need a translation) |
+    sakha1370 | 0.78 Mbps 📺360p
+  type: vless
+  server: sundaylanzgem.site
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: sundaylanzgem.site
+  reality-opts:
+    public-key: -BN9yCN0ECqxOPoJOan1-CIMEYc5e7wdJwaeDxsUM20
     short-id: '0000000000000000'
 proxy-providers:
   top_source:
@@ -267,21 +253,20 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 14.16 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 13.47 Mbps 📺360p
-  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 9.09 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | sakha1370 | 6.82 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 15.41 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 13.84 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | sakha1370 | 5.13 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 4.83 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 4.03 Mbps 📺360p
+  - 🇳🇱 Нидерланды | morpheusadam_iran.txt | 3.44 Mbps 📺360p
+  - 🇰🇿 Казахстан - Алматы | morpheusadam_iran.txt | 2.69 Mbps 📺360p
+  - 🇮🇷 Иран | Free-V2ray-Configs_vless_servers.txt | 2.25 Mbps 📺360p
+  - 🇷🇺 Россия | morpheusadam_iran.txt | 2.15 Mbps 📺360p
+  - 🇸🇰 Словакия | sakha1370 | 1.88 Mbps 📺360p
+  - 🇪🇸 Испания - Валенсия | Edsel-Rahimi_nodes.txt | 1.80 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.69 Mbps 📺360p
   - 🇺🇸 США - ОремCity name (optional, probably does not need a translation) | sakha1370
-    | 4.95 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | sakha1370 | 4.71 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 4.56 Mbps 📺360p
-  - 🇳🇱 Нидерланды | morpheusadam_iran.txt | 3.50 Mbps 📺360p
-  - 🇰🇿 Казахстан - Алматы | morpheusadam_iran.txt | 2.66 Mbps 📺360p
-  - 🇸🇰 Словакия | sakha1370 | 2.55 Mbps 📺360p
-  - 🇮🇷 Иран | Free-V2ray-Configs_vless_servers.txt | 2.36 Mbps 📺360p
-  - 🇷🇺 Россия | morpheusadam_iran.txt | 2.18 Mbps 📺360p
-  - 🇪🇸 Испания - Валенсия | Edsel-Rahimi_nodes.txt | 1.62 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.56 Mbps 📺360p
+    | 0.78 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -289,9 +274,9 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 14.16 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 13.47 Mbps 📺360p
-  - 🇷🇺 Россия | morpheusadam_iran.txt | 2.18 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 15.41 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 13.84 Mbps 📺360p
+  - 🇷🇺 Россия | morpheusadam_iran.txt | 2.15 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -299,27 +284,17 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 9.09 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Амстердам | sakha1370 | 6.82 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | sakha1370 | 5.13 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 4.83 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 4.03 Mbps 📺360p
+  - 🇳🇱 Нидерланды | morpheusadam_iran.txt | 3.44 Mbps 📺360p
+  - 🇰🇿 Казахстан - Алматы | morpheusadam_iran.txt | 2.69 Mbps 📺360p
+  - 🇮🇷 Иран | Free-V2ray-Configs_vless_servers.txt | 2.25 Mbps 📺360p
+  - 🇸🇰 Словакия | sakha1370 | 1.88 Mbps 📺360p
+  - 🇪🇸 Испания - Валенсия | Edsel-Rahimi_nodes.txt | 1.80 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.69 Mbps 📺360p
   - 🇺🇸 США - ОремCity name (optional, probably does not need a translation) | sakha1370
-    | 4.95 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | sakha1370 | 4.71 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 4.56 Mbps 📺360p
-  - 🇳🇱 Нидерланды | morpheusadam_iran.txt | 3.50 Mbps 📺360p
-  - 🇰🇿 Казахстан - Алматы | morpheusadam_iran.txt | 2.66 Mbps 📺360p
-  - 🇸🇰 Словакия | sakha1370 | 2.55 Mbps 📺360p
-  - 🇮🇷 Иран | Free-V2ray-Configs_vless_servers.txt | 2.36 Mbps 📺360p
-  - 🇪🇸 Испания - Валенсия | Edsel-Rahimi_nodes.txt | 1.62 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.56 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇳🇱 Нидерланды
-  type: url-test
-  proxies:
-  - 🇳🇱 Нидерланды - Амстердам | sakha1370 | 6.82 Mbps 📺360p
-  - 🇳🇱 Нидерланды | morpheusadam_iran.txt | 3.50 Mbps 📺360p
+    | 0.78 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -327,17 +302,9 @@ proxy-groups:
 - name: 🗺 🇺🇸 США
   type: url-test
   proxies:
+  - 🇺🇸 США - Вашингтон | sakha1370 | 5.13 Mbps 📺360p
   - 🇺🇸 США - ОремCity name (optional, probably does not need a translation) | sakha1370
-    | 4.95 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | sakha1370 | 4.71 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇫🇮 Финляндия
-  type: url-test
-  proxies:
-  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 9.09 Mbps 📺360p
+    | 0.78 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -345,7 +312,23 @@ proxy-groups:
 - name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 4.56 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 4.83 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇫🇮 Финляндия
+  type: url-test
+  proxies:
+  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 4.03 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇳🇱 Нидерланды
+  type: url-test
+  proxies:
+  - 🇳🇱 Нидерланды | morpheusadam_iran.txt | 3.44 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -353,15 +336,7 @@ proxy-groups:
 - name: 🗺 🇰🇿 Казахстан
   type: url-test
   proxies:
-  - 🇰🇿 Казахстан - Алматы | morpheusadam_iran.txt | 2.66 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇸🇰 Словакия
-  type: url-test
-  proxies:
-  - 🇸🇰 Словакия | sakha1370 | 2.55 Mbps 📺360p
+  - 🇰🇿 Казахстан - Алматы | morpheusadam_iran.txt | 2.69 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -369,7 +344,15 @@ proxy-groups:
 - name: 🗺 🇮🇷 Иран
   type: url-test
   proxies:
-  - 🇮🇷 Иран | Free-V2ray-Configs_vless_servers.txt | 2.36 Mbps 📺360p
+  - 🇮🇷 Иран | Free-V2ray-Configs_vless_servers.txt | 2.25 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇸🇰 Словакия
+  type: url-test
+  proxies:
+  - 🇸🇰 Словакия | sakha1370 | 1.88 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -377,7 +360,7 @@ proxy-groups:
 - name: 🗺 🇪🇸 Испания
   type: url-test
   proxies:
-  - 🇪🇸 Испания - Валенсия | Edsel-Rahimi_nodes.txt | 1.62 Mbps 📺360p
+  - 🇪🇸 Испания - Валенсия | Edsel-Rahimi_nodes.txt | 1.80 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -385,7 +368,7 @@ proxy-groups:
 - name: 🗺 🇪🇪 Эстония
   type: url-test
   proxies:
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.56 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.69 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -393,13 +376,13 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇳🇱 Нидерланды
   - 🗺 🇺🇸 США
-  - 🗺 🇫🇮 Финляндия
   - 🗺 🇩🇪 Германия
+  - 🗺 🇫🇮 Финляндия
+  - 🗺 🇳🇱 Нидерланды
   - 🗺 🇰🇿 Казахстан
-  - 🗺 🇸🇰 Словакия
   - 🗺 🇮🇷 Иран
+  - 🗺 🇸🇰 Словакия
   - 🗺 🇪🇸 Испания
   - 🗺 🇪🇪 Эстония
 - name: 🎯 Direct

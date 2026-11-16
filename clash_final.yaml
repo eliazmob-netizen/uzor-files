@@ -63,20 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия - Санкт-Петербург | ChatGPT-053 | 6.82 Mbps 📺360p
-  type: vless
-  server: 129.101.98.60
-  port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: ru7e2bab87cc39.eu-cdn539.com
-  reality-opts:
-    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
-    short-id: '3992cc7fb9fcbe58'
-- name: 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_3 | 3.82 Mbps 📺360p
+- name: 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.44 Mbps 📺360p
   type: vless
   server: 31.77.28.173
   port: 443
@@ -89,20 +76,20 @@ proxies:
   reality-opts:
     public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
     short-id: 'e06e30590f288e0f'
-- name: 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.37 Mbps 📺360p
+- name: 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.38 Mbps 📺360p
   type: vless
-  server: 94.183.179.64
+  server: 31.77.28.68
   port: 443
   uuid: 372931d3-91c5-4564-b79c-041302de9a17
   tls: true
   network: tcp
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  servername: gb2.soshelper.space
+  servername: nl2.soshelper.space
   reality-opts:
-    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
-    short-id: 'e06e30590f288e0f'
-- name: 🇳🇱 Нидерланды | emzv2ray | 3.18 Mbps 📺360p
+    public-key: mEo4kHPpRns7efJfVW1G-gDEsPag0jELFQK-HIwrvjY
+    short-id: '6562cf617728186e'
+- name: 🇳🇱 Нидерланды - лелйстад | Edsel-Rahimi_nodes.txt | 3.28 Mbps 📺360p
   type: vless
   server: 5.253.86.3
   port: 443
@@ -115,33 +102,20 @@ proxies:
   reality-opts:
     public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo
     short-id: 'fa1754221e4c5f9e'
-- name: 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 2.67 Mbps 📺360p
+- name: 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 2.69 Mbps 📺360p
   type: vless
-  server: 191.217.217.82
+  server: 94.183.179.64
   port: 443
   uuid: 372931d3-91c5-4564-b79c-041302de9a17
   tls: true
   network: tcp
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  servername: nl6.soshelper.space
+  servername: gb2.soshelper.space
   reality-opts:
     public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
     short-id: 'e06e30590f288e0f'
-- name: 🇮🇷 Иран | ChatGPT-053 | 2.21 Mbps 📺360p
-  type: vless
-  server: 45.150.108.180
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: il1.gofizzin.com
-  reality-opts:
-    public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
-    short-id: 'dc1bf50b0e0a'
-- name: 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 1.42 Mbps 📺360p
+- name: 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 2.57 Mbps 📺360p
   type: vless
   server: 94.183.179.212
   port: 443
@@ -154,10 +128,36 @@ proxies:
   reality-opts:
     public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
     short-id: 'e06e30590f288e0f'
+- name: 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.35 Mbps 📺360p
+  type: vless
+  server: 45.150.108.180
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: il1.gofizzin.com
+  reality-opts:
+    public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
+    short-id: 'dc1bf50b0e0a'
+- name: 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 1.94 Mbps 📺360p
+  type: vless
+  server: 191.217.217.82
+  port: 443
+  uuid: 372931d3-91c5-4564-b79c-041302de9a17
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: nl6.soshelper.space
+  reality-opts:
+    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
+    short-id: 'e06e30590f288e0f'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/mheidari98/.proxy/main/all
+    url: https://raw.githubusercontent.com/Edsel-Rahimi/Ariston/data/nodes.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -169,7 +169,6 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
   - 🌍 Без РФ
   - 🌍 Страны
   - 🛡 Реклама
@@ -178,21 +177,13 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Санкт-Петербург | ChatGPT-053 | 6.82 Mbps 📺360p
-  - 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_3 | 3.82 Mbps 📺360p
-  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.37 Mbps 📺360p
-  - 🇳🇱 Нидерланды | emzv2ray | 3.18 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 2.67 Mbps 📺360p
-  - 🇮🇷 Иран | ChatGPT-053 | 2.21 Mbps 📺360p
-  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 1.42 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🇷🇺 Только РФ
-  type: url-test
-  proxies:
-  - 🇷🇺 Россия - Санкт-Петербург | ChatGPT-053 | 6.82 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.44 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.38 Mbps 📺360p
+  - 🇳🇱 Нидерланды - лелйстад | Edsel-Rahimi_nodes.txt | 3.28 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 2.69 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 2.57 Mbps 📺360p
+  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.35 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 1.94 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -200,12 +191,13 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_3 | 3.82 Mbps 📺360p
-  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.37 Mbps 📺360p
-  - 🇳🇱 Нидерланды | emzv2ray | 3.18 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 2.67 Mbps 📺360p
-  - 🇮🇷 Иран | ChatGPT-053 | 2.21 Mbps 📺360p
-  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 1.42 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.44 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.38 Mbps 📺360p
+  - 🇳🇱 Нидерланды - лелйстад | Edsel-Rahimi_nodes.txt | 3.28 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 2.69 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 2.57 Mbps 📺360p
+  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.35 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 1.94 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -213,9 +205,10 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_3 | 3.82 Mbps 📺360p
-  - 🇳🇱 Нидерланды | emzv2ray | 3.18 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 2.67 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.44 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.38 Mbps 📺360p
+  - 🇳🇱 Нидерланды - лелйстад | Edsel-Rahimi_nodes.txt | 3.28 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 1.94 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -223,16 +216,16 @@ proxy-groups:
 - name: 🗺 🇬🇧 Великобритания
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.37 Mbps 📺360p
-  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 1.42 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 2.69 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 2.57 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇮🇷 Иран
+- name: 🗺 🇮🇱 Израиль
   type: url-test
   proxies:
-  - 🇮🇷 Иран | ChatGPT-053 | 2.21 Mbps 📺360p
+  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.35 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -242,7 +235,7 @@ proxy-groups:
   proxies:
   - 🗺 🇳🇱 Нидерланды
   - 🗺 🇬🇧 Великобритания
-  - 🗺 🇮🇷 Иран
+  - 🗺 🇮🇱 Израиль
 - name: 🎯 Direct
   type: select
   proxies:

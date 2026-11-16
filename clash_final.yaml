@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 4.50 Mbps 📺360p
+- name: 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 4.99 Mbps 📺360p
   type: vless
   server: 94.183.179.212
   port: 443
@@ -76,7 +76,7 @@ proxies:
   reality-opts:
     public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
     short-id: 'e06e30590f288e0f'
-- name: 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 3.76 Mbps 📺360p
+- name: 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 4.91 Mbps 📺360p
   type: vless
   server: 94.183.179.64
   port: 443
@@ -89,20 +89,7 @@ proxies:
   reality-opts:
     public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
     short-id: 'e06e30590f288e0f'
-- name: 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 3.48 Mbps 📺360p
-  type: vless
-  server: 31.77.28.173
-  port: 443
-  uuid: 372931d3-91c5-4564-b79c-041302de9a17
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: nl4.soshelper.space
-  reality-opts:
-    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
-    short-id: 'e06e30590f288e0f'
-- name: 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.15 Mbps 📺360p
+- name: 🇳🇱 Нидерланды - Эйгельсховен | Surfboardv2ray_2 | 4.65 Mbps 📺360p
   type: vless
   server: 31.77.28.68
   port: 443
@@ -115,10 +102,140 @@ proxies:
   reality-opts:
     public-key: mEo4kHPpRns7efJfVW1G-gDEsPag0jELFQK-HIwrvjY
     short-id: '6562cf617728186e'
+- name: 🇮🇷 Иран | Surfboardv2ray_2 | 4.61 Mbps 📺360p
+  type: vless
+  server: 84.32.248.124
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  servername: net-io-api.galioncc.com
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 'a7d309e4c16b825f'
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | SoliSpirit_3 | 4.40 Mbps 📺360p
+  type: vless
+  server: 178.18.158.17
+  port: 43000
+  uuid: 0809eed6-5204-49b8-8312-b82a10024022
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 178.18.158.17
+  reality-opts:
+    public-key: U_dxFnbfesmgSwL-SlpvGYFbpY5vlJ1kb52knlCXkkI
+    short-id: '8cfe1563'
+- name: 🇳🇱 Нидерланды - лелйстад | Surfboardv2ray_2 | 4.01 Mbps 📺360p
+  type: vless
+  server: 5.253.86.3
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: nl3.gofizz.in
+  reality-opts:
+    public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo
+    short-id: 'fa1754221e4c5f9e'
+- name: 🇮🇷 Иран | Surfboardv2ray_2 | 3.49 Mbps 📺360p
+  type: vless
+  server: 84.23.52.104
+  port: 9118
+  uuid: 6a5b48fe-9a99-4509-9bad-8ad9b44bd56e
+  tls: true
+  network: grpc
+  client-fingerprint: chrome
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: 4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs
+    short-id: '6ba85179e30d4fc2'
+  grpc-opts:
+    grpc-service-name: inetgrpc
+- name: 🇳🇴 Норвегия - сандефйорд | SoliSpirit_3 | 3.41 Mbps 📺360p
+  type: vless
+  server: 193.243.189.64
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  tls: true
+  network: tcp
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  servername: no1.gofizz.in
+  reality-opts:
+    public-key: 631qtx5_iiR8HBYdp3duf2SMqdN0URE1AWVb85I_FFg
+    short-id: 'b12c3119d219dc'
+- name: 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 3.31 Mbps 📺360p
+  type: vless
+  server: 31.77.28.173
+  port: 443
+  uuid: 372931d3-91c5-4564-b79c-041302de9a17
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: nl4.soshelper.space
+  reality-opts:
+    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
+    short-id: 'e06e30590f288e0f'
+- name: 🇮🇷 Иран | Surfboardv2ray_2 | 3.28 Mbps 📺360p
+  type: vless
+  server: 84.23.52.104
+  port: 9071
+  uuid: 6a5b48fe-9a99-4509-9bad-8ad9b44bd56e
+  tls: true
+  network: grpc
+  client-fingerprint: chrome
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: XKFUTW9ZAlaaeuUGiKKx9FgLjdQch7pCiR1GC1xMcjk
+    short-id: 'aab4c8abf7a4c4e4'
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇩🇪 Германия | Surfboardv2ray_2 | 2.82 Mbps 📺360p
+  type: vless
+  server: 195.110.15.19
+  port: 43000
+  uuid: a75b8ca1-3bbe-43fc-87f6-e153bf192f83
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 195.110.15.19
+  reality-opts:
+    public-key: KeFxVlEEuDN8alZBsrXiX9yrcY2-H7lcdzXWjtrIWy0
+    short-id: 'a9c3bda4'
+- name: 🇮🇱 Израиль | Surfboardv2ray_2 | 2.59 Mbps 📺360p
+  type: vless
+  server: 45.150.108.180
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: il1.gofizzin.com
+  reality-opts:
+    public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
+    short-id: 'dc1bf50b0e0a'
+- name: 🇺🇸 США - Уилмингтон | SoliSpirit_3 | 1.61 Mbps 📺360p
+  type: vless
+  server: 107.181.112.160
+  port: 44182
+  uuid: c35b9b9c-cba2-43d2-8d6f-318f5f344d40
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  servername: support-sit.amd.com
+  reality-opts:
+    public-key: 3Ylz8oBK3R6XyRHN6gAJpwnND_HOR8AFr2nQSmDJ6io
+    short-id: 'ad0d661c'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/Edsel-Rahimi/Ariston/data/nodes.txt
+    url: https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/configtg.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -138,10 +255,19 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 4.50 Mbps 📺360p
-  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 3.76 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 3.48 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.15 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 4.99 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 4.91 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Surfboardv2ray_2 | 4.65 Mbps 📺360p
+  - 🇮🇷 Иран | Surfboardv2ray_2 | 4.61 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | SoliSpirit_3 | 4.40 Mbps 📺360p
+  - 🇳🇱 Нидерланды - лелйстад | Surfboardv2ray_2 | 4.01 Mbps 📺360p
+  - 🇮🇷 Иран | Surfboardv2ray_2 | 3.49 Mbps 📺360p
+  - 🇳🇴 Норвегия - сандефйорд | SoliSpirit_3 | 3.41 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 3.31 Mbps 📺360p
+  - 🇮🇷 Иран | Surfboardv2ray_2 | 3.28 Mbps 📺360p
+  - 🇩🇪 Германия | Surfboardv2ray_2 | 2.82 Mbps 📺360p
+  - 🇮🇱 Израиль | Surfboardv2ray_2 | 2.59 Mbps 📺360p
+  - 🇺🇸 США - Уилмингтон | SoliSpirit_3 | 1.61 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -149,19 +275,19 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 4.50 Mbps 📺360p
-  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 3.76 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 3.48 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.15 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇬🇧 Великобритания
-  type: url-test
-  proxies:
-  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 4.50 Mbps 📺360p
-  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 3.76 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 4.99 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 4.91 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Surfboardv2ray_2 | 4.65 Mbps 📺360p
+  - 🇮🇷 Иран | Surfboardv2ray_2 | 4.61 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | SoliSpirit_3 | 4.40 Mbps 📺360p
+  - 🇳🇱 Нидерланды - лелйстад | Surfboardv2ray_2 | 4.01 Mbps 📺360p
+  - 🇮🇷 Иран | Surfboardv2ray_2 | 3.49 Mbps 📺360p
+  - 🇳🇴 Норвегия - сандефйорд | SoliSpirit_3 | 3.41 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 3.31 Mbps 📺360p
+  - 🇮🇷 Иран | Surfboardv2ray_2 | 3.28 Mbps 📺360p
+  - 🇩🇪 Германия | Surfboardv2ray_2 | 2.82 Mbps 📺360p
+  - 🇮🇱 Израиль | Surfboardv2ray_2 | 2.59 Mbps 📺360p
+  - 🇺🇸 США - Уилмингтон | SoliSpirit_3 | 1.61 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -169,8 +295,61 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 3.48 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.15 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Surfboardv2ray_2 | 4.65 Mbps 📺360p
+  - 🇳🇱 Нидерланды - лелйстад | Surfboardv2ray_2 | 4.01 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 3.31 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇷 Иран
+  type: url-test
+  proxies:
+  - 🇮🇷 Иран | Surfboardv2ray_2 | 4.61 Mbps 📺360p
+  - 🇮🇷 Иран | Surfboardv2ray_2 | 3.49 Mbps 📺360p
+  - 🇮🇷 Иран | Surfboardv2ray_2 | 3.28 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇬🇧 Великобритания
+  type: url-test
+  proxies:
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 4.99 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 4.91 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇩🇪 Германия
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия - Франкфурт-на-Майне | SoliSpirit_3 | 4.40 Mbps 📺360p
+  - 🇩🇪 Германия | Surfboardv2ray_2 | 2.82 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇳🇴 Норвегия
+  type: url-test
+  proxies:
+  - 🇳🇴 Норвегия - сандефйорд | SoliSpirit_3 | 3.41 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇱 Израиль
+  type: url-test
+  proxies:
+  - 🇮🇱 Израиль | Surfboardv2ray_2 | 2.59 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇺🇸 США
+  type: url-test
+  proxies:
+  - 🇺🇸 США - Уилмингтон | SoliSpirit_3 | 1.61 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -178,8 +357,13 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇬🇧 Великобритания
   - 🗺 🇳🇱 Нидерланды
+  - 🗺 🇮🇷 Иран
+  - 🗺 🇬🇧 Великобритания
+  - 🗺 🇩🇪 Германия
+  - 🗺 🇳🇴 Норвегия
+  - 🗺 🇮🇱 Израиль
+  - 🗺 🇺🇸 США
 - name: 🎯 Direct
   type: select
   proxies:

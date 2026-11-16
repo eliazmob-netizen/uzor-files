@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия | whoahaow_bypass-2.txt | 10.28 Mbps 📺360p
+- name: 🇷🇺 Россия | whoahaow_bypass-2.txt | 12.57 Mbps 📺360p
   type: vless
   server: 129.101.98.60
   port: 443
@@ -76,7 +76,7 @@ proxies:
   reality-opts:
     public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
     short-id: '3992cc7fb9fcbe58'
-- name: 🇷🇺 Россия - Санкт-Петербург | ALIILAPRO | 9.74 Mbps 📺360p
+- name: 🇷🇺 Россия | 0xRadikal_configs.txt_9 | 9.81 Mbps 📺360p
   type: vless
   server: ru7e2bab87cc39.eu-cdn539.com
   port: 443
@@ -89,20 +89,34 @@ proxies:
   reality-opts:
     public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
     short-id: '3992cc7fb9fcbe58'
-- name: 🇪🇪 Эстония | whoahaow_bypass-all.txt | 4.55 Mbps 📺360p
+- name: 🇸🇪 Швеция | 0xRadikal_configs.txt_9 | 6.42 Mbps 📺360p
   type: vless
-  server: 141.0.187.239
-  port: 11443
-  uuid: d5651570-bfab-44d8-abd0-60496f548e2a
+  server: 13e1cfg.plp1.h1cloud.net
+  port: 443
+  uuid: 16f3d526-8cf8-4af5-a86f-b023c5b52085
   tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 141.0.187.22
+  network: grpc
+  client-fingerprint: ios
+  servername: 13e1cfg.plp1.h1cloud.net
   reality-opts:
-    public-key: 4Zzm9Ac34AEy-3PcT_T6UWvRJLnZvmEnvwmRLRc0328
-    short-id: 'e5d7a4874e7e74d4'
-- name: 🇩🇪 Германия | cbusifabcap_Z.txt | 4.11 Mbps 📺360p
+    public-key: cWC6AGVZ9ke_eCTWXEB-eLdf670CuoP9zP-1k8DrPxo
+    short-id: '8ae9cc8c9447c95a'
+  grpc-opts:
+    grpc-service-name: d5d6142b8b66
+- name: 🇨🇦 Канада | 0xRadikal_configs.txt_7 | 6.12 Mbps 📺360p
+  type: vless
+  server: hackernoon.com
+  port: 2052
+  uuid: 1658394c-bc07-4db2-ac14-c6e22ee3ad46
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: rayAn69-P9fr6z6w-v3.raYan-69.worKers.deV
+  skip-cert-verify: true
+- name: 🇩🇪 Германия | cbusifabcap_README.md_2 | 5.03 Mbps 📺360p
   type: vless
   server: 195.110.15.2
   port: 43000
@@ -114,74 +128,8 @@ proxies:
   servername: 195.110.15.2
   reality-opts:
     public-key: cXHiKEpk_2lN7x4H_TBrkBPuNTNJX-5_IP1RMKmOgWE
-    short-id: '00000000d72da7ef'
-- name: 🇪🇸 Испания | cbusifabcap_Z.txt | 3.27 Mbps 📺360p
-  type: vless
-  server: 49930ag.es8.h1clayd.click
-  port: 443
-  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
-  tls: true
-  network: grpc
-  client-fingerprint: ios
-  servername: 49930ag.es8.h1clayd.click
-  reality-opts:
-    public-key: H_sPS4IJjHa4Wd7WLAtp_eamROtKBAj-G0UcMBHLHQw
-    short-id: '2437eeeb791b6d80'
-  grpc-opts:
-    grpc-service-name: 61c20be08f4f
-- name: 🇳🇪 NE - Ниамей | 0xRadikal_configs_base64.txt_3 | 2.63 Mbps 📺360p
-  type: vless
-  server: b6d267t.es10.h1clayd.shop
-  port: 443
-  uuid: b082567f-6291-4abf-be72-acdda82d4351
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: b6d267t.es10.h1clayd.shop
-  reality-opts:
-    public-key: cxyrz3HGwHEptrO2fvz6EiikFoEDgTl0SQkrNyj5yRc
-    short-id: '74f848c51d8139d1'
-- name: 🇺🇸 США | cbusifabcap_Z.txt | 1.67 Mbps 📺360p
-  type: vless
-  server: 13.143.232.227
-  port: 443
-  uuid: 747db87a-0cf6-4ea7-ae6b-3293afe2cef6
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 62981et.us11.h1clayd.click
-  reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: 'ce43937e79bc30f0'
-- name: 🇪🇸 Испания | cbusifabcap_Z.txt | 1.64 Mbps 📺360p
-  type: vless
-  server: 230b29t.es8.h1clayd.click
-  port: 443
-  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: 230b29t.es8.h1clayd.click
-  reality-opts:
-    public-key: JvnTbjxkV9nXKoDRA_tmeY6aeOTnJXSBU3yNp9ZUnH0
-    short-id: '91313fc9f7571857'
-- name: 🇷🇺 Россия - Москва | Argh94_1 | 1.60 Mbps 📺360p
-  type: vless
-  server: 185.231.204.244
-  port: 443
-  uuid: 42a64b9a-ab79-4094-8656-30366a7c2ea3
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: nl-balancer.peregrine-sub.net
-  reality-opts:
-    public-key: Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw
-    short-id: '0000000000000000'
-- name: 🇸🇪 Швеция | whoahaow_bypass-1.txt | 1.39 Mbps 📺360p
+    short-id: 'd72da7ef'
+- name: 🇸🇪 Швеция | whoahaow_bypass-1.txt | 4.38 Mbps 📺360p
   type: vless
   server: 132.243.163.114
   port: 443
@@ -194,10 +142,135 @@ proxies:
   reality-opts:
     public-key: XQWaIMBPo0mpWs3MooxxkjWNSgxnkIESd_2PnR8_2HA
     short-id: '1061f1b1cdaad3ad'
+- name: 🇷🇺 Россия - Москва | Argh94_1 | 4.37 Mbps 📺360p
+  type: vless
+  server: 185.231.204.244
+  port: 443
+  uuid: 42a64b9a-ab79-4094-8656-30366a7c2ea3
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: nl-balancer.peregrine-sub.net
+  reality-opts:
+    public-key: Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw
+    short-id: '0000000000000000'
+- name: 🇬🇧 Великобритания | 0xRadikal_configs_base64.txt_2 | 3.86 Mbps 📺360p
+  type: vless
+  server: englandssihcwpocj.whooisthebest.ir
+  port: 10000
+  uuid: 49fe1f7b-e6f6-43dc-a67d-caade85128ba
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  servername: amp-api-edge.apps.apple.com
+  reality-opts:
+    public-key: Du5pk4KuMNA1sRcSpmuoLuC0HmxDBmFljFNfUzqxKiM
+    short-id: 'cd0a1986719e44c8'
+- name: 🇵🇱 Польша | cbusifabcap_README.md_2 | 3.47 Mbps 📺360p
+  type: vless
+  server: d4a338t.pl8.h1clayd.click
+  port: 443
+  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: d4a338t.pl8.h1clayd.click
+  reality-opts:
+    public-key: 0dAUffCns_r-xP3QP1V8qy2P29vBN5ROOoX96TxpvXA
+    short-id: 'b545243c33282b73'
+- name: 🇹🇷 Турция | 0xRadikal_configs.txt_9 | 3.33 Mbps 📺360p
+  type: vless
+  server: panel.autonetshop.ir
+  port: 13787
+  uuid: 10af09cf-dc4c-4c08-b524-10e7ef4667d6
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  servername: sww.srv-alfarayen.ir
+  reality-opts:
+    public-key: -U1wp1S-Mi6lN2L2KusY95zw9obuZ3H26n1cbLw7lGs
+    short-id: '41a72194ef86d6'
+- name: 🇳🇪 NE - Ниамей | 0xRadikal_clash.yaml_8 | 2.58 Mbps 📺360p
+  type: vless
+  server: b6d267t.es10.h1clayd.shop
+  port: 443
+  uuid: b082567f-6291-4abf-be72-acdda82d4351
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: b6d267t.es10.h1clayd.shop
+  reality-opts:
+    public-key: cxyrz3HGwHEptrO2fvz6EiikFoEDgTl0SQkrNyj5yRc
+    short-id: '74f848c51d8139d1'
+- name: 🇪🇸 Испания | cbusifabcap_README.md_2 | 2.32 Mbps 📺360p
+  type: vless
+  server: 230b29t.es8.h1clayd.click
+  port: 443
+  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
+  tls: true
+  network: tcp
+  client-fingerprint: edge
+  servername: 230b29t.es8.h1clayd.click
+  reality-opts:
+    public-key: JvnTbjxkV9nXKoDRA_tmeY6aeOTnJXSBU3yNp9ZUnH0
+    short-id: '91313fc9f7571857'
+- name: 🇺🇸 США | 0xRadikal_configs_base64.txt_2 | 2.01 Mbps 📺360p
+  type: vless
+  server: 176.126.122.236
+  port: 443
+  uuid: 7e58a654-c964-4d49-96c3-60b9f0d96bbc
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: rss.worldoftanks.asia
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: '0000000000000000'
+- name: 🇮🇷 Иран | 0xRadikal_clash.yaml_6 | 1.94 Mbps 📺360p
+  type: vless
+  server: netherlandddtun.whooisthebest.ir
+  port: 3134
+  uuid: 49fe1f7b-e6f6-43dc-a67d-caade85128ba
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  servername: aparat.com
+  reality-opts:
+    public-key: BECatGFyR4lUoLv4-w-qOzPPDkAQt_P8yGB4cP3nE0k
+    short-id: 'e9b64ca7d55f2672'
+- name: 🇺🇸 США | 0xRadikal_configs_base64.txt_2 | 1.90 Mbps 📺360p
+  type: vless
+  server: hiccuped-tacos.sports-streams.org
+  port: 443
+  uuid: 8ab62809-5fcb-4826-a09c-75e36c4aecef
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: blog.worldoftanks.eu
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: '0000000000000000'
+- name: 🇮🇳 Индия | 0xRadikal_clash.yaml_8 | 1.67 Mbps 📺360p
+  type: vless
+  server: 217.60.148.152
+  port: 443
+  uuid: dadf78d3-5cc9-453f-a3e6-2f0826a59c68
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: in.static-s3.org
+  reality-opts:
+    public-key: drhDo_VnUaM05YqwqE03ISx_8ZG8FlNGpSMCnAeqvFk
+    short-id: '159246753f750720'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/Z.txt
+    url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -218,16 +291,22 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия | whoahaow_bypass-2.txt | 10.28 Mbps 📺360p
-  - 🇷🇺 Россия - Санкт-Петербург | ALIILAPRO | 9.74 Mbps 📺360p
-  - 🇪🇪 Эстония | whoahaow_bypass-all.txt | 4.55 Mbps 📺360p
-  - 🇩🇪 Германия | cbusifabcap_Z.txt | 4.11 Mbps 📺360p
-  - 🇪🇸 Испания | cbusifabcap_Z.txt | 3.27 Mbps 📺360p
-  - 🇳🇪 NE - Ниамей | 0xRadikal_configs_base64.txt_3 | 2.63 Mbps 📺360p
-  - 🇺🇸 США | cbusifabcap_Z.txt | 1.67 Mbps 📺360p
-  - 🇪🇸 Испания | cbusifabcap_Z.txt | 1.64 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | Argh94_1 | 1.60 Mbps 📺360p
-  - 🇸🇪 Швеция | whoahaow_bypass-1.txt | 1.39 Mbps 📺360p
+  - 🇷🇺 Россия | whoahaow_bypass-2.txt | 12.57 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_configs.txt_9 | 9.81 Mbps 📺360p
+  - 🇸🇪 Швеция | 0xRadikal_configs.txt_9 | 6.42 Mbps 📺360p
+  - 🇨🇦 Канада | 0xRadikal_configs.txt_7 | 6.12 Mbps 📺360p
+  - 🇩🇪 Германия | cbusifabcap_README.md_2 | 5.03 Mbps 📺360p
+  - 🇸🇪 Швеция | whoahaow_bypass-1.txt | 4.38 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Argh94_1 | 4.37 Mbps 📺360p
+  - 🇬🇧 Великобритания | 0xRadikal_configs_base64.txt_2 | 3.86 Mbps 📺360p
+  - 🇵🇱 Польша | cbusifabcap_README.md_2 | 3.47 Mbps 📺360p
+  - 🇹🇷 Турция | 0xRadikal_configs.txt_9 | 3.33 Mbps 📺360p
+  - 🇳🇪 NE - Ниамей | 0xRadikal_clash.yaml_8 | 2.58 Mbps 📺360p
+  - 🇪🇸 Испания | cbusifabcap_README.md_2 | 2.32 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs_base64.txt_2 | 2.01 Mbps 📺360p
+  - 🇮🇷 Иран | 0xRadikal_clash.yaml_6 | 1.94 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs_base64.txt_2 | 1.90 Mbps 📺360p
+  - 🇮🇳 Индия | 0xRadikal_clash.yaml_8 | 1.67 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -235,9 +314,9 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | whoahaow_bypass-2.txt | 10.28 Mbps 📺360p
-  - 🇷🇺 Россия - Санкт-Петербург | ALIILAPRO | 9.74 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | Argh94_1 | 1.60 Mbps 📺360p
+  - 🇷🇺 Россия | whoahaow_bypass-2.txt | 12.57 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_configs.txt_9 | 9.81 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Argh94_1 | 4.37 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -245,54 +324,19 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇪🇪 Эстония | whoahaow_bypass-all.txt | 4.55 Mbps 📺360p
-  - 🇩🇪 Германия | cbusifabcap_Z.txt | 4.11 Mbps 📺360p
-  - 🇪🇸 Испания | cbusifabcap_Z.txt | 3.27 Mbps 📺360p
-  - 🇳🇪 NE - Ниамей | 0xRadikal_configs_base64.txt_3 | 2.63 Mbps 📺360p
-  - 🇺🇸 США | cbusifabcap_Z.txt | 1.67 Mbps 📺360p
-  - 🇪🇸 Испания | cbusifabcap_Z.txt | 1.64 Mbps 📺360p
-  - 🇸🇪 Швеция | whoahaow_bypass-1.txt | 1.39 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇪🇸 Испания
-  type: url-test
-  proxies:
-  - 🇪🇸 Испания | cbusifabcap_Z.txt | 3.27 Mbps 📺360p
-  - 🇪🇸 Испания | cbusifabcap_Z.txt | 1.64 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇪🇪 Эстония
-  type: url-test
-  proxies:
-  - 🇪🇪 Эстония | whoahaow_bypass-all.txt | 4.55 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇩🇪 Германия
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия | cbusifabcap_Z.txt | 4.11 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇳🇪 NE
-  type: url-test
-  proxies:
-  - 🇳🇪 NE - Ниамей | 0xRadikal_configs_base64.txt_3 | 2.63 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇺🇸 США
-  type: url-test
-  proxies:
-  - 🇺🇸 США | cbusifabcap_Z.txt | 1.67 Mbps 📺360p
+  - 🇸🇪 Швеция | 0xRadikal_configs.txt_9 | 6.42 Mbps 📺360p
+  - 🇨🇦 Канада | 0xRadikal_configs.txt_7 | 6.12 Mbps 📺360p
+  - 🇩🇪 Германия | cbusifabcap_README.md_2 | 5.03 Mbps 📺360p
+  - 🇸🇪 Швеция | whoahaow_bypass-1.txt | 4.38 Mbps 📺360p
+  - 🇬🇧 Великобритания | 0xRadikal_configs_base64.txt_2 | 3.86 Mbps 📺360p
+  - 🇵🇱 Польша | cbusifabcap_README.md_2 | 3.47 Mbps 📺360p
+  - 🇹🇷 Турция | 0xRadikal_configs.txt_9 | 3.33 Mbps 📺360p
+  - 🇳🇪 NE - Ниамей | 0xRadikal_clash.yaml_8 | 2.58 Mbps 📺360p
+  - 🇪🇸 Испания | cbusifabcap_README.md_2 | 2.32 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs_base64.txt_2 | 2.01 Mbps 📺360p
+  - 🇮🇷 Иран | 0xRadikal_clash.yaml_6 | 1.94 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs_base64.txt_2 | 1.90 Mbps 📺360p
+  - 🇮🇳 Индия | 0xRadikal_clash.yaml_8 | 1.67 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -300,7 +344,89 @@ proxy-groups:
 - name: 🗺 🇸🇪 Швеция
   type: url-test
   proxies:
-  - 🇸🇪 Швеция | whoahaow_bypass-1.txt | 1.39 Mbps 📺360p
+  - 🇸🇪 Швеция | 0xRadikal_configs.txt_9 | 6.42 Mbps 📺360p
+  - 🇸🇪 Швеция | whoahaow_bypass-1.txt | 4.38 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇺🇸 США
+  type: url-test
+  proxies:
+  - 🇺🇸 США | 0xRadikal_configs_base64.txt_2 | 2.01 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs_base64.txt_2 | 1.90 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇨🇦 Канада
+  type: url-test
+  proxies:
+  - 🇨🇦 Канада | 0xRadikal_configs.txt_7 | 6.12 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇩🇪 Германия
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия | cbusifabcap_README.md_2 | 5.03 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇬🇧 Великобритания
+  type: url-test
+  proxies:
+  - 🇬🇧 Великобритания | 0xRadikal_configs_base64.txt_2 | 3.86 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇵🇱 Польша
+  type: url-test
+  proxies:
+  - 🇵🇱 Польша | cbusifabcap_README.md_2 | 3.47 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇹🇷 Турция
+  type: url-test
+  proxies:
+  - 🇹🇷 Турция | 0xRadikal_configs.txt_9 | 3.33 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇳🇪 NE
+  type: url-test
+  proxies:
+  - 🇳🇪 NE - Ниамей | 0xRadikal_clash.yaml_8 | 2.58 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇪🇸 Испания
+  type: url-test
+  proxies:
+  - 🇪🇸 Испания | cbusifabcap_README.md_2 | 2.32 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇷 Иран
+  type: url-test
+  proxies:
+  - 🇮🇷 Иран | 0xRadikal_clash.yaml_6 | 1.94 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇳 Индия
+  type: url-test
+  proxies:
+  - 🇮🇳 Индия | 0xRadikal_clash.yaml_8 | 1.67 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -308,12 +434,17 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇪🇸 Испания
-  - 🗺 🇪🇪 Эстония
-  - 🗺 🇩🇪 Германия
-  - 🗺 🇳🇪 NE
-  - 🗺 🇺🇸 США
   - 🗺 🇸🇪 Швеция
+  - 🗺 🇺🇸 США
+  - 🗺 🇨🇦 Канада
+  - 🗺 🇩🇪 Германия
+  - 🗺 🇬🇧 Великобритания
+  - 🗺 🇵🇱 Польша
+  - 🗺 🇹🇷 Турция
+  - 🗺 🇳🇪 NE
+  - 🗺 🇪🇸 Испания
+  - 🗺 🇮🇷 Иран
+  - 🗺 🇮🇳 Индия
 - name: 🎯 Direct
   type: select
   proxies:

@@ -63,72 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.37 Mbps 📺360p
-  type: vless
-  server: 94.183.179.212
-  port: 443
-  uuid: 372931d3-91c5-4564-b79c-041302de9a17
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: gb1.soshelper.space
-  reality-opts:
-    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
-    short-id: 'e06e30590f288e0f'
-- name: 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 3.20 Mbps 📺360p
-  type: vless
-  server: 191.217.217.82
-  port: 443
-  uuid: 372931d3-91c5-4564-b79c-041302de9a17
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: nl6.soshelper.space
-  reality-opts:
-    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
-    short-id: 'e06e30590f288e0f'
-- name: 🇳🇱 Нидерланды | emzv2ray | 3.06 Mbps 📺360p
-  type: vless
-  server: 5.253.86.3
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: nl3.gofizz.in
-  reality-opts:
-    public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo
-    short-id: 'fa1754221e4c5f9e'
-- name: 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 2.62 Mbps 📺360p
-  type: vless
-  server: 94.183.179.64
-  port: 443
-  uuid: 372931d3-91c5-4564-b79c-041302de9a17
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: gb2.soshelper.space
-  reality-opts:
-    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
-    short-id: 'e06e30590f288e0f'
-- name: 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_3 | 2.03 Mbps 📺360p
-  type: vless
-  server: 31.77.28.173
-  port: 443
-  uuid: 372931d3-91c5-4564-b79c-041302de9a17
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: nl4.soshelper.space
-  reality-opts:
-    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
-    short-id: 'e06e30590f288e0f'
-- name: 🇷🇺 Россия - Санкт-Петербург | ChatGPT-053 | 1.97 Mbps 📺360p
+- name: 🇷🇺 Россия - Санкт-Петербург | ChatGPT-053 | 4.85 Mbps 📺360p
   type: vless
   server: 129.101.98.60
   port: 443
@@ -141,20 +76,72 @@ proxies:
   reality-opts:
     public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
     short-id: '3992cc7fb9fcbe58'
-- name: 🇮🇷 Иран | ChatGPT-053 | 1.92 Mbps 📺360p
+- name: 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_3 | 4.41 Mbps 📺360p
   type: vless
-  server: 45.150.108.180
+  server: 31.77.28.173
   port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  uuid: 372931d3-91c5-4564-b79c-041302de9a17
   tls: true
   network: tcp
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  servername: il1.gofizzin.com
+  servername: nl4.soshelper.space
   reality-opts:
-    public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
-    short-id: 'dc1bf50b0e0a'
-- name: 🇮🇷 Иран - Керман | ChatGPT-053 | 1.04 Mbps 📺360p
+    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
+    short-id: 'e06e30590f288e0f'
+- name: 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 3.43 Mbps 📺360p
+  type: vless
+  server: 191.217.217.82
+  port: 443
+  uuid: 372931d3-91c5-4564-b79c-041302de9a17
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: nl6.soshelper.space
+  reality-opts:
+    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
+    short-id: 'e06e30590f288e0f'
+- name: 🇳🇱 Нидерланды | emzv2ray | 3.41 Mbps 📺360p
+  type: vless
+  server: 5.253.86.3
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: nl3.gofizz.in
+  reality-opts:
+    public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo
+    short-id: 'fa1754221e4c5f9e'
+- name: 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.18 Mbps 📺360p
+  type: vless
+  server: 94.183.179.64
+  port: 443
+  uuid: 372931d3-91c5-4564-b79c-041302de9a17
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: gb2.soshelper.space
+  reality-opts:
+    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
+    short-id: 'e06e30590f288e0f'
+- name: 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.15 Mbps 📺360p
+  type: vless
+  server: 94.183.179.212
+  port: 443
+  uuid: 372931d3-91c5-4564-b79c-041302de9a17
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: gb1.soshelper.space
+  reality-opts:
+    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
+    short-id: 'e06e30590f288e0f'
+- name: 🇮🇷 Иран - Керман | ChatGPT-053 | 1.76 Mbps 📺360p
   type: vless
   server: 89.46.217.94
   port: 443
@@ -167,6 +154,19 @@ proxies:
   reality-opts:
     public-key: 4nj64GygZebvTY3KARsBDWMRjFyrkxLzwHnmdDF8D2U
     short-id: 'a3'
+- name: 🇮🇷 Иран | ChatGPT-053 | 1.73 Mbps 📺360p
+  type: vless
+  server: 45.150.108.180
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: il1.gofizzin.com
+  reality-opts:
+    public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
+    short-id: 'dc1bf50b0e0a'
 proxy-providers:
   top_source:
     type: http
@@ -191,14 +191,14 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.37 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 3.20 Mbps 📺360p
-  - 🇳🇱 Нидерланды | emzv2ray | 3.06 Mbps 📺360p
-  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 2.62 Mbps 📺360p
-  - 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_3 | 2.03 Mbps 📺360p
-  - 🇷🇺 Россия - Санкт-Петербург | ChatGPT-053 | 1.97 Mbps 📺360p
-  - 🇮🇷 Иран | ChatGPT-053 | 1.92 Mbps 📺360p
-  - 🇮🇷 Иран - Керман | ChatGPT-053 | 1.04 Mbps 📺360p
+  - 🇷🇺 Россия - Санкт-Петербург | ChatGPT-053 | 4.85 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_3 | 4.41 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 3.43 Mbps 📺360p
+  - 🇳🇱 Нидерланды | emzv2ray | 3.41 Mbps 📺360p
+  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.18 Mbps 📺360p
+  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.15 Mbps 📺360p
+  - 🇮🇷 Иран - Керман | ChatGPT-053 | 1.76 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 1.73 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -206,7 +206,7 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Санкт-Петербург | ChatGPT-053 | 1.97 Mbps 📺360p
+  - 🇷🇺 Россия - Санкт-Петербург | ChatGPT-053 | 4.85 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -214,13 +214,13 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.37 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 3.20 Mbps 📺360p
-  - 🇳🇱 Нидерланды | emzv2ray | 3.06 Mbps 📺360p
-  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 2.62 Mbps 📺360p
-  - 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_3 | 2.03 Mbps 📺360p
-  - 🇮🇷 Иран | ChatGPT-053 | 1.92 Mbps 📺360p
-  - 🇮🇷 Иран - Керман | ChatGPT-053 | 1.04 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_3 | 4.41 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 3.43 Mbps 📺360p
+  - 🇳🇱 Нидерланды | emzv2ray | 3.41 Mbps 📺360p
+  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.18 Mbps 📺360p
+  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.15 Mbps 📺360p
+  - 🇮🇷 Иран - Керман | ChatGPT-053 | 1.76 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 1.73 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -228,9 +228,9 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 3.20 Mbps 📺360p
-  - 🇳🇱 Нидерланды | emzv2ray | 3.06 Mbps 📺360p
-  - 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_3 | 2.03 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_3 | 4.41 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | ChatGPT-053 | 3.43 Mbps 📺360p
+  - 🇳🇱 Нидерланды | emzv2ray | 3.41 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -238,8 +238,8 @@ proxy-groups:
 - name: 🗺 🇬🇧 Великобритания
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.37 Mbps 📺360p
-  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 2.62 Mbps 📺360p
+  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.18 Mbps 📺360p
+  - 🇬🇧 Великобритания | 0xRadikal_clash.yaml_3 | 3.15 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -247,8 +247,8 @@ proxy-groups:
 - name: 🗺 🇮🇷 Иран
   type: url-test
   proxies:
-  - 🇮🇷 Иран | ChatGPT-053 | 1.92 Mbps 📺360p
-  - 🇮🇷 Иран - Керман | ChatGPT-053 | 1.04 Mbps 📺360p
+  - 🇮🇷 Иран - Керман | ChatGPT-053 | 1.76 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 1.73 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10

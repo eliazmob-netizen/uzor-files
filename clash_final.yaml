@@ -63,71 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 3.35 Mbps 📺360p
-  type: vless
-  server: 94.183.179.212
-  port: 443
-  uuid: 372931d3-91c5-4564-b79c-041302de9a17
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: gb1.soshelper.space
-  reality-opts:
-    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
-    short-id: 'e06e30590f288e0f'
-- name: 🇬🇧 Великобритания - цитй оф лондон | https:_URI.yml | 3.15 Mbps 📺360p
-  type: vless
-  server: 94.183.179.64
-  port: 443
-  uuid: 372931d3-91c5-4564-b79c-041302de9a17
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: gb2.soshelper.space
-  reality-opts:
-    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
-    short-id: 'e06e30590f288e0f'
-- name: 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.10 Mbps 📺360p
-  type: vless
-  server: 191.217.217.82
-  port: 443
-  uuid: 372931d3-91c5-4564-b79c-041302de9a17
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: nl6.soshelper.space
-  reality-opts:
-    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
-    short-id: 'e06e30590f288e0f'
-- name: 🇳🇱 Нидерланды | emzv2ray | 2.57 Mbps 📺360p
-  type: vless
-  server: 5.253.86.3
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: nl3.gofizz.in
-  reality-opts:
-    public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo
-    short-id: 'fa1754221e4c5f9e'
-- name: 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 2.43 Mbps 📺360p
-  type: vless
-  server: 88.216.211.36
-  port: 443
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  servername: de8.galioncc.com
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: 'c4e7a1902b8d6f35'
-- name: 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.42 Mbps 📺360p
+- name: 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.63 Mbps 📺360p
   type: vless
   server: 45.150.108.180
   port: 443
@@ -140,20 +76,20 @@ proxies:
   reality-opts:
     public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
     short-id: 'dc1bf50b0e0a'
-- name: 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 1.93 Mbps 📺360p
+- name: 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 2.33 Mbps 📺360p
   type: vless
-  server: 31.77.28.173
+  server: 191.217.217.82
   port: 443
   uuid: 372931d3-91c5-4564-b79c-041302de9a17
   tls: true
   network: tcp
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
-  servername: nl4.soshelper.space
+  servername: nl6.soshelper.space
   reality-opts:
     public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
     short-id: 'e06e30590f288e0f'
-- name: 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 1.60 Mbps 📺360p
+- name: 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 2.32 Mbps 📺360p
   type: vless
   server: 31.77.28.68
   port: 443
@@ -166,19 +102,70 @@ proxies:
   reality-opts:
     public-key: mEo4kHPpRns7efJfVW1G-gDEsPag0jELFQK-HIwrvjY
     short-id: '6562cf617728186e'
-- name: 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 0.59 Mbps 📺360p
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 2.22 Mbps 📺360p
   type: vless
-  server: 201.34.137.8
+  server: 88.216.211.36
   port: 443
-  uuid: d651c9ab-b844-4420-b3d0-20d201ef5f55
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: de8.galioncc.com
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 'c4e7a1902b8d6f35'
+- name: 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 2.14 Mbps 📺360p
+  type: vless
+  server: 94.183.179.212
+  port: 443
+  uuid: 372931d3-91c5-4564-b79c-041302de9a17
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: gb1.soshelper.space
+  reality-opts:
+    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
+    short-id: 'e06e30590f288e0f'
+- name: 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 1.77 Mbps 📺360p
+  type: vless
+  server: 31.77.28.173
+  port: 443
+  uuid: 372931d3-91c5-4564-b79c-041302de9a17
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: node-pl-2.nztpro.com
+  servername: nl4.soshelper.space
   reality-opts:
-    public-key: HyPCaHlGMjE2h7D4F6dtyFHeXDEAHIUg9fXJgADc5H0
-    short-id: '134a7678ec2a3285'
+    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
+    short-id: 'e06e30590f288e0f'
+- name: 🇬🇧 Великобритания - цитй оф лондон | https:_URI.yml | 1.45 Mbps 📺360p
+  type: vless
+  server: 94.183.179.64
+  port: 443
+  uuid: 372931d3-91c5-4564-b79c-041302de9a17
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: gb2.soshelper.space
+  reality-opts:
+    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
+    short-id: 'e06e30590f288e0f'
+- name: 🇳🇱 Нидерланды | emzv2ray | 0.84 Mbps 📺360p
+  type: vless
+  server: 5.253.86.3
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: nl3.gofizz.in
+  reality-opts:
+    public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo
+    short-id: 'fa1754221e4c5f9e'
 proxy-providers:
   top_source:
     type: http
@@ -194,7 +181,6 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
   - 🌍 Без РФ
   - 🌍 Страны
   - 🛡 Реклама
@@ -203,23 +189,14 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 3.35 Mbps 📺360p
-  - 🇬🇧 Великобритания - цитй оф лондон | https:_URI.yml | 3.15 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.10 Mbps 📺360p
-  - 🇳🇱 Нидерланды | emzv2ray | 2.57 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 2.43 Mbps 📺360p
-  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.42 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 1.93 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 1.60 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 0.59 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🇷🇺 Только РФ
-  type: url-test
-  proxies:
-  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 0.59 Mbps 📺360p
+  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.63 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 2.33 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 2.32 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 2.22 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 2.14 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 1.77 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | https:_URI.yml | 1.45 Mbps 📺360p
+  - 🇳🇱 Нидерланды | emzv2ray | 0.84 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -227,14 +204,14 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 3.35 Mbps 📺360p
-  - 🇬🇧 Великобритания - цитй оф лондон | https:_URI.yml | 3.15 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.10 Mbps 📺360p
-  - 🇳🇱 Нидерланды | emzv2ray | 2.57 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 2.43 Mbps 📺360p
-  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.42 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 1.93 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 1.60 Mbps 📺360p
+  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.63 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 2.33 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 2.32 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 2.22 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 2.14 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 1.77 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | https:_URI.yml | 1.45 Mbps 📺360p
+  - 🇳🇱 Нидерланды | emzv2ray | 0.84 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -242,10 +219,10 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 3.10 Mbps 📺360p
-  - 🇳🇱 Нидерланды | emzv2ray | 2.57 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 1.93 Mbps 📺360p
-  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 1.60 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 2.33 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | Edsel-Rahimi_nodes.txt | 2.32 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Эйгельсховен | morpheusadam_iran.txt | 1.77 Mbps 📺360p
+  - 🇳🇱 Нидерланды | emzv2ray | 0.84 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -253,16 +230,8 @@ proxy-groups:
 - name: 🗺 🇬🇧 Великобритания
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 3.35 Mbps 📺360p
-  - 🇬🇧 Великобритания - цитй оф лондон | https:_URI.yml | 3.15 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇩🇪 Германия
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 2.43 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | Edsel-Rahimi_nodes.txt | 2.14 Mbps 📺360p
+  - 🇬🇧 Великобритания - цитй оф лондон | https:_URI.yml | 1.45 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -270,7 +239,15 @@ proxy-groups:
 - name: 🗺 🇮🇱 Израиль
   type: url-test
   proxies:
-  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.42 Mbps 📺360p
+  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.63 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇩🇪 Германия
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 2.22 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -280,8 +257,8 @@ proxy-groups:
   proxies:
   - 🗺 🇳🇱 Нидерланды
   - 🗺 🇬🇧 Великобритания
-  - 🗺 🇩🇪 Германия
   - 🗺 🇮🇱 Израиль
+  - 🗺 🇩🇪 Германия
 - name: 🎯 Direct
   type: select
   proxies:

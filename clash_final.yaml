@@ -63,7 +63,36 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия | 0xRadikal_configs.txt_9 | 10.33 Mbps 📺360p
+- name: 🇺🇸 США - Вашингтон | ChatGPT-053 | 9.71 Mbps 📺360p
+  type: vless
+  server: 48.102.160.14
+  port: 443
+  uuid: 882b1d03-f43c-4adf-abe7-4ace93d7e37b
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: node1.vazza.ratcraft.ru
+  reality-opts:
+    public-key: w8Rd8PWysfYdCgaSwlhJxedwn3xor_CD2cWv_lIRIDE
+    short-id: 'acd68c16677b6967'
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇺🇸 США - ОремCity name (optional, probably does not need a translation) |
+    ChatGPT-053 | 8.85 Mbps 📺360p
+  type: vless
+  server: 177.202.72.194
+  port: 443
+  uuid: 882b1d03-f43c-4adf-abe7-4ace93d7e37b
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: node3.vazza.ratcraft.ru
+  reality-opts:
+    public-key: y1NwkiZbkuLrK01wV9IAJf4u8aBjgM5MqHCJXl9gczA
+    short-id: '3a638ab980701d96'
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇷🇺 Россия | 0xRadikal_configs.txt_9 | 7.91 Mbps 📺360p
   type: vless
   server: 129.101.98.60
   port: 443
@@ -76,33 +105,7 @@ proxies:
   reality-opts:
     public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
     short-id: '3992cc7fb9fcbe58'
-- name: 🇷🇺 Россия | ChatGPT-025 | 9.64 Mbps 📺360p
-  type: vless
-  server: 94.228.166.37
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: ru1.gofizz.in
-  reality-opts:
-    public-key: HZuajwozj8RKGAU_N_0cp0iKPU1EeljHjVu5NkWaUjU
-    short-id: 'a36b1ffa'
-- name: 🇷🇺 Россия - Санкт-Петербург | ALIILAPRO | 8.22 Mbps 📺360p
-  type: vless
-  server: ru7e2bab87cc39.eu-cdn539.com
-  port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ru7e2bab87cc39.eu-cdn539.com
-  reality-opts:
-    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
-    short-id: '3992cc7fb9fcbe58'
-- name: 🇸🇪 Швеция | ChatGPT-025 | 7.75 Mbps 📺360p
+- name: 🇸🇪 Швеция | ChatGPT-025 | 7.86 Mbps 📺360p
   type: vless
   server: sweden.dance-tonic.rutube.info
   port: 8443
@@ -116,7 +119,7 @@ proxies:
     short-id: '08'
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇪🇪 Эстония | ChatGPT-025 | 7.21 Mbps 📺360p
+- name: 🇪🇪 Эстония | ChatGPT-025 | 7.33 Mbps 📺360p
   type: vless
   server: ee30.own-homelab.cloud
   port: 443
@@ -130,7 +133,34 @@ proxies:
     short-id: '05c0787b9357f4a8'
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇺🇸 США - Сан-Франциско | Arfench | 6.58 Mbps 📺360p
+- name: 🇺🇸 США - Сан-Франциско | ChatGPT-053 | 6.60 Mbps 📺360p
+  type: vless
+  server: tally.so
+  port: 2082
+  uuid: 975955b1-0521-49d9-97ad-eed2e626a30f
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: roOz-ryo1kZgj-v1.rOoz-67c.woRKers.deV
+  skip-cert-verify: true
+- name: 🇫🇷 Франция | cbusifabcap_Clash.yml | 6.42 Mbps 📺360p
+  type: vless
+  server: 188.114.98.112
+  port: 80
+  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: elenaaaaaaaaaa.cloudns.pro.
+  ws-opts:
+    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY
+    headers:
+      Host: elenaaaaaaaaaa.cloudns.pro.
+  skip-cert-verify: true
+- name: 🇫🇷 Франция | Barabama_6 | 6.05 Mbps 📺360p
   type: vless
   server: radar.cloudflare.com
   port: 8080
@@ -143,33 +173,60 @@ proxies:
     headers:
       Host: sh-harand.shcharand00.workers.dev
   skip-cert-verify: true
-- name: 🇫🇷 Франция | cbusifabcap_Clash.yml | 6.11 Mbps 📺360p
+- name: 🇦🇱 Албания | ChatGPT-053 | 6.04 Mbps 📺360p
   type: vless
-  server: tally.so
-  port: 2082
-  uuid: 975955b1-0521-49d9-97ad-eed2e626a30f
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: roOz-ryo1kZgj-v1.rOoz-67c.woRKers.deV
-  skip-cert-verify: true
-- name: 🇷🇺 Россия - Москва | Arfench | 5.29 Mbps 📺360p
-  type: vless
-  server: 185.231.204.244
-  port: 443
-  uuid: 42a64b9a-ab79-4094-8656-30366a7c2ea3
+  server: 157.228.66.102
+  port: 32425
+  uuid: 02655447-4659-41df-8d0e-d23a3035b7cb
   tls: true
-  network: raw
+  network: grpc
+  client-fingerprint: firefox
+  servername: al.nebulaguard.org
+  reality-opts:
+    public-key: PpnL3gRYVIKa1-k_dUWhVmW3JC3iDkxhuMvCxzdyOlk
+    short-id: 'dfdbc8945a9c72b9'
+  grpc-opts:
+    grpc-service-name: eb8bcfdd
+- name: 🇷🇺 Россия - Москва | ChatGPT-053 | 5.72 Mbps 📺360p
+  type: vless
+  server: 176.123.160.196
+  port: 443
+  uuid: 75a8cc15-fa52-4067-949f-42a89859b54f
+  tls: true
+  network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: nl-balancer.peregrine-sub.net
+  servername: brnl2.catneuro.su
   reality-opts:
-    public-key: Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw
+    public-key: jH6fBbonaKYT-bLkpRiZCW_5BwVMSUeC_1d1bBTj_Rw
+    short-id: 'a1fd12bb855171d7'
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.22 Mbps 📺360p
+  type: vless
+  server: mesh.tilegrid.tech
+  port: 443
+  uuid: 58225784-a419-44bc-83cf-dc54769f47cd
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: mesh.tilegrid.tech
+  reality-opts:
+    public-key: 94IJ2DmFDuWHilZ3xT__sdfI6HKtWMljFStZfK5Tq28
+    short-id: 'cdd272b160a39c'
+- name: 🇳🇱 Нидерланды - Амстердам | ChatGPT-053 | 4.99 Mbps 📺360p
+  type: vless
+  server: n2.baterium.space
+  port: 443
+  uuid: 7d63243c-983e-44db-a1b8-13dc3fd6f7a2
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: cdnjs.com
+  reality-opts:
+    public-key: mg2MoLpb8B51aZiko_nW2SBRoaudv-O6HLHx8VYP7Do
     short-id: '0000000000000000'
-- name: 🇬🇧 Великобритания | ChatGPT-025 | 4.83 Mbps 📺360p
+- name: 🇬🇧 Великобритания | ChatGPT-025 | 4.85 Mbps 📺360p
   type: vless
   server: 45.91.93.47
   port: 443
@@ -182,33 +239,20 @@ proxies:
   reality-opts:
     public-key: WgTZR-o6VbFYeqb7iZNBh-izcWAQlpotOyxibJnAXVc
     short-id: 'f51489cb3d7e8be2'
-- name: 🇫🇷 Франция | cbusifabcap_Clash.yml | 4.69 Mbps 📺360p
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 4.79 Mbps 📺360p
   type: vless
-  server: 188.114.98.112
-  port: 80
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY
-    headers:
-      Host: elenaaaaaaaaaa.cloudns.pro.
-  skip-cert-verify: true
-- name: 🇩🇪 Германия | cbusifabcap_README.md_2 | 4.40 Mbps 📺360p
-  type: vless
-  server: 195.110.15.2
-  port: 43000
-  uuid: a52c04f5-5d58-4bef-9a89-2a270e50fc4b
+  server: 130.78.25.165
+  port: 443
+  uuid: 58225784-a419-44bc-83cf-dc54769f47cd
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: 195.110.15.2
+  servername: mesh.tilegrid.tech
   reality-opts:
-    public-key: cXHiKEpk_2lN7x4H_TBrkBPuNTNJX-5_IP1RMKmOgWE
-    short-id: 'd72da7ef'
-- name: 🇨🇭 Швейцария | ChatGPT-025 | 4.28 Mbps 📺360p
+    public-key: 94IJ2DmFDuWHilZ3xT__sdfI6HKtWMljFStZfK5Tq28
+    short-id: 'cdd272b160a39c'
+- name: 🇨🇭 Швейцария | ChatGPT-025 | 4.62 Mbps 📺360p
   type: vless
   server: 91.214.190.127
   port: 443
@@ -221,33 +265,33 @@ proxies:
   reality-opts:
     public-key: 3fcmILwQG2sbwo58XW9Z1lziNQXmAFwUglFuXQFePRI
     short-id: '95da6299f1'
-- name: 🇵🇱 Польша | cbusifabcap_README.md_2 | 4.24 Mbps 📺360p
+- name: 🇷🇺 Россия - Москва | Arfench | 4.26 Mbps 📺360p
   type: vless
-  server: d4a338t.pl8.h1clayd.click
+  server: 185.231.204.244
   port: 443
-  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
+  uuid: 42a64b9a-ab79-4094-8656-30366a7c2ea3
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: d4a338t.pl8.h1clayd.click
+  servername: nl-balancer.peregrine-sub.net
   reality-opts:
-    public-key: 0dAUffCns_r-xP3QP1V8qy2P29vBN5ROOoX96TxpvXA
-    short-id: 'b545243c33282b73'
-- name: 🇪🇪 Эстония | ChatGPT-025 | 3.82 Mbps 📺360p
+    public-key: Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw
+    short-id: '0000000000000000'
+- name: 🇩🇪 Германия | cbusifabcap_README.md_2 | 4.21 Mbps 📺360p
   type: vless
-  server: 185.223.171.1
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  server: 195.110.15.2
+  port: 43000
+  uuid: a52c04f5-5d58-4bef-9a89-2a270e50fc4b
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: ee1.gofizzin.com
+  servername: 195.110.15.2
   reality-opts:
-    public-key: z46-GwLD2TvzK2o95okMP7IMNPUfwYHmqt2JV6nJ03I
-    short-id: '8c9f899dba63f6c7'
-- name: 🇪🇪 Эстония | Arfench | 3.03 Mbps 📺360p
+    public-key: cXHiKEpk_2lN7x4H_TBrkBPuNTNJX-5_IP1RMKmOgWE
+    short-id: 'd72da7ef'
+- name: 🇪🇪 Эстония | Arfench | 4.09 Mbps 📺360p
   type: vless
   server: 31.56.187.235
   port: 443
@@ -260,20 +304,47 @@ proxies:
   reality-opts:
     public-key: XmvhirU6V5lOl__xGziMlYSTmYef6cY52xNM8_N-Dns
     short-id: 'b9d8c8addd2e5f70'
-- name: 🇮🇱 Израиль | ChatGPT-025 | 2.84 Mbps 📺360p
+- name: 🇺🇸 США - Вашингтон | ChatGPT-053 | 3.59 Mbps 📺360p
   type: vless
-  server: 45.150.108.180
+  server: 187.54.4.43
   port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  uuid: f203fd20-2c61-4b6e-a8a7-75e9581e497b
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: il1.gofizzin.com
+  servername: bg-adapt.static-s3.org
   reality-opts:
-    public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
-    short-id: 'dc1bf50b0e0a'
-- name: 🇪🇸 Испания | ChatGPT-025 | 2.60 Mbps 📺360p
+    public-key: LhcTGnqGTs7rJgD52NUKBWH3-mPJBdkMJKLmz-M4jnk
+    short-id: '486a1a9c7288b70e'
+- name: 🇮🇷 Иран | ChatGPT-053 | 3.42 Mbps 📺360p
+  type: vless
+  server: ru1.gridlane.ru
+  port: 25843
+  uuid: 1e6bb05f-2d45-4f88-ae4d-4baa2763e4cf
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: store.ds-cdn.online
+  reality-opts:
+    public-key: e9NPJU6RhqVRrvEWvXVuzNd83Oi2JU69nK4LDFcfYWQ
+    short-id: 'e11c515c51b97858'
+  grpc-opts:
+    grpc-service-name: grpc-fi1
+- name: 🇹🇷 Турция - Эйюпсултан | ChatGPT-053 | 3.14 Mbps 📺360p
+  type: vless
+  server: 188.132.176.153
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: tr2.gofizzin.com
+  reality-opts:
+    public-key: 0dZQFilWbZVW8qj2DqVgiXZndL20ZuxmSuS4KyGRbQc
+    short-id: 'fa273564'
+- name: 🇪🇸 Испания | ChatGPT-025 | 2.86 Mbps 📺360p
   type: vless
   server: 185.176.9.26
   port: 443
@@ -286,19 +357,84 @@ proxies:
   reality-opts:
     public-key: Qxpi1A9yJXwgZ1ycBrasKBCrX3qkRJ646U28a-99WBE
     short-id: '85750bd7'
-- name: 🇪🇸 Испания | cbusifabcap_README.md_2 | 2.53 Mbps 📺360p
+- name: 🇳🇱 Нидерланды | ChatGPT-053 | 2.81 Mbps 📺360p
+  type: vless
+  server: nl.notvpn.su
+  port: 443
+  uuid: 57e41f93-4603-425c-aaf9-7fe8456f5266
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: philips.com
+  reality-opts:
+    public-key: 51UVgXX5T1AUqqVqhoIJ6YFwbe5Bv8OSqkieGm_Ys0c
+    short-id: 'ad02ce86'
+- name: 🇪🇸 Испания | cbusifabcap_README.md_2 | 2.71 Mbps 📺360p
   type: vless
   server: b6d267t.es10.h1clayd.shop
   port: 443
   uuid: b082567f-6291-4abf-be72-acdda82d4351
   tls: true
-  network: tcp
-  client-fingerprint: ios
+  network: raw
+  client-fingerprint: firefox
   servername: b6d267t.es10.h1clayd.shop
   reality-opts:
     public-key: cxyrz3HGwHEptrO2fvz6EiikFoEDgTl0SQkrNyj5yRc
     short-id: '74f848c51d8139d1'
-- name: 🇨🇦 Канада | ChatGPT-025 | 2.25 Mbps 📺360p
+- name: 🇮🇱 Израиль | ChatGPT-025 | 2.70 Mbps 📺360p
+  type: vless
+  server: 45.150.108.180
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: il1.gofizzin.com
+  reality-opts:
+    public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
+    short-id: 'dc1bf50b0e0a'
+- name: 🇮🇷 Иран | 0xRadikal_configs.txt_9 | 2.62 Mbps 📺360p
+  type: vless
+  server: netherlandddtun.whooisthebest.ir
+  port: 3134
+  uuid: 49fe1f7b-e6f6-43dc-a67d-caade85128ba
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  servername: aparat.com
+  reality-opts:
+    public-key: BECatGFyR4lUoLv4-w-qOzPPDkAQt_P8yGB4cP3nE0k
+    short-id: 'e9b64ca7d55f2672'
+- name: 🇵🇱 Польша | cbusifabcap_ShadowRocket.yml | 2.44 Mbps 📺360p
+  type: vless
+  server: d4a338t.pl8.h1clayd.click
+  port: 443
+  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: d4a338t.pl8.h1clayd.click
+  reality-opts:
+    public-key: 0dAUffCns_r-xP3QP1V8qy2P29vBN5ROOoX96TxpvXA
+    short-id: 'b545243c33282b73'
+- name: 🇪🇪 Эстония - Таллин | ChatGPT-053 | 2.35 Mbps 📺360p
+  type: vless
+  server: 62764fg.nl19.h1clayd.shop
+  port: 443
+  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
+  tls: true
+  network: grpc
+  client-fingerprint: chrome
+  servername: 62764fg.nl19.h1clayd.shop
+  reality-opts:
+    public-key: RqABpaIKrmdoK0pwnQ5zUP2c3Dh5cLw0ueT1hb35txk
+    short-id: 'cd9f7c819a97cea9'
+  grpc-opts:
+    grpc-service-name: 4c9e80459954
+- name: 🇨🇦 Канада | ChatGPT-025 | 2.09 Mbps 📺360p
   type: vless
   server: 104.152.211.47
   port: 443
@@ -311,19 +447,72 @@ proxies:
   reality-opts:
     public-key: ohlUVAqq5MT6I7ozknXy0Mi5zW_uH94DV-lC7Ip2Ygk
     short-id: '37f069d7ad'
-- name: 🇮🇷 Иран | 0xRadikal_configs.txt_9 | 2.09 Mbps 📺360p
+- name: 🇩🇪 Германия | ChatGPT-053 | 2.03 Mbps 📺360p
   type: vless
-  server: netherlandddtun.whooisthebest.ir
-  port: 3134
-  uuid: 49fe1f7b-e6f6-43dc-a67d-caade85128ba
+  server: 88.216.70.65
+  port: 443
+  uuid: 88e79aa6-f431-4453-8dcc-652a0c747198
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: de.save-node.com
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: '45ee70d18247e5'
+- name: 🇺🇸 США | cbusifabcap_README.md_2 | 1.98 Mbps 📺360p
+  type: vless
+  server: 87.120.252.67
+  port: 443
+  uuid: 319822ed-8c51-4a22-be6b-39876f7ece51
   tls: true
   network: tcp
   client-fingerprint: chrome
-  servername: aparat.com
+  flow: xtls-rprx-vision
+  servername: worldoftanks.asia
   reality-opts:
-    public-key: BECatGFyR4lUoLv4-w-qOzPPDkAQt_P8yGB4cP3nE0k
-    short-id: 'e9b64ca7d55f2672'
-- name: 🇺🇸 США | cbusifabcap_README.md_2 | 1.99 Mbps 📺360p
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: '0000000000000000'
+- name: 🇩🇪 Германия | ChatGPT-053 | 1.97 Mbps 📺360p
+  type: vless
+  server: de.save-node.com
+  port: 443
+  uuid: 88e79aa6-f431-4453-8dcc-652a0c747198
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: de.save-node.com
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: '45ee70d18247e5'
+- name: 🇺🇸 США | cbusifabcap_README.md_2 | 1.96 Mbps 📺360p
+  type: vless
+  server: caudal-reason.freevideochats.org
+  port: 443
+  uuid: 03d57df7-d126-462a-8776-070a900cd1b0
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: www.worldoftanks.com
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: '0000000000000000'
+- name: 🇺🇸 США - Чикаго | ChatGPT-053 | 1.96 Mbps 📺360p
+  type: vless
+  server: 87.120.252.67
+  port: 443
+  uuid: 03d57df7-d126-462a-8776-070a900cd1b0
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: www.worldoftanks.com
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: '0000000000000000'
+- name: 🇺🇸 США | cbusifabcap_README.md_2 | 1.95 Mbps 📺360p
   type: vless
   server: hiccuped-tacos.sports-streams.org
   port: 443
@@ -336,7 +525,33 @@ proxies:
   reality-opts:
     public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
     short-id: '0000000000000000'
-- name: 🇺🇸 США | 0xRadikal_configs_base64.txt_2 | 1.95 Mbps 📺360p
+- name: 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.78 Mbps 📺360p
+  type: vless
+  server: 31.59.156.16
+  port: 443
+  uuid: ba9ac05e-422e-421e-a46b-a4c111a29946
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: broe.primetap.cards
+  reality-opts:
+    public-key: M102pOyYWWXO23uugneRjqRqc30SGQN1jIwCYg9STRE
+    short-id: '8acb6e79c1b29c4b'
+- name: 🇪🇪 Эстония - Таллин | ChatGPT-053 | 1.74 Mbps 📺360p
+  type: vless
+  server: ce5afbt.us14.h1clayd.click
+  port: 443
+  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ce5afbt.us14.h1clayd.click
+  reality-opts:
+    public-key: h1RM4xbCSspYaSwNHFIeECHKJ0gdvE6ezCqlAuFiC04
+    short-id: 'd475b402ccbe2ff9'
+- name: 🇺🇸 США | cbusifabcap_README.md_2 | 1.63 Mbps 📺360p
   type: vless
   server: 176.126.122.236
   port: 443
@@ -349,20 +564,33 @@ proxies:
   reality-opts:
     public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
     short-id: '0000000000000000'
-- name: 🇺🇸 США | cbusifabcap_README.md_2 | 1.91 Mbps 📺360p
+- name: 🇮🇳 Индия | 0xRadikal_clash.yaml_8 | 1.62 Mbps 📺360p
   type: vless
-  server: hiccuped-tacos.sports-streams.org
+  server: 217.60.148.152
   port: 443
-  uuid: 8ab62809-5fcb-4826-a09c-75e36c4aecef
+  uuid: dadf78d3-5cc9-453f-a3e6-2f0826a59c68
   tls: true
   network: tcp
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  servername: blog.worldoftanks.eu
+  servername: in.static-s3.org
   reality-opts:
-    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-    short-id: '0000000000000000'
-- name: 🇨🇦 Канада | 0xRadikal_configs_base64.txt_2 | 1.83 Mbps 📺360p
+    public-key: drhDo_VnUaM05YqwqE03ISx_8ZG8FlNGpSMCnAeqvFk
+    short-id: '159246753f750720'
+- name: 🇭🇰 Гонконг | 0xRadikal_configs.txt_9 | 1.27 Mbps 📺360p
+  type: vless
+  server: 43.255.157.53
+  port: 48158
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  reality-opts:
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: '54cca3c1c1c7'
+- name: 🌐 CDN — гео скрыто | ChatGPT-053 | 1.18 Mbps 📺360p
   type: vless
   server: 104.17.3.81
   port: 80
@@ -376,36 +604,77 @@ proxies:
     headers:
       Host: sg-vless-ws.bypass.id
   skip-cert-verify: true
-- name: 🇮🇳 Индия | 0xRadikal_clash.yaml_8 | 1.66 Mbps 📺360p
+- name: 🇷🇺 Россия - Санкт-Петербург | ALIILAPRO | 1.17 Mbps 📺360p
   type: vless
-  server: 217.60.148.152
+  server: ru7e2bab87cc39.eu-cdn539.com
   port: 443
-  uuid: dadf78d3-5cc9-453f-a3e6-2f0826a59c68
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
   tls: true
   network: tcp
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: in.static-s3.org
+  servername: ru7e2bab87cc39.eu-cdn539.com
   reality-opts:
-    public-key: drhDo_VnUaM05YqwqE03ISx_8ZG8FlNGpSMCnAeqvFk
-    short-id: '159246753f750720'
-- name: 🇭🇰 Гонконг | 0xRadikal_clash.yaml_8 | 0.89 Mbps 📺360p
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇮🇷 Иран | ChatGPT-053 | 1.16 Mbps 📺360p
   type: vless
-  server: 43.255.157.53
-  port: 48158
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  server: ru1.gridlane.ru
+  port: 29843
+  uuid: 1e6bb05f-2d45-4f88-ae4d-4baa2763e4cf
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: img.ds-cdn.online
+  reality-opts:
+    public-key: MgEz8bs930ADiUEnFPmP7fEfx5Vp1mzNRdEuEd-DJVE
+    short-id: 'ea3a142f7285619b'
+  grpc-opts:
+    grpc-service-name: grpc-usny2
+- name: 🇳🇱 Нидерланды | cbusifabcap_ShadowRocket.yml | 1.07 Mbps 📺360p
+  type: vless
+  server: 717252g.nl8.h1clayd.click
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: 717252g.nl8.h1clayd.click
+  reality-opts:
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: 'd3bd772514c87d28'
+  grpc-opts:
+    grpc-service-name: 204adda7e3da
+- name: 🇲🇾 Малайзия | ChatGPT-053 | 0.92 Mbps 📺360p
+  type: vless
+  server: 176.126.122.236
+  port: 443
+  uuid: dea13af1-4b1c-47e2-84d0-b8220ca17eb5
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: my.worldoftanks.com
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: '0000000000000000'
+- name: 🇱🇻 Латвия - Рига | ChatGPT-053 | 0.77 Mbps 📺360p
+  type: vless
+  server: zynerio.com
+  port: 3443
+  uuid: bfadfcda-99eb-424a-af53-cabb4fbcb820
   tls: true
   network: tcp
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  servername: www.apple.com
+  servername: zynerio.com
   reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: '54cca3c1c1c7'
+    public-key: ZbtRq4SeR_WvLXiWXDael5FUqYG7uAkAGsFSIEyrQEw
+    short-id: '8a907b3d6a7a4ed4'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+    url: https://raw.githubusercontent.com/mheidari98/.proxy/main/all
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -419,6 +688,7 @@ proxy-groups:
   - 🌐 Все серверы
   - 🇷🇺 Только РФ
   - 🌍 Без РФ
+  - ❓ Страна не определена
   - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
@@ -426,32 +696,53 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия | 0xRadikal_configs.txt_9 | 10.33 Mbps 📺360p
-  - 🇷🇺 Россия | ChatGPT-025 | 9.64 Mbps 📺360p
-  - 🇷🇺 Россия - Санкт-Петербург | ALIILAPRO | 8.22 Mbps 📺360p
-  - 🇸🇪 Швеция | ChatGPT-025 | 7.75 Mbps 📺360p
-  - 🇪🇪 Эстония | ChatGPT-025 | 7.21 Mbps 📺360p
-  - 🇺🇸 США - Сан-Франциско | Arfench | 6.58 Mbps 📺360p
-  - 🇫🇷 Франция | cbusifabcap_Clash.yml | 6.11 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | Arfench | 5.29 Mbps 📺360p
-  - 🇬🇧 Великобритания | ChatGPT-025 | 4.83 Mbps 📺360p
-  - 🇫🇷 Франция | cbusifabcap_Clash.yml | 4.69 Mbps 📺360p
-  - 🇩🇪 Германия | cbusifabcap_README.md_2 | 4.40 Mbps 📺360p
-  - 🇨🇭 Швейцария | ChatGPT-025 | 4.28 Mbps 📺360p
-  - 🇵🇱 Польша | cbusifabcap_README.md_2 | 4.24 Mbps 📺360p
-  - 🇪🇪 Эстония | ChatGPT-025 | 3.82 Mbps 📺360p
-  - 🇪🇪 Эстония | Arfench | 3.03 Mbps 📺360p
-  - 🇮🇱 Израиль | ChatGPT-025 | 2.84 Mbps 📺360p
-  - 🇪🇸 Испания | ChatGPT-025 | 2.60 Mbps 📺360p
-  - 🇪🇸 Испания | cbusifabcap_README.md_2 | 2.53 Mbps 📺360p
-  - 🇨🇦 Канада | ChatGPT-025 | 2.25 Mbps 📺360p
-  - 🇮🇷 Иран | 0xRadikal_configs.txt_9 | 2.09 Mbps 📺360p
-  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.99 Mbps 📺360p
-  - 🇺🇸 США | 0xRadikal_configs_base64.txt_2 | 1.95 Mbps 📺360p
-  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.91 Mbps 📺360p
-  - 🇨🇦 Канада | 0xRadikal_configs_base64.txt_2 | 1.83 Mbps 📺360p
-  - 🇮🇳 Индия | 0xRadikal_clash.yaml_8 | 1.66 Mbps 📺360p
-  - 🇭🇰 Гонконг | 0xRadikal_clash.yaml_8 | 0.89 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 9.71 Mbps 📺360p
+  - 🇺🇸 США - ОремCity name (optional, probably does not need a translation) | ChatGPT-053
+    | 8.85 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_configs.txt_9 | 7.91 Mbps 📺360p
+  - 🇸🇪 Швеция | ChatGPT-025 | 7.86 Mbps 📺360p
+  - 🇪🇪 Эстония | ChatGPT-025 | 7.33 Mbps 📺360p
+  - 🇺🇸 США - Сан-Франциско | ChatGPT-053 | 6.60 Mbps 📺360p
+  - 🇫🇷 Франция | cbusifabcap_Clash.yml | 6.42 Mbps 📺360p
+  - 🇫🇷 Франция | Barabama_6 | 6.05 Mbps 📺360p
+  - 🇦🇱 Албания | ChatGPT-053 | 6.04 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | ChatGPT-053 | 5.72 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.22 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | ChatGPT-053 | 4.99 Mbps 📺360p
+  - 🇬🇧 Великобритания | ChatGPT-025 | 4.85 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 4.79 Mbps 📺360p
+  - 🇨🇭 Швейцария | ChatGPT-025 | 4.62 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Arfench | 4.26 Mbps 📺360p
+  - 🇩🇪 Германия | cbusifabcap_README.md_2 | 4.21 Mbps 📺360p
+  - 🇪🇪 Эстония | Arfench | 4.09 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 3.59 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 3.42 Mbps 📺360p
+  - 🇹🇷 Турция - Эйюпсултан | ChatGPT-053 | 3.14 Mbps 📺360p
+  - 🇪🇸 Испания | ChatGPT-025 | 2.86 Mbps 📺360p
+  - 🇳🇱 Нидерланды | ChatGPT-053 | 2.81 Mbps 📺360p
+  - 🇪🇸 Испания | cbusifabcap_README.md_2 | 2.71 Mbps 📺360p
+  - 🇮🇱 Израиль | ChatGPT-025 | 2.70 Mbps 📺360p
+  - 🇮🇷 Иран | 0xRadikal_configs.txt_9 | 2.62 Mbps 📺360p
+  - 🇵🇱 Польша | cbusifabcap_ShadowRocket.yml | 2.44 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | ChatGPT-053 | 2.35 Mbps 📺360p
+  - 🇨🇦 Канада | ChatGPT-025 | 2.09 Mbps 📺360p
+  - 🇩🇪 Германия | ChatGPT-053 | 2.03 Mbps 📺360p
+  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.98 Mbps 📺360p
+  - 🇩🇪 Германия | ChatGPT-053 | 1.97 Mbps 📺360p
+  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.96 Mbps 📺360p
+  - 🇺🇸 США - Чикаго | ChatGPT-053 | 1.96 Mbps 📺360p
+  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.95 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.78 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | ChatGPT-053 | 1.74 Mbps 📺360p
+  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.63 Mbps 📺360p
+  - 🇮🇳 Индия | 0xRadikal_clash.yaml_8 | 1.62 Mbps 📺360p
+  - 🇭🇰 Гонконг | 0xRadikal_configs.txt_9 | 1.27 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.18 Mbps 📺360p
+  - 🇷🇺 Россия - Санкт-Петербург | ALIILAPRO | 1.17 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 1.16 Mbps 📺360p
+  - 🇳🇱 Нидерланды | cbusifabcap_ShadowRocket.yml | 1.07 Mbps 📺360p
+  - 🇲🇾 Малайзия | ChatGPT-053 | 0.92 Mbps 📺360p
+  - 🇱🇻 Латвия - Рига | ChatGPT-053 | 0.77 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -459,10 +750,10 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | 0xRadikal_configs.txt_9 | 10.33 Mbps 📺360p
-  - 🇷🇺 Россия | ChatGPT-025 | 9.64 Mbps 📺360p
-  - 🇷🇺 Россия - Санкт-Петербург | ALIILAPRO | 8.22 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | Arfench | 5.29 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_configs.txt_9 | 7.91 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | ChatGPT-053 | 5.72 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Arfench | 4.26 Mbps 📺360p
+  - 🇷🇺 Россия - Санкт-Петербург | ALIILAPRO | 1.17 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -470,28 +761,56 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇸🇪 Швеция | ChatGPT-025 | 7.75 Mbps 📺360p
-  - 🇪🇪 Эстония | ChatGPT-025 | 7.21 Mbps 📺360p
-  - 🇺🇸 США - Сан-Франциско | Arfench | 6.58 Mbps 📺360p
-  - 🇫🇷 Франция | cbusifabcap_Clash.yml | 6.11 Mbps 📺360p
-  - 🇬🇧 Великобритания | ChatGPT-025 | 4.83 Mbps 📺360p
-  - 🇫🇷 Франция | cbusifabcap_Clash.yml | 4.69 Mbps 📺360p
-  - 🇩🇪 Германия | cbusifabcap_README.md_2 | 4.40 Mbps 📺360p
-  - 🇨🇭 Швейцария | ChatGPT-025 | 4.28 Mbps 📺360p
-  - 🇵🇱 Польша | cbusifabcap_README.md_2 | 4.24 Mbps 📺360p
-  - 🇪🇪 Эстония | ChatGPT-025 | 3.82 Mbps 📺360p
-  - 🇪🇪 Эстония | Arfench | 3.03 Mbps 📺360p
-  - 🇮🇱 Израиль | ChatGPT-025 | 2.84 Mbps 📺360p
-  - 🇪🇸 Испания | ChatGPT-025 | 2.60 Mbps 📺360p
-  - 🇪🇸 Испания | cbusifabcap_README.md_2 | 2.53 Mbps 📺360p
-  - 🇨🇦 Канада | ChatGPT-025 | 2.25 Mbps 📺360p
-  - 🇮🇷 Иран | 0xRadikal_configs.txt_9 | 2.09 Mbps 📺360p
-  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.99 Mbps 📺360p
-  - 🇺🇸 США | 0xRadikal_configs_base64.txt_2 | 1.95 Mbps 📺360p
-  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.91 Mbps 📺360p
-  - 🇨🇦 Канада | 0xRadikal_configs_base64.txt_2 | 1.83 Mbps 📺360p
-  - 🇮🇳 Индия | 0xRadikal_clash.yaml_8 | 1.66 Mbps 📺360p
-  - 🇭🇰 Гонконг | 0xRadikal_clash.yaml_8 | 0.89 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 9.71 Mbps 📺360p
+  - 🇺🇸 США - ОремCity name (optional, probably does not need a translation) | ChatGPT-053
+    | 8.85 Mbps 📺360p
+  - 🇸🇪 Швеция | ChatGPT-025 | 7.86 Mbps 📺360p
+  - 🇪🇪 Эстония | ChatGPT-025 | 7.33 Mbps 📺360p
+  - 🇺🇸 США - Сан-Франциско | ChatGPT-053 | 6.60 Mbps 📺360p
+  - 🇫🇷 Франция | cbusifabcap_Clash.yml | 6.42 Mbps 📺360p
+  - 🇫🇷 Франция | Barabama_6 | 6.05 Mbps 📺360p
+  - 🇦🇱 Албания | ChatGPT-053 | 6.04 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.22 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | ChatGPT-053 | 4.99 Mbps 📺360p
+  - 🇬🇧 Великобритания | ChatGPT-025 | 4.85 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 4.79 Mbps 📺360p
+  - 🇨🇭 Швейцария | ChatGPT-025 | 4.62 Mbps 📺360p
+  - 🇩🇪 Германия | cbusifabcap_README.md_2 | 4.21 Mbps 📺360p
+  - 🇪🇪 Эстония | Arfench | 4.09 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 3.59 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 3.42 Mbps 📺360p
+  - 🇹🇷 Турция - Эйюпсултан | ChatGPT-053 | 3.14 Mbps 📺360p
+  - 🇪🇸 Испания | ChatGPT-025 | 2.86 Mbps 📺360p
+  - 🇳🇱 Нидерланды | ChatGPT-053 | 2.81 Mbps 📺360p
+  - 🇪🇸 Испания | cbusifabcap_README.md_2 | 2.71 Mbps 📺360p
+  - 🇮🇱 Израиль | ChatGPT-025 | 2.70 Mbps 📺360p
+  - 🇮🇷 Иран | 0xRadikal_configs.txt_9 | 2.62 Mbps 📺360p
+  - 🇵🇱 Польша | cbusifabcap_ShadowRocket.yml | 2.44 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | ChatGPT-053 | 2.35 Mbps 📺360p
+  - 🇨🇦 Канада | ChatGPT-025 | 2.09 Mbps 📺360p
+  - 🇩🇪 Германия | ChatGPT-053 | 2.03 Mbps 📺360p
+  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.98 Mbps 📺360p
+  - 🇩🇪 Германия | ChatGPT-053 | 1.97 Mbps 📺360p
+  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.96 Mbps 📺360p
+  - 🇺🇸 США - Чикаго | ChatGPT-053 | 1.96 Mbps 📺360p
+  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.95 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.78 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | ChatGPT-053 | 1.74 Mbps 📺360p
+  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.63 Mbps 📺360p
+  - 🇮🇳 Индия | 0xRadikal_clash.yaml_8 | 1.62 Mbps 📺360p
+  - 🇭🇰 Гонконг | 0xRadikal_configs.txt_9 | 1.27 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 1.16 Mbps 📺360p
+  - 🇳🇱 Нидерланды | cbusifabcap_ShadowRocket.yml | 1.07 Mbps 📺360p
+  - 🇲🇾 Малайзия | ChatGPT-053 | 0.92 Mbps 📺360p
+  - 🇱🇻 Латвия - Рига | ChatGPT-053 | 0.77 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: ❓ Страна не определена
+  type: url-test
+  proxies:
+  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.18 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -499,63 +818,17 @@ proxy-groups:
 - name: 🗺 🇺🇸 США
   type: url-test
   proxies:
-  - 🇺🇸 США - Сан-Франциско | Arfench | 6.58 Mbps 📺360p
-  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.99 Mbps 📺360p
-  - 🇺🇸 США | 0xRadikal_configs_base64.txt_2 | 1.95 Mbps 📺360p
-  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.91 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇪🇪 Эстония
-  type: url-test
-  proxies:
-  - 🇪🇪 Эстония | ChatGPT-025 | 7.21 Mbps 📺360p
-  - 🇪🇪 Эстония | ChatGPT-025 | 3.82 Mbps 📺360p
-  - 🇪🇪 Эстония | Arfench | 3.03 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇫🇷 Франция
-  type: url-test
-  proxies:
-  - 🇫🇷 Франция | cbusifabcap_Clash.yml | 6.11 Mbps 📺360p
-  - 🇫🇷 Франция | cbusifabcap_Clash.yml | 4.69 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇪🇸 Испания
-  type: url-test
-  proxies:
-  - 🇪🇸 Испания | ChatGPT-025 | 2.60 Mbps 📺360p
-  - 🇪🇸 Испания | cbusifabcap_README.md_2 | 2.53 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇨🇦 Канада
-  type: url-test
-  proxies:
-  - 🇨🇦 Канада | ChatGPT-025 | 2.25 Mbps 📺360p
-  - 🇨🇦 Канада | 0xRadikal_configs_base64.txt_2 | 1.83 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇸🇪 Швеция
-  type: url-test
-  proxies:
-  - 🇸🇪 Швеция | ChatGPT-025 | 7.75 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇬🇧 Великобритания
-  type: url-test
-  proxies:
-  - 🇬🇧 Великобритания | ChatGPT-025 | 4.83 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 9.71 Mbps 📺360p
+  - 🇺🇸 США - ОремCity name (optional, probably does not need a translation) | ChatGPT-053
+    | 8.85 Mbps 📺360p
+  - 🇺🇸 США - Сан-Франциско | ChatGPT-053 | 6.60 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 3.59 Mbps 📺360p
+  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.98 Mbps 📺360p
+  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.96 Mbps 📺360p
+  - 🇺🇸 США - Чикаго | ChatGPT-053 | 1.96 Mbps 📺360p
+  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.95 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.78 Mbps 📺360p
+  - 🇺🇸 США | cbusifabcap_README.md_2 | 1.63 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -563,31 +836,32 @@ proxy-groups:
 - name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇩🇪 Германия | cbusifabcap_README.md_2 | 4.40 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.22 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 4.79 Mbps 📺360p
+  - 🇩🇪 Германия | cbusifabcap_README.md_2 | 4.21 Mbps 📺360p
+  - 🇩🇪 Германия | ChatGPT-053 | 2.03 Mbps 📺360p
+  - 🇩🇪 Германия | ChatGPT-053 | 1.97 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇨🇭 Швейцария
+- name: 🗺 🇪🇪 Эстония
   type: url-test
   proxies:
-  - 🇨🇭 Швейцария | ChatGPT-025 | 4.28 Mbps 📺360p
+  - 🇪🇪 Эстония | ChatGPT-025 | 7.33 Mbps 📺360p
+  - 🇪🇪 Эстония | Arfench | 4.09 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | ChatGPT-053 | 2.35 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | ChatGPT-053 | 1.74 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇵🇱 Польша
+- name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇵🇱 Польша | cbusifabcap_README.md_2 | 4.24 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇮🇱 Израиль
-  type: url-test
-  proxies:
-  - 🇮🇱 Израиль | ChatGPT-025 | 2.84 Mbps 📺360p
+  - 🇳🇱 Нидерланды - Амстердам | ChatGPT-053 | 4.99 Mbps 📺360p
+  - 🇳🇱 Нидерланды | ChatGPT-053 | 2.81 Mbps 📺360p
+  - 🇳🇱 Нидерланды | cbusifabcap_ShadowRocket.yml | 1.07 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -595,7 +869,91 @@ proxy-groups:
 - name: 🗺 🇮🇷 Иран
   type: url-test
   proxies:
-  - 🇮🇷 Иран | 0xRadikal_configs.txt_9 | 2.09 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 3.42 Mbps 📺360p
+  - 🇮🇷 Иран | 0xRadikal_configs.txt_9 | 2.62 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 1.16 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇫🇷 Франция
+  type: url-test
+  proxies:
+  - 🇫🇷 Франция | cbusifabcap_Clash.yml | 6.42 Mbps 📺360p
+  - 🇫🇷 Франция | Barabama_6 | 6.05 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇪🇸 Испания
+  type: url-test
+  proxies:
+  - 🇪🇸 Испания | ChatGPT-025 | 2.86 Mbps 📺360p
+  - 🇪🇸 Испания | cbusifabcap_README.md_2 | 2.71 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇸🇪 Швеция
+  type: url-test
+  proxies:
+  - 🇸🇪 Швеция | ChatGPT-025 | 7.86 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇦🇱 Албания
+  type: url-test
+  proxies:
+  - 🇦🇱 Албания | ChatGPT-053 | 6.04 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇬🇧 Великобритания
+  type: url-test
+  proxies:
+  - 🇬🇧 Великобритания | ChatGPT-025 | 4.85 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇨🇭 Швейцария
+  type: url-test
+  proxies:
+  - 🇨🇭 Швейцария | ChatGPT-025 | 4.62 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇹🇷 Турция
+  type: url-test
+  proxies:
+  - 🇹🇷 Турция - Эйюпсултан | ChatGPT-053 | 3.14 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇱 Израиль
+  type: url-test
+  proxies:
+  - 🇮🇱 Израиль | ChatGPT-025 | 2.70 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇵🇱 Польша
+  type: url-test
+  proxies:
+  - 🇵🇱 Польша | cbusifabcap_ShadowRocket.yml | 2.44 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇨🇦 Канада
+  type: url-test
+  proxies:
+  - 🇨🇦 Канада | ChatGPT-025 | 2.09 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -603,7 +961,7 @@ proxy-groups:
 - name: 🗺 🇮🇳 Индия
   type: url-test
   proxies:
-  - 🇮🇳 Индия | 0xRadikal_clash.yaml_8 | 1.66 Mbps 📺360p
+  - 🇮🇳 Индия | 0xRadikal_clash.yaml_8 | 1.62 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -611,7 +969,23 @@ proxy-groups:
 - name: 🗺 🇭🇰 Гонконг
   type: url-test
   proxies:
-  - 🇭🇰 Гонконг | 0xRadikal_clash.yaml_8 | 0.89 Mbps 📺360p
+  - 🇭🇰 Гонконг | 0xRadikal_configs.txt_9 | 1.27 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇲🇾 Малайзия
+  type: url-test
+  proxies:
+  - 🇲🇾 Малайзия | ChatGPT-053 | 0.92 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇱🇻 Латвия
+  type: url-test
+  proxies:
+  - 🇱🇻 Латвия - Рига | ChatGPT-053 | 0.77 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -620,19 +994,24 @@ proxy-groups:
   type: select
   proxies:
   - 🗺 🇺🇸 США
+  - 🗺 🇩🇪 Германия
   - 🗺 🇪🇪 Эстония
+  - 🗺 🇳🇱 Нидерланды
+  - 🗺 🇮🇷 Иран
   - 🗺 🇫🇷 Франция
   - 🗺 🇪🇸 Испания
-  - 🗺 🇨🇦 Канада
   - 🗺 🇸🇪 Швеция
+  - 🗺 🇦🇱 Албания
   - 🗺 🇬🇧 Великобритания
-  - 🗺 🇩🇪 Германия
   - 🗺 🇨🇭 Швейцария
-  - 🗺 🇵🇱 Польша
+  - 🗺 🇹🇷 Турция
   - 🗺 🇮🇱 Израиль
-  - 🗺 🇮🇷 Иран
+  - 🗺 🇵🇱 Польша
+  - 🗺 🇨🇦 Канада
   - 🗺 🇮🇳 Индия
   - 🗺 🇭🇰 Гонконг
+  - 🗺 🇲🇾 Малайзия
+  - 🗺 🇱🇻 Латвия
 - name: 🎯 Direct
   type: select
   proxies:

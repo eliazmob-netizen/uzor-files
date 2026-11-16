@@ -63,171 +63,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 9.76 Mbps 📺360p
+- name: 🇷🇺 Россия - Санкт-Петербург | hamedcode_2 | 10.97 Mbps 📺360p
   type: vless
-  server: 144.31.3.105
-  port: 8443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: pl105.homelab-cdn.cloud
-  reality-opts:
-    public-key: 0f9tBNd1e0FjqakxfoGM_bGfYIAdE81XzXwPQgJkVDI
-    short-id: '1eb65c424decdb73'
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 8.63 Mbps 📺360p
-  type: vless
-  server: 144.31.4.225
-  port: 8443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: pl225.homelab-cdn.cloud
-  reality-opts:
-    public-key: 0f9tBNd1e0FjqakxfoGM_bGfYIAdE81XzXwPQgJkVDI
-    short-id: '1eb65c424decdb73'
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 8.33 Mbps 📺360p
-  type: vless
-  server: 185.153.55.12
+  server: ru7e2bab87cc39.eu-cdn539.com
   port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: fruzza.org
+  servername: ru7e2bab87cc39.eu-cdn539.com
   reality-opts:
-    public-key: AeJxuSro-bcBjd1ooUaXfWhROvGleu8OcoZSZutRT1I
-    short-id: '67106660'
-- name: 🇸🇪 Швеция | Edsel-Rahimi_nodes.txt | 8.13 Mbps 📺360p
-  type: vless
-  server: 88.216.189.20
-  port: 8443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: thelocal.se
-  reality-opts:
-    public-key: 9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4
-    short-id: '08'
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 8.02 Mbps 📺360p
-  type: vless
-  server: 185.231.101.94
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: fuzora.net
-  reality-opts:
-    public-key: eiTR0q65sQ8SUwFSxHY1IXHKkNb-_QTQnambcVxnUFU
-    short-id: '51057fb54d2364f4'
-- name: 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 7.96 Mbps 📺360p
-  type: vless
-  server: 122.8.47.9
-  port: 8443
-  uuid: 97ab2e86-83c5-0a32-4914-5dbe1af97839
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: www.epson.com
-  reality-opts:
-    public-key: -GbQJg3bnEGEVFjVaRRu01cgF1f0K_maI4d5MWtMb28
-    short-id: '0000000000000000'
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇸🇪 Швеция | gh_list.txt | 7.76 Mbps 📺360p
-  type: vless
-  server: sweden.dance-tonic.rutube.info
-  port: 8443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: thelocal.se
-  reality-opts:
-    public-key: 9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4
-    short-id: '08'
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 7.58 Mbps 📺360p
-  type: vless
-  server: 122.8.47.8
-  port: 8443
-  uuid: 97ab2e86-83c5-0a32-4914-5dbe1af97839
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: www.hp.com
-  reality-opts:
-    public-key: QzFNQqkvBnDKIyjXUHJQe9jruaw9G5AV44vDC-qvnlo
-    short-id: '0000000000000000'
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇱🇻 Латвия - Рига | Edsel-Rahimi_nodes.txt | 7.05 Mbps 📺360p
-  type: vless
-  server: 185.81.129.197
-  port: 443
-  uuid: ba9ac05e-422e-421e-a46b-a4c111a29946
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: lites.3apes.online
-  reality-opts:
-    public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
-    short-id: '0000000000000000'
-- name: 🇹🇷 Турция - Стамбул | Edsel-Rahimi_nodes.txt | 5.94 Mbps 📺360p
-  type: vless
-  server: 45.92.219.227
-  port: 8443
-  uuid: 1e6bb05f-2d45-4f88-ae4d-4baa2763e4cf
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: pics.ds-cdn.online
-  reality-opts:
-    public-key: 83hcEckhKi2A2BxkgMa01143dR-lEnduh2qU5sHm-WY
-    short-id: '427dd79b7dd67972'
-  grpc-opts:
-    grpc-service-name: grpc-tro
-- name: 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 5.79 Mbps 📺360p
-  type: vless
-  server: 195.72.62.7
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: fexzoo.net
-  reality-opts:
-    public-key: GQC47B2ZbBygpgJap7Em9lZmCZZkzlckiadXWXlVxGU
-    short-id: '2a67748b0d641e16'
-- name: 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 5.39 Mbps 📺360p
-  type: vless
-  server: 122.8.92.2
-  port: 8443
-  uuid: 97ab2e86-83c5-0a32-4914-5dbe1af97839
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: download.nvidia.com
-  reality-opts:
-    public-key: wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk
-    short-id: '0000000000000000'
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 5.28 Mbps 📺360p
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 10.29 Mbps 📺360p
   type: vless
   server: 178.20.28.4
   port: 8443
@@ -241,33 +90,117 @@ proxies:
     short-id: '0000000000000000'
   grpc-opts:
     grpc-service-name: TunService
-- name: 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.21 Mbps 📺360p
+- name: 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 9.11 Mbps 📺360p
   type: vless
-  server: mesh.tilegrid.tech
+  server: 144.31.3.105
+  port: 8443
+  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: pl105.homelab-cdn.cloud
+  reality-opts:
+    public-key: 0f9tBNd1e0FjqakxfoGM_bGfYIAdE81XzXwPQgJkVDI
+    short-id: '1eb65c424decdb73'
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 8.75 Mbps 📺360p
+  type: vless
+  server: 122.8.47.8
+  port: 8443
+  uuid: 97ab2e86-83c5-0a32-4914-5dbe1af97839
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: www.hp.com
+  reality-opts:
+    public-key: QzFNQqkvBnDKIyjXUHJQe9jruaw9G5AV44vDC-qvnlo
+    short-id: '0000000000000000'
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇸🇪 Швеция | Edsel-Rahimi_nodes.txt | 8.53 Mbps 📺360p
+  type: vless
+  server: 88.216.189.20
+  port: 8443
+  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: thelocal.se
+  reality-opts:
+    public-key: 9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4
+    short-id: '08'
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 7.89 Mbps 📺360p
+  type: vless
+  server: 185.231.101.94
   port: 443
-  uuid: 58225784-a419-44bc-83cf-dc54769f47cd
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: mesh.tilegrid.tech
+  servername: fuzora.net
   reality-opts:
-    public-key: 94IJ2DmFDuWHilZ3xT__sdfI6HKtWMljFStZfK5Tq28
-    short-id: 'cdd272b160a39c'
-- name: 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 5.14 Mbps 📺360p
+    public-key: eiTR0q65sQ8SUwFSxHY1IXHKkNb-_QTQnambcVxnUFU
+    short-id: '51057fb54d2364f4'
+- name: 🇱🇻 Латвия - Рига | Edsel-Rahimi_nodes.txt | 7.15 Mbps 📺360p
   type: vless
-  server: 141.0.187.216
-  port: 11443
-  uuid: 71b9b927-f2bd-4443-bd61-85518410be69
+  server: 185.81.129.197
+  port: 443
+  uuid: ba9ac05e-422e-421e-a46b-a4c111a29946
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: 141.0.187.216
+  servername: lites.3apes.online
   reality-opts:
-    public-key: 945vNebBQgPKkgABK0nHHRh35q3gVrmaUbShAVBRSWg
-    short-id: '21bb339df984afbd'
-- name: 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.05 Mbps 📺360p
+    public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
+    short-id: '0000000000000000'
+- name: 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 6.36 Mbps 📺360p
+  type: vless
+  server: 122.8.47.9
+  port: 8443
+  uuid: 97ab2e86-83c5-0a32-4914-5dbe1af97839
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: www.epson.com
+  reality-opts:
+    public-key: -GbQJg3bnEGEVFjVaRRu01cgF1f0K_maI4d5MWtMb28
+    short-id: '0000000000000000'
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 6.03 Mbps 📺360p
+  type: vless
+  server: 122.8.92.2
+  port: 8443
+  uuid: 97ab2e86-83c5-0a32-4914-5dbe1af97839
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: download.nvidia.com
+  reality-opts:
+    public-key: wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk
+    short-id: '0000000000000000'
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 5.88 Mbps 📺360p
+  type: vless
+  server: 144.31.4.225
+  port: 8443
+  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: pl225.homelab-cdn.cloud
+  reality-opts:
+    public-key: 0f9tBNd1e0FjqakxfoGM_bGfYIAdE81XzXwPQgJkVDI
+    short-id: '1eb65c424decdb73'
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.56 Mbps 📺360p
   type: vless
   server: 130.78.25.165
   port: 443
@@ -280,7 +213,20 @@ proxies:
   reality-opts:
     public-key: 94IJ2DmFDuWHilZ3xT__sdfI6HKtWMljFStZfK5Tq28
     short-id: 'cdd272b160a39c'
-- name: 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 5.02 Mbps 📺360p
+- name: 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.29 Mbps 📺360p
+  type: vless
+  server: mesh.tilegrid.tech
+  port: 443
+  uuid: 58225784-a419-44bc-83cf-dc54769f47cd
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: mesh.tilegrid.tech
+  reality-opts:
+    public-key: 94IJ2DmFDuWHilZ3xT__sdfI6HKtWMljFStZfK5Tq28
+    short-id: 'cdd272b160a39c'
+- name: 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 5.16 Mbps 📺360p
   type: vless
   server: 31.77.151.246
   port: 443
@@ -293,33 +239,20 @@ proxies:
   reality-opts:
     public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg
     short-id: '78f97d82e16aaad6'
-- name: 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 4.99 Mbps 📺360p
+- name: 🇷🇺 Россия - Санкт-Петербург | Edsel-Rahimi_nodes.txt | 4.60 Mbps 📺360p
   type: vless
-  server: 141.0.187.228
-  port: 11443
-  uuid: f7e79ddc-5bf0-4bc3-9506-0120bdca37a2
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 141.0.187.228
-  reality-opts:
-    public-key: GPz7dacpjZ5iHT5pbZfYap1vpyt85mNKV7BVW3R92hE
-    short-id: '26ca0f0ba115925d'
-- name: 🇬🇧 Великобритания - Лондон | Edsel-Rahimi_nodes.txt | 4.82 Mbps 📺360p
-  type: vless
-  server: 45.91.93.47
+  server: 129.101.98.60
   port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
   tls: true
-  network: tcp
-  client-fingerprint: firefox
+  network: raw
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
-  servername: uk2.gofizz.in
+  servername: ru7e2bab87cc39.eu-cdn539.com
   reality-opts:
-    public-key: WgTZR-o6VbFYeqb7iZNBh-izcWAQlpotOyxibJnAXVc
-    short-id: 'f51489cb3d7e8be2'
-- name: 🇩🇰 Дания - Нёрре-Оби | Edsel-Rahimi_nodes.txt | 4.81 Mbps 📺360p
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇩🇰 Дания - Нёрре-Оби | Edsel-Rahimi_nodes.txt | 4.58 Mbps 📺360p
   type: vless
   server: 193.181.210.205
   port: 443
@@ -332,20 +265,20 @@ proxies:
   reality-opts:
     public-key: arZrNPbhlxNAGMzO_g2Dx3AAV_FEMnFyydbBsyZUCiY
     short-id: '54005328cd'
-- name: 🇨🇭 Швейцария | gh_list.txt | 4.48 Mbps 📺360p
+- name: 🇳🇱 Нидерланды - лелйстад | Edsel-Rahimi_nodes.txt | 4.06 Mbps 📺360p
   type: vless
-  server: 91.214.190.127
+  server: 5.253.86.3
   port: 443
   uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
   tls: true
   network: tcp
-  client-fingerprint: edge
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: ch1.gofizzin.com
+  servername: nl3.gofizz.in
   reality-opts:
-    public-key: 3fcmILwQG2sbwo58XW9Z1lziNQXmAFwUglFuXQFePRI
-    short-id: '95da6299f1'
-- name: 🇳🇴 Норвегия - сандефйорд | Edsel-Rahimi_nodes.txt | 4.23 Mbps 📺360p
+    public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo
+    short-id: 'fa1754221e4c5f9e'
+- name: 🇳🇴 Норвегия - сандефйорд | Edsel-Rahimi_nodes.txt | 3.83 Mbps 📺360p
   type: vless
   server: 193.243.189.64
   port: 443
@@ -358,60 +291,7 @@ proxies:
   reality-opts:
     public-key: 631qtx5_iiR8HBYdp3duf2SMqdN0URE1AWVb85I_FFg
     short-id: 'b12c3119d219dc'
-- name: 🇪🇪 Эстония | Edsel-Rahimi_nodes.txt | 4.12 Mbps 📺360p
-  type: vless
-  server: ee.puflino.com
-  port: 8443
-  uuid: 5c09e56b-f97f-4360-8f01-eb4d39202095
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ee-nf.reddotcorp.org
-  reality-opts:
-    public-key: ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE
-    short-id: '661766b2bcef440a'
-- name: 🇮🇹 Италия - помезиа | Edsel-Rahimi_nodes.txt | 3.58 Mbps 📺360p
-  type: vless
-  server: 152.89.168.55
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: it1.gofizzin.com
-  reality-opts:
-    public-key: KawjxoeWPWzD1GPZhwdiTje1gZIUiLzHUS7uqCiEtHE
-    short-id: '22750eb5ffb0'
-- name: 🇹🇷 Турция | gh_list.txt | 3.37 Mbps 📺360p
-  type: vless
-  server: 188.132.176.153
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: tr2.gofizzin.com
-  reality-opts:
-    public-key: 0dZQFilWbZVW8qj2DqVgiXZndL20ZuxmSuS4KyGRbQc
-    short-id: 'fa273564'
-- name: 🇪🇪 Эстония - Таллин | igareck_BLACK_VLESS_RUS_mobile.txt | 3.21 Mbps 📺360p
-  type: vless
-  server: 89.106.88.45
-  port: 443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  tls: true
-  network: grpc
-  client-fingerprint: ios
-  servername: ee45.own-homelab.cloud
-  reality-opts:
-    public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
-    short-id: '05c0787b9357f4a8'
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.59 Mbps 📺360p
+- name: 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.76 Mbps 📺360p
   type: vless
   server: 45.150.108.180
   port: 443
@@ -424,204 +304,7 @@ proxies:
   reality-opts:
     public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
     short-id: 'dc1bf50b0e0a'
-- name: 🇪🇸 Испания | https:_URI.yml | 2.50 Mbps 📺360p
-  type: vless
-  server: 196.196.148.79
-  port: 443
-  uuid: b082567f-6291-4abf-be72-acdda82d4351
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  servername: b6d267t.es10.h1clayd.shop
-  reality-opts:
-    public-key: cxyrz3HGwHEptrO2fvz6EiikFoEDgTl0SQkrNyj5yRc
-    short-id: '74f848c51d8139d1'
-- name: 🇪🇪 Эстония - Таллин | igareck_BLACK_VLESS_RUS_mobile.txt | 2.37 Mbps 📺360p
-  type: vless
-  server: 89.106.88.146
-  port: 443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  tls: true
-  network: grpc
-  client-fingerprint: edge
-  servername: ee146.own-homelab.cloud
-  reality-opts:
-    public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
-    short-id: '05c0787b9357f4a8'
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇺🇸 США - Буффало | Edsel-Rahimi_nodes.txt | 2.30 Mbps 📺360p
-  type: vless
-  server: 186.246.20.208
-  port: 2083
-  uuid: 94c8edcb-8de1-4443-b86a-4bcede4b7135
-  tls: true
-  network: grpc
-  client-fingerprint: chrome
-  servername: dl.google.com
-  reality-opts:
-    public-key: Cu6txBcQSoWtbAGXjR2lV2Z1bawVbA9_OodbuHRzGE4
-    short-id: 'a1b0496f'
-  grpc-opts:
-    grpc-service-name: google.storage.v2.Storage
-- name: 🇪🇪 Эстония - Таллин | igareck_BLACK_VLESS_RUS_mobile.txt | 2.28 Mbps 📺360p
-  type: vless
-  server: 89.106.88.23
-  port: 24443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  tls: true
-  network: tcp
-  client-fingerprint: ios
-  flow: xtls-rprx-vision
-  servername: 89.106.88.23
-  reality-opts:
-    public-key: lFAcvEGy50KHahvVt5uWfGcOk7p2_yRUklSllkOTnTQ
-    short-id: '758cac321d150ad8'
-- name: 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 2.28 Mbps 📺360p
-  type: vless
-  server: 89.106.88.42
-  port: 443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: ee42.own-homelab.cloud
-  reality-opts:
-    public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
-    short-id: '05c0787b9357f4a8'
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇨🇦 Канада - Торонто | Edsel-Rahimi_nodes.txt | 2.21 Mbps 📺360p
-  type: vless
-  server: 104.152.211.47
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ca1.gofizz.in
-  reality-opts:
-    public-key: ohlUVAqq5MT6I7ozknXy0Mi5zW_uH94DV-lC7Ip2Ygk
-    short-id: '37f069d7ad'
-- name: 🇩🇪 Германия | https:_URI.yml | 2.09 Mbps 📺360p
-  type: vless
-  server: 88.216.70.65
-  port: 443
-  uuid: 88e79aa6-f431-4453-8dcc-652a0c747198
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: de.save-node.com
-  reality-opts:
-    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
-    short-id: '45ee70d18247e5'
-- name: 🇺🇸 США - Чикаго | ChatGPT-053 | 1.96 Mbps 📺360p
-  type: vless
-  server: 87.120.252.67
-  port: 443
-  uuid: 03d57df7-d126-462a-8776-070a900cd1b0
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: www.worldoftanks.com
-  reality-opts:
-    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-    short-id: '0000000000000000'
-- name: 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.82 Mbps 📺360p
-  type: vless
-  server: 31.59.156.16
-  port: 443
-  uuid: ba9ac05e-422e-421e-a46b-a4c111a29946
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: broe.primetap.cards
-  reality-opts:
-    public-key: M102pOyYWWXO23uugneRjqRqc30SGQN1jIwCYg9STRE
-    short-id: '8acb6e79c1b29c4b'
-- name: 🇵🇭 PH - Макати | Edsel-Rahimi_nodes.txt | 1.75 Mbps 📺360p
-  type: vless
-  server: 120.89.61.213
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ph1.gofizz.in
-  reality-opts:
-    public-key: wAh4gvnTR3NRk0SFrkBRkX3tNeybFNodcmg7piumxiM
-    short-id: '87395f88'
-- name: 🇺🇸 США - Хьюстон | Edsel-Rahimi_nodes.txt | 1.71 Mbps 📺360p
-  type: vless
-  server: 166.88.142.30
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: us4.gofizz.in
-  reality-opts:
-    public-key: gCsalN0QrbmG5RWlegbat3OD44OoUVtrXV2dKW8vcTk
-    short-id: '90ef733c23'
-- name: 🇺🇸 США | igareck_BLACK_VLESS_RUS_mobile.txt | 1.67 Mbps 📺360p
-  type: vless
-  server: 199.245.176.94
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: us3.gofizz.in
-  reality-opts:
-    public-key: Ti0m82YFaY2ngtx1D3jicy2K1HnOWEsCfYYQPqhXImg
-    short-id: '6117837d3efb'
-- name: 🇪🇪 Эстония | gh_configs_base64.txt | 1.66 Mbps 📺360p
-  type: vless
-  server: ce5afbt.us14.h1clayd.click
-  port: 443
-  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ce5afbt.us14.h1clayd.click
-  reality-opts:
-    public-key: h1RM4xbCSspYaSwNHFIeECHKJ0gdvE6ezCqlAuFiC04
-    short-id: 'd475b402ccbe2ff9'
-- name: 🇮🇳 Индия | Edsel-Rahimi_nodes.txt | 1.61 Mbps 📺360p
-  type: vless
-  server: 217.60.148.152
-  port: 443
-  uuid: dadf78d3-5cc9-453f-a3e6-2f0826a59c68
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: in.static-s3.org
-  reality-opts:
-    public-key: drhDo_VnUaM05YqwqE03ISx_8ZG8FlNGpSMCnAeqvFk
-    short-id: '159246753f750720'
-- name: 🇲🇾 Малайзия - Джохор-Бару | Edsel-Rahimi_nodes.txt | 1.49 Mbps 📺360p
-  type: vless
-  server: 45.249.91.115
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: my1.gofizz.in
-  reality-opts:
-    public-key: xE5R41I9u0Ro2Ru4TUDVqA0a1GRyS5K6zh1DJcJLEUw
-    short-id: '4af284210d'
-- name: 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 1.44 Mbps 📺360p
+- name: 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 2.43 Mbps 📺360p
   type: vless
   server: 171.22.133.24
   port: 443
@@ -634,76 +317,33 @@ proxies:
   reality-opts:
     public-key: RByCaPnWH40eXtHFQWc4EESPgYo8cK8SEWhJY_ztqAA
     short-id: '15a05013365bc50a'
-- name: 🇹🇭 Таиланд - Хуай-Кванг | Edsel-Rahimi_nodes.txt | 1.43 Mbps 📺360p
+- name: 🇨🇦 Канада - Торонто | Edsel-Rahimi_nodes.txt | 2.26 Mbps 📺360p
   type: vless
-  server: 203.146.170.195
+  server: 104.152.211.47
   port: 443
   uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: th1.gofizzin.com
+  servername: ca1.gofizz.in
   reality-opts:
-    public-key: 4LwH3FEPZZqjen5iuUlRqV4Buatjv8DxL3KUvE1ULWs
-    short-id: 'faaf02e8469f34'
-- name: 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.33 Mbps 📺360p
+    public-key: ohlUVAqq5MT6I7ozknXy0Mi5zW_uH94DV-lC7Ip2Ygk
+    short-id: '37f069d7ad'
+- name: 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 2.10 Mbps 📺360p
   type: vless
-  server: 89.106.88.24
+  server: 88.216.70.65
   port: 443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+  uuid: 88e79aa6-f431-4453-8dcc-652a0c747198
   tls: true
-  network: grpc
+  network: tcp
   client-fingerprint: firefox
-  servername: ee24.own-homelab.cloud
+  flow: xtls-rprx-vision
+  servername: de.save-node.com
   reality-opts:
-    public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
-    short-id: '05c0787b9357f4a8'
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇪🇪 Эстония | ChatGPT-025 | 1.15 Mbps 📺360p
-  type: vless
-  server: ee30.own-homelab.cloud
-  port: 443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  tls: true
-  network: grpc
-  client-fingerprint: edge
-  servername: ee30.own-homelab.cloud
-  reality-opts:
-    public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
-    short-id: '05c0787b9357f4a8'
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.10 Mbps 📺360p
-  type: vless
-  server: 89.106.88.39
-  port: 443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: ee39.own-homelab.cloud
-  reality-opts:
-    public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
-    short-id: '05c0787b9357f4a8'
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 0.96 Mbps 📺360p
-  type: vless
-  server: 89.106.88.125
-  port: 443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: ee125.own-homelab.cloud
-  reality-opts:
-    public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
-    short-id: '05c0787b9357f4a8'
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇪🇪 Эстония - Таллин | ChatGPT-053 | 0.79 Mbps 📺360p
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: '45ee70d18247e5'
+- name: 🇪🇪 Эстония - Таллин | ChatGPT-053 | 2.09 Mbps 📺360p
   type: vless
   server: 62764fg.nl19.h1clayd.shop
   port: 443
@@ -717,19 +357,112 @@ proxies:
     short-id: 'cd9f7c819a97cea9'
   grpc-opts:
     grpc-service-name: 4c9e80459954
-- name: 🇩🇪 Германия | HadiDastangoo | 0.77 Mbps 📺360p
+- name: 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 1.93 Mbps 📺360p
   type: vless
-  server: 195.110.15.2
-  port: 43000
-  uuid: a52c04f5-5d58-4bef-9a89-2a270e50fc4b
+  server: 185.153.55.12
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: 195.110.15.2
+  servername: fruzza.org
   reality-opts:
-    public-key: cXHiKEpk_2lN7x4H_TBrkBPuNTNJX-5_IP1RMKmOgWE
-    short-id: 'd72da7ef'
+    public-key: AeJxuSro-bcBjd1ooUaXfWhROvGleu8OcoZSZutRT1I
+    short-id: '67106660'
+- name: 🇸🇪 Швеция | gh_list.txt | 1.91 Mbps 📺360p
+  type: vless
+  server: sweden.dance-tonic.rutube.info
+  port: 8443
+  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: thelocal.se
+  reality-opts:
+    public-key: 9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4
+    short-id: '08'
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.79 Mbps 📺360p
+  type: vless
+  server: 31.59.156.16
+  port: 443
+  uuid: ba9ac05e-422e-421e-a46b-a4c111a29946
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: broe.primetap.cards
+  reality-opts:
+    public-key: M102pOyYWWXO23uugneRjqRqc30SGQN1jIwCYg9STRE
+    short-id: '8acb6e79c1b29c4b'
+- name: 🇺🇸 США - Хьюстон | Edsel-Rahimi_nodes.txt | 1.78 Mbps 📺360p
+  type: vless
+  server: 166.88.142.30
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: us4.gofizz.in
+  reality-opts:
+    public-key: gCsalN0QrbmG5RWlegbat3OD44OoUVtrXV2dKW8vcTk
+    short-id: '90ef733c23'
+- name: 🇪🇪 Эстония | Edsel-Rahimi_nodes.txt | 1.56 Mbps 📺360p
+  type: vless
+  server: ee.puflino.com
+  port: 8443
+  uuid: 5c09e56b-f97f-4360-8f01-eb4d39202095
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ee-nf.reddotcorp.org
+  reality-opts:
+    public-key: ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE
+    short-id: '661766b2bcef440a'
+- name: 🇸🇬 Сингапур | https:_URI.yml | 1.56 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇹🇭 Таиланд - Хуай-Кванг | Edsel-Rahimi_nodes.txt | 1.43 Mbps 📺360p
+  type: vless
+  server: 203.146.170.195
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: th1.gofizzin.com
+  reality-opts:
+    public-key: 4LwH3FEPZZqjen5iuUlRqV4Buatjv8DxL3KUvE1ULWs
+    short-id: 'faaf02e8469f34'
+- name: 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 1.11 Mbps 📺360p
+  type: vless
+  server: 176.123.160.196
+  port: 443
+  uuid: 75a8cc15-fa52-4067-949f-42a89859b54f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: brnl2.catneuro.su
+  reality-opts:
+    public-key: jH6fBbonaKYT-bLkpRiZCW_5BwVMSUeC_1d1bBTj_Rw
+    short-id: 'a1fd12bb855171d7'
 proxy-providers:
   top_source:
     type: http
@@ -754,56 +487,36 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 9.76 Mbps 📺360p
-  - 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 8.63 Mbps 📺360p
-  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 8.33 Mbps 📺360p
-  - 🇸🇪 Швеция | Edsel-Rahimi_nodes.txt | 8.13 Mbps 📺360p
-  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 8.02 Mbps 📺360p
-  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 7.96 Mbps 📺360p
-  - 🇸🇪 Швеция | gh_list.txt | 7.76 Mbps 📺360p
-  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 7.58 Mbps 📺360p
-  - 🇱🇻 Латвия - Рига | Edsel-Rahimi_nodes.txt | 7.05 Mbps 📺360p
-  - 🇹🇷 Турция - Стамбул | Edsel-Rahimi_nodes.txt | 5.94 Mbps 📺360p
-  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 5.79 Mbps 📺360p
-  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 5.39 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 5.28 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.21 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 5.14 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.05 Mbps 📺360p
-  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 5.02 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 4.99 Mbps 📺360p
-  - 🇬🇧 Великобритания - Лондон | Edsel-Rahimi_nodes.txt | 4.82 Mbps 📺360p
-  - 🇩🇰 Дания - Нёрре-Оби | Edsel-Rahimi_nodes.txt | 4.81 Mbps 📺360p
-  - 🇨🇭 Швейцария | gh_list.txt | 4.48 Mbps 📺360p
-  - 🇳🇴 Норвегия - сандефйорд | Edsel-Rahimi_nodes.txt | 4.23 Mbps 📺360p
-  - 🇪🇪 Эстония | Edsel-Rahimi_nodes.txt | 4.12 Mbps 📺360p
-  - 🇮🇹 Италия - помезиа | Edsel-Rahimi_nodes.txt | 3.58 Mbps 📺360p
-  - 🇹🇷 Турция | gh_list.txt | 3.37 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | igareck_BLACK_VLESS_RUS_mobile.txt | 3.21 Mbps 📺360p
-  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.59 Mbps 📺360p
-  - 🇪🇸 Испания | https:_URI.yml | 2.50 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | igareck_BLACK_VLESS_RUS_mobile.txt | 2.37 Mbps 📺360p
-  - 🇺🇸 США - Буффало | Edsel-Rahimi_nodes.txt | 2.30 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | igareck_BLACK_VLESS_RUS_mobile.txt | 2.28 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 2.28 Mbps 📺360p
-  - 🇨🇦 Канада - Торонто | Edsel-Rahimi_nodes.txt | 2.21 Mbps 📺360p
-  - 🇩🇪 Германия | https:_URI.yml | 2.09 Mbps 📺360p
-  - 🇺🇸 США - Чикаго | ChatGPT-053 | 1.96 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.82 Mbps 📺360p
-  - 🇵🇭 PH - Макати | Edsel-Rahimi_nodes.txt | 1.75 Mbps 📺360p
-  - 🇺🇸 США - Хьюстон | Edsel-Rahimi_nodes.txt | 1.71 Mbps 📺360p
-  - 🇺🇸 США | igareck_BLACK_VLESS_RUS_mobile.txt | 1.67 Mbps 📺360p
-  - 🇪🇪 Эстония | gh_configs_base64.txt | 1.66 Mbps 📺360p
-  - 🇮🇳 Индия | Edsel-Rahimi_nodes.txt | 1.61 Mbps 📺360p
-  - 🇲🇾 Малайзия - Джохор-Бару | Edsel-Rahimi_nodes.txt | 1.49 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 1.44 Mbps 📺360p
+  - 🇷🇺 Россия - Санкт-Петербург | hamedcode_2 | 10.97 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 10.29 Mbps 📺360p
+  - 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 9.11 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 8.75 Mbps 📺360p
+  - 🇸🇪 Швеция | Edsel-Rahimi_nodes.txt | 8.53 Mbps 📺360p
+  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 7.89 Mbps 📺360p
+  - 🇱🇻 Латвия - Рига | Edsel-Rahimi_nodes.txt | 7.15 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 6.36 Mbps 📺360p
+  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 6.03 Mbps 📺360p
+  - 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 5.88 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.56 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.29 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 5.16 Mbps 📺360p
+  - 🇷🇺 Россия - Санкт-Петербург | Edsel-Rahimi_nodes.txt | 4.60 Mbps 📺360p
+  - 🇩🇰 Дания - Нёрре-Оби | Edsel-Rahimi_nodes.txt | 4.58 Mbps 📺360p
+  - 🇳🇱 Нидерланды - лелйстад | Edsel-Rahimi_nodes.txt | 4.06 Mbps 📺360p
+  - 🇳🇴 Норвегия - сандефйорд | Edsel-Rahimi_nodes.txt | 3.83 Mbps 📺360p
+  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.76 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 2.43 Mbps 📺360p
+  - 🇨🇦 Канада - Торонто | Edsel-Rahimi_nodes.txt | 2.26 Mbps 📺360p
+  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 2.10 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | ChatGPT-053 | 2.09 Mbps 📺360p
+  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 1.93 Mbps 📺360p
+  - 🇸🇪 Швеция | gh_list.txt | 1.91 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.79 Mbps 📺360p
+  - 🇺🇸 США - Хьюстон | Edsel-Rahimi_nodes.txt | 1.78 Mbps 📺360p
+  - 🇪🇪 Эстония | Edsel-Rahimi_nodes.txt | 1.56 Mbps 📺360p
+  - 🇸🇬 Сингапур | https:_URI.yml | 1.56 Mbps 📺360p
   - 🇹🇭 Таиланд - Хуай-Кванг | Edsel-Rahimi_nodes.txt | 1.43 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.33 Mbps 📺360p
-  - 🇪🇪 Эстония | ChatGPT-025 | 1.15 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.10 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 0.96 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | ChatGPT-053 | 0.79 Mbps 📺360p
-  - 🇩🇪 Германия | HadiDastangoo | 0.77 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 1.11 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -811,7 +524,10 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 1.44 Mbps 📺360p
+  - 🇷🇺 Россия - Санкт-Петербург | hamedcode_2 | 10.97 Mbps 📺360p
+  - 🇷🇺 Россия - Санкт-Петербург | Edsel-Rahimi_nodes.txt | 4.60 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 2.43 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 1.11 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -819,75 +535,32 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 9.76 Mbps 📺360p
-  - 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 8.63 Mbps 📺360p
-  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 8.33 Mbps 📺360p
-  - 🇸🇪 Швеция | Edsel-Rahimi_nodes.txt | 8.13 Mbps 📺360p
-  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 8.02 Mbps 📺360p
-  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 7.96 Mbps 📺360p
-  - 🇸🇪 Швеция | gh_list.txt | 7.76 Mbps 📺360p
-  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 7.58 Mbps 📺360p
-  - 🇱🇻 Латвия - Рига | Edsel-Rahimi_nodes.txt | 7.05 Mbps 📺360p
-  - 🇹🇷 Турция - Стамбул | Edsel-Rahimi_nodes.txt | 5.94 Mbps 📺360p
-  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 5.79 Mbps 📺360p
-  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 5.39 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 5.28 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.21 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 5.14 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.05 Mbps 📺360p
-  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 5.02 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 4.99 Mbps 📺360p
-  - 🇬🇧 Великобритания - Лондон | Edsel-Rahimi_nodes.txt | 4.82 Mbps 📺360p
-  - 🇩🇰 Дания - Нёрре-Оби | Edsel-Rahimi_nodes.txt | 4.81 Mbps 📺360p
-  - 🇨🇭 Швейцария | gh_list.txt | 4.48 Mbps 📺360p
-  - 🇳🇴 Норвегия - сандефйорд | Edsel-Rahimi_nodes.txt | 4.23 Mbps 📺360p
-  - 🇪🇪 Эстония | Edsel-Rahimi_nodes.txt | 4.12 Mbps 📺360p
-  - 🇮🇹 Италия - помезиа | Edsel-Rahimi_nodes.txt | 3.58 Mbps 📺360p
-  - 🇹🇷 Турция | gh_list.txt | 3.37 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | igareck_BLACK_VLESS_RUS_mobile.txt | 3.21 Mbps 📺360p
-  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.59 Mbps 📺360p
-  - 🇪🇸 Испания | https:_URI.yml | 2.50 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | igareck_BLACK_VLESS_RUS_mobile.txt | 2.37 Mbps 📺360p
-  - 🇺🇸 США - Буффало | Edsel-Rahimi_nodes.txt | 2.30 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | igareck_BLACK_VLESS_RUS_mobile.txt | 2.28 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 2.28 Mbps 📺360p
-  - 🇨🇦 Канада - Торонто | Edsel-Rahimi_nodes.txt | 2.21 Mbps 📺360p
-  - 🇩🇪 Германия | https:_URI.yml | 2.09 Mbps 📺360p
-  - 🇺🇸 США - Чикаго | ChatGPT-053 | 1.96 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.82 Mbps 📺360p
-  - 🇵🇭 PH - Макати | Edsel-Rahimi_nodes.txt | 1.75 Mbps 📺360p
-  - 🇺🇸 США - Хьюстон | Edsel-Rahimi_nodes.txt | 1.71 Mbps 📺360p
-  - 🇺🇸 США | igareck_BLACK_VLESS_RUS_mobile.txt | 1.67 Mbps 📺360p
-  - 🇪🇪 Эстония | gh_configs_base64.txt | 1.66 Mbps 📺360p
-  - 🇮🇳 Индия | Edsel-Rahimi_nodes.txt | 1.61 Mbps 📺360p
-  - 🇲🇾 Малайзия - Джохор-Бару | Edsel-Rahimi_nodes.txt | 1.49 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 10.29 Mbps 📺360p
+  - 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 9.11 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 8.75 Mbps 📺360p
+  - 🇸🇪 Швеция | Edsel-Rahimi_nodes.txt | 8.53 Mbps 📺360p
+  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 7.89 Mbps 📺360p
+  - 🇱🇻 Латвия - Рига | Edsel-Rahimi_nodes.txt | 7.15 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 6.36 Mbps 📺360p
+  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 6.03 Mbps 📺360p
+  - 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 5.88 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.56 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.29 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 5.16 Mbps 📺360p
+  - 🇩🇰 Дания - Нёрре-Оби | Edsel-Rahimi_nodes.txt | 4.58 Mbps 📺360p
+  - 🇳🇱 Нидерланды - лелйстад | Edsel-Rahimi_nodes.txt | 4.06 Mbps 📺360p
+  - 🇳🇴 Норвегия - сандефйорд | Edsel-Rahimi_nodes.txt | 3.83 Mbps 📺360p
+  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.76 Mbps 📺360p
+  - 🇨🇦 Канада - Торонто | Edsel-Rahimi_nodes.txt | 2.26 Mbps 📺360p
+  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 2.10 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | ChatGPT-053 | 2.09 Mbps 📺360p
+  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 1.93 Mbps 📺360p
+  - 🇸🇪 Швеция | gh_list.txt | 1.91 Mbps 📺360p
+  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.79 Mbps 📺360p
+  - 🇺🇸 США - Хьюстон | Edsel-Rahimi_nodes.txt | 1.78 Mbps 📺360p
+  - 🇪🇪 Эстония | Edsel-Rahimi_nodes.txt | 1.56 Mbps 📺360p
+  - 🇸🇬 Сингапур | https:_URI.yml | 1.56 Mbps 📺360p
   - 🇹🇭 Таиланд - Хуай-Кванг | Edsel-Rahimi_nodes.txt | 1.43 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.33 Mbps 📺360p
-  - 🇪🇪 Эстония | ChatGPT-025 | 1.15 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.10 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 0.96 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | ChatGPT-053 | 0.79 Mbps 📺360p
-  - 🇩🇪 Германия | HadiDastangoo | 0.77 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇪🇪 Эстония
-  type: url-test
-  proxies:
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 5.14 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 4.99 Mbps 📺360p
-  - 🇪🇪 Эстония | Edsel-Rahimi_nodes.txt | 4.12 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | igareck_BLACK_VLESS_RUS_mobile.txt | 3.21 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | igareck_BLACK_VLESS_RUS_mobile.txt | 2.37 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | igareck_BLACK_VLESS_RUS_mobile.txt | 2.28 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 2.28 Mbps 📺360p
-  - 🇪🇪 Эстония | gh_configs_base64.txt | 1.66 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.33 Mbps 📺360p
-  - 🇪🇪 Эстония | ChatGPT-025 | 1.15 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 1.10 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | Edsel-Rahimi_nodes.txt | 0.96 Mbps 📺360p
-  - 🇪🇪 Эстония - Таллин | ChatGPT-053 | 0.79 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -895,12 +568,11 @@ proxy-groups:
 - name: 🗺 🇸🇪 Швеция
   type: url-test
   proxies:
-  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 8.33 Mbps 📺360p
-  - 🇸🇪 Швеция | Edsel-Rahimi_nodes.txt | 8.13 Mbps 📺360p
-  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 8.02 Mbps 📺360p
-  - 🇸🇪 Швеция | gh_list.txt | 7.76 Mbps 📺360p
-  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 5.79 Mbps 📺360p
-  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 5.39 Mbps 📺360p
+  - 🇸🇪 Швеция | Edsel-Rahimi_nodes.txt | 8.53 Mbps 📺360p
+  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 7.89 Mbps 📺360p
+  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 6.03 Mbps 📺360p
+  - 🇸🇪 Швеция - Стокгольм | Edsel-Rahimi_nodes.txt | 1.93 Mbps 📺360p
+  - 🇸🇪 Швеция | gh_list.txt | 1.91 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -908,23 +580,10 @@ proxy-groups:
 - name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 5.28 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.21 Mbps 📺360p
-  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.05 Mbps 📺360p
-  - 🇩🇪 Германия | https:_URI.yml | 2.09 Mbps 📺360p
-  - 🇩🇪 Германия | HadiDastangoo | 0.77 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇺🇸 США
-  type: url-test
-  proxies:
-  - 🇺🇸 США - Буффало | Edsel-Rahimi_nodes.txt | 2.30 Mbps 📺360p
-  - 🇺🇸 США - Чикаго | ChatGPT-053 | 1.96 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.82 Mbps 📺360p
-  - 🇺🇸 США - Хьюстон | Edsel-Rahimi_nodes.txt | 1.71 Mbps 📺360p
-  - 🇺🇸 США | igareck_BLACK_VLESS_RUS_mobile.txt | 1.67 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | Edsel-Rahimi_nodes.txt | 10.29 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.56 Mbps 📺360p
+  - 🇩🇪 Германия - Франкфурт-на-Майне | ChatGPT-053 | 5.29 Mbps 📺360p
+  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 2.10 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -932,9 +591,9 @@ proxy-groups:
 - name: 🗺 🇫🇮 Финляндия
   type: url-test
   proxies:
-  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 7.96 Mbps 📺360p
-  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 7.58 Mbps 📺360p
-  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 5.02 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 8.75 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 6.36 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Edsel-Rahimi_nodes.txt | 5.16 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -942,17 +601,26 @@ proxy-groups:
 - name: 🗺 🇵🇱 Польша
   type: url-test
   proxies:
-  - 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 9.76 Mbps 📺360p
-  - 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 8.63 Mbps 📺360p
+  - 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 9.11 Mbps 📺360p
+  - 🇵🇱 Польша - Варшава | Edsel-Rahimi_nodes.txt | 5.88 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇹🇷 Турция
+- name: 🗺 🇪🇪 Эстония
   type: url-test
   proxies:
-  - 🇹🇷 Турция - Стамбул | Edsel-Rahimi_nodes.txt | 5.94 Mbps 📺360p
-  - 🇹🇷 Турция | gh_list.txt | 3.37 Mbps 📺360p
+  - 🇪🇪 Эстония - Таллин | ChatGPT-053 | 2.09 Mbps 📺360p
+  - 🇪🇪 Эстония | Edsel-Rahimi_nodes.txt | 1.56 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇺🇸 США
+  type: url-test
+  proxies:
+  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.79 Mbps 📺360p
+  - 🇺🇸 США - Хьюстон | Edsel-Rahimi_nodes.txt | 1.78 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -960,15 +628,7 @@ proxy-groups:
 - name: 🗺 🇱🇻 Латвия
   type: url-test
   proxies:
-  - 🇱🇻 Латвия - Рига | Edsel-Rahimi_nodes.txt | 7.05 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇬🇧 Великобритания
-  type: url-test
-  proxies:
-  - 🇬🇧 Великобритания - Лондон | Edsel-Rahimi_nodes.txt | 4.82 Mbps 📺360p
+  - 🇱🇻 Латвия - Рига | Edsel-Rahimi_nodes.txt | 7.15 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -976,15 +636,15 @@ proxy-groups:
 - name: 🗺 🇩🇰 Дания
   type: url-test
   proxies:
-  - 🇩🇰 Дания - Нёрре-Оби | Edsel-Rahimi_nodes.txt | 4.81 Mbps 📺360p
+  - 🇩🇰 Дания - Нёрре-Оби | Edsel-Rahimi_nodes.txt | 4.58 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇨🇭 Швейцария
+- name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇨🇭 Швейцария | gh_list.txt | 4.48 Mbps 📺360p
+  - 🇳🇱 Нидерланды - лелйстад | Edsel-Rahimi_nodes.txt | 4.06 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -992,15 +652,7 @@ proxy-groups:
 - name: 🗺 🇳🇴 Норвегия
   type: url-test
   proxies:
-  - 🇳🇴 Норвегия - сандефйорд | Edsel-Rahimi_nodes.txt | 4.23 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇮🇹 Италия
-  type: url-test
-  proxies:
-  - 🇮🇹 Италия - помезиа | Edsel-Rahimi_nodes.txt | 3.58 Mbps 📺360p
+  - 🇳🇴 Норвегия - сандефйорд | Edsel-Rahimi_nodes.txt | 3.83 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1008,15 +660,7 @@ proxy-groups:
 - name: 🗺 🇮🇱 Израиль
   type: url-test
   proxies:
-  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.59 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇪🇸 Испания
-  type: url-test
-  proxies:
-  - 🇪🇸 Испания | https:_URI.yml | 2.50 Mbps 📺360p
+  - 🇮🇱 Израиль - Тель-Авив | Edsel-Rahimi_nodes.txt | 2.76 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1024,31 +668,15 @@ proxy-groups:
 - name: 🗺 🇨🇦 Канада
   type: url-test
   proxies:
-  - 🇨🇦 Канада - Торонто | Edsel-Rahimi_nodes.txt | 2.21 Mbps 📺360p
+  - 🇨🇦 Канада - Торонто | Edsel-Rahimi_nodes.txt | 2.26 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇵🇭 PH
+- name: 🗺 🇸🇬 Сингапур
   type: url-test
   proxies:
-  - 🇵🇭 PH - Макати | Edsel-Rahimi_nodes.txt | 1.75 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇮🇳 Индия
-  type: url-test
-  proxies:
-  - 🇮🇳 Индия | Edsel-Rahimi_nodes.txt | 1.61 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇲🇾 Малайзия
-  type: url-test
-  proxies:
-  - 🇲🇾 Малайзия - Джохор-Бару | Edsel-Rahimi_nodes.txt | 1.49 Mbps 📺360p
+  - 🇸🇬 Сингапур | https:_URI.yml | 1.56 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1064,25 +692,19 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇪🇪 Эстония
   - 🗺 🇸🇪 Швеция
   - 🗺 🇩🇪 Германия
-  - 🗺 🇺🇸 США
   - 🗺 🇫🇮 Финляндия
   - 🗺 🇵🇱 Польша
-  - 🗺 🇹🇷 Турция
+  - 🗺 🇪🇪 Эстония
+  - 🗺 🇺🇸 США
   - 🗺 🇱🇻 Латвия
-  - 🗺 🇬🇧 Великобритания
   - 🗺 🇩🇰 Дания
-  - 🗺 🇨🇭 Швейцария
+  - 🗺 🇳🇱 Нидерланды
   - 🗺 🇳🇴 Норвегия
-  - 🗺 🇮🇹 Италия
   - 🗺 🇮🇱 Израиль
-  - 🗺 🇪🇸 Испания
   - 🗺 🇨🇦 Канада
-  - 🗺 🇵🇭 PH
-  - 🗺 🇮🇳 Индия
-  - 🗺 🇲🇾 Малайзия
+  - 🗺 🇸🇬 Сингапур
   - 🗺 🇹🇭 Таиланд
 - name: 🎯 Direct
   type: select

@@ -63,46 +63,46 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇸🇪 Швеция | 0xRadikal_clash.yaml_5 | 7.69 Mbps 📺360p
+- name: 🇱🇹 Литва | 0xRadikal_configs.txt_5 | 7.89 Mbps 📺360p
   type: vless
-  server: 185.231.101.94
+  server: sweden.dance-tonic.rutube.info
+  port: 8443
+  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: thelocal.se
+  reality-opts:
+    public-key: 9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4
+    short-id: '08'
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇺🇸 США | 0xRadikal_configs.txt_9 | 5.09 Mbps 📺360p
+  type: vless
+  server: 48.103.120.3
+  port: 443
+  uuid: a30903dc-1bf0-0002-8b1b-603a3a56211c
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: de1b.galioncc.com
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: '868419504747f6de'
+- name: 🇩🇪 Германия | 0xRadikal_configs.txt_9 | 4.70 Mbps 📺360p
+  type: vless
+  server: 185.79.19.7
   port: 443
   uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
   tls: true
   network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: fuzora.net
-  reality-opts:
-    public-key: eiTR0q65sQ8SUwFSxHY1IXHKkNb-_QTQnambcVxnUFU
-    short-id: '51057fb54d2364f4'
-- name: 🇱🇻 Латвия - Рига | Edsel-Rahimi_nodes.txt | 7.21 Mbps 📺360p
-  type: vless
-  server: 185.81.129.197
-  port: 443
-  uuid: ba9ac05e-422e-421e-a46b-a4c111a29946
-  tls: true
-  network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: lites.3apes.online
+  servername: fazuno.net
   reality-opts:
-    public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
-    short-id: '0000000000000000'
-- name: 🇫🇮 Финляндия | 0xRadikal_clash.yaml_5 | 4.80 Mbps 📺360p
-  type: vless
-  server: 85.192.49.126
-  port: 443
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: fi3.gofizzin.com
-  reality-opts:
-    public-key: ATdIZVxBUo5bVQJtcoWBU1k8qlHdNniJ2gF1iDc8rEQ
-    short-id: '76efb045'
-- name: 🇪🇪 Эстония | 0xRadikal_configs.txt_5 | 4.00 Mbps 📺360p
+    public-key: YLcEO7lE6TeHKOMwRMkzLwaka7JOCbV8WCQ15eQVWEE
+    short-id: '1d482377da'
+- name: 🇪🇪 Эстония | 0xRadikal_configs.txt_9 | 4.03 Mbps 📺360p
   type: vless
   server: ee.puflino.com
   port: 8443
@@ -115,46 +115,7 @@ proxies:
   reality-opts:
     public-key: ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE
     short-id: '661766b2bcef440a'
-- name: 🇱🇻 Латвия | 0xRadikal_configs.txt_5 | 3.27 Mbps 📺360p
-  type: vless
-  server: zynerio.com
-  port: 3443
-  uuid: bfadfcda-99eb-424a-af53-cabb4fbcb820
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: zynerio.com
-  reality-opts:
-    public-key: ZbtRq4SeR_WvLXiWXDael5FUqYG7uAkAGsFSIEyrQEw
-    short-id: '8a907b3d6a7a4ed4'
-- name: 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 2.73 Mbps 📺360p
-  type: vless
-  server: 176.123.160.196
-  port: 443
-  uuid: 75a8cc15-fa52-4067-949f-42a89859b54f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: brnl2.catneuro.su
-  reality-opts:
-    public-key: jH6fBbonaKYT-bLkpRiZCW_5BwVMSUeC_1d1bBTj_Rw
-    short-id: 'a1fd12bb855171d7'
-- name: 🇫🇷 Франция | 0xRadikal_configs.txt_6 | 2.40 Mbps 📺360p
-  type: vless
-  server: 2.56.127.109
-  port: 443
-  uuid: 4ecb0295-8fa7-4670-8bab-976667c5509e
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 64ec2c66edb9.j.cloudfront.hls.ttvnw.net
-  reality-opts:
-    public-key: CNMh9FFr4tfJc7hCtBqwYlLcBxk2Okz2fDPebYGJEww
-    short-id: '5e72e96b1a9ce2b4'
-- name: 🇳🇱 Нидерланды | 0xRadikal_configs.txt_5 | 1.92 Mbps 📺360p
+- name: 🇳🇱 Нидерланды | 0xRadikal_configs.txt_5 | 3.68 Mbps 📺360p
   type: vless
   server: 5.253.86.3
   port: 443
@@ -167,49 +128,36 @@ proxies:
   reality-opts:
     public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo
     short-id: 'fa1754221e4c5f9e'
-- name: 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.53 Mbps 📺360p
+- name: 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 2.38 Mbps 📺360p
   type: vless
-  server: 31.59.156.16
+  server: 176.123.160.196
   port: 443
-  uuid: ba9ac05e-422e-421e-a46b-a4c111a29946
+  uuid: 75a8cc15-fa52-4067-949f-42a89859b54f
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: broe.primetap.cards
+  servername: brnl2.catneuro.su
   reality-opts:
-    public-key: M102pOyYWWXO23uugneRjqRqc30SGQN1jIwCYg9STRE
-    short-id: '8acb6e79c1b29c4b'
-- name: 🇹🇭 Таиланд - Хуай-Кванг | Edsel-Rahimi_nodes.txt | 1.46 Mbps 📺360p
+    public-key: jH6fBbonaKYT-bLkpRiZCW_5BwVMSUeC_1d1bBTj_Rw
+    short-id: 'a1fd12bb855171d7'
+- name: 🇮🇱 Израиль | 0xRadikal_configs.txt_9 | 1.71 Mbps 📺360p
   type: vless
-  server: 203.146.170.195
+  server: 45.150.108.180
   port: 443
   uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: th1.gofizzin.com
+  servername: il1.gofizzin.com
   reality-opts:
-    public-key: 4LwH3FEPZZqjen5iuUlRqV4Buatjv8DxL3KUvE1ULWs
-    short-id: 'faaf02e8469f34'
-- name: 🇪🇪 Эстония | 0xRadikal_configs.txt_4 | 0.94 Mbps 📺360p
-  type: vless
-  server: 8a2e72t.nl11.h1clayd.click
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 8a2e72t.nl11.h1clayd.click
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: '8d0d0679f42ffd98'
+    public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
+    short-id: 'dc1bf50b0e0a'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/Edsel-Rahimi/Ariston/data/nodes.txt
+    url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -230,17 +178,13 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇸🇪 Швеция | 0xRadikal_clash.yaml_5 | 7.69 Mbps 📺360p
-  - 🇱🇻 Латвия - Рига | Edsel-Rahimi_nodes.txt | 7.21 Mbps 📺360p
-  - 🇫🇮 Финляндия | 0xRadikal_clash.yaml_5 | 4.80 Mbps 📺360p
-  - 🇪🇪 Эстония | 0xRadikal_configs.txt_5 | 4.00 Mbps 📺360p
-  - 🇱🇻 Латвия | 0xRadikal_configs.txt_5 | 3.27 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 2.73 Mbps 📺360p
-  - 🇫🇷 Франция | 0xRadikal_configs.txt_6 | 2.40 Mbps 📺360p
-  - 🇳🇱 Нидерланды | 0xRadikal_configs.txt_5 | 1.92 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.53 Mbps 📺360p
-  - 🇹🇭 Таиланд - Хуай-Кванг | Edsel-Rahimi_nodes.txt | 1.46 Mbps 📺360p
-  - 🇪🇪 Эстония | 0xRadikal_configs.txt_4 | 0.94 Mbps 📺360p
+  - 🇱🇹 Литва | 0xRadikal_configs.txt_5 | 7.89 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs.txt_9 | 5.09 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_9 | 4.70 Mbps 📺360p
+  - 🇪🇪 Эстония | 0xRadikal_configs.txt_9 | 4.03 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 0xRadikal_configs.txt_5 | 3.68 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 2.38 Mbps 📺360p
+  - 🇮🇱 Израиль | 0xRadikal_configs.txt_9 | 1.71 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -248,7 +192,7 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 2.73 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | Edsel-Rahimi_nodes.txt | 2.38 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -256,66 +200,20 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇸🇪 Швеция | 0xRadikal_clash.yaml_5 | 7.69 Mbps 📺360p
-  - 🇱🇻 Латвия - Рига | Edsel-Rahimi_nodes.txt | 7.21 Mbps 📺360p
-  - 🇫🇮 Финляндия | 0xRadikal_clash.yaml_5 | 4.80 Mbps 📺360p
-  - 🇪🇪 Эстония | 0xRadikal_configs.txt_5 | 4.00 Mbps 📺360p
-  - 🇱🇻 Латвия | 0xRadikal_configs.txt_5 | 3.27 Mbps 📺360p
-  - 🇫🇷 Франция | 0xRadikal_configs.txt_6 | 2.40 Mbps 📺360p
-  - 🇳🇱 Нидерланды | 0xRadikal_configs.txt_5 | 1.92 Mbps 📺360p
-  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.53 Mbps 📺360p
-  - 🇹🇭 Таиланд - Хуай-Кванг | Edsel-Rahimi_nodes.txt | 1.46 Mbps 📺360p
-  - 🇪🇪 Эстония | 0xRadikal_configs.txt_4 | 0.94 Mbps 📺360p
+  - 🇱🇹 Литва | 0xRadikal_configs.txt_5 | 7.89 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs.txt_9 | 5.09 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_9 | 4.70 Mbps 📺360p
+  - 🇪🇪 Эстония | 0xRadikal_configs.txt_9 | 4.03 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 0xRadikal_configs.txt_5 | 3.68 Mbps 📺360p
+  - 🇮🇱 Израиль | 0xRadikal_configs.txt_9 | 1.71 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇱🇻 Латвия
+- name: 🗺 🇱🇹 Литва
   type: url-test
   proxies:
-  - 🇱🇻 Латвия - Рига | Edsel-Rahimi_nodes.txt | 7.21 Mbps 📺360p
-  - 🇱🇻 Латвия | 0xRadikal_configs.txt_5 | 3.27 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇪🇪 Эстония
-  type: url-test
-  proxies:
-  - 🇪🇪 Эстония | 0xRadikal_configs.txt_5 | 4.00 Mbps 📺360p
-  - 🇪🇪 Эстония | 0xRadikal_configs.txt_4 | 0.94 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇸🇪 Швеция
-  type: url-test
-  proxies:
-  - 🇸🇪 Швеция | 0xRadikal_clash.yaml_5 | 7.69 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇫🇮 Финляндия
-  type: url-test
-  proxies:
-  - 🇫🇮 Финляндия | 0xRadikal_clash.yaml_5 | 4.80 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇫🇷 Франция
-  type: url-test
-  proxies:
-  - 🇫🇷 Франция | 0xRadikal_configs.txt_6 | 2.40 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇳🇱 Нидерланды
-  type: url-test
-  proxies:
-  - 🇳🇱 Нидерланды | 0xRadikal_configs.txt_5 | 1.92 Mbps 📺360p
+  - 🇱🇹 Литва | 0xRadikal_configs.txt_5 | 7.89 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -323,15 +221,39 @@ proxy-groups:
 - name: 🗺 🇺🇸 США
   type: url-test
   proxies:
-  - 🇺🇸 США - Вашингтон | ChatGPT-053 | 1.53 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_configs.txt_9 | 5.09 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇹🇭 Таиланд
+- name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇹🇭 Таиланд - Хуай-Кванг | Edsel-Rahimi_nodes.txt | 1.46 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_9 | 4.70 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇪🇪 Эстония
+  type: url-test
+  proxies:
+  - 🇪🇪 Эстония | 0xRadikal_configs.txt_9 | 4.03 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇳🇱 Нидерланды
+  type: url-test
+  proxies:
+  - 🇳🇱 Нидерланды | 0xRadikal_configs.txt_5 | 3.68 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇱 Израиль
+  type: url-test
+  proxies:
+  - 🇮🇱 Израиль | 0xRadikal_configs.txt_9 | 1.71 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -339,14 +261,12 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇱🇻 Латвия
-  - 🗺 🇪🇪 Эстония
-  - 🗺 🇸🇪 Швеция
-  - 🗺 🇫🇮 Финляндия
-  - 🗺 🇫🇷 Франция
-  - 🗺 🇳🇱 Нидерланды
+  - 🗺 🇱🇹 Литва
   - 🗺 🇺🇸 США
-  - 🗺 🇹🇭 Таиланд
+  - 🗺 🇩🇪 Германия
+  - 🗺 🇪🇪 Эстония
+  - 🗺 🇳🇱 Нидерланды
+  - 🗺 🇮🇱 Израиль
 - name: 🎯 Direct
   type: select
   proxies:

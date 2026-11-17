@@ -63,20 +63,23 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇩🇪 Германия - Франкфурт-на-Майне | wiki_2 | 6.93 Mbps 📺360p
+- name: 🇷🇺 Россия | 0xRadikal_configs.txt_30 | 1.94 Mbps 📺360p
   type: vless
-  server: 104.143.219.12
-  port: 3090
-  uuid: 54d07019-9b98-41f4-8d7f-971cee378fe7
-  tls: false
-  network: grpc
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: vless
+  server: ru7e2bab87cc39.eu-cdn539.com
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/wiki/gfpcom/free-proxy-list/lists/vless.txt
+    url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/7d94e844fd3af0965a3e137c66dba1bd6ecec645/secure/configs.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -88,39 +91,26 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🌍 Без РФ
-  - 🌍 Страны
+  - 🇷🇺 Только РФ
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇩🇪 Германия - Франкфурт-на-Майне | wiki_2 | 6.93 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_configs.txt_30 | 1.94 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🌍 Без РФ
+- name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇩🇪 Германия - Франкфурт-на-Майне | wiki_2 | 6.93 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_configs.txt_30 | 1.94 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇩🇪 Германия
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия - Франкфурт-на-Майне | wiki_2 | 6.93 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🌍 Страны
-  type: select
-  proxies:
-  - 🗺 🇩🇪 Германия
 - name: 🎯 Direct
   type: select
   proxies:

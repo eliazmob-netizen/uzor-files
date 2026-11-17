@@ -63,7 +63,110 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.46 Mbps
+- name: 🇫🇮 Финляндия | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2 |
+    6.22 Mbps 📺360p
+  type: vless
+  server: 13e1cfg.plp1.h1cloud.net
+  port: 443
+  uuid: 3ede439b-410f-4eae-b449-4e15064c0706
+  tls: true
+  network: grpc
+  client-fingerprint: chrome
+  servername: 13e1cfg.plp1.h1cloud.net
+  reality-opts:
+    public-key: cWC6AGVZ9ke_eCTWXEB-eLdf670CuoP9zP-1k8DrPxo
+    short-id: '8ae9cc8c9447c95a'
+  grpc-opts:
+    grpc-service-name: d5d6142b8b66
+- name: 🇺🇸 США | 3inker_all_not_ru.txt | 5.61 Mbps 📺360p
+  type: vless
+  server: 48.103.120.7
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: svc-net-ctl.galioncc.com
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: '868419504747f6de'
+- name: 🇳🇱 Нидерланды | 3inker_all_not_ru.txt | 5.14 Mbps 📺360p
+  type: vless
+  server: 37.49.225.52
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: api-ns-ctl.galioncc.com
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: '868419504747f6de'
+- name: 🇮🇪 Ирландия | 3inker_all_not_ru.txt | 4.69 Mbps 📺360p
+  type: vless
+  server: 83.141.91.226
+  port: 443
+  uuid: 0f2dc4af-951f-4690-922e-07c6e8bab26a
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: fr-18-a5vw.wave-inside.online
+  reality-opts:
+    public-key: mt3YJTFsB89AU2gEUXYActFnCCsuovXHK9GU6Z7rKy8
+    short-id: 'cf6de5ede986fd10'
+- name: 🇱🇹 Литва | 3inker_all_not_ru.txt | 4.61 Mbps 📺360p
+  type: vless
+  server: 84.32.51.135
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: svc-io-mgr.galioncc.com
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 'a7d309e4c16b825f'
+- name: 🇩🇪 Германия | 3inker_all_not_ru.txt | 4.25 Mbps 📺360p
+  type: vless
+  server: 217.60.94.115
+  port: 443
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: de13-r.bankai.party
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: '0000000000000000'
+- name: 🇩🇪 Германия | 3inker_all_not_ru.txt | 4.19 Mbps 📺360p
+  type: vless
+  server: 93.123.101.198
+  port: 443
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: de14-r.bankai.party
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: '457fab2ac885dbe0'
+- name: 🇩🇪 Германия | 3inker_all_not_ru.txt | 3.32 Mbps 📺360p
+  type: vless
+  server: 78.17.215.141
+  port: 443
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: de15-r.bankai.party
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: '457fab2ac885dbe0'
+- name: 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 3.29 Mbps
     📺360p
   type: vless
   server: nl-s-2-b1.pythonmakemigreat.wiki
@@ -77,34 +180,84 @@ proxies:
   reality-opts:
     public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg
     short-id: 'a3565610aa574a6e'
-- name: 🇨🇦 Канада | 0xRadikal_clash.yaml_3 | 1.56 Mbps 📺360p
+- name: 🇰🇿 Казахстан | 3inker_all_not_ru.txt | 3.26 Mbps 📺360p
   type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🇷🇺 Россия | 10Dream_mix.txt | 0.98 Mbps 📺360p
-  type: vless
-  server: ru7e2bab87cc39.eu-cdn539.com
+  server: 91.217.10.237
   port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
   tls: true
   network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: ru7e2bab87cc39.eu-cdn539.com
+  client-fingerprint: firefox
+  servername: api-ns-mgr.galioncc.com
   reality-opts:
-    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
-    short-id: '3992cc7fb9fcbe58'
-- name: 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 2.66 Mbps
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: '868419504747f6de'
+- name: 🇺🇸 США | 3inker_all_not_ru.txt | 2.71 Mbps 📺360p
+  type: vless
+  server: 48.103.231.2
+  port: 443
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: ee1-r.bankai.party
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: '0000000000000000'
+- name: 🇺🇸 США | 3inker_all_not_ru.txt | 1.86 Mbps 📺360p
+  type: vless
+  server: 147.45.60.136
+  port: 443
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: usahk2-r.bankai.party
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: '0000000000000000'
+- name: 🇪🇸 Испания | 3inker_all_not_ru.txt | 1.80 Mbps 📺360p
+  type: vless
+  server: 158.160.252.53
+  port: 9087
+  uuid: 483c6187-3c8d-436b-8413-536c2c87b70c
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: snparking.ru
+  reality-opts:
+    public-key: 5S0IjHKArxnN6ouXT78ntKOa-54ApcN6jMtLqyCqY3c
+    short-id: 'ecaba2fd'
+- name: 🇩🇪 Германия | 3inker_all_not_ru.txt | 1.68 Mbps 📺360p
+  type: vless
+  server: 78.17.215.136
+  port: 443
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: de9-r.bankai.party
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: '0000000000000000'
+- name: 🇸🇪 Швеция | 3inker_all_not_ru.txt | 1.64 Mbps 📺360p
+  type: vless
+  server: 136.148.213.129
+  port: 443
+  uuid: d3863595-3afe-4a74-8305-612ab69cd21c
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 9ed8a8t.se4.h1clayd.click
+  reality-opts:
+    public-key: aJ_qFu55iLaiUWJ157VIAfAf7Cc6PKbZhFIvE03nNDc
+    short-id: '1cc8aab4a9fa9280'
+- name: 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 2.23 Mbps
     📺360p
   type: vless
   server: nl-s-2-b1.pythonmakemigreat.wiki
@@ -118,24 +271,10 @@ proxies:
   reality-opts:
     public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg
     short-id: 'a3565610aa574a6e'
-- name: 🇨🇦 Канада | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 1.58 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/10Dream/sub-mod/main/sub/normal/flaafix-AetrisVPN-black-list-configs.txt
+    url: https://raw.githubusercontent.com/3inker/v2ray-subscription/main/subs/all_not_ru.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -147,7 +286,6 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
   - 🌍 Без РФ
   - 🌍 Страны
   - 🛡 Реклама
@@ -156,20 +294,24 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.46 Mbps 📺360p
-  - 🇨🇦 Канада | 0xRadikal_clash.yaml_3 | 1.56 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_mix.txt | 0.98 Mbps 📺360p
-  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 2.66 Mbps
+  - 🇫🇮 Финляндия | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2 | 6.22
+    Mbps 📺360p
+  - 🇺🇸 США | 3inker_all_not_ru.txt | 5.61 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 3inker_all_not_ru.txt | 5.14 Mbps 📺360p
+  - 🇮🇪 Ирландия | 3inker_all_not_ru.txt | 4.69 Mbps 📺360p
+  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 4.61 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 4.25 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 4.19 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 3.32 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 3.29 Mbps
     📺360p
-  - 🇨🇦 Канада | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 1.58 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🇷🇺 Только РФ
-  type: url-test
-  proxies:
-  - 🇷🇺 Россия | 10Dream_mix.txt | 0.98 Mbps 📺360p
+  - 🇰🇿 Казахстан | 3inker_all_not_ru.txt | 3.26 Mbps 📺360p
+  - 🇺🇸 США | 3inker_all_not_ru.txt | 2.71 Mbps 📺360p
+  - 🇺🇸 США | 3inker_all_not_ru.txt | 1.86 Mbps 📺360p
+  - 🇪🇸 Испания | 3inker_all_not_ru.txt | 1.80 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 1.68 Mbps 📺360p
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 1.64 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 2.23 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -177,11 +319,45 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.46 Mbps 📺360p
-  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 2.66 Mbps
+  - 🇫🇮 Финляндия | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2 | 6.22
+    Mbps 📺360p
+  - 🇺🇸 США | 3inker_all_not_ru.txt | 5.61 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 3inker_all_not_ru.txt | 5.14 Mbps 📺360p
+  - 🇮🇪 Ирландия | 3inker_all_not_ru.txt | 4.69 Mbps 📺360p
+  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 4.61 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 4.25 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 4.19 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 3.32 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 3.29 Mbps
     📺360p
-  - 🇨🇦 Канада | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 1.58 Mbps 📺360p
-  - 🇨🇦 Канада | 0xRadikal_clash.yaml_3 | 1.56 Mbps 📺360p
+  - 🇰🇿 Казахстан | 3inker_all_not_ru.txt | 3.26 Mbps 📺360p
+  - 🇺🇸 США | 3inker_all_not_ru.txt | 2.71 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 2.23 Mbps 📺360p
+  - 🇺🇸 США | 3inker_all_not_ru.txt | 1.86 Mbps 📺360p
+  - 🇪🇸 Испания | 3inker_all_not_ru.txt | 1.80 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 1.68 Mbps 📺360p
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 1.64 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇩🇪 Германия
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 4.25 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 4.19 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 3.32 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 1.68 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇺🇸 США
+  type: url-test
+  proxies:
+  - 🇺🇸 США | 3inker_all_not_ru.txt | 5.61 Mbps 📺360p
+  - 🇺🇸 США | 3inker_all_not_ru.txt | 2.71 Mbps 📺360p
+  - 🇺🇸 США | 3inker_all_not_ru.txt | 1.86 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -189,18 +365,59 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.46 Mbps 📺360p
-  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 2.66 Mbps
+  - 🇳🇱 Нидерланды | 3inker_all_not_ru.txt | 5.14 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 3.29 Mbps
     📺360p
+  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 2.23 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇨🇦 Канада
+- name: 🗺 🇫🇮 Финляндия
   type: url-test
   proxies:
-  - 🇨🇦 Канада | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 1.58 Mbps 📺360p
-  - 🇨🇦 Канада | 0xRadikal_clash.yaml_3 | 1.56 Mbps 📺360p
+  - 🇫🇮 Финляндия | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2 | 6.22
+    Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇪 Ирландия
+  type: url-test
+  proxies:
+  - 🇮🇪 Ирландия | 3inker_all_not_ru.txt | 4.69 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇱🇹 Литва
+  type: url-test
+  proxies:
+  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 4.61 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇰🇿 Казахстан
+  type: url-test
+  proxies:
+  - 🇰🇿 Казахстан | 3inker_all_not_ru.txt | 3.26 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇪🇸 Испания
+  type: url-test
+  proxies:
+  - 🇪🇸 Испания | 3inker_all_not_ru.txt | 1.80 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇸🇪 Швеция
+  type: url-test
+  proxies:
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 1.64 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -208,8 +425,15 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
+  - 🗺 🇩🇪 Германия
+  - 🗺 🇺🇸 США
   - 🗺 🇳🇱 Нидерланды
-  - 🗺 🇨🇦 Канада
+  - 🗺 🇫🇮 Финляндия
+  - 🗺 🇮🇪 Ирландия
+  - 🗺 🇱🇹 Литва
+  - 🗺 🇰🇿 Казахстан
+  - 🗺 🇪🇸 Испания
+  - 🗺 🇸🇪 Швеция
 - name: 🎯 Direct
   type: select
   proxies:

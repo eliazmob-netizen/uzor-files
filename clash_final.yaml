@@ -63,23 +63,39 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия | 0xRadikal_configs.txt_30 | 1.94 Mbps 📺360p
+- name: 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.85 Mbps
+    📺360p
   type: vless
-  server: ru7e2bab87cc39.eu-cdn539.com
+  server: nl-s-2-b1.pythonmakemigreat.wiki
   port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: ru7e2bab87cc39.eu-cdn539.com
+  servername: nl-s-2-b1.pythonmakemigreat.wiki
   reality-opts:
-    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
-    short-id: '3992cc7fb9fcbe58'
+    public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg
+    short-id: 'a3565610aa574a6e'
+- name: 🌐 CDN — гео скрыто | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 1.55
+    Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/7d94e844fd3af0965a3e137c66dba1bd6ecec645/secure/configs.txt
+    url: https://raw.githubusercontent.com/10Dream/sub-mod/main/sub/clash/flaafix-AetrisVPN-black-list-configs.yaml
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -91,26 +107,54 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
+  - 🌍 Без РФ
+  - ❓ Страна не определена
+  - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия | 0xRadikal_configs.txt_30 | 1.94 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.85 Mbps
+    📺360p
+  - 🌐 CDN — гео скрыто | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 1.55 Mbps
+    📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🇷🇺 Только РФ
+- name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | 0xRadikal_configs.txt_30 | 1.94 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.85 Mbps
+    📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
+- name: ❓ Страна не определена
+  type: url-test
+  proxies:
+  - 🌐 CDN — гео скрыто | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 1.55 Mbps
+    📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇳🇱 Нидерланды
+  type: url-test
+  proxies:
+  - 🇳🇱 Нидерланды | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.85 Mbps
+    📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🌍 Страны
+  type: select
+  proxies:
+  - 🗺 🇳🇱 Нидерланды
 - name: 🎯 Direct
   type: select
   proxies:

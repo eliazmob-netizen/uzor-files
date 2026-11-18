@@ -63,13 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 5.49 Mbps 📺360p
-  type: ss
-  server: 45.147.200.232
-  port: 18443
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 2.09 Mbps 📺360p
+- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 1.83 Mbps 📺360p
   type: vless
   server: 87.121.89.165
   port: 443
@@ -82,33 +76,46 @@ proxies:
   reality-opts:
     public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
     short-id: 'fa6ca0ce38e58033'
-- name: 🇷🇺 Россия | 10Dream_mix.txt | 1.71 Mbps 📺360p
+- name: 🇺🇸 США | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.55 Mbps 📺360p
   type: vless
-  server: ru7e2bab87cc39.eu-cdn539.com
+  server: 84.32.54.2
   port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: ru7e2bab87cc39.eu-cdn539.com
-  reality-opts:
-    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
-    short-id: '3992cc7fb9fcbe58'
-- name: 🇵🇱 Польша | 10Dream_mix.txt_2 | 0.72 Mbps 📺360p
-  type: vless
-  server: 187.54.1.75
-  port: 3738
-  uuid: e0decac3-1b3e-4ab1-a2a8-860a8aca76f6
+  uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: pl38.static-s3.org
+  servername: shop.jarbook.net
   reality-opts:
-    public-key: y2_CwHuL3tWUgKn_bHn4WUMX_cVHdSi4JbLKCfD6_3A
-    short-id: 'd777235c883e6c88'
-- name: 🇩🇪 Германия | Diversan313_alive_full.txt_2 | 1.74 Mbps 📺360p
+    public-key: L5bQz8FNpxIKkdq5ejCPjmpGvKkZt29fRtUtZUsVzDo
+    short-id: '47a98bd4'
+- name: 🇺🇸 США | 10Dream_ipv4_unlimited.yaml | 1.05 Mbps 📺360p
+  type: vless
+  server: 48.102.216.139
+  port: 443
+  uuid: c6be9785-4c8d-4e68-897e-e21231091a95
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: rus1sh.foxxxylife.world
+  reality-opts:
+    public-key: aXyu_1tZDo2eXsJxtwb6fh75YXvh-pXkDWqMRf1sNxg
+    short-id: 'bb4d978ef9b3b3d9'
+- name: 🌐 Неизвестно | Delta-Kronecker_batch_009.txt | 0.60 Mbps 📺360p
+  type: vless
+  server: brru.catneuro.su
+  port: 443
+  uuid: 75a8cc15-fa52-4067-949f-42a89859b54f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: brru.catneuro.su
+  reality-opts:
+    public-key: gHgaNAyoNAFQZwJak021k3JtZBduzHOH8MdMUNzlLxI
+    short-id: '23fe9e1e312e4a1e'
+- name: 🇩🇪 Германия | Diversan313_alive_full.txt_2 | 1.73 Mbps 📺360p
   type: vless
   server: 194.55.239.195
   port: 443
@@ -120,7 +127,58 @@ proxies:
   reality-opts:
     public-key: oJpmeGMTN9jhcq4ORR_gtU5_8WyfMsCCWE3Wq3x9JQ4
     short-id: '9cb9497322'
-- name: 🇩🇪 Германия | 3inker_all_not_ru.txt | 1.12 Mbps 📺360p
+- name: 🌐 Неизвестно | 10ium_clash.yaml_159 | 6.93 Mbps 📺360p
+  type: vless
+  server: 129.101.98.60
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🌐 Неизвестно | 10ium_clash.yaml_110 | 2.54 Mbps 📺360p
+  type: vless
+  server: ru7e2bab87cc39.eu-cdn539.com
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇩🇪 Германия | Diversan313_alive_plain_bl.txt | 2.38 Mbps 📺360p
+  type: vless
+  server: 194.55.239.195
+  port: 443
+  uuid: 75a8cc15-fa52-4067-949f-42a89859b54f
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  servername: stats.24catvpn.ru
+  reality-opts:
+    public-key: oJpmeGMTN9jhcq4ORR_gtU5_8WyfMsCCWE3Wq3x9JQ4
+    short-id: '9cb9497322'
+- name: 🌐 Неизвестно | 10Dream_mix.txt_2 | 8.24 Mbps 📺360p
+  type: vless
+  server: 129.101.98.60
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇩🇪 Германия | 10Dream_10Dream-VpnClashFaCollector-mixed.txt | 3.90 Mbps 📺360p
   type: vless
   server: 194.55.239.195
   port: 443
@@ -135,7 +193,7 @@ proxies:
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/10Dream/sub-mod/main/sub/clash/split/ipv4_unlimited.yaml
+    url: https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/tcp-pass/batch_008.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -147,7 +205,6 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
   - 🌍 Без РФ
   - ❓ Страна не определена
   - 🌍 Страны
@@ -157,21 +214,16 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 5.49 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 2.09 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_mix.txt | 1.71 Mbps 📺360p
-  - 🇵🇱 Польша | 10Dream_mix.txt_2 | 0.72 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_full.txt_2 | 1.74 Mbps 📺360p
-  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 1.12 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🇷🇺 Только РФ
-  type: url-test
-  proxies:
-  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 5.49 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_mix.txt | 1.71 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 1.83 Mbps 📺360p
+  - 🇺🇸 США | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.55 Mbps 📺360p
+  - 🇺🇸 США | 10Dream_ipv4_unlimited.yaml | 1.05 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_009.txt | 0.60 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_full.txt_2 | 1.73 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_159 | 6.93 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 2.54 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_plain_bl.txt | 2.38 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt_2 | 8.24 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_10Dream-VpnClashFaCollector-mixed.txt | 3.90 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -179,9 +231,11 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇩🇪 Германия | Diversan313_alive_full.txt_2 | 1.74 Mbps 📺360p
-  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 1.12 Mbps 📺360p
-  - 🇵🇱 Польша | 10Dream_mix.txt_2 | 0.72 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_10Dream-VpnClashFaCollector-mixed.txt | 3.90 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_plain_bl.txt | 2.38 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_full.txt_2 | 1.73 Mbps 📺360p
+  - 🇺🇸 США | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.55 Mbps 📺360p
+  - 🇺🇸 США | 10Dream_ipv4_unlimited.yaml | 1.05 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -189,7 +243,11 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 2.09 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt_2 | 8.24 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_159 | 6.93 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 2.54 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 1.83 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_009.txt | 0.60 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -197,16 +255,18 @@ proxy-groups:
 - name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇩🇪 Германия | Diversan313_alive_full.txt_2 | 1.74 Mbps 📺360p
-  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 1.12 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_10Dream-VpnClashFaCollector-mixed.txt | 3.90 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_plain_bl.txt | 2.38 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_full.txt_2 | 1.73 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇵🇱 Польша
+- name: 🗺 🇺🇸 США
   type: url-test
   proxies:
-  - 🇵🇱 Польша | 10Dream_mix.txt_2 | 0.72 Mbps 📺360p
+  - 🇺🇸 США | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.55 Mbps 📺360p
+  - 🇺🇸 США | 10Dream_ipv4_unlimited.yaml | 1.05 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -215,7 +275,7 @@ proxy-groups:
   type: select
   proxies:
   - 🗺 🇩🇪 Германия
-  - 🗺 🇵🇱 Польша
+  - 🗺 🇺🇸 США
 - name: 🎯 Direct
   type: select
   proxies:

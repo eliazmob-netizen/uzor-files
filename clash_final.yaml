@@ -63,20 +63,26 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 5.52 Mbps 📺360p
+- name: 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 13.58 Mbps 📺360p
+  type: ss
+  server: 45.147.200.232
+  port: 18443
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+- name: 🇬🇧 Великобритания | api_alive_bs.yaml | 8.04 Mbps 📺360p
   type: vless
-  server: 87.121.89.165
-  port: 443
-  uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
+  server: 129.101.107.31
+  port: 8443
+  uuid: 68a19895-7b8e-3ae0-8055-6aeab39515b2
   tls: true
   network: tcp
-  client-fingerprint: edge
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: hosting.sywl5.club
+  servername: ya.ru
   reality-opts:
-    public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
-    short-id: 'fa6ca0ce38e58033'
-- name: 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 3.22 Mbps
+    public-key: _bXTdS7SEP3arribAnbsdiC3VXRhKRVCsYI533sjsCM
+    short-id: '542a83882d6461d5'
+- name: 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 4.61 Mbps
     📺360p
   type: vless
   server: 138.124.117.97
@@ -90,42 +96,62 @@ proxies:
   reality-opts:
     public-key: WzCuQZ88ggX-h9wws4h-V1-3qn1qOiqZKHGU0X3-9RE
     short-id: '209ecb08b71217f6'
-- name: 🇬🇧 Великобритания | api_alive_bs.yaml | 0.76 Mbps 📺360p
+- name: 🌐 Неизвестно | 10ium_clash.yaml_159 | 9.57 Mbps 📺360p
   type: vless
-  server: 129.101.107.31
-  port: 8443
-  uuid: 68a19895-7b8e-3ae0-8055-6aeab39515b2
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ya.ru
-  reality-opts:
-    public-key: _bXTdS7SEP3arribAnbsdiC3VXRhKRVCsYI533sjsCM
-    short-id: '542a83882d6461d5'
-- name: 🇬🇧 Великобритания | api_alive_full.txt | 3.45 Mbps 📺360p
-  type: vless
-  server: 82.148.253.246
+  server: 129.101.98.60
   port: 443
-  uuid: b2744db0-1c64-4218-a93b-9eba0e5f811f
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.10 Mbps 📺360p
+  type: vless
+  server: ru7e2bab87cc39.eu-cdn539.com
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🌐 Неизвестно | 10Dream_mix.txt_2 | 9.84 Mbps 📺360p
+  type: vless
+  server: 129.101.98.60
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: at-28-eh1p.wave-inside.online
+  servername: ru7e2bab87cc39.eu-cdn539.com
   reality-opts:
-    public-key: XtmFrYWtm5YmI_aF9VD2wuNLLphjxa6-j-b2or5cBH4
-    short-id: '4376f1e8429092d5'
-- name: 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 12.56 Mbps 📺360p
-  type: ss
-  server: 45.147.200.232
-  port: 18443
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🌐 Неизвестно | 10Dream_mix.txt | 10.57 Mbps 📺360p
+  type: vless
+  server: ru7e2bab87cc39.eu-cdn539.com
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/tcp-pass/batch_008.txt
+    url: https://raw.githubusercontent.com/10Dream/sub-mod/main/sub/clash/split/ipv4_unlimited.yaml
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -147,11 +173,13 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 5.52 Mbps 📺360p
-  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 3.22 Mbps 📺360p
-  - 🇬🇧 Великобритания | api_alive_bs.yaml | 0.76 Mbps 📺360p
-  - 🇬🇧 Великобритания | api_alive_full.txt | 3.45 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 12.56 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 13.58 Mbps 📺360p
+  - 🇬🇧 Великобритания | api_alive_bs.yaml | 8.04 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 4.61 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_159 | 9.57 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.10 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt_2 | 9.84 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt | 10.57 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -159,7 +187,7 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 12.56 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 13.58 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -167,9 +195,8 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания | api_alive_full.txt | 3.45 Mbps 📺360p
-  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 3.22 Mbps 📺360p
-  - 🇬🇧 Великобритания | api_alive_bs.yaml | 0.76 Mbps 📺360p
+  - 🇬🇧 Великобритания | api_alive_bs.yaml | 8.04 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 4.61 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -177,7 +204,10 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 5.52 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt | 10.57 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt_2 | 9.84 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_159 | 9.57 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.10 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -185,8 +215,7 @@ proxy-groups:
 - name: 🗺 🇬🇧 Великобритания
   type: url-test
   proxies:
-  - 🇬🇧 Великобритания | api_alive_full.txt | 3.45 Mbps 📺360p
-  - 🇬🇧 Великобритания | api_alive_bs.yaml | 0.76 Mbps 📺360p
+  - 🇬🇧 Великобритания | api_alive_bs.yaml | 8.04 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -194,7 +223,7 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 3.22 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 4.61 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10

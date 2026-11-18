@@ -63,20 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇫🇮 Финляндия - Хельсинки | Delta-Kronecker_batch_008.txt | 4.16 Mbps 📺360p
-  type: vless
-  server: 87.121.89.165
-  port: 443
-  uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: hosting.sywl5.club
-  reality-opts:
-    public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
-    short-id: 'fa6ca0ce38e58033'
-- name: 🇪🇪 Эстония | Diversan313_alive_plain_bl.txt | 3.37 Mbps 📺360p
+- name: 🇪🇪 Эстония | Diversan313_alive_plain_bl.txt | 3.26 Mbps 📺360p
   type: vless
   server: 185.155.55.12
   port: 8443
@@ -89,83 +76,123 @@ proxies:
   reality-opts:
     public-key: ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE
     short-id: '661766b2bcef440a'
-- name: 🇷🇺 Россия | 10Dream_mix.txt | 1.95 Mbps 📺360p
+- name: 🇵🇱 Польша | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 3.25 Mbps
+    📺360p
   type: vless
-  server: ru7e2bab87cc39.eu-cdn539.com
+  server: 187.54.1.75
+  port: 3738
+  uuid: e0decac3-1b3e-4ab1-a2a8-860a8aca76f6
+  tls: true
+  network: tcp
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: pl38.static-s3.org
+  reality-opts:
+    public-key: y2_CwHuL3tWUgKn_bHn4WUMX_cVHdSi4JbLKCfD6_3A
+    short-id: 'd777235c883e6c88'
+- name: 🇷🇺 Россия - Москва | 10Dream_mix.txt_2 | 2.16 Mbps 📺360p
+  type: vless
+  server: 194.55.239.195
+  port: 443
+  uuid: 75a8cc15-fa52-4067-949f-42a89859b54f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: stats.24catvpn.ru
+  reality-opts:
+    public-key: oJpmeGMTN9jhcq4ORR_gtU5_8WyfMsCCWE3Wq3x9JQ4
+    short-id: '9cb9497322'
+- name: 🇳🇱 Нидерланды | Diversan313_alive_bs.txt_2 | 1.75 Mbps 📺360p
+  type: vless
+  server: 176.109.106.23
+  port: 443
+  uuid: 75a8cc15-fa52-4067-949f-42a89859b54f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: brru.catneuro.su
+  reality-opts:
+    public-key: gHgaNAyoNAFQZwJak021k3JtZBduzHOH8MdMUNzlLxI
+    short-id: '23fe9e1e312e4a1e'
+- name: 🇫🇮 Финляндия - Хельсинки | Delta-Kronecker_batch_008.txt | 1.62 Mbps 📺360p
+  type: vless
+  server: 87.121.89.165
+  port: 443
+  uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
+  tls: true
+  network: tcp
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: hosting.sywl5.club
+  reality-opts:
+    public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
+    short-id: 'fa6ca0ce38e58033'
+- name: 🇦🇹 Австрия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.51 Mbps
+    📺360p
+  type: vless
+  server: 77.221.150.215
+  port: 443
+  uuid: b2744db0-1c64-4218-a93b-9eba0e5f811f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: at-25-31bv.wave-inside.online
+  reality-opts:
+    public-key: D5iMYCRwFa3Wj3rGjTsoHOPEs-ipOok_O0SSrlEPqjo
+    short-id: '83b4d1fd08314289'
+- name: 🇷🇺 Россия - Москва | 3inker_all_not_ru.txt | 1.35 Mbps 📺360p
+  type: vless
+  server: 194.55.239.195
+  port: 443
+  uuid: 75a8cc15-fa52-4067-949f-42a89859b54f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: stats.24catvpn.ru
+  reality-opts:
+    public-key: oJpmeGMTN9jhcq4ORR_gtU5_8WyfMsCCWE3Wq3x9JQ4
+    short-id: '9cb9497322'
+- name: 🇵🇱 Польша | Diversan313_alive_plain_bl.txt | 1.49 Mbps 📺360p
+  type: vless
+  server: 187.54.1.75
+  port: 3738
+  uuid: e0decac3-1b3e-4ab1-a2a8-860a8aca76f6
+  tls: true
+  network: tcp
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: pl38.static-s3.org
+  reality-opts:
+    public-key: y2_CwHuL3tWUgKn_bHn4WUMX_cVHdSi4JbLKCfD6_3A
+    short-id: 'd777235c883e6c88'
+- name: 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.43 Mbps 📺360p
+  type: vless
+  server: 187.54.1.75
+  port: 3738
+  uuid: e0decac3-1b3e-4ab1-a2a8-860a8aca76f6
+  tls: true
+  network: tcp
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: pl38.static-s3.org
+  reality-opts:
+    public-key: y2_CwHuL3tWUgKn_bHn4WUMX_cVHdSi4JbLKCfD6_3A
+    short-id: 'd777235c883e6c88'
+- name: 🇷🇺 Россия - Санкт-Петербург | 10ium_clash.yaml_159 | 5.99 Mbps 📺360p
+  type: vless
+  server: 129.101.98.60
   port: 443
   uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
   tls: true
   network: tcp
-  client-fingerprint: edge
+  client-fingerprint: random
   flow: xtls-rprx-vision
   servername: ru7e2bab87cc39.eu-cdn539.com
   reality-opts:
     public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
     short-id: '3992cc7fb9fcbe58'
-- name: 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.52 Mbps 📺360p
-  type: vless
-  server: 187.54.1.75
-  port: 3738
-  uuid: e0decac3-1b3e-4ab1-a2a8-860a8aca76f6
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: pl38.static-s3.org
-  reality-opts:
-    public-key: y2_CwHuL3tWUgKn_bHn4WUMX_cVHdSi4JbLKCfD6_3A
-    short-id: 'd777235c883e6c88'
-- name: 🇷🇺 Россия - Москва | 10Dream_10Dream-VpnClashFaCollector-mixed.txt | 0.72
-    Mbps 📺360p
-  type: vless
-  server: 194.55.239.195
-  port: 443
-  uuid: 75a8cc15-fa52-4067-949f-42a89859b54f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  servername: stats.24catvpn.ru
-  reality-opts:
-    public-key: oJpmeGMTN9jhcq4ORR_gtU5_8WyfMsCCWE3Wq3x9JQ4
-    short-id: '9cb9497322'
-- name: 🇺🇸 США | Diversan313_alive_plain_bl.txt | 3.37 Mbps 📺360p
-  type: vless
-  server: 172.93.122.11
-  port: 8443
-  uuid: f18c5f6d-2bac-4a99-8c92-a6e6e7aea9b4
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: nl2.reddotcorp.org
-  reality-opts:
-    public-key: VDZdbh_RzDDZsHpYF58yUuuvXh93XnmkvpSqb50qG2U
-    short-id: '1be482b8e08aa0ef'
-- name: 🇷🇺 Россия - Москва | Diversan313_alive_plain_bl.txt | 2.52 Mbps 📺360p
-  type: vless
-  server: 194.55.239.195
-  port: 443
-  uuid: 75a8cc15-fa52-4067-949f-42a89859b54f
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  servername: stats.24catvpn.ru
-  reality-opts:
-    public-key: oJpmeGMTN9jhcq4ORR_gtU5_8WyfMsCCWE3Wq3x9JQ4
-    short-id: '9cb9497322'
-- name: 🇵🇱 Польша | Diversan313_alive_plain_bl.txt | 2.37 Mbps 📺360p
-  type: vless
-  server: 187.54.1.75
-  port: 3738
-  uuid: e0decac3-1b3e-4ab1-a2a8-860a8aca76f6
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: pl38.static-s3.org
-  reality-opts:
-    public-key: y2_CwHuL3tWUgKn_bHn4WUMX_cVHdSi4JbLKCfD6_3A
-    short-id: 'd777235c883e6c88'
 proxy-providers:
   top_source:
     type: http
@@ -190,15 +217,16 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇫🇮 Финляндия - Хельсинки | Delta-Kronecker_batch_008.txt | 4.16 Mbps 📺360p
-  - 🇪🇪 Эстония | Diversan313_alive_plain_bl.txt | 3.37 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_mix.txt | 1.95 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.52 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | 10Dream_10Dream-VpnClashFaCollector-mixed.txt | 0.72 Mbps
-    📺360p
-  - 🇺🇸 США | Diversan313_alive_plain_bl.txt | 3.37 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | Diversan313_alive_plain_bl.txt | 2.52 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_plain_bl.txt | 2.37 Mbps 📺360p
+  - 🇪🇪 Эстония | Diversan313_alive_plain_bl.txt | 3.26 Mbps 📺360p
+  - 🇵🇱 Польша | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 3.25 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | 10Dream_mix.txt_2 | 2.16 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Diversan313_alive_bs.txt_2 | 1.75 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Delta-Kronecker_batch_008.txt | 1.62 Mbps 📺360p
+  - 🇦🇹 Австрия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.51 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | 3inker_all_not_ru.txt | 1.35 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_plain_bl.txt | 1.49 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.43 Mbps 📺360p
+  - 🇷🇺 Россия - Санкт-Петербург | 10ium_clash.yaml_159 | 5.99 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -206,10 +234,9 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Москва | Diversan313_alive_plain_bl.txt | 2.52 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_mix.txt | 1.95 Mbps 📺360p
-  - 🇷🇺 Россия - Москва | 10Dream_10Dream-VpnClashFaCollector-mixed.txt | 0.72 Mbps
-    📺360p
+  - 🇷🇺 Россия - Санкт-Петербург | 10ium_clash.yaml_159 | 5.99 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | 10Dream_mix.txt_2 | 2.16 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | 3inker_all_not_ru.txt | 1.35 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -217,11 +244,13 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇫🇮 Финляндия - Хельсинки | Delta-Kronecker_batch_008.txt | 4.16 Mbps 📺360p
-  - 🇪🇪 Эстония | Diversan313_alive_plain_bl.txt | 3.37 Mbps 📺360p
-  - 🇺🇸 США | Diversan313_alive_plain_bl.txt | 3.37 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_plain_bl.txt | 2.37 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.52 Mbps 📺360p
+  - 🇪🇪 Эстония | Diversan313_alive_plain_bl.txt | 3.26 Mbps 📺360p
+  - 🇵🇱 Польша | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 3.25 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Diversan313_alive_bs.txt_2 | 1.75 Mbps 📺360p
+  - 🇫🇮 Финляндия - Хельсинки | Delta-Kronecker_batch_008.txt | 1.62 Mbps 📺360p
+  - 🇦🇹 Австрия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.51 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_plain_bl.txt | 1.49 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.43 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -229,16 +258,9 @@ proxy-groups:
 - name: 🗺 🇵🇱 Польша
   type: url-test
   proxies:
-  - 🇵🇱 Польша | Diversan313_alive_plain_bl.txt | 2.37 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.52 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇫🇮 Финляндия
-  type: url-test
-  proxies:
-  - 🇫🇮 Финляндия - Хельсинки | Delta-Kronecker_batch_008.txt | 4.16 Mbps 📺360p
+  - 🇵🇱 Польша | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 3.25 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_plain_bl.txt | 1.49 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.43 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -246,15 +268,31 @@ proxy-groups:
 - name: 🗺 🇪🇪 Эстония
   type: url-test
   proxies:
-  - 🇪🇪 Эстония | Diversan313_alive_plain_bl.txt | 3.37 Mbps 📺360p
+  - 🇪🇪 Эстония | Diversan313_alive_plain_bl.txt | 3.26 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇺🇸 США
+- name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇺🇸 США | Diversan313_alive_plain_bl.txt | 3.37 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Diversan313_alive_bs.txt_2 | 1.75 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇫🇮 Финляндия
+  type: url-test
+  proxies:
+  - 🇫🇮 Финляндия - Хельсинки | Delta-Kronecker_batch_008.txt | 1.62 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇦🇹 Австрия
+  type: url-test
+  proxies:
+  - 🇦🇹 Австрия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.51 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -263,9 +301,10 @@ proxy-groups:
   type: select
   proxies:
   - 🗺 🇵🇱 Польша
-  - 🗺 🇫🇮 Финляндия
   - 🗺 🇪🇪 Эстония
-  - 🗺 🇺🇸 США
+  - 🗺 🇳🇱 Нидерланды
+  - 🗺 🇫🇮 Финляндия
+  - 🗺 🇦🇹 Австрия
 - name: 🎯 Direct
   type: select
   proxies:

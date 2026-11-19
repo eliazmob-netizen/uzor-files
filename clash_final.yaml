@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.81 Mbps 📺360p
+- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.71 Mbps 📺360p
   type: vless
   server: 87.121.89.165
   port: 443
@@ -76,7 +76,7 @@ proxies:
   reality-opts:
     public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
     short-id: 'fa6ca0ce38e58033'
-- name: 🇺🇸 США | gh_alive_plain_vless.txt | 2.04 Mbps 📺360p
+- name: 🇺🇸 США | gh_alive_plain_vless.txt | 1.85 Mbps 📺360p
   type: vless
   server: 209.50.50.174
   port: 443
@@ -89,35 +89,18 @@ proxies:
   reality-opts:
     public-key: SetkHCEuwTCJLii9zJ4K_wz2Oe8ut4au8Czm5y_xt18
     short-id: 'fa0435d4'
-- name: 🇩🇪 Германия | gh_alive_plain_vless.txt | 0.86 Mbps 📺360p
+- name: 🌐 Неизвестно | mohammadaz2_configs.txt | 0.72 Mbps 📺360p
   type: vless
-  server: 31.59.179.215
-  port: 443
-  uuid: 83d8aaef-2f30-4e10-b338-6c77d19633f1
-  tls: true
+  server: 94.249.198.124
+  port: 31652
+  uuid: 2da03bdf-8af3-4207-96c7-d70e0dd22c36
+  tls: false
   network: tcp
-  client-fingerprint: firefox
-  servername: dl-cdn.alpinelinux.org
-  reality-opts:
-    public-key: wfp4jyEksrozyS739zqIsNXySoqeEVtaQlVmeNeLp28
-    short-id: '0000000000000000'
-- name: 🇩🇪 Германия | Diversan313_alive_bl.txt | 1.29 Mbps 📺360p
-  type: vless
-  server: 217.60.27.153
-  port: 443
-  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: music.3apes.online
-  reality-opts:
-    public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
-    short-id: '0000000000000000'
+  client-fingerprint: chrome
 proxy-providers:
   top_source:
     type: http
-    url: https://cdn.jsdelivr.net/gh/Diversan313/apex-parser/subs/other/protocols/vless/alive_plain_vless.txt
+    url: https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/tcp-pass/batch_008.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -138,10 +121,9 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.81 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_plain_vless.txt | 2.04 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_plain_vless.txt | 0.86 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 1.29 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.71 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_plain_vless.txt | 1.85 Mbps 📺360p
+  - 🌐 Неизвестно | mohammadaz2_configs.txt | 0.72 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -149,9 +131,7 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇺🇸 США | gh_alive_plain_vless.txt | 2.04 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 1.29 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_plain_vless.txt | 0.86 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_plain_vless.txt | 1.85 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -159,16 +139,8 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.81 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇩🇪 Германия
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 1.29 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_plain_vless.txt | 0.86 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.71 Mbps 📺360p
+  - 🌐 Неизвестно | mohammadaz2_configs.txt | 0.72 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -176,7 +148,7 @@ proxy-groups:
 - name: 🗺 🇺🇸 США
   type: url-test
   proxies:
-  - 🇺🇸 США | gh_alive_plain_vless.txt | 2.04 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_plain_vless.txt | 1.85 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -184,7 +156,6 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇩🇪 Германия
   - 🗺 🇺🇸 США
 - name: 🎯 Direct
   type: select

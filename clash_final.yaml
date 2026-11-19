@@ -63,7 +63,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.57 Mbps 📺360p
+- name: 🇸🇪 Швеция | 3inker_all_not_ru.txt | 2.20 Mbps 📺360p
+  type: vless
+  server: 48.102.172.114
+  port: 443
+  uuid: ab5e91ee-f600-4825-a2bc-d6471d5cee03
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: prsv-forum-combeck-let-s-go.keno.su
+  reality-opts:
+    public-key: VRzl6zA8rOorqy2veXbTaImRBxQfXw1v3-REhx6EpHQ
+    short-id: '225ef9f7843ac533'
+- name: 🇷🇸 Сербия | 3inker_all_not_ru.txt | 1.82 Mbps 📺360p
   type: vless
   server: 150.40.126.187
   port: 443
@@ -75,7 +88,59 @@ proxies:
   reality-opts:
     public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
     short-id: '1ed136481e0ede74'
-- name: 🇱🇹 Литва | 3inker_all_not_ru.txt | 1.79 Mbps 📺360p
+- name: 🇳🇱 Нидерланды | 3inker_all_not_ru.txt | 1.49 Mbps 📺360p
+  type: vless
+  server: 89.125.100.150
+  port: 443
+  uuid: 5c16d730-e1f7-4ae6-8f8a-406bf1bb3b85
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: nl.veltrosub.com
+  reality-opts:
+    public-key: d_JJbjmAXfzbclmL3egjE1EaCqK4YWvE-wrc9vSSmjI
+    short-id: '06b92539830c0366'
+- name: 🇷🇺 Россия | 3inker_all_ru.txt | 1.28 Mbps 📺360p
+  type: vless
+  server: 176.98.178.163
+  port: 443
+  uuid: 1547ed3d-3bb7-4153-afdc-8eb3e9373c84
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: us2.nztvpn.com
+  reality-opts:
+    public-key: Yn9rswmNTIdVx8jKgZkvQcqw61BRu_h_ZOl2blShDT4
+    short-id: '0da7e14db353e7d0'
+- name: 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-vless_iran_unlimited.yaml
+    | 1.01 Mbps 📺360p
+  type: vless
+  server: 132.243.231.121
+  port: 443
+  uuid: 3ce21bf2-b696-48c9-b840-e558f9842097
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: www.lovoo.com
+  reality-opts:
+    public-key: Kaf_Q4LZabmCH2k_-KvO605-qGLoNwpVihJqzxCLQCI
+    short-id: '8de63f2667919267'
+- name: 🇸🇪 Швеция | 3inker_all_not_ru.txt | 0.82 Mbps 📺360p
+  type: vless
+  server: 31.77.158.21
+  port: 443
+  uuid: 9a9f167d-b461-466f-be50-f0ffd598a6f8
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: swedenafteraventura.space
+  reality-opts:
+    public-key: TyuIIquHoesD9YwMQJHda0YZ3Hy9Dh123dQ00iGK0QY
+    short-id: '0000000000000000'
+- name: 🇱🇹 Литва | 3inker_all_not_ru.txt | 1.53 Mbps 📺360p
   type: vless
   server: 138.124.9.201
   port: 8443
@@ -89,7 +154,7 @@ proxies:
     public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
     short-id: '4d3affb557796d1c'
 - name: 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls.yaml
-    | 1.51 Mbps 📺360p
+    | 1.08 Mbps 📺360p
   type: vless
   server: 104.17.3.81
   port: 80
@@ -103,35 +168,21 @@ proxies:
     headers:
       Host: sg-vless-ws.bypass.id
   skip-cert-verify: true
-- name: 🇸🇪 Швеция | 3inker_all_not_ru.txt | 1.01 Mbps 📺360p
+- name: 🇫🇮 Финляндия | 3inker_all_not_ru.txt | 0.63 Mbps 📺360p
   type: vless
-  server: 31.77.158.21
+  server: 13.143.187.220
   port: 443
-  uuid: 9a9f167d-b461-466f-be50-f0ffd598a6f8
+  uuid: 66c78912-4e2d-41dc-8742-aaae2590804e
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: swedenafteraventura.space
+  servername: fi-s1.kadrhub.tech
   reality-opts:
-    public-key: TyuIIquHoesD9YwMQJHda0YZ3Hy9Dh123dQ00iGK0QY
+    public-key: eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg
     short-id: '0000000000000000'
-- name: 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.43 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
 - name: 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 1.11 Mbps 📺360p
+    | 0.82 Mbps 📺360p
   type: vless
   server: 104.17.3.81
   port: 80
@@ -160,6 +211,7 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
+  - 🇷🇺 Только РФ
   - 🌍 Без РФ
   - ❓ Страна не определена
   - 🌍 Страны
@@ -169,14 +221,27 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.57 Mbps 📺360p
-  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 1.79 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 1.51
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 2.20 Mbps 📺360p
+  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 1.82 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 3inker_all_not_ru.txt | 1.49 Mbps 📺360p
+  - 🇷🇺 Россия | 3inker_all_ru.txt | 1.28 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-vless_iran_unlimited.yaml
+    | 1.01 Mbps 📺360p
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 0.82 Mbps 📺360p
+  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 1.53 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 1.08
     Mbps 📺360p
-  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 1.01 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.43 Mbps 📺360p
+  - 🇫🇮 Финляндия | 3inker_all_not_ru.txt | 0.63 Mbps 📺360p
   - 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 1.11 Mbps 📺360p
+    | 0.82 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🇷🇺 Только РФ
+  type: url-test
+  proxies:
+  - 🇷🇺 Россия | 3inker_all_ru.txt | 1.28 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -184,9 +249,12 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.57 Mbps 📺360p
-  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 1.79 Mbps 📺360p
-  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 1.01 Mbps 📺360p
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 2.20 Mbps 📺360p
+  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 1.82 Mbps 📺360p
+  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 1.53 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 3inker_all_not_ru.txt | 1.49 Mbps 📺360p
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 0.82 Mbps 📺360p
+  - 🇫🇮 Финляндия | 3inker_all_not_ru.txt | 0.63 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -194,27 +262,12 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 1.51
+  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 1.08
     Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.43 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-vless_iran_unlimited.yaml
+    | 1.01 Mbps 📺360p
   - 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 1.11 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇷🇸 Сербия
-  type: url-test
-  proxies:
-  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.57 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇱🇹 Литва
-  type: url-test
-  proxies:
-  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 1.79 Mbps 📺360p
+    | 0.82 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -222,7 +275,40 @@ proxy-groups:
 - name: 🗺 🇸🇪 Швеция
   type: url-test
   proxies:
-  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 1.01 Mbps 📺360p
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 2.20 Mbps 📺360p
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 0.82 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇷🇸 Сербия
+  type: url-test
+  proxies:
+  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 1.82 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇳🇱 Нидерланды
+  type: url-test
+  proxies:
+  - 🇳🇱 Нидерланды | 3inker_all_not_ru.txt | 1.49 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇱🇹 Литва
+  type: url-test
+  proxies:
+  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 1.53 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇫🇮 Финляндия
+  type: url-test
+  proxies:
+  - 🇫🇮 Финляндия | 3inker_all_not_ru.txt | 0.63 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -230,9 +316,11 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇷🇸 Сербия
-  - 🗺 🇱🇹 Литва
   - 🗺 🇸🇪 Швеция
+  - 🗺 🇷🇸 Сербия
+  - 🗺 🇳🇱 Нидерланды
+  - 🗺 🇱🇹 Литва
+  - 🗺 🇫🇮 Финляндия
 - name: 🎯 Direct
   type: select
   proxies:

@@ -63,13 +63,26 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 14.11 Mbps 📺360p
+- name: 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 14.01 Mbps 📺360p
   type: ss
   server: 45.147.200.232
   port: 18443
   cipher: aes-256-gcm
   password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-- name: 🇫🇷 Франция | djbadboy-56959566-qq-com_clash.yaml_3 | 6.70 Mbps 📺360p
+- name: 🌐 Неизвестно | 10Dream_mix.txt | 12.06 Mbps 📺360p
+  type: vless
+  server: ru7e2bab87cc39.eu-cdn539.com
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇫🇷 Франция | djbadboy-56959566-qq-com_clash.yaml_3 | 5.50 Mbps 📺360p
   type: vless
   server: tally.so
   port: 2082
@@ -82,46 +95,7 @@ proxies:
     headers:
       Host: roOz-ryo1kZgj-v1.rOoz-67c.woRKers.deV
   skip-cert-verify: true
-- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.65 Mbps 📺360p
-  type: vless
-  server: 87.121.89.165
-  port: 443
-  uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: hosting.sywl5.club
-  reality-opts:
-    public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
-    short-id: 'fa6ca0ce38e58033'
-- name: 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.55 Mbps 📺360p
-  type: vless
-  server: 138.124.40.154
-  port: 443
-  uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: pay.recrent-sell.com
-  reality-opts:
-    public-key: 3BwG9raHQuU1TPn6nBMWvSlwNNdvXM4GEoLOKjfA3wk
-    short-id: '0000000000000000'
-- name: 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.45 Mbps 📺360p
-  type: vless
-  server: 138.124.40.156
-  port: 443
-  uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: csgo.recrent-sell.com
-  reality-opts:
-    public-key: 4aNs-_ZCtwuGi-xWp4Ce7SKVqKxdZaXG2SmrHGAgVCQ
-    short-id: '0000000000000000'
-- name: 🇳🇱 Нидерланды | djbadboy-56959566-qq-com_clash.yaml_3 | 3.32 Mbps 📺360p
+- name: 🇳🇱 Нидерланды | djbadboy-56959566-qq-com_clash.yaml_3 | 5.06 Mbps 📺360p
   type: vless
   server: radar.cloudflare.com
   port: 8080
@@ -134,33 +108,33 @@ proxies:
     headers:
       Host: sh-harand.shcharand00.workers.dev
   skip-cert-verify: true
-- name: 🇩🇪 Германия | Diversan313_alive_bl.txt | 1.58 Mbps 📺360p
+- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.87 Mbps 📺360p
   type: vless
-  server: 217.60.27.153
+  server: 87.121.89.165
   port: 443
-  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: music.3apes.online
-  reality-opts:
-    public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
-    short-id: '0000000000000000'
-- name: 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.40 Mbps 📺360p
-  type: vless
-  server: 138.124.40.155
-  port: 443
-  uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+  uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
   tls: true
   network: tcp
-  client-fingerprint: chrome
+  client-fingerprint: edge
   flow: xtls-rprx-vision
-  servername: silver.recrent-sell.com
+  servername: hosting.sywl5.club
   reality-opts:
-    public-key: jMbxy5lyXN6nn9WKJ9hX2hr0WpPo2v6dykLvLNsoOmM
-    short-id: '0000000000000000'
-- name: 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.30 Mbps 📺360p
+    public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
+    short-id: 'fa6ca0ce38e58033'
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.76 Mbps 📺360p
+  type: vless
+  server: 80.79.121.155
+  port: 443
+  uuid: 31e407b3-6e1e-425f-98ea-fcf8f494c6a0
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: archive-eu-west.livemusic.ac
+  reality-opts:
+    public-key: x9HClr5eRPhMPuBIndkjqFU_0D0M-p4sJVAxuTP68kM
+    short-id: 'dcfad1cc10d0d15b'
+- name: 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.62 Mbps 📺360p
   type: vless
   server: 138.124.40.157
   port: 443
@@ -173,7 +147,33 @@ proxies:
   reality-opts:
     public-key: mPa9kajf-i6Rng1q5Wp8VgewBbnlRhol9m1ZYk8Jjy8
     short-id: '0000000000000000'
-- name: 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.44 Mbps 📺360p
+- name: 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.52 Mbps 📺360p
+  type: vless
+  server: 138.124.40.154
+  port: 443
+  uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: pay.recrent-sell.com
+  reality-opts:
+    public-key: 3BwG9raHQuU1TPn6nBMWvSlwNNdvXM4GEoLOKjfA3wk
+    short-id: '0000000000000000'
+- name: 🇵🇱 Польша | Diversan313_alive_bl.txt | 2.48 Mbps 📺360p
+  type: vless
+  server: 138.124.40.156
+  port: 443
+  uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: csgo.recrent-sell.com
+  reality-opts:
+    public-key: 4aNs-_ZCtwuGi-xWp4Ce7SKVqKxdZaXG2SmrHGAgVCQ
+    short-id: '0000000000000000'
+- name: 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.43 Mbps 📺360p
   type: vless
   server: 138.124.40.155
   port: 443
@@ -186,33 +186,7 @@ proxies:
   reality-opts:
     public-key: jMbxy5lyXN6nn9WKJ9hX2hr0WpPo2v6dykLvLNsoOmM
     short-id: '0000000000000000'
-- name: 🌐 Неизвестно | 10Dream_mix.txt | 9.65 Mbps 📺360p
-  type: vless
-  server: ru7e2bab87cc39.eu-cdn539.com
-  port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: ru7e2bab87cc39.eu-cdn539.com
-  reality-opts:
-    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
-    short-id: '3992cc7fb9fcbe58'
-- name: 🌐 Неизвестно | ChatGPT-053 | 11.36 Mbps 📺360p
-  type: vless
-  server: 129.101.98.60
-  port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: ru7e2bab87cc39.eu-cdn539.com
-  reality-opts:
-    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
-    short-id: '3992cc7fb9fcbe58'
-- name: 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.78 Mbps 📺360p
+- name: 🌐 Неизвестно | 10ium_clash.yaml_110 | 8.57 Mbps 📺360p
   type: vless
   server: ru7e2bab87cc39.eu-cdn539.com
   port: 443
@@ -225,7 +199,7 @@ proxies:
   reality-opts:
     public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
     short-id: '3992cc7fb9fcbe58'
-- name: 🌐 Неизвестно | 10Dream_mix.txt_2 | 10.94 Mbps 📺360p
+- name: 🇷🇺 Россия | 10Dream_mix.txt_2 | 9.93 Mbps 📺360p
   type: vless
   server: 129.101.98.60
   port: 443
@@ -238,6 +212,32 @@ proxies:
   reality-opts:
     public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
     short-id: '3992cc7fb9fcbe58'
+- name: 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.58 Mbps 📺360p
+  type: vless
+  server: 138.124.40.154
+  port: 443
+  uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: pay.recrent-sell.com
+  reality-opts:
+    public-key: 3BwG9raHQuU1TPn6nBMWvSlwNNdvXM4GEoLOKjfA3wk
+    short-id: '0000000000000000'
+- name: 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.53 Mbps 📺360p
+  type: vless
+  server: 138.124.40.155
+  port: 443
+  uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: silver.recrent-sell.com
+  reality-opts:
+    public-key: jMbxy5lyXN6nn9WKJ9hX2hr0WpPo2v6dykLvLNsoOmM
+    short-id: '0000000000000000'
 proxy-providers:
   top_source:
     type: http
@@ -263,20 +263,20 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 14.11 Mbps 📺360p
-  - 🇫🇷 Франция | djbadboy-56959566-qq-com_clash.yaml_3 | 6.70 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.65 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.55 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.45 Mbps 📺360p
-  - 🇳🇱 Нидерланды | djbadboy-56959566-qq-com_clash.yaml_3 | 3.32 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 1.58 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.40 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.30 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.44 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_mix.txt | 9.65 Mbps 📺360p
-  - 🌐 Неизвестно | ChatGPT-053 | 11.36 Mbps 📺360p
-  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.78 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_mix.txt_2 | 10.94 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 14.01 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt | 12.06 Mbps 📺360p
+  - 🇫🇷 Франция | djbadboy-56959566-qq-com_clash.yaml_3 | 5.50 Mbps 📺360p
+  - 🇳🇱 Нидерланды | djbadboy-56959566-qq-com_clash.yaml_3 | 5.06 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.87 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.76 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.62 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.52 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 2.48 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.43 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 8.57 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 9.93 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.58 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.53 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -284,7 +284,8 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 14.11 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 14.01 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 9.93 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -292,14 +293,14 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇫🇷 Франция | djbadboy-56959566-qq-com_clash.yaml_3 | 6.70 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.55 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.45 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.44 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.40 Mbps 📺360p
-  - 🇳🇱 Нидерланды | djbadboy-56959566-qq-com_clash.yaml_3 | 3.32 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 1.58 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.30 Mbps 📺360p
+  - 🇫🇷 Франция | djbadboy-56959566-qq-com_clash.yaml_3 | 5.50 Mbps 📺360p
+  - 🇳🇱 Нидерланды | djbadboy-56959566-qq-com_clash.yaml_3 | 5.06 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.62 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.58 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.53 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.52 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.43 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 2.48 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -307,11 +308,10 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | ChatGPT-053 | 11.36 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_mix.txt_2 | 10.94 Mbps 📺360p
-  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.78 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_mix.txt | 9.65 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.65 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt | 12.06 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 8.57 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.87 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.76 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -319,11 +319,12 @@ proxy-groups:
 - name: 🗺 🇵🇱 Польша
   type: url-test
   proxies:
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.55 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.45 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.44 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.40 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.30 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.62 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.58 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.53 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 4.52 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 4.43 Mbps 📺360p
+  - 🇵🇱 Польша | Diversan313_alive_bl.txt | 2.48 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -331,7 +332,7 @@ proxy-groups:
 - name: 🗺 🇫🇷 Франция
   type: url-test
   proxies:
-  - 🇫🇷 Франция | djbadboy-56959566-qq-com_clash.yaml_3 | 6.70 Mbps 📺360p
+  - 🇫🇷 Франция | djbadboy-56959566-qq-com_clash.yaml_3 | 5.50 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -339,15 +340,7 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | djbadboy-56959566-qq-com_clash.yaml_3 | 3.32 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇩🇪 Германия
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 1.58 Mbps 📺360p
+  - 🇳🇱 Нидерланды | djbadboy-56959566-qq-com_clash.yaml_3 | 5.06 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -358,7 +351,6 @@ proxy-groups:
   - 🗺 🇵🇱 Польша
   - 🗺 🇫🇷 Франция
   - 🗺 🇳🇱 Нидерланды
-  - 🗺 🇩🇪 Германия
 - name: 🎯 Direct
   type: select
   proxies:

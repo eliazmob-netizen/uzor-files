@@ -63,34 +63,75 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия | 10Dream_mix.txt_2 | 8.71 Mbps 📺360p
+- name: 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.57 Mbps 📺360p
   type: vless
-  server: 129.101.98.60
+  server: 150.40.126.187
   port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  uuid: c1f4f185-5786-40c9-893f-2f100b7165f2
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: eu38.cdn77.icu
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: '1ed136481e0ede74'
+- name: 🇱🇹 Литва | 3inker_all_not_ru.txt | 1.79 Mbps 📺360p
+  type: vless
+  server: 138.124.9.201
+  port: 8443
+  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: admin.mistral.ai
+  reality-opts:
+    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
+    short-id: '4d3affb557796d1c'
+- name: 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls.yaml
+    | 1.51 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇸🇪 Швеция | 3inker_all_not_ru.txt | 1.01 Mbps 📺360p
+  type: vless
+  server: 31.77.158.21
+  port: 443
+  uuid: 9a9f167d-b461-466f-be50-f0ffd598a6f8
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: ru7e2bab87cc39.eu-cdn539.com
+  servername: swedenafteraventura.space
   reality-opts:
-    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
-    short-id: '3992cc7fb9fcbe58'
-- name: 🇷🇺 Россия | 10Dream_mix.txt_2 | 7.97 Mbps 📺360p
+    public-key: TyuIIquHoesD9YwMQJHda0YZ3Hy9Dh123dQ00iGK0QY
+    short-id: '0000000000000000'
+- name: 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.43 Mbps 📺360p
   type: vless
-  server: ru7e2bab87cc39.eu-cdn539.com
-  port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-  tls: true
-  network: tcp
-  client-fingerprint: random
-  flow: xtls-rprx-vision
-  servername: ru7e2bab87cc39.eu-cdn539.com
-  reality-opts:
-    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
-    short-id: '3992cc7fb9fcbe58'
-- name: 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 2.16 Mbps 📺360p
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
+    | 1.11 Mbps 📺360p
   type: vless
   server: 104.17.3.81
   port: 80
@@ -104,36 +145,10 @@ proxies:
     headers:
       Host: sg-vless-ws.bypass.id
   skip-cert-verify: true
-- name: 🇷🇺 Россия | 10ium_clash.yaml_110 | 4.72 Mbps 📺360p
-  type: vless
-  server: ru7e2bab87cc39.eu-cdn539.com
-  port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-  tls: true
-  network: tcp
-  client-fingerprint: random
-  flow: xtls-rprx-vision
-  servername: ru7e2bab87cc39.eu-cdn539.com
-  reality-opts:
-    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
-    short-id: '3992cc7fb9fcbe58'
-- name: 🇷🇺 Россия | 10Dream_mix.txt | 6.98 Mbps 📺360p
-  type: vless
-  server: ru7e2bab87cc39.eu-cdn539.com
-  port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: ru7e2bab87cc39.eu-cdn539.com
-  reality-opts:
-    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
-    short-id: '3992cc7fb9fcbe58'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/10Dream/sub-mod/main/sub/normal/mix.txt
+    url: https://raw.githubusercontent.com/3inker/v2ray-subscription/main/subs/all_not_ru.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -145,8 +160,8 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
   - 🌍 Без РФ
+  - ❓ Страна не определена
   - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
@@ -154,23 +169,14 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 8.71 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 7.97 Mbps 📺360p
-  - 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml | 2.16
+  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.57 Mbps 📺360p
+  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 1.79 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 1.51
     Mbps 📺360p
-  - 🇷🇺 Россия | 10ium_clash.yaml_110 | 4.72 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_mix.txt | 6.98 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🇷🇺 Только РФ
-  type: url-test
-  proxies:
-  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 8.71 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 7.97 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_mix.txt | 6.98 Mbps 📺360p
-  - 🇷🇺 Россия | 10ium_clash.yaml_110 | 4.72 Mbps 📺360p
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 1.01 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.43 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
+    | 1.11 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -178,17 +184,45 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml | 2.16
-    Mbps 📺360p
+  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.57 Mbps 📺360p
+  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 1.79 Mbps 📺360p
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 1.01 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇸🇬 Сингапур
+- name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml | 2.16
+  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 1.51
     Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.43 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
+    | 1.11 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇷🇸 Сербия
+  type: url-test
+  proxies:
+  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.57 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇱🇹 Литва
+  type: url-test
+  proxies:
+  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 1.79 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇸🇪 Швеция
+  type: url-test
+  proxies:
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 1.01 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -196,7 +230,9 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇸🇬 Сингапур
+  - 🗺 🇷🇸 Сербия
+  - 🗺 🇱🇹 Литва
+  - 🗺 🇸🇪 Швеция
 - name: 🎯 Direct
   type: select
   proxies:

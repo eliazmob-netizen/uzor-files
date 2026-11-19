@@ -63,36 +63,63 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 2.70 Mbps 📺360p
+- name: 🇩🇪 Германия | Diversan313_alive_bl.txt | 0.84 Mbps 📺360p
   type: vless
-  server: 87.121.89.165
+  server: 217.60.27.153
   port: 443
-  uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
+  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
   tls: true
-  network: tcp
-  client-fingerprint: edge
+  network: raw
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: hosting.sywl5.club
+  servername: music.3apes.online
   reality-opts:
-    public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
-    short-id: 'fa6ca0ce38e58033'
-- name: 🌐 Неизвестно | 10Dream_mix.txt | 2.01 Mbps 📺360p
+    public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
+    short-id: '0000000000000000'
+- name: 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.65 Mbps 📺360p
   type: vless
   server: ru7e2bab87cc39.eu-cdn539.com
   port: 443
   uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
   tls: true
   network: tcp
-  client-fingerprint: edge
+  client-fingerprint: random
   flow: xtls-rprx-vision
   servername: ru7e2bab87cc39.eu-cdn539.com
   reality-opts:
     public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
     short-id: '3992cc7fb9fcbe58'
+- name: 🇷🇺 Россия | 10Dream_mix.txt_2 | 9.43 Mbps 📺360p
+  type: vless
+  server: 129.101.98.60
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.15 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/tcp-pass/batch_008.txt
+    url: https://raw.githubusercontent.com/Diversan313/apex-parser/main/subs/main/alive_bl.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -104,15 +131,36 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
+  - 🇷🇺 Только РФ
+  - 🌍 Без РФ
   - ❓ Страна не определена
+  - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 2.70 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_mix.txt | 2.01 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 0.84 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.65 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 9.43 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.15 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🇷🇺 Только РФ
+  type: url-test
+  proxies:
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 9.43 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🌍 Без РФ
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 0.84 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -120,12 +168,24 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 2.70 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_mix.txt | 2.01 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.65 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.15 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
+- name: 🗺 🇩🇪 Германия
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 0.84 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🌍 Страны
+  type: select
+  proxies:
+  - 🗺 🇩🇪 Германия
 - name: 🎯 Direct
   type: select
   proxies:

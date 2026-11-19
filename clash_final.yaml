@@ -63,13 +63,26 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 7.18 Mbps 📺360p
+- name: 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 10.85 Mbps 📺360p
   type: ss
   server: 45.147.200.232
   port: 18443
   cipher: aes-256-gcm
   password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-- name: 🇸🇪 Швеция | gh_alive_plain_vless.txt | 4.98 Mbps 📺360p
+- name: 🌐 Неизвестно | 10ium_clash.yaml_110 | 10.84 Mbps 📺360p
+  type: vless
+  server: ru7e2bab87cc39.eu-cdn539.com
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇸🇪 Швеция | gh_alive_plain_vless.txt | 4.37 Mbps 📺360p
   type: vless
   server: 88.216.72.172
   port: 443
@@ -82,7 +95,7 @@ proxies:
   reality-opts:
     public-key: 0MrhgrveImRyxFaC9Q11Mm4-oN38uFlFFt4UnmGrxRo
     short-id: '041a595c72d82db0'
-- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.45 Mbps 📺360p
+- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.37 Mbps 📺360p
   type: vless
   server: 87.121.89.165
   port: 443
@@ -95,19 +108,7 @@ proxies:
   reality-opts:
     public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
     short-id: 'fa6ca0ce38e58033'
-- name: 🇩🇪 Германия | gh_alive_plain_vless.txt | 3.28 Mbps 📺360p
-  type: vless
-  server: 31.59.179.215
-  port: 443
-  uuid: 83d8aaef-2f30-4e10-b338-6c77d19633f1
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  servername: dl-cdn.alpinelinux.org
-  reality-opts:
-    public-key: wfp4jyEksrozyS739zqIsNXySoqeEVtaQlVmeNeLp28
-    short-id: '0000000000000000'
-- name: 🇺🇸 США | gh_alive_plain_vless.txt | 2.06 Mbps 📺360p
+- name: 🇺🇸 США | gh_alive_plain_vless.txt | 1.90 Mbps 📺360p
   type: vless
   server: 209.50.50.174
   port: 443
@@ -120,14 +121,39 @@ proxies:
   reality-opts:
     public-key: SetkHCEuwTCJLii9zJ4K_wz2Oe8ut4au8Czm5y_xt18
     short-id: 'fa0435d4'
-- name: 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.59 Mbps 📺360p
+- name: 🇩🇪 Германия | gh_alive_plain_vless.txt | 0.82 Mbps 📺360p
+  type: vless
+  server: 31.59.179.215
+  port: 443
+  uuid: 83d8aaef-2f30-4e10-b338-6c77d19633f1
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: dl-cdn.alpinelinux.org
+  reality-opts:
+    public-key: wfp4jyEksrozyS739zqIsNXySoqeEVtaQlVmeNeLp28
+    short-id: '0000000000000000'
+- name: 🌐 Неизвестно | 10Dream_mix.txt | 9.44 Mbps 📺360p
   type: vless
   server: ru7e2bab87cc39.eu-cdn539.com
   port: 443
   uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
   tls: true
   network: tcp
-  client-fingerprint: random
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇷🇺 Россия | 10Dream_mix.txt_2 | 0.73 Mbps 📺360p
+  type: vless
+  server: 129.101.98.60
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
   servername: ru7e2bab87cc39.eu-cdn539.com
   reality-opts:
@@ -158,12 +184,14 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 7.18 Mbps 📺360p
-  - 🇸🇪 Швеция | gh_alive_plain_vless.txt | 4.98 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.45 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_plain_vless.txt | 3.28 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_plain_vless.txt | 2.06 Mbps 📺360p
-  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.59 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 10.85 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 10.84 Mbps 📺360p
+  - 🇸🇪 Швеция | gh_alive_plain_vless.txt | 4.37 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.37 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_plain_vless.txt | 1.90 Mbps 📺360p
+  - 🇩🇪 Германия | gh_alive_plain_vless.txt | 0.82 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt | 9.44 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 0.73 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -171,7 +199,8 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 7.18 Mbps 📺360p
+  - 🇷🇺 Россия - Москва | 10Dream_ipv4_unlimited.yaml | 10.85 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 0.73 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -179,9 +208,9 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇸🇪 Швеция | gh_alive_plain_vless.txt | 4.98 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_plain_vless.txt | 3.28 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_plain_vless.txt | 2.06 Mbps 📺360p
+  - 🇸🇪 Швеция | gh_alive_plain_vless.txt | 4.37 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_plain_vless.txt | 1.90 Mbps 📺360p
+  - 🇩🇪 Германия | gh_alive_plain_vless.txt | 0.82 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -189,8 +218,9 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.59 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.45 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 10.84 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt | 9.44 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.37 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -198,15 +228,7 @@ proxy-groups:
 - name: 🗺 🇸🇪 Швеция
   type: url-test
   proxies:
-  - 🇸🇪 Швеция | gh_alive_plain_vless.txt | 4.98 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇩🇪 Германия
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия | gh_alive_plain_vless.txt | 3.28 Mbps 📺360p
+  - 🇸🇪 Швеция | gh_alive_plain_vless.txt | 4.37 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -214,7 +236,15 @@ proxy-groups:
 - name: 🗺 🇺🇸 США
   type: url-test
   proxies:
-  - 🇺🇸 США | gh_alive_plain_vless.txt | 2.06 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_plain_vless.txt | 1.90 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇩🇪 Германия
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия | gh_alive_plain_vless.txt | 0.82 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -223,8 +253,8 @@ proxy-groups:
   type: select
   proxies:
   - 🗺 🇸🇪 Швеция
-  - 🗺 🇩🇪 Германия
   - 🗺 🇺🇸 США
+  - 🗺 🇩🇪 Германия
 - name: 🎯 Direct
   type: select
   proxies:

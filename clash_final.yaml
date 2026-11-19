@@ -63,33 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇩🇪 Германия | Diversan313_alive_bl.txt | 0.84 Mbps 📺360p
-  type: vless
-  server: 217.60.27.153
-  port: 443
-  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: music.3apes.online
-  reality-opts:
-    public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
-    short-id: '0000000000000000'
-- name: 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.65 Mbps 📺360p
-  type: vless
-  server: ru7e2bab87cc39.eu-cdn539.com
-  port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-  tls: true
-  network: tcp
-  client-fingerprint: random
-  flow: xtls-rprx-vision
-  servername: ru7e2bab87cc39.eu-cdn539.com
-  reality-opts:
-    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
-    short-id: '3992cc7fb9fcbe58'
-- name: 🇷🇺 Россия | 10Dream_mix.txt_2 | 9.43 Mbps 📺360p
+- name: 🇷🇺 Россия | 10Dream_mix.txt_2 | 8.71 Mbps 📺360p
   type: vless
   server: 129.101.98.60
   port: 443
@@ -102,7 +76,21 @@ proxies:
   reality-opts:
     public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
     short-id: '3992cc7fb9fcbe58'
-- name: 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.15 Mbps 📺360p
+- name: 🇷🇺 Россия | 10Dream_mix.txt_2 | 7.97 Mbps 📺360p
+  type: vless
+  server: ru7e2bab87cc39.eu-cdn539.com
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
+    | 2.16 Mbps 📺360p
   type: vless
   server: 104.17.3.81
   port: 80
@@ -112,14 +100,40 @@ proxies:
   client-fingerprint: chrome
   servername: sg-vless-ws.bypass.id
   ws-opts:
-    path: /worryfree
+    path: /
     headers:
       Host: sg-vless-ws.bypass.id
   skip-cert-verify: true
+- name: 🇷🇺 Россия | 10ium_clash.yaml_110 | 4.72 Mbps 📺360p
+  type: vless
+  server: ru7e2bab87cc39.eu-cdn539.com
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇷🇺 Россия | 10Dream_mix.txt | 6.98 Mbps 📺360p
+  type: vless
+  server: ru7e2bab87cc39.eu-cdn539.com
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/Diversan313/apex-parser/main/subs/main/alive_bl.txt
+    url: https://raw.githubusercontent.com/10Dream/sub-mod/main/sub/normal/mix.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -133,7 +147,6 @@ proxy-groups:
   - 🌐 Все серверы
   - 🇷🇺 Только РФ
   - 🌍 Без РФ
-  - ❓ Страна не определена
   - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
@@ -141,10 +154,12 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 0.84 Mbps 📺360p
-  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.65 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 9.43 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.15 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 8.71 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 7.97 Mbps 📺360p
+  - 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml | 2.16
+    Mbps 📺360p
+  - 🇷🇺 Россия | 10ium_clash.yaml_110 | 4.72 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt | 6.98 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -152,7 +167,10 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 9.43 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 8.71 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 7.97 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt | 6.98 Mbps 📺360p
+  - 🇷🇺 Россия | 10ium_clash.yaml_110 | 4.72 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -160,24 +178,17 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 0.84 Mbps 📺360p
+  - 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml | 2.16
+    Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: ❓ Страна не определена
+- name: 🗺 🇸🇬 Сингапур
   type: url-test
   proxies:
-  - 🌐 Неизвестно | 10ium_clash.yaml_110 | 9.65 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.15 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇩🇪 Германия
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 0.84 Mbps 📺360p
+  - 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml | 2.16
+    Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -185,7 +196,7 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇩🇪 Германия
+  - 🗺 🇸🇬 Сингапур
 - name: 🎯 Direct
   type: select
   proxies:

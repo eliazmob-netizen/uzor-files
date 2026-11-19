@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.71 Mbps 📺360p
+- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 2.70 Mbps 📺360p
   type: vless
   server: 87.121.89.165
   port: 443
@@ -76,27 +76,19 @@ proxies:
   reality-opts:
     public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
     short-id: 'fa6ca0ce38e58033'
-- name: 🇺🇸 США | gh_alive_plain_vless.txt | 1.85 Mbps 📺360p
+- name: 🌐 Неизвестно | 10Dream_mix.txt | 2.01 Mbps 📺360p
   type: vless
-  server: 209.50.50.174
+  server: ru7e2bab87cc39.eu-cdn539.com
   port: 443
-  uuid: 3f879389-1002-412f-a318-a2cfc625ab0d
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
   tls: true
-  network: raw
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: www.microsoft.com
-  reality-opts:
-    public-key: SetkHCEuwTCJLii9zJ4K_wz2Oe8ut4au8Czm5y_xt18
-    short-id: 'fa0435d4'
-- name: 🌐 Неизвестно | mohammadaz2_configs.txt | 0.72 Mbps 📺360p
-  type: vless
-  server: 94.249.198.124
-  port: 31652
-  uuid: 2da03bdf-8af3-4207-96c7-d70e0dd22c36
-  tls: false
   network: tcp
-  client-fingerprint: chrome
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
 proxy-providers:
   top_source:
     type: http
@@ -112,26 +104,15 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🌍 Без РФ
   - ❓ Страна не определена
-  - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.71 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_plain_vless.txt | 1.85 Mbps 📺360p
-  - 🌐 Неизвестно | mohammadaz2_configs.txt | 0.72 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🌍 Без РФ
-  type: url-test
-  proxies:
-  - 🇺🇸 США | gh_alive_plain_vless.txt | 1.85 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 2.70 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt | 2.01 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -139,24 +120,12 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.71 Mbps 📺360p
-  - 🌐 Неизвестно | mohammadaz2_configs.txt | 0.72 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 2.70 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt | 2.01 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇺🇸 США
-  type: url-test
-  proxies:
-  - 🇺🇸 США | gh_alive_plain_vless.txt | 1.85 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🌍 Страны
-  type: select
-  proxies:
-  - 🗺 🇺🇸 США
 - name: 🎯 Direct
   type: select
   proxies:

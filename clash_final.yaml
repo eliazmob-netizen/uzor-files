@@ -63,85 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.37 Mbps 📺360p
-  type: vless
-  server: 31.76.119.139
-  port: 443
-  uuid: 636e056b-2dac-40ce-a4c3-7e35d2ce0e4d
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 77.88.8.8
-  reality-opts:
-    public-key: a9O5evb8g385KJm77j9SKlB7MvHzUBGes6c8BAxyO1U
-    short-id: '5fd3245e96291c37'
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.32 Mbps 📺360p
-  type: vless
-  server: 31.59.179.39
-  port: 443
-  uuid: 636e056b-2dac-40ce-a4c3-7e35d2ce0e4d
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 77.88.8.8
-  reality-opts:
-    public-key: a9O5evb8g385KJm77j9SKlB7MvHzUBGes6c8BAxyO1U
-    short-id: '5fd3245e96291c37'
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.76 Mbps 📺360p
-  type: vless
-  server: 31.59.179.41
-  port: 443
-  uuid: 636e056b-2dac-40ce-a4c3-7e35d2ce0e4d
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 77.88.8.8
-  reality-opts:
-    public-key: a9O5evb8g385KJm77j9SKlB7MvHzUBGes6c8BAxyO1U
-    short-id: '5fd3245e96291c37'
-- name: 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.40 Mbps 📺360p
-  type: vless
-  server: 138.124.9.201
-  port: 8443
-  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: admin.mistral.ai
-  reality-opts:
-    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
-    short-id: '4d3affb557796d1c'
-- name: 🇸🇪 Швеция | api_alive_bl.yaml | 0.71 Mbps 📺360p
-  type: vless
-  server: 48.102.172.114
-  port: 443
-  uuid: ab5e91ee-f600-4825-a2bc-d6471d5cee03
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: prsv-forum-combeck-let-s-go.keno.su
-  reality-opts:
-    public-key: VRzl6zA8rOorqy2veXbTaImRBxQfXw1v3-REhx6EpHQ
-    short-id: '225ef9f7843ac533'
-- name: 🇪🇪 Эстония | Diversan313_alive_bl.txt | 1.94 Mbps 📺360p
-  type: vless
-  server: 31.56.187.211
-  port: 443
-  uuid: 0259e5aa-c188-4334-b204-32cd5ea859f6
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: maps-carts-world.keno.su
-  reality-opts:
-    public-key: _MeP-WwmolUvi6wMXNoSs_zo6miG_OW7xk4ibzADiHY
-    short-id: '0000000000000000'
-- name: 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.28 Mbps
+- name: 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 2.92 Mbps
     📺360p
   type: vless
   server: 31.59.148.132
@@ -155,7 +77,20 @@ proxies:
   reality-opts:
     public-key: c8IEc_c_QBmI5YAwILoVH0xw2xC4AJgJDKEYKcmKogo
     short-id: '7f2e9c4b1a8d6e55'
-- name: 🇳🇱 Нидерланды | asgharkapk_vless.yaml | 1.05 Mbps 📺360p
+- name: 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 0.80 Mbps 📺360p
+  type: vless
+  server: 138.124.9.201
+  port: 8443
+  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: admin.mistral.ai
+  reality-opts:
+    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
+    short-id: '4d3affb557796d1c'
+- name: 🇳🇱 Нидерланды | asgharkapk_vless.yaml | 1.72 Mbps 📺360p
   type: vless
   server: 31.59.148.132
   port: 443
@@ -168,33 +103,7 @@ proxies:
   reality-opts:
     public-key: c8IEc_c_QBmI5YAwILoVH0xw2xC4AJgJDKEYKcmKogo
     short-id: '7f2e9c4b1a8d6e55'
-- name: 🇳🇱 Нидерланды | Diversan313_alive_bs.yaml | 0.80 Mbps 📺360p
-  type: vless
-  server: 37.18.15.192
-  port: 2056
-  uuid: 7c4574cc-6396-44d1-8427-60b91467264e
-  tls: true
-  network: raw
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: android.eads.ru
-  reality-opts:
-    public-key: 8Wm7HmrEFFmPb1YBujIdnoV2ebynl1wBMJp_v2oiwiM
-    short-id: 'ce680883ad484149'
-- name: 🇱🇹 Литва | api_alive_full.txt | 1.56 Mbps 📺360p
-  type: vless
-  server: 138.124.9.201
-  port: 8443
-  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: admin.mistral.ai
-  reality-opts:
-    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
-    short-id: '4d3affb557796d1c'
-- name: 🇳🇱 Нидерланды | 3inker_all_not_ru.txt | 0.91 Mbps 📺360p
+- name: 🇫🇷 Франция | 3inker_all_not_ru.txt | 1.11 Mbps 📺360p
   type: vless
   server: 37.18.15.192
   port: 2056
@@ -207,10 +116,50 @@ proxies:
   reality-opts:
     public-key: 8Wm7HmrEFFmPb1YBujIdnoV2ebynl1wBMJp_v2oiwiM
     short-id: 'ce680883ad484149'
+- name: 🇮🇷 Иран | ChatGPT-053 | 0.87 Mbps 📺360p
+  type: vless
+  server: food.ebaniyautist.com
+  port: 443
+  uuid: f1e221a2-b4bc-4e59-a8e7-81324788b377
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: sun9-37.userapi.com
+  reality-opts:
+    public-key: 4Su0-tgE1LOcvkrgkhbqwcSx0xP4dr5Wh6gvhtxg0Gk
+    short-id: '7935022d536cccb8'
+- name: 🇸🇬 Сингапур | Barabama ClashMeta | 1.52 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: //worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇸🇬 Сингапур | Edsel-Rahimi_nodes.txt | 0.64 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/Edsel-Rahimi/Ariston/data/nodes.txt
+    url: https://raw.githubusercontent.com/alireza786786/V2RAY-BREACHING-THE-BARRIERS/main/sub/clash/whoahaow-rjsxrd-bypass-all.yaml
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -223,7 +172,6 @@ proxy-groups:
   proxies:
   - 🌐 Все серверы
   - 🌍 Без РФ
-  - ❓ Страна не определена
   - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
@@ -231,17 +179,13 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.37 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.32 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.76 Mbps 📺360p
-  - 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.40 Mbps 📺360p
-  - 🇸🇪 Швеция | api_alive_bl.yaml | 0.71 Mbps 📺360p
-  - 🇪🇪 Эстония | Diversan313_alive_bl.txt | 1.94 Mbps 📺360p
-  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.28 Mbps 📺360p
-  - 🇳🇱 Нидерланды | asgharkapk_vless.yaml | 1.05 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Diversan313_alive_bs.yaml | 0.80 Mbps 📺360p
-  - 🇱🇹 Литва | api_alive_full.txt | 1.56 Mbps 📺360p
-  - 🇳🇱 Нидерланды | 3inker_all_not_ru.txt | 0.91 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 2.92 Mbps 📺360p
+  - 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 0.80 Mbps 📺360p
+  - 🇳🇱 Нидерланды | asgharkapk_vless.yaml | 1.72 Mbps 📺360p
+  - 🇫🇷 Франция | 3inker_all_not_ru.txt | 1.11 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 0.87 Mbps 📺360p
+  - 🇸🇬 Сингапур | Barabama ClashMeta | 1.52 Mbps 📺360p
+  - 🇸🇬 Сингапур | Edsel-Rahimi_nodes.txt | 0.64 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -249,24 +193,13 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇪🇪 Эстония | Diversan313_alive_bl.txt | 1.94 Mbps 📺360p
-  - 🇱🇹 Литва | api_alive_full.txt | 1.56 Mbps 📺360p
-  - 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.40 Mbps 📺360p
-  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.28 Mbps 📺360p
-  - 🇳🇱 Нидерланды | asgharkapk_vless.yaml | 1.05 Mbps 📺360p
-  - 🇳🇱 Нидерланды | 3inker_all_not_ru.txt | 0.91 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Diversan313_alive_bs.yaml | 0.80 Mbps 📺360p
-  - 🇸🇪 Швеция | api_alive_bl.yaml | 0.71 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: ❓ Страна не определена
-  type: url-test
-  proxies:
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.37 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.32 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.76 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 2.92 Mbps 📺360p
+  - 🇳🇱 Нидерланды | asgharkapk_vless.yaml | 1.72 Mbps 📺360p
+  - 🇸🇬 Сингапур | Barabama ClashMeta | 1.52 Mbps 📺360p
+  - 🇫🇷 Франция | 3inker_all_not_ru.txt | 1.11 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 0.87 Mbps 📺360p
+  - 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 0.80 Mbps 📺360p
+  - 🇸🇬 Сингапур | Edsel-Rahimi_nodes.txt | 0.64 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -274,10 +207,17 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.28 Mbps 📺360p
-  - 🇳🇱 Нидерланды | asgharkapk_vless.yaml | 1.05 Mbps 📺360p
-  - 🇳🇱 Нидерланды | 3inker_all_not_ru.txt | 0.91 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Diversan313_alive_bs.yaml | 0.80 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 2.92 Mbps 📺360p
+  - 🇳🇱 Нидерланды | asgharkapk_vless.yaml | 1.72 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇸🇬 Сингапур
+  type: url-test
+  proxies:
+  - 🇸🇬 Сингапур | Barabama ClashMeta | 1.52 Mbps 📺360p
+  - 🇸🇬 Сингапур | Edsel-Rahimi_nodes.txt | 0.64 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -285,24 +225,23 @@ proxy-groups:
 - name: 🗺 🇱🇹 Литва
   type: url-test
   proxies:
-  - 🇱🇹 Литва | api_alive_full.txt | 1.56 Mbps 📺360p
-  - 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.40 Mbps 📺360p
+  - 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 0.80 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇸🇪 Швеция
+- name: 🗺 🇫🇷 Франция
   type: url-test
   proxies:
-  - 🇸🇪 Швеция | api_alive_bl.yaml | 0.71 Mbps 📺360p
+  - 🇫🇷 Франция | 3inker_all_not_ru.txt | 1.11 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇪🇪 Эстония
+- name: 🗺 🇮🇷 Иран
   type: url-test
   proxies:
-  - 🇪🇪 Эстония | Diversan313_alive_bl.txt | 1.94 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 0.87 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -311,9 +250,10 @@ proxy-groups:
   type: select
   proxies:
   - 🗺 🇳🇱 Нидерланды
+  - 🗺 🇸🇬 Сингапур
   - 🗺 🇱🇹 Литва
-  - 🗺 🇸🇪 Швеция
-  - 🗺 🇪🇪 Эстония
+  - 🗺 🇫🇷 Франция
+  - 🗺 🇮🇷 Иран
 - name: 🎯 Direct
   type: select
   proxies:

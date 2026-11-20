@@ -63,92 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇳🇱 Нидерланды | pie-with-jam_30.txt | 4.56 Mbps 📺360p
-  type: vless
-  server: 88.210.62.122
-  port: 443
-  uuid: b392873f-82a2-01f4-ac46-303dd8d4f388
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: gateway.dzen-nl-1.com
-  reality-opts:
-    public-key: 9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg
-    short-id: '0a6ba2716a409da6'
-- name: 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls.yaml
-    | 1.54 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
-    | 1.48 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml
-    | 1.43 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls_2 |
-    2.08 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.28 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 Неизвестно | ChatGPT-053 | 0.95 Mbps 📺360p
+- name: 🌐 Неизвестно | ChatGPT-053 | 4.69 Mbps 📺360p
   type: vless
   server: food.ebaniyautist.com
   port: 443
@@ -161,7 +76,33 @@ proxies:
   reality-opts:
     public-key: 4Su0-tgE1LOcvkrgkhbqwcSx0xP4dr5Wh6gvhtxg0Gk
     short-id: '7935022d536cccb8'
-- name: 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.42 Mbps 📺360p
+- name: 🌐 Неизвестно | pie-with-jam_10.txt | 4.01 Mbps 📺360p
+  type: vless
+  server: 194.55.239.10
+  port: 443
+  uuid: f1e221a2-b4bc-4e59-a8e7-81324788b377
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: sun9-37.userapi.com
+  reality-opts:
+    public-key: 4Su0-tgE1LOcvkrgkhbqwcSx0xP4dr5Wh6gvhtxg0Gk
+    short-id: '7935022d536cccb8'
+- name: 🇳🇱 Нидерланды | pie-with-jam_30.txt | 4.72 Mbps 📺360p
+  type: vless
+  server: 88.210.62.122
+  port: 443
+  uuid: b392873f-82a2-01f4-ac46-303dd8d4f388
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: gateway.dzen-nl-1.com
+  reality-opts:
+    public-key: 9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg
+    short-id: '0a6ba2716a409da6'
+- name: 🌐 CDN — гео скрыто | ChatGPT-053 | 0.88 Mbps 📺360p
   type: vless
   server: 104.17.3.81
   port: 80
@@ -170,29 +111,14 @@ proxies:
   network: ws
   client-fingerprint: chrome
   ws-opts:
-    path: //worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 0.69 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /
+    path: /%2Fworryfree
     headers:
       Host: sg-vless-ws.bypass.id
   skip-cert-verify: true
 proxy-providers:
   top_source:
     type: http
-    url: https://github.com/pie-with-jam/PulseProxy/raw/refs/heads/main/githubmirror/30.txt
+    url: https://raw.githubusercontent.com/mheidari98/.proxy/main/all
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -213,20 +139,10 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | pie-with-jam_30.txt | 4.56 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 1.54
-    Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
-    | 1.48 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml |
-    1.43 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls_2 | 2.08
-    Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.28 Mbps 📺360p
-  - 🌐 Неизвестно | ChatGPT-053 | 0.95 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.42 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 0.69 Mbps 📺360p
+  - 🌐 Неизвестно | ChatGPT-053 | 4.69 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_10.txt | 4.01 Mbps 📺360p
+  - 🇳🇱 Нидерланды | pie-with-jam_30.txt | 4.72 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | ChatGPT-053 | 0.88 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -234,7 +150,7 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | pie-with-jam_30.txt | 4.56 Mbps 📺360p
+  - 🇳🇱 Нидерланды | pie-with-jam_30.txt | 4.72 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -242,19 +158,9 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls_2 | 2.08
-    Mbps 📺360p
-  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 1.54
-    Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
-    | 1.48 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml |
-    1.43 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.42 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.28 Mbps 📺360p
-  - 🌐 Неизвестно | ChatGPT-053 | 0.95 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 0.69 Mbps 📺360p
+  - 🌐 Неизвестно | ChatGPT-053 | 4.69 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_10.txt | 4.01 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | ChatGPT-053 | 0.88 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -262,7 +168,7 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | pie-with-jam_30.txt | 4.56 Mbps 📺360p
+  - 🇳🇱 Нидерланды | pie-with-jam_30.txt | 4.72 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10

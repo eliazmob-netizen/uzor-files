@@ -63,60 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇫🇮 Финляндия | vlessforu_working_configs.txt | 4.30 Mbps 📺360p
-  type: vless
-  server: 144.31.90.235
-  port: 443
-  uuid: 6ab79fec-ca02-447b-b7be-5945f6e6ea8f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: blog-asia.livemusic.ac
-  reality-opts:
-    public-key: DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w
-    short-id: 'adff113498e0f7fc'
-- name: 🇪🇪 Эстония | vlessforu_working_configs.txt | 4.12 Mbps 📺360p
-  type: vless
-  server: 80.79.121.156
-  port: 443
-  uuid: 6ab79fec-ca02-447b-b7be-5945f6e6ea8f
-  tls: true
-  network: tcp
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  servername: archive-eu-west.livemusic.ac
-  reality-opts:
-    public-key: x9HClr5eRPhMPuBIndkjqFU_0D0M-p4sJVAxuTP68kM
-    short-id: 'dcfad1cc10d0d15b'
-- name: 🌐 Неизвестно | Surfboardv2ray_3 | 3.73 Mbps 📺360p
-  type: vless
-  server: 185.88.101.105
-  port: 443
-  uuid: f2341274-8dd8-4b80-95fd-780641f6f2da
-  tls: true
-  network: grpc
-  client-fingerprint: chrome
-  servername: fl13.svinka.pro
-  reality-opts:
-    public-key: aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ
-    short-id: '0858af97f4e7324d'
-  grpc-opts:
-    grpc-service-name: fl13svinkapro-grpc
-- name: 🇫🇮 Финляндия | rekt0ro_light.txt | 2.64 Mbps 📺360p
-  type: vless
-  server: 45.130.127.79
-  port: 443
-  uuid: 8d251959-b345-4665-b2fc-3ac177c35e6f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: fi.users.golu-gulu.online
-  reality-opts:
-    public-key: ZPjkqL8oFJ27Oa8ETFfSC_S2EHnGl8TyN5ujzYwMknw
-    short-id: '7d19a6e4c2f8305b'
-- name: 🌐 Неизвестно | pie-with-jam_10.txt | 1.61 Mbps 📺360p
+- name: 🌐 Неизвестно | pie-with-jam_10.txt | 5.34 Mbps 📺360p
   type: vless
   server: 194.55.239.10
   port: 443
@@ -129,20 +76,7 @@ proxies:
   reality-opts:
     public-key: 4Su0-tgE1LOcvkrgkhbqwcSx0xP4dr5Wh6gvhtxg0Gk
     short-id: '7935022d536cccb8'
-- name: 🇪🇪 Эстония | whoahaow_bypass-all.txt | 1.42 Mbps 📺360p
-  type: vless
-  server: 153.52.143.118
-  port: 443
-  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: de2.fox-lisa.ru
-  reality-opts:
-    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
-    short-id: '027af64166562b09'
-- name: 🇷🇺 Россия | vlessforu_working_configs.txt | 1.20 Mbps 📺360p
+- name: 🌐 Неизвестно | rekt0ro_all.txt | 4.64 Mbps 📺360p
   type: vless
   server: 93.88.203.43
   port: 2087
@@ -155,103 +89,21 @@ proxies:
   reality-opts:
     public-key: nXg_mNAscewD6CVR75kDyC0VhpxLr4wHyNzCj36W1UI
     short-id: '313348acff18e4ef'
-- name: 🇧🇷 Бразилия | Surfboardv2ray_3 | 1.11 Mbps 📺360p
+- name: 🇫🇮 Финляндия | 0xRadikal_clash.yaml_8 | 4.45 Mbps 📺360p
   type: vless
-  server: 13.143.187.220
+  server: 185.88.101.105
   port: 443
-  uuid: 66c78912-4e2d-41dc-8742-aaae2590804e
+  uuid: f2341274-8dd8-4b80-95fd-780641f6f2da
   tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: fi-s1.kadrhub.tech
+  network: grpc
+  client-fingerprint: firefox
+  servername: fl13.svinka.pro
   reality-opts:
-    public-key: eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg
-    short-id: '0000000000000000'
-- name: 🌐 CDN — гео скрыто | ChatGPT-053 | 1.54 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /%2Fworryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.20 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
-    | 1.20 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml
-    | 1.08 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.50 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: //worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls_2 |
-    1.43 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 1.25 Mbps 📺360p
+    public-key: aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ
+    short-id: '0858af97f4e7324d'
+  grpc-opts:
+    grpc-service-name: fl13svinkapro-grpc
+- name: 🇫🇮 Финляндия | vlessforu_working_configs.txt | 4.18 Mbps 📺360p
   type: vless
   server: 144.31.90.235
   port: 443
@@ -264,7 +116,98 @@ proxies:
   reality-opts:
     public-key: DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w
     short-id: 'adff113498e0f7fc'
-- name: 🇫🇮 Финляндия | vlessforu_working_configs.txt | 2.70 Mbps 📺360p
+- name: 🇪🇪 Эстония | vlessforu_working_configs.txt | 3.99 Mbps 📺360p
+  type: vless
+  server: 80.79.121.156
+  port: 443
+  uuid: 6ab79fec-ca02-447b-b7be-5945f6e6ea8f
+  tls: true
+  network: tcp
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  servername: archive-eu-west.livemusic.ac
+  reality-opts:
+    public-key: x9HClr5eRPhMPuBIndkjqFU_0D0M-p4sJVAxuTP68kM
+    short-id: 'dcfad1cc10d0d15b'
+- name: 🇫🇮 Финляндия | vlessforu_working_configs.txt | 3.49 Mbps 📺360p
+  type: vless
+  server: 45.130.127.79
+  port: 443
+  uuid: 8d251959-b345-4665-b2fc-3ac177c35e6f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: fi.users.golu-gulu.online
+  reality-opts:
+    public-key: ZPjkqL8oFJ27Oa8ETFfSC_S2EHnGl8TyN5ujzYwMknw
+    short-id: '7d19a6e4c2f8305b'
+- name: 🌐 Неизвестно | rekt0ro_all.txt | 2.82 Mbps 📺360p
+  type: vless
+  server: 13.143.187.220
+  port: 443
+  uuid: 66c78912-4e2d-41dc-8742-aaae2590804e
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: fi-s1.kadrhub.tech
+  reality-opts:
+    public-key: eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg
+    short-id: '0000000000000000'
+- name: 🇪🇪 Эстония | whoahaow_bypass-all.txt | 2.59 Mbps 📺360p
+  type: vless
+  server: 153.52.143.118
+  port: 443
+  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: de2.fox-lisa.ru
+  reality-opts:
+    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
+    short-id: '027af64166562b09'
+- name: 🌐 Неизвестно | rekt0ro_all.txt | 1.64 Mbps 📺360p
+  type: vless
+  server: 109.107.189.69
+  port: 8443
+  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: gw-721bd5.dobry.monster
+  reality-opts:
+    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
+    short-id: '0912cc7f28aa26ba'
+- name: 🌐 CDN — гео скрыто | ChatGPT-053 | 1.51 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /%2Fworryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇫🇮 Финляндия | TelegaVPN_all.txt | 0.83 Mbps 📺360p
+  type: vless
+  server: 37.139.42.37
+  port: 443
+  uuid: a77d6228-85a9-000d-b600-ccf4018230eb
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: rf.stich.my
+  reality-opts:
+    public-key: H9fcn9PYzwPVE1egy37sbK04CCXE0dn4goOfiFFsIEs
+    short-id: 'acc22b7b5ba9dbf2'
+- name: 🇫🇮 Финляндия | vlessforu_working_configs.txt | 0.64 Mbps 📺360p
   type: vless
   server: 5.183.253.25
   port: 443
@@ -278,21 +221,35 @@ proxies:
     short-id: '0858af97f4e7324d'
   grpc-opts:
     grpc-service-name: poezdkafun-grpc
-- name: 🇷🇺 Россия | rekt0ro_all.txt | 0.72 Mbps 📺360p
+- name: 🇫🇮 Финляндия | whoahaow_bypass-1.txt | 0.58 Mbps 📺360p
   type: vless
-  server: 93.88.203.43
-  port: 2087
-  uuid: d2584d9d-f08f-438a-8353-76182ad4fa44
+  server: 79.174.92.180
+  port: 443
+  uuid: 49118954-b846-4da7-9d55-c859ce59ab50
   tls: true
   network: tcp
-  client-fingerprint: firefox
+  client-fingerprint: random
   flow: xtls-rprx-vision
-  servername: webstaurantstore.com
+  servername: fi.xenovpn.top
   reality-opts:
-    public-key: nXg_mNAscewD6CVR75kDyC0VhpxLr4wHyNzCj36W1UI
-    short-id: '313348acff18e4ef'
+    public-key: 5d73hwUBkVYgpoy_H4Rsq64LqklNZB-mwXcMj2W7XV0
+    short-id: 'bd0772b42160b76b'
+- name: 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.51 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
 - name: 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 1.23 Mbps 📺360p
+    | 1.67 Mbps 📺360p
   type: vless
   server: 104.17.3.81
   port: 80
@@ -306,6 +263,128 @@ proxies:
     headers:
       Host: sg-vless-ws.bypass.id
   skip-cert-verify: true
+- name: 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
+    | 1.48 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml
+    | 1.75 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.49 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: //worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls_2 |
+    1.50 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 3.70 Mbps 📺360p
+  type: vless
+  server: 144.31.90.235
+  port: 443
+  uuid: 6ab79fec-ca02-447b-b7be-5945f6e6ea8f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: blog-asia.livemusic.ac
+  reality-opts:
+    public-key: DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w
+    short-id: 'adff113498e0f7fc'
+- name: 🇫🇮 Финляндия | Surfboardv2ray_3 | 5.70 Mbps 📺360p
+  type: vless
+  server: 185.88.101.105
+  port: 443
+  uuid: f2341274-8dd8-4b80-95fd-780641f6f2da
+  tls: true
+  network: grpc
+  client-fingerprint: chrome
+  servername: fl13.svinka.pro
+  reality-opts:
+    public-key: aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ
+    short-id: '0858af97f4e7324d'
+  grpc-opts:
+    grpc-service-name: fl13svinkapro-grpc
+- name: 🇫🇮 Финляндия | rekt0ro_light.txt | 2.94 Mbps 📺360p
+  type: vless
+  server: 45.130.127.79
+  port: 443
+  uuid: 8d251959-b345-4665-b2fc-3ac177c35e6f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: fi.users.golu-gulu.online
+  reality-opts:
+    public-key: ZPjkqL8oFJ27Oa8ETFfSC_S2EHnGl8TyN5ujzYwMknw
+    short-id: '7d19a6e4c2f8305b'
+- name: 🌐 Неизвестно | vlessforu_working_configs.txt | 4.99 Mbps 📺360p
+  type: vless
+  server: 93.88.203.43
+  port: 2087
+  uuid: d2584d9d-f08f-438a-8353-76182ad4fa44
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: webstaurantstore.com
+  reality-opts:
+    public-key: nXg_mNAscewD6CVR75kDyC0VhpxLr4wHyNzCj36W1UI
+    short-id: '313348acff18e4ef'
+- name: 🌐 Неизвестно | Surfboardv2ray_3 | 1.49 Mbps 📺360p
+  type: vless
+  server: 13.143.187.220
+  port: 443
+  uuid: 66c78912-4e2d-41dc-8742-aaae2590804e
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: fi-s1.kadrhub.tech
+  reality-opts:
+    public-key: eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg
+    short-id: '0000000000000000'
 proxy-providers:
   top_source:
     type: http
@@ -321,7 +400,6 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
   - 🌍 Без РФ
   - ❓ Страна не определена
   - 🌍 Страны
@@ -331,37 +409,34 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 4.30 Mbps 📺360p
-  - 🇪🇪 Эстония | vlessforu_working_configs.txt | 4.12 Mbps 📺360p
-  - 🌐 Неизвестно | Surfboardv2ray_3 | 3.73 Mbps 📺360p
-  - 🇫🇮 Финляндия | rekt0ro_light.txt | 2.64 Mbps 📺360p
-  - 🌐 Неизвестно | pie-with-jam_10.txt | 1.61 Mbps 📺360p
-  - 🇪🇪 Эстония | whoahaow_bypass-all.txt | 1.42 Mbps 📺360p
-  - 🇷🇺 Россия | vlessforu_working_configs.txt | 1.20 Mbps 📺360p
-  - 🇧🇷 Бразилия | Surfboardv2ray_3 | 1.11 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.54 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.20 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
-    | 1.20 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml |
-    1.08 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.50 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls_2 | 1.43
-    Mbps 📺360p
-  - 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 1.25 Mbps 📺360p
-  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 2.70 Mbps 📺360p
-  - 🇷🇺 Россия | rekt0ro_all.txt | 0.72 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_10.txt | 5.34 Mbps 📺360p
+  - 🌐 Неизвестно | rekt0ro_all.txt | 4.64 Mbps 📺360p
+  - 🇫🇮 Финляндия | 0xRadikal_clash.yaml_8 | 4.45 Mbps 📺360p
+  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 4.18 Mbps 📺360p
+  - 🇪🇪 Эстония | vlessforu_working_configs.txt | 3.99 Mbps 📺360p
+  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 3.49 Mbps 📺360p
+  - 🌐 Неизвестно | rekt0ro_all.txt | 2.82 Mbps 📺360p
+  - 🇪🇪 Эстония | whoahaow_bypass-all.txt | 2.59 Mbps 📺360p
+  - 🌐 Неизвестно | rekt0ro_all.txt | 1.64 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.51 Mbps 📺360p
+  - 🇫🇮 Финляндия | TelegaVPN_all.txt | 0.83 Mbps 📺360p
+  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 0.64 Mbps 📺360p
+  - 🇫🇮 Финляндия | whoahaow_bypass-1.txt | 0.58 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.51 Mbps 📺360p
   - 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 1.23 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🇷🇺 Только РФ
-  type: url-test
-  proxies:
-  - 🇷🇺 Россия | vlessforu_working_configs.txt | 1.20 Mbps 📺360p
-  - 🇷🇺 Россия | rekt0ro_all.txt | 0.72 Mbps 📺360p
+    | 1.67 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
+    | 1.48 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml |
+    1.75 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.49 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls_2 | 1.50
+    Mbps 📺360p
+  - 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 3.70 Mbps 📺360p
+  - 🇫🇮 Финляндия | Surfboardv2ray_3 | 5.70 Mbps 📺360p
+  - 🇫🇮 Финляндия | rekt0ro_light.txt | 2.94 Mbps 📺360p
+  - 🌐 Неизвестно | vlessforu_working_configs.txt | 4.99 Mbps 📺360p
+  - 🌐 Неизвестно | Surfboardv2ray_3 | 1.49 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -369,13 +444,17 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 4.30 Mbps 📺360p
-  - 🇪🇪 Эстония | vlessforu_working_configs.txt | 4.12 Mbps 📺360p
-  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 2.70 Mbps 📺360p
-  - 🇫🇮 Финляндия | rekt0ro_light.txt | 2.64 Mbps 📺360p
-  - 🇪🇪 Эстония | whoahaow_bypass-all.txt | 1.42 Mbps 📺360p
-  - 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 1.25 Mbps 📺360p
-  - 🇧🇷 Бразилия | Surfboardv2ray_3 | 1.11 Mbps 📺360p
+  - 🇫🇮 Финляндия | Surfboardv2ray_3 | 5.70 Mbps 📺360p
+  - 🇫🇮 Финляндия | 0xRadikal_clash.yaml_8 | 4.45 Mbps 📺360p
+  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 4.18 Mbps 📺360p
+  - 🇪🇪 Эстония | vlessforu_working_configs.txt | 3.99 Mbps 📺360p
+  - 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 3.70 Mbps 📺360p
+  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 3.49 Mbps 📺360p
+  - 🇫🇮 Финляндия | rekt0ro_light.txt | 2.94 Mbps 📺360p
+  - 🇪🇪 Эстония | whoahaow_bypass-all.txt | 2.59 Mbps 📺360p
+  - 🇫🇮 Финляндия | TelegaVPN_all.txt | 0.83 Mbps 📺360p
+  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 0.64 Mbps 📺360p
+  - 🇫🇮 Финляндия | whoahaow_bypass-1.txt | 0.58 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -383,19 +462,23 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Surfboardv2ray_3 | 3.73 Mbps 📺360p
-  - 🌐 Неизвестно | pie-with-jam_10.txt | 1.61 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.54 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.50 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls_2 | 1.43
-    Mbps 📺360p
-  - 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 1.23 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.20 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
-    | 1.20 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_10.txt | 5.34 Mbps 📺360p
+  - 🌐 Неизвестно | vlessforu_working_configs.txt | 4.99 Mbps 📺360p
+  - 🌐 Неизвестно | rekt0ro_all.txt | 4.64 Mbps 📺360p
+  - 🌐 Неизвестно | rekt0ro_all.txt | 2.82 Mbps 📺360p
   - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml |
-    1.08 Mbps 📺360p
+    1.75 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
+    | 1.67 Mbps 📺360p
+  - 🌐 Неизвестно | rekt0ro_all.txt | 1.64 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.51 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.51 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls_2 | 1.50
+    Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.49 Mbps 📺360p
+  - 🌐 Неизвестно | Surfboardv2ray_3 | 1.49 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
+    | 1.48 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -403,10 +486,15 @@ proxy-groups:
 - name: 🗺 🇫🇮 Финляндия
   type: url-test
   proxies:
-  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 4.30 Mbps 📺360p
-  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 2.70 Mbps 📺360p
-  - 🇫🇮 Финляндия | rekt0ro_light.txt | 2.64 Mbps 📺360p
-  - 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 1.25 Mbps 📺360p
+  - 🇫🇮 Финляндия | Surfboardv2ray_3 | 5.70 Mbps 📺360p
+  - 🇫🇮 Финляндия | 0xRadikal_clash.yaml_8 | 4.45 Mbps 📺360p
+  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 4.18 Mbps 📺360p
+  - 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 3.70 Mbps 📺360p
+  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 3.49 Mbps 📺360p
+  - 🇫🇮 Финляндия | rekt0ro_light.txt | 2.94 Mbps 📺360p
+  - 🇫🇮 Финляндия | TelegaVPN_all.txt | 0.83 Mbps 📺360p
+  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 0.64 Mbps 📺360p
+  - 🇫🇮 Финляндия | whoahaow_bypass-1.txt | 0.58 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -414,16 +502,8 @@ proxy-groups:
 - name: 🗺 🇪🇪 Эстония
   type: url-test
   proxies:
-  - 🇪🇪 Эстония | vlessforu_working_configs.txt | 4.12 Mbps 📺360p
-  - 🇪🇪 Эстония | whoahaow_bypass-all.txt | 1.42 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇧🇷 Бразилия
-  type: url-test
-  proxies:
-  - 🇧🇷 Бразилия | Surfboardv2ray_3 | 1.11 Mbps 📺360p
+  - 🇪🇪 Эстония | vlessforu_working_configs.txt | 3.99 Mbps 📺360p
+  - 🇪🇪 Эстония | whoahaow_bypass-all.txt | 2.59 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -433,7 +513,6 @@ proxy-groups:
   proxies:
   - 🗺 🇫🇮 Финляндия
   - 🗺 🇪🇪 Эстония
-  - 🗺 🇧🇷 Бразилия
 - name: 🎯 Direct
   type: select
   proxies:

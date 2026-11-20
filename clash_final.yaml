@@ -63,28 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-ss_iran.txt | 5.01 Mbps
-    📺360p
-  type: ss
-  server: 47.245.170.82
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-- name: 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-vless_iran_unlimited.yaml
-    | 4.96 Mbps 📺360p
-  type: vless
-  server: 132.243.231.121
-  port: 443
-  uuid: 3ce21bf2-b696-48c9-b840-e558f9842097
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: www.lovoo.com
-  reality-opts:
-    public-key: Kaf_Q4LZabmCH2k_-KvO605-qGLoNwpVihJqzxCLQCI
-    short-id: '8de63f2667919267'
-- name: 🇸🇪 Швеция | 3inker_all_not_ru.txt | 4.59 Mbps 📺360p
+- name: 🇸🇪 Швеция | 3inker_all_not_ru.txt | 5.00 Mbps 📺360p
   type: vless
   server: 31.77.158.21
   port: 443
@@ -97,58 +76,7 @@ proxies:
   reality-opts:
     public-key: TyuIIquHoesD9YwMQJHda0YZ3Hy9Dh123dQ00iGK0QY
     short-id: '0000000000000000'
-- name: 🇬🇧 Великобритания | api_alive_bl.yaml | 4.03 Mbps 📺360p
-  type: vless
-  server: 13.143.187.220
-  port: 443
-  uuid: 66c78912-4e2d-41dc-8742-aaae2590804e
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: fi-s1.kadrhub.tech
-  reality-opts:
-    public-key: eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg
-    short-id: '0000000000000000'
-- name: 🇱🇹 Литва | api_alive_full.txt | 3.71 Mbps 📺360p
-  type: vless
-  server: 138.124.9.201
-  port: 8443
-  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: admin.mistral.ai
-  reality-opts:
-    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
-    short-id: '4d3affb557796d1c'
-- name: 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.62 Mbps 📺360p
-  type: vless
-  server: 150.40.126.187
-  port: 443
-  uuid: c1f4f185-5786-40c9-893f-2f100b7165f2
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  servername: eu38.cdn77.icu
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: '1ed136481e0ede74'
-- name: 🇸🇪 Швеция | 3inker_all_not_ru.txt | 2.86 Mbps 📺360p
-  type: vless
-  server: 48.102.172.114
-  port: 443
-  uuid: ab5e91ee-f600-4825-a2bc-d6471d5cee03
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: prsv-forum-combeck-let-s-go.keno.su
-  reality-opts:
-    public-key: VRzl6zA8rOorqy2veXbTaImRBxQfXw1v3-REhx6EpHQ
-    short-id: '225ef9f7843ac533'
-- name: 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 2.71 Mbps
+- name: 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 4.53 Mbps
     📺360p
   type: vless
   server: 31.59.148.132
@@ -162,7 +90,71 @@ proxies:
   reality-opts:
     public-key: c8IEc_c_QBmI5YAwILoVH0xw2xC4AJgJDKEYKcmKogo
     short-id: '7f2e9c4b1a8d6e55'
-- name: 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 1.37
+- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.42 Mbps 📺360p
+  type: vless
+  server: 87.121.89.165
+  port: 443
+  uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
+  tls: true
+  network: tcp
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: hosting.sywl5.club
+  reality-opts:
+    public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
+    short-id: 'fa6ca0ce38e58033'
+- name: 🇱🇹 Литва | 3inker_all_not_ru.txt | 4.20 Mbps 📺360p
+  type: vless
+  server: 138.124.9.201
+  port: 8443
+  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: admin.mistral.ai
+  reality-opts:
+    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
+    short-id: '4d3affb557796d1c'
+- name: 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.53 Mbps 📺360p
+  type: vless
+  server: 150.40.126.187
+  port: 443
+  uuid: c1f4f185-5786-40c9-893f-2f100b7165f2
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: eu38.cdn77.icu
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: '1ed136481e0ede74'
+- name: 🇸🇪 Швеция | api_alive_bl.yaml | 2.19 Mbps 📺360p
+  type: vless
+  server: 48.102.172.114
+  port: 443
+  uuid: ab5e91ee-f600-4825-a2bc-d6471d5cee03
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: prsv-forum-combeck-let-s-go.keno.su
+  reality-opts:
+    public-key: VRzl6zA8rOorqy2veXbTaImRBxQfXw1v3-REhx6EpHQ
+    short-id: '225ef9f7843ac533'
+- name: 🇸🇪 Швеция | api_alive_full.txt | 1.70 Mbps 📺360p
+  type: vless
+  server: 132.243.231.121
+  port: 443
+  uuid: 3ce21bf2-b696-48c9-b840-e558f9842097
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: www.lovoo.com
+  reality-opts:
+    public-key: Kaf_Q4LZabmCH2k_-KvO605-qGLoNwpVihJqzxCLQCI
+    short-id: '8de63f2667919267'
+- name: 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2 | 0.71
     Mbps 📺360p
   type: vless
   server: 104.17.3.81
@@ -176,61 +168,20 @@ proxies:
     headers:
       Host: sg-vless-ws.bypass.id
   skip-cert-verify: true
-- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.29 Mbps 📺360p
+- name: 🇩🇪 Германия | Diversan313_alive_bl.txt | 4.22 Mbps 📺360p
   type: vless
-  server: 87.121.89.165
+  server: 217.60.27.153
   port: 443
-  uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: hosting.sywl5.club
-  reality-opts:
-    public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
-    short-id: 'fa6ca0ce38e58033'
-- name: 🇱🇹 Литва | 3inker_all_not_ru.txt | 3.58 Mbps 📺360p
-  type: vless
-  server: 138.124.9.201
-  port: 8443
-  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
+  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
   tls: true
   network: raw
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: admin.mistral.ai
+  servername: music.3apes.online
   reality-opts:
-    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
-    short-id: '4d3affb557796d1c'
-- name: 🇸🇬 Сингапур | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 0.79
-    Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🇬🇧 Великобритания | 3inker_all_not_ru.txt | 1.27 Mbps 📺360p
-  type: vless
-  server: 13.143.187.220
-  port: 443
-  uuid: 66c78912-4e2d-41dc-8742-aaae2590804e
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: fi-s1.kadrhub.tech
-  reality-opts:
-    public-key: eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg
+    public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
     short-id: '0000000000000000'
-- name: 🇸🇪 Швеция | api_alive_bl.yaml | 3.61 Mbps 📺360p
+- name: '🇸🇪 Швеция | 3inker_all_not_ru.txt | 5.00 Mbps 📺360p #1'
   type: vless
   server: 48.102.172.114
   port: 443
@@ -243,20 +194,8 @@ proxies:
   reality-opts:
     public-key: VRzl6zA8rOorqy2veXbTaImRBxQfXw1v3-REhx6EpHQ
     short-id: '225ef9f7843ac533'
-- name: 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 3.39 Mbps 📺360p
-  type: vless
-  server: 138.124.9.201
-  port: 8443
-  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: admin.mistral.ai
-  reality-opts:
-    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
-    short-id: '4d3affb557796d1c'
-- name: 🌐 Неизвестно | Argh94_All_Config.txt | 4.77 Mbps 📺360p
+- name: 🇸🇪 Швеция | alireza786786_10ium-V2rayCollectorLite-vless_iran_unlimited.yaml
+    | 5.34 Mbps 📺360p
   type: vless
   server: 132.243.231.121
   port: 443
@@ -269,7 +208,61 @@ proxies:
   reality-opts:
     public-key: Kaf_Q4LZabmCH2k_-KvO605-qGLoNwpVihJqzxCLQCI
     short-id: '8de63f2667919267'
-- name: 🇸🇬 Сингапур | Edsel-Rahimi_nodes.txt | 0.60 Mbps 📺360p
+- name: 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.53 Mbps 📺360p
+  type: vless
+  server: 138.124.9.201
+  port: 8443
+  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: admin.mistral.ai
+  reality-opts:
+    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
+    short-id: '4d3affb557796d1c'
+- name: 🇱🇹 Литва | api_alive_full.txt | 2.44 Mbps 📺360p
+  type: vless
+  server: 138.124.9.201
+  port: 8443
+  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: admin.mistral.ai
+  reality-opts:
+    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
+    short-id: '4d3affb557796d1c'
+- name: 🇸🇪 Швеция | Argh94_All_Config.txt | 4.87 Mbps 📺360p
+  type: vless
+  server: 132.243.231.121
+  port: 443
+  uuid: 3ce21bf2-b696-48c9-b840-e558f9842097
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: www.lovoo.com
+  reality-opts:
+    public-key: Kaf_Q4LZabmCH2k_-KvO605-qGLoNwpVihJqzxCLQCI
+    short-id: '8de63f2667919267'
+- name: 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 1.80
+    Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
+    | 1.36 Mbps 📺360p
   type: vless
   server: 104.17.3.81
   port: 80
@@ -279,7 +272,7 @@ proxies:
   client-fingerprint: chrome
   servername: sg-vless-ws.bypass.id
   ws-opts:
-    path: /worryfree
+    path: /
     headers:
       Host: sg-vless-ws.bypass.id
   skip-cert-verify: true
@@ -307,27 +300,26 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-ss_iran.txt | 5.01 Mbps
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 5.00 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 4.53 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.42 Mbps 📺360p
+  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 4.20 Mbps 📺360p
+  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.53 Mbps 📺360p
+  - 🇸🇪 Швеция | api_alive_bl.yaml | 2.19 Mbps 📺360p
+  - 🇸🇪 Швеция | api_alive_full.txt | 1.70 Mbps 📺360p
+  - 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2 | 0.71
+    Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 4.22 Mbps 📺360p
+  - '🇸🇪 Швеция | 3inker_all_not_ru.txt | 5.00 Mbps 📺360p #1'
+  - 🇸🇪 Швеция | alireza786786_10ium-V2rayCollectorLite-vless_iran_unlimited.yaml |
+    5.34 Mbps 📺360p
+  - 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.53 Mbps 📺360p
+  - 🇱🇹 Литва | api_alive_full.txt | 2.44 Mbps 📺360p
+  - 🇸🇪 Швеция | Argh94_All_Config.txt | 4.87 Mbps 📺360p
+  - 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 1.80 Mbps
     📺360p
-  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-vless_iran_unlimited.yaml
-    | 4.96 Mbps 📺360p
-  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 4.59 Mbps 📺360p
-  - 🇬🇧 Великобритания | api_alive_bl.yaml | 4.03 Mbps 📺360p
-  - 🇱🇹 Литва | api_alive_full.txt | 3.71 Mbps 📺360p
-  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.62 Mbps 📺360p
-  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 2.86 Mbps 📺360p
-  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 2.71 Mbps 📺360p
-  - 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 1.37 Mbps
-    📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.29 Mbps 📺360p
-  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 3.58 Mbps 📺360p
-  - 🇸🇬 Сингапур | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 0.79 Mbps
-    📺360p
-  - 🇬🇧 Великобритания | 3inker_all_not_ru.txt | 1.27 Mbps 📺360p
-  - 🇸🇪 Швеция | api_alive_bl.yaml | 3.61 Mbps 📺360p
-  - 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 3.39 Mbps 📺360p
-  - 🌐 Неизвестно | Argh94_All_Config.txt | 4.77 Mbps 📺360p
-  - 🇸🇬 Сингапур | Edsel-Rahimi_nodes.txt | 0.60 Mbps 📺360p
+  - 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml | 1.36
+    Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -335,21 +327,25 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 4.59 Mbps 📺360p
-  - 🇬🇧 Великобритания | api_alive_bl.yaml | 4.03 Mbps 📺360p
-  - 🇱🇹 Литва | api_alive_full.txt | 3.71 Mbps 📺360p
-  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.62 Mbps 📺360p
-  - 🇸🇪 Швеция | api_alive_bl.yaml | 3.61 Mbps 📺360p
-  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 3.58 Mbps 📺360p
-  - 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 3.39 Mbps 📺360p
-  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 2.86 Mbps 📺360p
-  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 2.71 Mbps 📺360p
-  - 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 1.37 Mbps
+  - 🇸🇪 Швеция | alireza786786_10ium-V2rayCollectorLite-vless_iran_unlimited.yaml |
+    5.34 Mbps 📺360p
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 5.00 Mbps 📺360p
+  - '🇸🇪 Швеция | 3inker_all_not_ru.txt | 5.00 Mbps 📺360p #1'
+  - 🇸🇪 Швеция | Argh94_All_Config.txt | 4.87 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 4.53 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 4.22 Mbps 📺360p
+  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 4.20 Mbps 📺360p
+  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.53 Mbps 📺360p
+  - 🇱🇹 Литва | api_alive_full.txt | 2.44 Mbps 📺360p
+  - 🇸🇪 Швеция | api_alive_bl.yaml | 2.19 Mbps 📺360p
+  - 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 1.80 Mbps
     📺360p
-  - 🇬🇧 Великобритания | 3inker_all_not_ru.txt | 1.27 Mbps 📺360p
-  - 🇸🇬 Сингапур | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 0.79 Mbps
-    📺360p
-  - 🇸🇬 Сингапур | Edsel-Rahimi_nodes.txt | 0.60 Mbps 📺360p
+  - 🇸🇪 Швеция | api_alive_full.txt | 1.70 Mbps 📺360p
+  - 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.53 Mbps 📺360p
+  - 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml | 1.36
+    Mbps 📺360p
+  - 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2 | 0.71
+    Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -357,12 +353,7 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-ss_iran.txt | 5.01 Mbps
-    📺360p
-  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-vless_iran_unlimited.yaml
-    | 4.96 Mbps 📺360p
-  - 🌐 Неизвестно | Argh94_All_Config.txt | 4.77 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.29 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 4.42 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -370,9 +361,13 @@ proxy-groups:
 - name: 🗺 🇸🇪 Швеция
   type: url-test
   proxies:
-  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 4.59 Mbps 📺360p
-  - 🇸🇪 Швеция | api_alive_bl.yaml | 3.61 Mbps 📺360p
-  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 2.86 Mbps 📺360p
+  - 🇸🇪 Швеция | alireza786786_10ium-V2rayCollectorLite-vless_iran_unlimited.yaml |
+    5.34 Mbps 📺360p
+  - 🇸🇪 Швеция | 3inker_all_not_ru.txt | 5.00 Mbps 📺360p
+  - '🇸🇪 Швеция | 3inker_all_not_ru.txt | 5.00 Mbps 📺360p #1'
+  - 🇸🇪 Швеция | Argh94_All_Config.txt | 4.87 Mbps 📺360p
+  - 🇸🇪 Швеция | api_alive_bl.yaml | 2.19 Mbps 📺360p
+  - 🇸🇪 Швеция | api_alive_full.txt | 1.70 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -380,9 +375,9 @@ proxy-groups:
 - name: 🗺 🇱🇹 Литва
   type: url-test
   proxies:
-  - 🇱🇹 Литва | api_alive_full.txt | 3.71 Mbps 📺360p
-  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 3.58 Mbps 📺360p
-  - 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 3.39 Mbps 📺360p
+  - 🇱🇹 Литва | 3inker_all_not_ru.txt | 4.20 Mbps 📺360p
+  - 🇱🇹 Литва | api_alive_full.txt | 2.44 Mbps 📺360p
+  - 🇱🇹 Литва | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.53 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -390,28 +385,12 @@ proxy-groups:
 - name: 🗺 🇸🇬 Сингапур
   type: url-test
   proxies:
-  - 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 1.37 Mbps
+  - 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 1.80 Mbps
     📺360p
-  - 🇸🇬 Сингапур | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 0.79 Mbps
-    📺360p
-  - 🇸🇬 Сингапур | Edsel-Rahimi_nodes.txt | 0.60 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇬🇧 Великобритания
-  type: url-test
-  proxies:
-  - 🇬🇧 Великобритания | api_alive_bl.yaml | 4.03 Mbps 📺360p
-  - 🇬🇧 Великобритания | 3inker_all_not_ru.txt | 1.27 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇷🇸 Сербия
-  type: url-test
-  proxies:
-  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.62 Mbps 📺360p
+  - 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml | 1.36
+    Mbps 📺360p
+  - 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2 | 0.71
+    Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -419,7 +398,23 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 2.71 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 4.53 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇷🇸 Сербия
+  type: url-test
+  proxies:
+  - 🇷🇸 Сербия | 3inker_all_not_ru.txt | 3.53 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇩🇪 Германия
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия | Diversan313_alive_bl.txt | 4.22 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -430,9 +425,9 @@ proxy-groups:
   - 🗺 🇸🇪 Швеция
   - 🗺 🇱🇹 Литва
   - 🗺 🇸🇬 Сингапур
-  - 🗺 🇬🇧 Великобритания
-  - 🗺 🇷🇸 Сербия
   - 🗺 🇳🇱 Нидерланды
+  - 🗺 🇷🇸 Сербия
+  - 🗺 🇩🇪 Германия
 - name: 🎯 Direct
   type: select
   proxies:

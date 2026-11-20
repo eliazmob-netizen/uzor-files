@@ -63,46 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | ChatGPT-053 | 4.42 Mbps 📺360p
-  type: vless
-  server: 87.121.89.165
-  port: 443
-  uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: hosting.sywl5.club
-  reality-opts:
-    public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
-    short-id: 'fa6ca0ce38e58033'
-- name: 🌐 Неизвестно | asgharkapk_vless.yaml | 2.74 Mbps 📺360p
-  type: vless
-  server: 31.59.148.132
-  port: 443
-  uuid: ca60984f-b1f0-4073-bd33-4c75168f749a
-  tls: true
-  network: tcp
-  client-fingerprint: random
-  flow: xtls-rprx-vision
-  servername: nl-salad-12.fantoff.online
-  reality-opts:
-    public-key: c8IEc_c_QBmI5YAwILoVH0xw2xC4AJgJDKEYKcmKogo
-    short-id: '7f2e9c4b1a8d6e55'
-- name: 🇩🇪 Германия | ChatGPT-025 | 1.36 Mbps 📺360p
-  type: vless
-  server: 88.216.74.37
-  port: 443
-  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: yw0ein72.dendi.top
-  reality-opts:
-    public-key: UpOOm5-gcSp3fLuCzWl2HJnnqtUHpnbyOWU2yUCcsRI
-    short-id: '0492eabdb9'
-- name: 🇮🇷 Иран | ChatGPT-053 | 1.18 Mbps 📺360p
+- name: 🇮🇷 Иран | ChatGPT-053 | 3.02 Mbps 📺360p
   type: vless
   server: food.ebaniyautist.com
   port: 443
@@ -115,7 +76,59 @@ proxies:
   reality-opts:
     public-key: 4Su0-tgE1LOcvkrgkhbqwcSx0xP4dr5Wh6gvhtxg0Gk
     short-id: '7935022d536cccb8'
-- name: 🇳🇱 Нидерланды | Barabama ClashMeta | 0.81 Mbps 📺360p
+- name: 🇩🇪 Германия | ChatGPT-025 | 2.08 Mbps 📺360p
+  type: vless
+  server: 88.216.74.37
+  port: 443
+  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: yw0ein72.dendi.top
+  reality-opts:
+    public-key: UpOOm5-gcSp3fLuCzWl2HJnnqtUHpnbyOWU2yUCcsRI
+    short-id: '0492eabdb9'
+- name: 🇫🇷 Франция | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.67 Mbps 📺360p
+  type: vless
+  server: 138.124.9.201
+  port: 8443
+  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: admin.mistral.ai
+  reality-opts:
+    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
+    short-id: '4d3affb557796d1c'
+- name: 🌐 Неизвестно | asgharkapk_vless.yaml | 1.23 Mbps 📺360p
+  type: vless
+  server: 31.59.148.132
+  port: 443
+  uuid: ca60984f-b1f0-4073-bd33-4c75168f749a
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: nl-salad-12.fantoff.online
+  reality-opts:
+    public-key: c8IEc_c_QBmI5YAwILoVH0xw2xC4AJgJDKEYKcmKogo
+    short-id: '7f2e9c4b1a8d6e55'
+- name: 🇫🇷 Франция | 3inker_all_not_ru.txt | 1.04 Mbps 📺360p
+  type: vless
+  server: 37.18.15.192
+  port: 2056
+  uuid: 7c4574cc-6396-44d1-8427-60b91467264e
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: android.eads.ru
+  reality-opts:
+    public-key: 8Wm7HmrEFFmPb1YBujIdnoV2ebynl1wBMJp_v2oiwiM
+    short-id: 'ce680883ad484149'
+- name: 🇳🇱 Нидерланды | Barabama ClashMeta | 0.66 Mbps 📺360p
   type: vless
   server: 717252g.nl8.h1clayd.click
   port: 443
@@ -129,46 +142,7 @@ proxies:
     short-id: 'd3bd772514c87d28'
   grpc-opts:
     grpc-service-name: 204adda7e3da
-- name: 🌐 Неизвестно | 3inker_all_not_ru.txt | 2.24 Mbps 📺360p
-  type: vless
-  server: 37.18.15.192
-  port: 2056
-  uuid: 7c4574cc-6396-44d1-8427-60b91467264e
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: android.eads.ru
-  reality-opts:
-    public-key: 8Wm7HmrEFFmPb1YBujIdnoV2ebynl1wBMJp_v2oiwiM
-    short-id: 'ce680883ad484149'
-- name: 🇫🇷 Франция | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 0.92 Mbps 📺360p
-  type: vless
-  server: 138.124.9.201
-  port: 8443
-  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: admin.mistral.ai
-  reality-opts:
-    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
-    short-id: '4d3affb557796d1c'
-- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 1.64 Mbps 📺360p
-  type: vless
-  server: 87.121.89.165
-  port: 443
-  uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: hosting.sywl5.club
-  reality-opts:
-    public-key: eHdHpA-hKq3aXoVTW_ysflcYKmNbuCSExN167jKtnAY
-    short-id: 'fa6ca0ce38e58033'
-- name: 🌐 Неизвестно | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.12 Mbps 📺360p
+- name: 🌐 Неизвестно | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 0.74 Mbps 📺360p
   type: vless
   server: 31.59.148.132
   port: 443
@@ -181,32 +155,141 @@ proxies:
   reality-opts:
     public-key: c8IEc_c_QBmI5YAwILoVH0xw2xC4AJgJDKEYKcmKogo
     short-id: '7f2e9c4b1a8d6e55'
-- name: 🌐 Неизвестно | api_alive_bs.txt | 0.95 Mbps 📺360p
+- name: 🇫🇷 Франция | 3inker_all_not_ru.txt | 0.88 Mbps 📺360p
   type: vless
-  server: 37.18.15.192
-  port: 2056
-  uuid: 7c4574cc-6396-44d1-8427-60b91467264e
+  server: 138.124.9.201
+  port: 8443
+  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: admin.mistral.ai
+  reality-opts:
+    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
+    short-id: '4d3affb557796d1c'
+- name: 🇫🇷 Франция | api_alive_full.txt | 1.67 Mbps 📺360p
+  type: vless
+  server: 138.124.9.201
+  port: 8443
+  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: admin.mistral.ai
+  reality-opts:
+    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
+    short-id: '4d3affb557796d1c'
+- name: 🇫🇷 Франция | ChatGPT-053 | 0.88 Mbps 📺360p
+  type: vless
+  server: 138.124.9.201
+  port: 8443
+  uuid: 74af70c0-bea7-4412-9a1a-f7eab9c91ef8
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: android.eads.ru
+  servername: admin.mistral.ai
   reality-opts:
-    public-key: 8Wm7HmrEFFmPb1YBujIdnoV2ebynl1wBMJp_v2oiwiM
-    short-id: 'ce680883ad484149'
-- name: 🇸🇪 Швеция | api_alive_bl.yaml | 0.69 Mbps 📺360p
+    public-key: -rXSc4xMnB2OEs-Z628O2u3OPdMDL1h5mQvSZf5Nt1Q
+    short-id: '4d3affb557796d1c'
+- name: 🇷🇺 Россия | 10Dream_mix.txt | 10.69 Mbps 📺360p
   type: vless
-  server: 48.102.172.114
+  server: ru7e2bab87cc39.eu-cdn539.com
   port: 443
-  uuid: ab5e91ee-f600-4825-a2bc-d6471d5cee03
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
   tls: true
   network: tcp
-  client-fingerprint: firefox
+  client-fingerprint: edge
   flow: xtls-rprx-vision
-  servername: prsv-forum-combeck-let-s-go.keno.su
+  servername: ru7e2bab87cc39.eu-cdn539.com
   reality-opts:
-    public-key: VRzl6zA8rOorqy2veXbTaImRBxQfXw1v3-REhx6EpHQ
-    short-id: '225ef9f7843ac533'
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇷🇺 Россия | 10ium_clash.yaml_110 | 2.06 Mbps 📺360p
+  type: vless
+  server: ru7e2bab87cc39.eu-cdn539.com
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇷🇺 Россия | 10Dream_mix.txt_2 | 11.22 Mbps 📺360p
+  type: vless
+  server: ru7e2bab87cc39.eu-cdn539.com
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: ru7e2bab87cc39.eu-cdn539.com
+  reality-opts:
+    public-key: lews1n_fypGexd_dMofEO4Vy1ULsFeVIFa90MMY3pm4
+    short-id: '3992cc7fb9fcbe58'
+- name: 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
+    | 1.28 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇸🇬 Сингапур | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 1.52
+    Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇸🇬 Сингапур | Barabama ClashMeta | 1.50 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: //worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 1.44
+    Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
 proxy-providers:
   top_source:
     type: http
@@ -222,6 +305,7 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
+  - 🇷🇺 Только РФ
   - 🌍 Без РФ
   - ❓ Страна не определена
   - 🌍 Страны
@@ -231,17 +315,36 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | ChatGPT-053 | 4.42 Mbps 📺360p
-  - 🌐 Неизвестно | asgharkapk_vless.yaml | 2.74 Mbps 📺360p
-  - 🇩🇪 Германия | ChatGPT-025 | 1.36 Mbps 📺360p
-  - 🇮🇷 Иран | ChatGPT-053 | 1.18 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Barabama ClashMeta | 0.81 Mbps 📺360p
-  - 🌐 Неизвестно | 3inker_all_not_ru.txt | 2.24 Mbps 📺360p
-  - 🇫🇷 Франция | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 0.92 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 1.64 Mbps 📺360p
-  - 🌐 Неизвестно | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.12 Mbps 📺360p
-  - 🌐 Неизвестно | api_alive_bs.txt | 0.95 Mbps 📺360p
-  - 🇸🇪 Швеция | api_alive_bl.yaml | 0.69 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 3.02 Mbps 📺360p
+  - 🇩🇪 Германия | ChatGPT-025 | 2.08 Mbps 📺360p
+  - 🇫🇷 Франция | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.67 Mbps 📺360p
+  - 🌐 Неизвестно | asgharkapk_vless.yaml | 1.23 Mbps 📺360p
+  - 🇫🇷 Франция | 3inker_all_not_ru.txt | 1.04 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Barabama ClashMeta | 0.66 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 0.74 Mbps 📺360p
+  - 🇫🇷 Франция | 3inker_all_not_ru.txt | 0.88 Mbps 📺360p
+  - 🇫🇷 Франция | api_alive_full.txt | 1.67 Mbps 📺360p
+  - 🇫🇷 Франция | ChatGPT-053 | 0.88 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt | 10.69 Mbps 📺360p
+  - 🇷🇺 Россия | 10ium_clash.yaml_110 | 2.06 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 11.22 Mbps 📺360p
+  - 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml | 1.28
+    Mbps 📺360p
+  - 🇸🇬 Сингапур | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 1.52 Mbps
+    📺360p
+  - 🇸🇬 Сингапур | Barabama ClashMeta | 1.50 Mbps 📺360p
+  - 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 1.44 Mbps
+    📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🇷🇺 Только РФ
+  type: url-test
+  proxies:
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 11.22 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt | 10.69 Mbps 📺360p
+  - 🇷🇺 Россия | 10ium_clash.yaml_110 | 2.06 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -249,11 +352,21 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇩🇪 Германия | ChatGPT-025 | 1.36 Mbps 📺360p
-  - 🇮🇷 Иран | ChatGPT-053 | 1.18 Mbps 📺360p
-  - 🇫🇷 Франция | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 0.92 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Barabama ClashMeta | 0.81 Mbps 📺360p
-  - 🇸🇪 Швеция | api_alive_bl.yaml | 0.69 Mbps 📺360p
+  - 🇮🇷 Иран | ChatGPT-053 | 3.02 Mbps 📺360p
+  - 🇩🇪 Германия | ChatGPT-025 | 2.08 Mbps 📺360p
+  - 🇫🇷 Франция | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.67 Mbps 📺360p
+  - 🇫🇷 Франция | api_alive_full.txt | 1.67 Mbps 📺360p
+  - 🇸🇬 Сингапур | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 1.52 Mbps
+    📺360p
+  - 🇸🇬 Сингапур | Barabama ClashMeta | 1.50 Mbps 📺360p
+  - 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 1.44 Mbps
+    📺360p
+  - 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml | 1.28
+    Mbps 📺360p
+  - 🇫🇷 Франция | 3inker_all_not_ru.txt | 1.04 Mbps 📺360p
+  - 🇫🇷 Франция | 3inker_all_not_ru.txt | 0.88 Mbps 📺360p
+  - 🇫🇷 Франция | ChatGPT-053 | 0.88 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Barabama ClashMeta | 0.66 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -261,36 +374,8 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | ChatGPT-053 | 4.42 Mbps 📺360p
-  - 🌐 Неизвестно | asgharkapk_vless.yaml | 2.74 Mbps 📺360p
-  - 🌐 Неизвестно | 3inker_all_not_ru.txt | 2.24 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt | 1.64 Mbps 📺360p
-  - 🌐 Неизвестно | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.12 Mbps 📺360p
-  - 🌐 Неизвестно | api_alive_bs.txt | 0.95 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇩🇪 Германия
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия | ChatGPT-025 | 1.36 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇮🇷 Иран
-  type: url-test
-  proxies:
-  - 🇮🇷 Иран | ChatGPT-053 | 1.18 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇳🇱 Нидерланды
-  type: url-test
-  proxies:
-  - 🇳🇱 Нидерланды | Barabama ClashMeta | 0.81 Mbps 📺360p
+  - 🌐 Неизвестно | asgharkapk_vless.yaml | 1.23 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 0.74 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -298,15 +383,49 @@ proxy-groups:
 - name: 🗺 🇫🇷 Франция
   type: url-test
   proxies:
-  - 🇫🇷 Франция | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 0.92 Mbps 📺360p
+  - 🇫🇷 Франция | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.67 Mbps 📺360p
+  - 🇫🇷 Франция | api_alive_full.txt | 1.67 Mbps 📺360p
+  - 🇫🇷 Франция | 3inker_all_not_ru.txt | 1.04 Mbps 📺360p
+  - 🇫🇷 Франция | 3inker_all_not_ru.txt | 0.88 Mbps 📺360p
+  - 🇫🇷 Франция | ChatGPT-053 | 0.88 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇸🇪 Швеция
+- name: 🗺 🇸🇬 Сингапур
   type: url-test
   proxies:
-  - 🇸🇪 Швеция | api_alive_bl.yaml | 0.69 Mbps 📺360p
+  - 🇸🇬 Сингапур | 10Dream_10ium-telegram-configs-collector-non-tls.yaml | 1.52 Mbps
+    📺360p
+  - 🇸🇬 Сингапур | Barabama ClashMeta | 1.50 Mbps 📺360p
+  - 🇸🇬 Сингапур | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 1.44 Mbps
+    📺360p
+  - 🇸🇬 Сингапур | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml | 1.28
+    Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇷 Иран
+  type: url-test
+  proxies:
+  - 🇮🇷 Иран | ChatGPT-053 | 3.02 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇩🇪 Германия
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия | ChatGPT-025 | 2.08 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇳🇱 Нидерланды
+  type: url-test
+  proxies:
+  - 🇳🇱 Нидерланды | Barabama ClashMeta | 0.66 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -314,11 +433,11 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇩🇪 Германия
-  - 🗺 🇮🇷 Иран
-  - 🗺 🇳🇱 Нидерланды
   - 🗺 🇫🇷 Франция
-  - 🗺 🇸🇪 Швеция
+  - 🗺 🇸🇬 Сингапур
+  - 🗺 🇮🇷 Иран
+  - 🗺 🇩🇪 Германия
+  - 🗺 🇳🇱 Нидерланды
 - name: 🎯 Direct
   type: select
   proxies:

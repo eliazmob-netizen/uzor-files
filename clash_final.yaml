@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | ChatGPT-053 | 10.21 Mbps 📺360p
+- name: 🌐 Неизвестно | ChatGPT-053 | 8.38 Mbps 📺360p
   type: vless
   server: 178.20.28.5
   port: 8443
@@ -77,7 +77,7 @@ proxies:
     short-id: '0000000000000000'
   grpc-opts:
     grpc-service-name: TunService
-- name: 🌐 Неизвестно | ChatGPT-053 | 5.55 Mbps 📺360p
+- name: 🌐 Неизвестно | ChatGPT-053 | 4.88 Mbps 📺360p
   type: vless
   server: 62.233.39.5
   port: 8443
@@ -91,21 +91,20 @@ proxies:
     short-id: '0000000000000000'
   grpc-opts:
     grpc-service-name: TunService
-- name: 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.txt_2 | 4.59 Mbps
-    📺360p
+- name: 🇺🇸 США | vlessforu_working_configs.txt | 4.73 Mbps 📺360p
   type: vless
-  server: 144.31.167.154
+  server: 45.130.127.79
   port: 443
-  uuid: 9a9f167d-b461-466f-be50-f0ffd598a6f8
+  uuid: 8d251959-b345-4665-b2fc-3ac177c35e6f
   tls: true
-  network: raw
+  network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: gembeforeshoping.space
+  servername: fi.users.golu-gulu.online
   reality-opts:
-    public-key: lY9sPrXzj3Dlsj6JTP5UolK1RmIAlstuAy3dBJ97ag0
-    short-id: '0000000000000000'
-- name: 🇺🇸 США | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 3.66 Mbps 📺360p
+    public-key: ZPjkqL8oFJ27Oa8ETFfSC_S2EHnGl8TyN5ujzYwMknw
+    short-id: '7d19a6e4c2f8305b'
+- name: 🇺🇸 США | alireza786786_mix.txt_2 | 4.15 Mbps 📺360p
   type: vless
   server: 143.203.216.187
   port: 443
@@ -118,34 +117,7 @@ proxies:
   reality-opts:
     public-key: o7R9liafUMmCf4Sr14gLaB-gZ7mo_axffMCT176tuHw
     short-id: '672cfc'
-- name: 🇫🇮 Финляндия | ChatGPT-012 | 3.55 Mbps 📺360p
-  type: vless
-  server: 144.31.90.235
-  port: 443
-  uuid: 6ab79fec-ca02-447b-b7be-5945f6e6ea8f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: blog-asia.livemusic.ac
-  reality-opts:
-    public-key: DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w
-    short-id: 'adff113498e0f7fc'
-- name: 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.yaml | 2.77 Mbps
-    📺360p
-  type: vless
-  server: newerson.online
-  port: 443
-  uuid: 37fc45b0-be4d-4920-a0f7-7389e406f5f3
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: newerson.online
-  reality-opts:
-    public-key: TiKF_6UGMtWhgDiAGLsAtyYwyv-s3HxG6F0P9ltyf1U
-    short-id: '8888265ef63fba6d'
-- name: 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.96 Mbps
+- name: 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.63 Mbps
     📺360p
   type: vless
   server: 153.52.143.118
@@ -159,7 +131,35 @@ proxies:
   reality-opts:
     public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
     short-id: '027af64166562b09'
-- name: 🇵🇱 Польша | cbusifabcap_README.md_2 | 1.79 Mbps 📺360p
+- name: 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 3.31 Mbps
+    📺360p
+  type: vless
+  server: 109.107.189.69
+  port: 8443
+  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: gw-721bd5.dobry.monster
+  reality-opts:
+    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
+    short-id: '0912cc7f28aa26ba'
+- name: 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.yaml | 2.83 Mbps
+    📺360p
+  type: vless
+  server: newerson.online
+  port: 443
+  uuid: 37fc45b0-be4d-4920-a0f7-7389e406f5f3
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: newerson.online
+  reality-opts:
+    public-key: TiKF_6UGMtWhgDiAGLsAtyYwyv-s3HxG6F0P9ltyf1U
+    short-id: '8888265ef63fba6d'
+- name: 🇷🇺 Россия | alireza786786_mix.txt_2 | 2.45 Mbps 📺360p
   type: vless
   server: 85.192.30.88
   port: 443
@@ -171,20 +171,21 @@ proxies:
   reality-opts:
     public-key: 8OI8rEgAiWxH-cG03xgzuz7XTFHrbA1MY9HnPHcgSUA
     short-id: '1d5ac21e988c571f'
-- name: 🇧🇬 Болгария | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.56 Mbps 📺360p
+- name: 🇫🇮 Финляндия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 1.69
+    Mbps 📺360p
   type: vless
-  server: 157.228.163.99
+  server: 144.31.90.235
   port: 443
-  uuid: 0259e5aa-c188-4334-b204-32cd5ea859f6
+  uuid: 6ab79fec-ca02-447b-b7be-5945f6e6ea8f
   tls: true
-  network: tcp
+  network: raw
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: sofia-talking.keno.su
+  servername: blog-asia.livemusic.ac
   reality-opts:
-    public-key: hSoDrLr8MWmV05ffU4OLAmCgvh7AsoSiwkVjzPPVWSk
-    short-id: 'd84583b7258ac883'
-- name: 🌐 Неизвестно | ChatGPT-053 | 1.26 Mbps 📺360p
+    public-key: DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w
+    short-id: 'adff113498e0f7fc'
+- name: 🌐 Неизвестно | ChatGPT-053 | 1.22 Mbps 📺360p
   type: vless
   server: 103.252.91.140
   port: 443
@@ -197,33 +198,7 @@ proxies:
   reality-opts:
     public-key: pqm3uwi4igGi8XbqSnlbOMb6JUgmCaF-e_YcKWvrMUM
     short-id: 'be9ad6e06ec8e762'
-- name: 🇷🇺 Россия | vlessforu_working_configs.txt | 3.17 Mbps 📺360p
-  type: vless
-  server: 109.107.189.69
-  port: 8443
-  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: gw-721bd5.dobry.monster
-  reality-opts:
-    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
-    short-id: '0912cc7f28aa26ba'
-- name: 🇳🇱 Нидерланды | alireza786786_zieng2-wl-vless_universal.yaml | 1.44 Mbps 📺360p
-  type: vless
-  server: 188.225.35.83
-  port: 443
-  uuid: f7331345-aac5-4e81-b8ac-8b8aa3ee2068
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: pinemetrics.net
-  reality-opts:
-    public-key: YZtDA-Mz6GSlPnrhnQkSpzj8TSaGDcMjukrGI_xFg1Y
-    short-id: 'd9c79602'
-- name: 🌐 CDN — гео скрыто | ChatGPT-053 | 1.06 Mbps 📺360p
+- name: 🇨🇦 Канада | alireza786786_clash.yaml_12 | 1.14 Mbps 📺360p
   type: vless
   server: 104.17.3.81
   port: 80
@@ -237,7 +212,61 @@ proxies:
     headers:
       Host: sg-vless-ws.bypass.id
   skip-cert-verify: true
-- name: 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 3.02 Mbps 📺360p
+- name: 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.yaml | 0.63 Mbps
+    📺360p
+  type: vless
+  server: 144.31.167.154
+  port: 443
+  uuid: 9a9f167d-b461-466f-be50-f0ffd598a6f8
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: gembeforeshoping.space
+  reality-opts:
+    public-key: lY9sPrXzj3Dlsj6JTP5UolK1RmIAlstuAy3dBJ97ag0
+    short-id: '0000000000000000'
+- name: 🇧🇬 Болгария | alireza786786_mix.txt_2 | 3.06 Mbps 📺360p
+  type: vless
+  server: 157.228.163.99
+  port: 443
+  uuid: 0259e5aa-c188-4334-b204-32cd5ea859f6
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: sofia-talking.keno.su
+  reality-opts:
+    public-key: hSoDrLr8MWmV05ffU4OLAmCgvh7AsoSiwkVjzPPVWSk
+    short-id: 'd84583b7258ac883'
+- name: 🇨🇦 Канада | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2 | 1.18
+    Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇨🇦 Канада | ChatGPT-053 | 1.43 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /%2Fworryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 4.96 Mbps 📺360p
   type: vless
   server: 144.31.90.235
   port: 443
@@ -250,7 +279,20 @@ proxies:
   reality-opts:
     public-key: DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w
     short-id: 'adff113498e0f7fc'
-- name: 🇫🇮 Финляндия | vlessforu_working_configs.txt | 1.65 Mbps 📺360p
+- name: 🇺🇸 США | rekt0ro_light.txt | 0.72 Mbps 📺360p
+  type: vless
+  server: 45.130.127.79
+  port: 443
+  uuid: 8d251959-b345-4665-b2fc-3ac177c35e6f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: fi.users.golu-gulu.online
+  reality-opts:
+    public-key: ZPjkqL8oFJ27Oa8ETFfSC_S2EHnGl8TyN5ujzYwMknw
+    short-id: '7d19a6e4c2f8305b'
+- name: 🇫🇮 Финляндия | vlessforu_working_configs.txt | 1.70 Mbps 📺360p
   type: vless
   server: 144.31.90.235
   port: 443
@@ -263,20 +305,7 @@ proxies:
   reality-opts:
     public-key: DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w
     short-id: 'adff113498e0f7fc'
-- name: 🇩🇪 Германия | whoahaow_bypass-all.txt | 1.43 Mbps 📺360p
-  type: vless
-  server: 153.52.143.118
-  port: 443
-  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: de2.fox-lisa.ru
-  reality-opts:
-    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
-    short-id: '027af64166562b09'
-- name: 🇷🇺 Россия | rekt0ro_all.txt | 3.35 Mbps 📺360p
+- name: 🇷🇺 Россия | rekt0ro_all.txt | 3.00 Mbps 📺360p
   type: vless
   server: 109.107.189.69
   port: 8443
@@ -289,7 +318,7 @@ proxies:
   reality-opts:
     public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
     short-id: '0912cc7f28aa26ba'
-- name: 🇷🇺 Россия | rekt0ro_all-clash.yaml | 3.49 Mbps 📺360p
+- name: 🇷🇺 Россия | rekt0ro_all-clash.yaml | 3.42 Mbps 📺360p
   type: vless
   server: 109.107.189.69
   port: 8443
@@ -302,7 +331,7 @@ proxies:
   reality-opts:
     public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
     short-id: '0912cc7f28aa26ba'
-- name: 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.69 Mbps
+- name: 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.53 Mbps
     📺360p
   type: vless
   server: 153.52.143.118
@@ -316,7 +345,20 @@ proxies:
   reality-opts:
     public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
     short-id: '027af64166562b09'
-- name: 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.32 Mbps 📺360p
+- name: 🇺🇸 США | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.15 Mbps 📺360p
+  type: vless
+  server: 45.130.127.79
+  port: 443
+  uuid: 8d251959-b345-4665-b2fc-3ac177c35e6f
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: fi.users.golu-gulu.online
+  reality-opts:
+    public-key: ZPjkqL8oFJ27Oa8ETFfSC_S2EHnGl8TyN5ujzYwMknw
+    short-id: '7d19a6e4c2f8305b'
+- name: 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.16 Mbps 📺360p
   type: vless
   server: 109.107.189.69
   port: 8443
@@ -329,7 +371,20 @@ proxies:
   reality-opts:
     public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
     short-id: '0912cc7f28aa26ba'
-- name: 🇩🇪 Германия | 3inker_all_not_ru.txt | 4.72 Mbps 📺360p
+- name: 🇷🇺 Россия | vlessforu_working_configs.txt | 3.36 Mbps 📺360p
+  type: vless
+  server: 109.107.189.69
+  port: 8443
+  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: gw-721bd5.dobry.monster
+  reality-opts:
+    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
+    short-id: '0912cc7f28aa26ba'
+- name: 🇩🇪 Германия | 3inker_all_not_ru.txt | 1.11 Mbps 📺360p
   type: vless
   server: 144.31.167.154
   port: 443
@@ -342,7 +397,7 @@ proxies:
   reality-opts:
     public-key: lY9sPrXzj3Dlsj6JTP5UolK1RmIAlstuAy3dBJ97ag0
     short-id: '0000000000000000'
-- name: 🇫🇮 Финляндия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.47 Mbps
+- name: 🇫🇮 Финляндия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.81 Mbps
     📺360p
   type: vless
   server: 144.31.90.235
@@ -356,7 +411,7 @@ proxies:
   reality-opts:
     public-key: DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w
     short-id: 'adff113498e0f7fc'
-- name: 🇵🇱 Польша | 3inker_all_ru.txt | 2.80 Mbps 📺360p
+- name: 🇷🇺 Россия | 3inker_all_ru.txt | 3.81 Mbps 📺360p
   type: vless
   server: 85.192.30.88
   port: 443
@@ -368,7 +423,7 @@ proxies:
   reality-opts:
     public-key: 8OI8rEgAiWxH-cG03xgzuz7XTFHrbA1MY9HnPHcgSUA
     short-id: '1d5ac21e988c571f'
-- name: 🇩🇪 Германия | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 3.08
+- name: 🇩🇪 Германия | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 2.84
     Mbps 📺360p
   type: vless
   server: 144.31.167.154
@@ -382,21 +437,20 @@ proxies:
   reality-opts:
     public-key: lY9sPrXzj3Dlsj6JTP5UolK1RmIAlstuAy3dBJ97ag0
     short-id: '0000000000000000'
-- name: 🇫🇮 Финляндия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 1.20
-    Mbps 📺360p
+- name: 🇷🇺 Россия | alireza786786_3inker-v2ray-subscription-all_ru.yaml | 3.67 Mbps
+    📺360p
   type: vless
-  server: 144.31.90.235
+  server: 85.192.30.88
   port: 443
-  uuid: 6ab79fec-ca02-447b-b7be-5945f6e6ea8f
+  uuid: be146d46-ae50-4691-838c-b6c87dbaec8f
   tls: true
-  network: raw
+  network: tcp
   client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: blog-asia.livemusic.ac
+  servername: 702e56t.pl5.h1clayd.click
   reality-opts:
-    public-key: DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w
-    short-id: 'adff113498e0f7fc'
-- name: 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 1.60 Mbps
+    public-key: 8OI8rEgAiWxH-cG03xgzuz7XTFHrbA1MY9HnPHcgSUA
+    short-id: '1d5ac21e988c571f'
+- name: 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 2.68 Mbps
     📺360p
   type: vless
   server: newerson.online
@@ -410,62 +464,7 @@ proxies:
   reality-opts:
     public-key: TiKF_6UGMtWhgDiAGLsAtyYwyv-s3HxG6F0P9ltyf1U
     short-id: '8888265ef63fba6d'
-- name: 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-white-list-lite-AetrisVPN.txt_2 | 3.05
-    Mbps 📺360p
-  type: vless
-  server: 109.107.189.69
-  port: 8443
-  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: gw-721bd5.dobry.monster
-  reality-opts:
-    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
-    short-id: '0912cc7f28aa26ba'
-- name: 🌐 Неизвестно | alireza786786_whoahaow-rjsxrd-bypass-all_unlimited.yaml | 1.31
-    Mbps 📺360p
-  type: vless
-  server: 103.252.91.140
-  port: 443
-  uuid: 6df66cb9-34e6-4287-9660-5dda0f79239b
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: vsaxas.puffixhosting.com
-  reality-opts:
-    public-key: pqm3uwi4igGi8XbqSnlbOMb6JUgmCaF-e_YcKWvrMUM
-    short-id: 'be9ad6e06ec8e762'
-- name: 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 2.31 Mbps
-    📺360p
-  type: vless
-  server: 109.107.189.69
-  port: 8443
-  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: gw-721bd5.dobry.monster
-  reality-opts:
-    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
-    short-id: '0912cc7f28aa26ba'
-- name: 🌐 Неизвестно | alireza786786_mix.txt_2 | 1.20 Mbps 📺360p
-  type: vless
-  server: 103.252.91.140
-  port: 443
-  uuid: 6df66cb9-34e6-4287-9660-5dda0f79239b
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: vsaxas.puffixhosting.com
-  reality-opts:
-    public-key: pqm3uwi4igGi8XbqSnlbOMb6JUgmCaF-e_YcKWvrMUM
-    short-id: 'be9ad6e06ec8e762'
-- name: 🇺🇸 США | alireza786786_mix.txt_2 | 2.19 Mbps 📺360p
+- name: 🇺🇸 США | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 4.05 Mbps 📺360p
   type: vless
   server: 143.203.216.187
   port: 443
@@ -478,7 +477,8 @@ proxies:
   reality-opts:
     public-key: o7R9liafUMmCf4Sr14gLaB-gZ7mo_axffMCT176tuHw
     short-id: '672cfc'
-- name: 🇷🇺 Россия | cbusifabcap_README.md_2 | 3.35 Mbps 📺360p
+- name: 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-white-list-lite-AetrisVPN.txt_2 | 3.45
+    Mbps 📺360p
   type: vless
   server: 109.107.189.69
   port: 8443
@@ -491,7 +491,21 @@ proxies:
   reality-opts:
     public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
     short-id: '0912cc7f28aa26ba'
-- name: 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.yaml | 4.73 Mbps
+- name: 🌐 Неизвестно | alireza786786_whoahaow-rjsxrd-bypass-all_unlimited.yaml | 1.08
+    Mbps 📺360p
+  type: vless
+  server: 103.252.91.140
+  port: 443
+  uuid: 6df66cb9-34e6-4287-9660-5dda0f79239b
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: vsaxas.puffixhosting.com
+  reality-opts:
+    public-key: pqm3uwi4igGi8XbqSnlbOMb6JUgmCaF-e_YcKWvrMUM
+    short-id: 'be9ad6e06ec8e762'
+- name: 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.txt_2 | 3.54 Mbps
     📺360p
   type: vless
   server: 144.31.167.154
@@ -505,8 +519,8 @@ proxies:
   reality-opts:
     public-key: lY9sPrXzj3Dlsj6JTP5UolK1RmIAlstuAy3dBJ97ag0
     short-id: '0000000000000000'
-- name: 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
-    | 0.71 Mbps 📺360p
+- name: 🇨🇦 Канада | alireza786786_luxxuria-harvester-speed_tested.yaml | 1.60 Mbps
+    📺360p
   type: vless
   server: 104.17.3.81
   port: 80
@@ -519,61 +533,46 @@ proxies:
     headers:
       Host: sg-vless-ws.bypass.id
   skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | ChatGPT-053 | 1.26 Mbps 📺360p
+- name: 🌐 Неизвестно | alireza786786_mix.txt_2 | 1.16 Mbps 📺360p
   type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /%2Fworryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | alireza786786_luxxuria-harvester-speed_tested.yaml |
-    1.18 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🇺🇸 США | vlessforu_working_configs.txt | 3.03 Mbps 📺360p
-  type: vless
-  server: 45.130.127.79
+  server: 103.252.91.140
   port: 443
-  uuid: 8d251959-b345-4665-b2fc-3ac177c35e6f
+  uuid: 6df66cb9-34e6-4287-9660-5dda0f79239b
   tls: true
   network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: fi.users.golu-gulu.online
+  servername: vsaxas.puffixhosting.com
   reality-opts:
-    public-key: ZPjkqL8oFJ27Oa8ETFfSC_S2EHnGl8TyN5ujzYwMknw
-    short-id: '7d19a6e4c2f8305b'
-- name: 🇺🇸 США | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.07 Mbps 📺360p
+    public-key: pqm3uwi4igGi8XbqSnlbOMb6JUgmCaF-e_YcKWvrMUM
+    short-id: 'be9ad6e06ec8e762'
+- name: 🇷🇺 Россия | cbusifabcap_README.md_2 | 3.46 Mbps 📺360p
   type: vless
-  server: 45.130.127.79
-  port: 443
-  uuid: 8d251959-b345-4665-b2fc-3ac177c35e6f
+  server: 109.107.189.69
+  port: 8443
+  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
   tls: true
-  network: raw
+  network: tcp
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: fi.users.golu-gulu.online
+  servername: gw-721bd5.dobry.monster
   reality-opts:
-    public-key: ZPjkqL8oFJ27Oa8ETFfSC_S2EHnGl8TyN5ujzYwMknw
-    short-id: '7d19a6e4c2f8305b'
-- name: 🇵🇱 Польша | alireza786786_3inker-v2ray-subscription-all_ru.yaml | 2.55 Mbps
-    📺360p
+    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
+    short-id: '0912cc7f28aa26ba'
+- name: 🇫🇮 Финляндия | ChatGPT-012 | 4.20 Mbps 📺360p
+  type: vless
+  server: 144.31.90.235
+  port: 443
+  uuid: 6ab79fec-ca02-447b-b7be-5945f6e6ea8f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: blog-asia.livemusic.ac
+  reality-opts:
+    public-key: DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w
+    short-id: 'adff113498e0f7fc'
+- name: 🇷🇺 Россия | cbusifabcap_README.md_2 | 0.71 Mbps 📺360p
   type: vless
   server: 85.192.30.88
   port: 443
@@ -585,32 +584,47 @@ proxies:
   reality-opts:
     public-key: 8OI8rEgAiWxH-cG03xgzuz7XTFHrbA1MY9HnPHcgSUA
     short-id: '1d5ac21e988c571f'
-- name: 🇺🇸 США | rekt0ro_light.txt | 3.07 Mbps 📺360p
+- name: 🇨🇦 Канада | ChatGPT-053 | 1.51 Mbps 📺360p
   type: vless
-  server: 45.130.127.79
-  port: 443
-  uuid: 8d251959-b345-4665-b2fc-3ac177c35e6f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: fi.users.golu-gulu.online
-  reality-opts:
-    public-key: ZPjkqL8oFJ27Oa8ETFfSC_S2EHnGl8TyN5ujzYwMknw
-    short-id: '7d19a6e4c2f8305b'
-- name: 🇷🇺 Россия | whoahaow_bypass-1.txt | 1.88 Mbps 📺360p
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇳🇱 Нидерланды | alireza786786_zieng2-wl-vless_lite.txt_2 | 0.82 Mbps 📺360p
   type: vless
-  server: 79.174.92.180
+  server: 188.225.79.47
   port: 443
-  uuid: 49118954-b846-4da7-9d55-c859ce59ab50
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
   tls: true
-  network: tcp
-  client-fingerprint: firefox
+  network: raw
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
-  servername: fi.xenovpn.top
+  servername: rumicro251.grizpliz.am
   reality-opts:
-    public-key: 5d73hwUBkVYgpoy_H4Rsq64LqklNZB-mwXcMj2W7XV0
-    short-id: 'bd0772b42160b76b'
+    public-key: 3g3meyjBTjbJntHjPf_Wyd5LDpggO18CMf-FP9a4EXc
+    short-id: '8f41e62491cf548b'
+- name: 🇨🇦 Канада | Edsel-Rahimi_nodes.txt | 1.51 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
 proxy-providers:
   top_source:
     type: http
@@ -636,54 +650,54 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | ChatGPT-053 | 10.21 Mbps 📺360p
-  - 🌐 Неизвестно | ChatGPT-053 | 5.55 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.txt_2 | 4.59 Mbps 📺360p
-  - 🇺🇸 США | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 3.66 Mbps 📺360p
-  - 🇫🇮 Финляндия | ChatGPT-012 | 3.55 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.yaml | 2.77 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.96 Mbps 📺360p
-  - 🇵🇱 Польша | cbusifabcap_README.md_2 | 1.79 Mbps 📺360p
-  - 🇧🇬 Болгария | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.56 Mbps 📺360p
-  - 🌐 Неизвестно | ChatGPT-053 | 1.26 Mbps 📺360p
-  - 🇷🇺 Россия | vlessforu_working_configs.txt | 3.17 Mbps 📺360p
-  - 🇳🇱 Нидерланды | alireza786786_zieng2-wl-vless_universal.yaml | 1.44 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.06 Mbps 📺360p
-  - 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 3.02 Mbps 📺360p
-  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 1.65 Mbps 📺360p
-  - 🇩🇪 Германия | whoahaow_bypass-all.txt | 1.43 Mbps 📺360p
-  - 🇷🇺 Россия | rekt0ro_all.txt | 3.35 Mbps 📺360p
-  - 🇷🇺 Россия | rekt0ro_all-clash.yaml | 3.49 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.69 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.32 Mbps 📺360p
-  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 4.72 Mbps 📺360p
-  - 🇫🇮 Финляндия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.47 Mbps 📺360p
-  - 🇵🇱 Польша | 3inker_all_ru.txt | 2.80 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 3.08 Mbps
+  - 🌐 Неизвестно | ChatGPT-053 | 8.38 Mbps 📺360p
+  - 🌐 Неизвестно | ChatGPT-053 | 4.88 Mbps 📺360p
+  - 🇺🇸 США | vlessforu_working_configs.txt | 4.73 Mbps 📺360p
+  - 🇺🇸 США | alireza786786_mix.txt_2 | 4.15 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.63 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 3.31 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.yaml | 2.83 Mbps 📺360p
+  - 🇷🇺 Россия | alireza786786_mix.txt_2 | 2.45 Mbps 📺360p
+  - 🇫🇮 Финляндия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 1.69 Mbps
     📺360p
-  - 🇫🇮 Финляндия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 1.20 Mbps
+  - 🌐 Неизвестно | ChatGPT-053 | 1.22 Mbps 📺360p
+  - 🇨🇦 Канада | alireza786786_clash.yaml_12 | 1.14 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.yaml | 0.63 Mbps 📺360p
+  - 🇧🇬 Болгария | alireza786786_mix.txt_2 | 3.06 Mbps 📺360p
+  - 🇨🇦 Канада | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2 | 1.18 Mbps
     📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 1.60 Mbps
+  - 🇨🇦 Канада | ChatGPT-053 | 1.43 Mbps 📺360p
+  - 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 4.96 Mbps 📺360p
+  - 🇺🇸 США | rekt0ro_light.txt | 0.72 Mbps 📺360p
+  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 1.70 Mbps 📺360p
+  - 🇷🇺 Россия | rekt0ro_all.txt | 3.00 Mbps 📺360p
+  - 🇷🇺 Россия | rekt0ro_all-clash.yaml | 3.42 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.53 Mbps 📺360p
+  - 🇺🇸 США | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.15 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.16 Mbps 📺360p
+  - 🇷🇺 Россия | vlessforu_working_configs.txt | 3.36 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 1.11 Mbps 📺360p
+  - 🇫🇮 Финляндия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.81 Mbps 📺360p
+  - 🇷🇺 Россия | 3inker_all_ru.txt | 3.81 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 2.84 Mbps
     📺360p
-  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-white-list-lite-AetrisVPN.txt_2 | 3.05 Mbps
+  - 🇷🇺 Россия | alireza786786_3inker-v2ray-subscription-all_ru.yaml | 3.67 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 2.68 Mbps
     📺360p
-  - 🌐 Неизвестно | alireza786786_whoahaow-rjsxrd-bypass-all_unlimited.yaml | 1.31
+  - 🇺🇸 США | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 4.05 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-white-list-lite-AetrisVPN.txt_2 | 3.45 Mbps
+    📺360p
+  - 🌐 Неизвестно | alireza786786_whoahaow-rjsxrd-bypass-all_unlimited.yaml | 1.08
     Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 2.31 Mbps 📺360p
-  - 🌐 Неизвестно | alireza786786_mix.txt_2 | 1.20 Mbps 📺360p
-  - 🇺🇸 США | alireza786786_mix.txt_2 | 2.19 Mbps 📺360p
-  - 🇷🇺 Россия | cbusifabcap_README.md_2 | 3.35 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.yaml | 4.73 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
-    | 0.71 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.26 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_luxxuria-harvester-speed_tested.yaml | 1.18
-    Mbps 📺360p
-  - 🇺🇸 США | vlessforu_working_configs.txt | 3.03 Mbps 📺360p
-  - 🇺🇸 США | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.07 Mbps 📺360p
-  - 🇵🇱 Польша | alireza786786_3inker-v2ray-subscription-all_ru.yaml | 2.55 Mbps 📺360p
-  - 🇺🇸 США | rekt0ro_light.txt | 3.07 Mbps 📺360p
-  - 🇷🇺 Россия | whoahaow_bypass-1.txt | 1.88 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.txt_2 | 3.54 Mbps 📺360p
+  - 🇨🇦 Канада | alireza786786_luxxuria-harvester-speed_tested.yaml | 1.60 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_mix.txt_2 | 1.16 Mbps 📺360p
+  - 🇷🇺 Россия | cbusifabcap_README.md_2 | 3.46 Mbps 📺360p
+  - 🇫🇮 Финляндия | ChatGPT-012 | 4.20 Mbps 📺360p
+  - 🇷🇺 Россия | cbusifabcap_README.md_2 | 0.71 Mbps 📺360p
+  - 🇨🇦 Канада | ChatGPT-053 | 1.51 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_zieng2-wl-vless_lite.txt_2 | 0.82 Mbps 📺360p
+  - 🇨🇦 Канада | Edsel-Rahimi_nodes.txt | 1.51 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -691,15 +705,18 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | rekt0ro_all-clash.yaml | 3.49 Mbps 📺360p
-  - 🇷🇺 Россия | rekt0ro_all.txt | 3.35 Mbps 📺360p
-  - 🇷🇺 Россия | cbusifabcap_README.md_2 | 3.35 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.32 Mbps 📺360p
-  - 🇷🇺 Россия | vlessforu_working_configs.txt | 3.17 Mbps 📺360p
-  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-white-list-lite-AetrisVPN.txt_2 | 3.05 Mbps
+  - 🇷🇺 Россия | 3inker_all_ru.txt | 3.81 Mbps 📺360p
+  - 🇷🇺 Россия | alireza786786_3inker-v2ray-subscription-all_ru.yaml | 3.67 Mbps 📺360p
+  - 🇷🇺 Россия | cbusifabcap_README.md_2 | 3.46 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-white-list-lite-AetrisVPN.txt_2 | 3.45 Mbps
     📺360p
-  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 2.31 Mbps 📺360p
-  - 🇷🇺 Россия | whoahaow_bypass-1.txt | 1.88 Mbps 📺360p
+  - 🇷🇺 Россия | rekt0ro_all-clash.yaml | 3.42 Mbps 📺360p
+  - 🇷🇺 Россия | vlessforu_working_configs.txt | 3.36 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 3.31 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.16 Mbps 📺360p
+  - 🇷🇺 Россия | rekt0ro_all.txt | 3.00 Mbps 📺360p
+  - 🇷🇺 Россия | alireza786786_mix.txt_2 | 2.45 Mbps 📺360p
+  - 🇷🇺 Россия | cbusifabcap_README.md_2 | 0.71 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -707,33 +724,36 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.yaml | 4.73 Mbps 📺360p
-  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 4.72 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.txt_2 | 4.59 Mbps 📺360p
-  - 🇫🇮 Финляндия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.47 Mbps 📺360p
-  - 🇺🇸 США | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.07 Mbps 📺360p
-  - 🇺🇸 США | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 3.66 Mbps 📺360p
-  - 🇫🇮 Финляндия | ChatGPT-012 | 3.55 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 3.08 Mbps
+  - 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 4.96 Mbps 📺360p
+  - 🇺🇸 США | vlessforu_working_configs.txt | 4.73 Mbps 📺360p
+  - 🇫🇮 Финляндия | ChatGPT-012 | 4.20 Mbps 📺360p
+  - 🇺🇸 США | alireza786786_mix.txt_2 | 4.15 Mbps 📺360p
+  - 🇺🇸 США | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 4.05 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.63 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.txt_2 | 3.54 Mbps 📺360p
+  - 🇧🇬 Болгария | alireza786786_mix.txt_2 | 3.06 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 2.84 Mbps
     📺360p
-  - 🇺🇸 США | rekt0ro_light.txt | 3.07 Mbps 📺360p
-  - 🇺🇸 США | vlessforu_working_configs.txt | 3.03 Mbps 📺360p
-  - 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 3.02 Mbps 📺360p
-  - 🇵🇱 Польша | 3inker_all_ru.txt | 2.80 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.yaml | 2.77 Mbps 📺360p
-  - 🇵🇱 Польша | alireza786786_3inker-v2ray-subscription-all_ru.yaml | 2.55 Mbps 📺360p
-  - 🇺🇸 США | alireza786786_mix.txt_2 | 2.19 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.96 Mbps 📺360p
-  - 🇵🇱 Польша | cbusifabcap_README.md_2 | 1.79 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.69 Mbps 📺360p
-  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 1.65 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 1.60 Mbps
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.yaml | 2.83 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 2.68 Mbps
     📺360p
-  - 🇧🇬 Болгария | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.56 Mbps 📺360p
-  - 🇳🇱 Нидерланды | alireza786786_zieng2-wl-vless_universal.yaml | 1.44 Mbps 📺360p
-  - 🇩🇪 Германия | whoahaow_bypass-all.txt | 1.43 Mbps 📺360p
-  - 🇫🇮 Финляндия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 1.20 Mbps
+  - 🇫🇮 Финляндия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.81 Mbps 📺360p
+  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 1.70 Mbps 📺360p
+  - 🇫🇮 Финляндия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 1.69 Mbps
     📺360p
+  - 🇨🇦 Канада | alireza786786_luxxuria-harvester-speed_tested.yaml | 1.60 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.53 Mbps 📺360p
+  - 🇨🇦 Канада | ChatGPT-053 | 1.51 Mbps 📺360p
+  - 🇨🇦 Канада | Edsel-Rahimi_nodes.txt | 1.51 Mbps 📺360p
+  - 🇨🇦 Канада | ChatGPT-053 | 1.43 Mbps 📺360p
+  - 🇨🇦 Канада | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2 | 1.18 Mbps
+    📺360p
+  - 🇺🇸 США | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.15 Mbps 📺360p
+  - 🇨🇦 Канада | alireza786786_clash.yaml_12 | 1.14 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 1.11 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_zieng2-wl-vless_lite.txt_2 | 0.82 Mbps 📺360p
+  - 🇺🇸 США | rekt0ro_light.txt | 0.72 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.yaml | 0.63 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -741,18 +761,12 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | ChatGPT-053 | 10.21 Mbps 📺360p
-  - 🌐 Неизвестно | ChatGPT-053 | 5.55 Mbps 📺360p
-  - 🌐 Неизвестно | alireza786786_whoahaow-rjsxrd-bypass-all_unlimited.yaml | 1.31
+  - 🌐 Неизвестно | ChatGPT-053 | 8.38 Mbps 📺360p
+  - 🌐 Неизвестно | ChatGPT-053 | 4.88 Mbps 📺360p
+  - 🌐 Неизвестно | ChatGPT-053 | 1.22 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_mix.txt_2 | 1.16 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_whoahaow-rjsxrd-bypass-all_unlimited.yaml | 1.08
     Mbps 📺360p
-  - 🌐 Неизвестно | ChatGPT-053 | 1.26 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.26 Mbps 📺360p
-  - 🌐 Неизвестно | alireza786786_mix.txt_2 | 1.20 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_luxxuria-harvester-speed_tested.yaml | 1.18
-    Mbps 📺360p
-  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.06 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
-    | 0.71 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -760,17 +774,30 @@ proxy-groups:
 - name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.yaml | 4.73 Mbps 📺360p
-  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 4.72 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.txt_2 | 4.59 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 3.08 Mbps
+  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.63 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.txt_2 | 3.54 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml | 2.84 Mbps
     📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.yaml | 2.77 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.96 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.69 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 1.60 Mbps
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.yaml | 2.83 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 2.68 Mbps
     📺360p
-  - 🇩🇪 Германия | whoahaow_bypass-all.txt | 1.43 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 1.53 Mbps 📺360p
+  - 🇩🇪 Германия | 3inker_all_not_ru.txt | 1.11 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-ping_tested.yaml | 0.63 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇨🇦 Канада
+  type: url-test
+  proxies:
+  - 🇨🇦 Канада | alireza786786_luxxuria-harvester-speed_tested.yaml | 1.60 Mbps 📺360p
+  - 🇨🇦 Канада | ChatGPT-053 | 1.51 Mbps 📺360p
+  - 🇨🇦 Канада | Edsel-Rahimi_nodes.txt | 1.51 Mbps 📺360p
+  - 🇨🇦 Канада | ChatGPT-053 | 1.43 Mbps 📺360p
+  - 🇨🇦 Канада | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2 | 1.18 Mbps
+    📺360p
+  - 🇨🇦 Канада | alireza786786_clash.yaml_12 | 1.14 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -778,11 +805,11 @@ proxy-groups:
 - name: 🗺 🇺🇸 США
   type: url-test
   proxies:
-  - 🇺🇸 США | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.07 Mbps 📺360p
-  - 🇺🇸 США | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 3.66 Mbps 📺360p
-  - 🇺🇸 США | rekt0ro_light.txt | 3.07 Mbps 📺360p
-  - 🇺🇸 США | vlessforu_working_configs.txt | 3.03 Mbps 📺360p
-  - 🇺🇸 США | alireza786786_mix.txt_2 | 2.19 Mbps 📺360p
+  - 🇺🇸 США | vlessforu_working_configs.txt | 4.73 Mbps 📺360p
+  - 🇺🇸 США | alireza786786_mix.txt_2 | 4.15 Mbps 📺360p
+  - 🇺🇸 США | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 4.05 Mbps 📺360p
+  - 🇺🇸 США | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.15 Mbps 📺360p
+  - 🇺🇸 США | rekt0ro_light.txt | 0.72 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -790,22 +817,12 @@ proxy-groups:
 - name: 🗺 🇫🇮 Финляндия
   type: url-test
   proxies:
-  - 🇫🇮 Финляндия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.47 Mbps 📺360p
-  - 🇫🇮 Финляндия | ChatGPT-012 | 3.55 Mbps 📺360p
-  - 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 3.02 Mbps 📺360p
-  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 1.65 Mbps 📺360p
-  - 🇫🇮 Финляндия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 1.20 Mbps
+  - 🇫🇮 Финляндия | rekt0ro_all-clash.yaml | 4.96 Mbps 📺360p
+  - 🇫🇮 Финляндия | ChatGPT-012 | 4.20 Mbps 📺360p
+  - 🇫🇮 Финляндия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 1.81 Mbps 📺360p
+  - 🇫🇮 Финляндия | vlessforu_working_configs.txt | 1.70 Mbps 📺360p
+  - 🇫🇮 Финляндия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 1.69 Mbps
     📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇵🇱 Польша
-  type: url-test
-  proxies:
-  - 🇵🇱 Польша | 3inker_all_ru.txt | 2.80 Mbps 📺360p
-  - 🇵🇱 Польша | alireza786786_3inker-v2ray-subscription-all_ru.yaml | 2.55 Mbps 📺360p
-  - 🇵🇱 Польша | cbusifabcap_README.md_2 | 1.79 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -813,7 +830,7 @@ proxy-groups:
 - name: 🗺 🇧🇬 Болгария
   type: url-test
   proxies:
-  - 🇧🇬 Болгария | alireza786786_whoahaow-rjsxrd-bypass-all.yaml | 1.56 Mbps 📺360p
+  - 🇧🇬 Болгария | alireza786786_mix.txt_2 | 3.06 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -821,7 +838,7 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | alireza786786_zieng2-wl-vless_universal.yaml | 1.44 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_zieng2-wl-vless_lite.txt_2 | 0.82 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -830,9 +847,9 @@ proxy-groups:
   type: select
   proxies:
   - 🗺 🇩🇪 Германия
+  - 🗺 🇨🇦 Канада
   - 🗺 🇺🇸 США
   - 🗺 🇫🇮 Финляндия
-  - 🗺 🇵🇱 Польша
   - 🗺 🇧🇬 Болгария
   - 🗺 🇳🇱 Нидерланды
 - name: 🎯 Direct

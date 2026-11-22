@@ -63,21 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 15.66 Mbps 📺360p
-  type: vless
-  server: 138.16.206.147
-  port: 2096
-  uuid: d81db550-4787-467e-b98a-579ee9d41999
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: 4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs
-    short-id: '6ba85179e30d4fc2'
-  grpc-opts:
-    grpc-service-name: inetgrpc
-- name: 🌐 Неизвестно | Delta-Kronecker_batch_010.txt | 14.33 Mbps 📺360p
+- name: 🌐 Неизвестно | Delta-Kronecker_batch_010.txt | 12.97 Mbps 📺360p
   type: vless
   server: 138.16.206.147
   port: 443
@@ -91,7 +77,7 @@ proxies:
     short-id: '6ba85179e30d4fc2'
   grpc-opts:
     grpc-service-name: inetgrpc
-- name: 🌐 Неизвестно | mheidari98_vless | 11.02 Mbps 📺360p
+- name: 🌐 Неизвестно | mheidari98_vless | 10.79 Mbps 📺360p
   type: vless
   server: 138.16.206.147
   port: 9114
@@ -105,7 +91,7 @@ proxies:
     short-id: '6ba85179e30d4fc2'
   grpc-opts:
     grpc-service-name: inetgrpc
-- name: 🇫🇮 Финляндия | https:_URI.yml | 9.39 Mbps 📺360p
+- name: 🇫🇮 Финляндия | https:_URI.yml | 9.98 Mbps 📺360p
   type: vless
   server: 45.144.52.205
   port: 4243
@@ -119,20 +105,7 @@ proxies:
     short-id: '0000000000000000'
   grpc-opts:
     grpc-service-name: ns
-- name: 🇵🇱 Польша | mani-moh_reality.txt | 6.81 Mbps 📺360p
-  type: vless
-  server: 45.132.179.90
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: sbmicro683.gangplatform.com
-  reality-opts:
-    public-key: Ldrfdkq0bJrZWCS0p1u6Z2tPPal0LzRm4cgEYF_2KH8
-    short-id: 'cda7e8556ea56616'
-- name: 🇩🇪 Германия | gh_alive_vless.yaml | 6.69 Mbps 📺360p
+- name: 🇩🇪 Германия | gh_alive_vless.yaml | 9.80 Mbps 📺360p
   type: vless
   server: 84.23.52.104
   port: 9096
@@ -146,139 +119,98 @@ proxies:
     short-id: '6ba85179e30d4fc2'
   grpc-opts:
     grpc-service-name: inetgrpc
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.65 Mbps 📺360p
+- name: 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 9.16 Mbps 📺360p
   type: vless
-  server: 195.209.217.67
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ruhsds738.gangtype.com
-  reality-opts:
-    public-key: DHNvz0B_jGSTq2uK8Sehqo1u6Vv-fSSvk6-cRQJUKHM
-    short-id: '8aaef249c24f2be7'
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.36 Mbps 📺360p
-  type: vless
-  server: 168.113.254.217
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  servername: sbmicro690.alexdjane.am
-  reality-opts:
-    public-key: Lcqz3jkke-A5WHJv5yxGSUFV4qbT6FEbCASxAswYnFk
-    short-id: '787145828dc7896c'
-- name: 🇳🇱 Нидерланды | mani-moh_nl.txt | 5.32 Mbps 📺360p
-  type: vless
-  server: 94.183.164.68
-  port: 443
-  uuid: 4f2de292-cafe-4a5a-80cc-742a957ca43c
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: dogklinik.growmart.site
-  reality-opts:
-    public-key: ju1YyCfbO_sLy_LZK6G7DbHpR8hhmSc4SaOLLbjuGSE
-    short-id: 'cd9c321977831739'
-- name: 🇷🇺 Россия | nikita29a_1.txt | 5.05 Mbps 📺360p
-  type: vless
-  server: 195.209.221.235
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: ruhsds734.thebestqas.am
-  reality-opts:
-    public-key: Jv6OJRVpXGL8SlWq1VoCUbkeKCkG9cTzi2OHI2R9eAQ
-    short-id: 'bd1b77948ad14751'
-- name: 🇳🇱 Нидерланды | mani-moh_nl.txt | 4.90 Mbps 📺360p
-  type: vless
-  server: 195.209.221.165
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ruhsds735.thebestqas.am
-  reality-opts:
-    public-key: KYCw7cXjogBXLwakD95fS0ez_Ohp841nJv0w0ntu_FU
-    short-id: '8b360b27c8ae3791'
-- name: 🇷🇺 Россия | nikita29a_1.txt | 4.69 Mbps 📺360p
-  type: vless
-  server: 84.54.58.149
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: sbmicro656.richhoodfoc.com
-  reality-opts:
-    public-key: t_PE4flX4qNVn1leXcJX_YWgDw9YZxsrCQAPEHYConc
-    short-id: 'f21696d23293b39f'
-- name: 🇷🇺 Россия | nikita29a_1.txt | 4.54 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇮🇷 Иран | LeilaoMi_all.yaml | 4.53 Mbps 📺360p
-  type: vless
-  server: 84.23.52.104
-  port: 9118
+  server: 138.16.206.147
+  port: 2096
   uuid: d81db550-4787-467e-b98a-579ee9d41999
   tls: true
   network: grpc
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   servername: www.cloudflare.com
   reality-opts:
     public-key: 4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs
     short-id: '6ba85179e30d4fc2'
   grpc-opts:
     grpc-service-name: inetgrpc
-- name: 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 4.46 Mbps
-    📺360p
+- name: 🇺🇸 США | nikita29a_1.txt | 7.87 Mbps 📺360p
   type: vless
-  server: newerson.online
+  server: 144.31.5.137
   port: 443
-  uuid: 37fc45b0-be4d-4920-a0f7-7389e406f5f3
+  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: se.dataroute.biz
+  reality-opts:
+    public-key: Jg9VG2d5YKA_b6b2oVT8_QaIEHyww04U050ahEPhZlU
+    short-id: '0000000000000000'
+- name: 🌐 Неизвестно | mheidari98_vless | 7.60 Mbps 📺360p
+  type: vless
+  server: 143.246.195.157
+  port: 8448
+  uuid: 5d98ff1a-d576-46d3-9504-b158d94bcce9
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: www.telia.se
+  reality-opts:
+    public-key: ZrfnJpQfBnWiNjELJL9kDi1pNa2hrVyosu8a0sjE9WQ
+    short-id: '2355ffa16d2b04a2'
+- name: 🇸🇪 Швеция | morpheusadam_all.txt_7 | 7.11 Mbps 📺360p
+  type: vless
+  server: 5.59.205.180
+  port: 38203
+  uuid: 57d33a42-1b6d-47d0-a14e-31cf1dcebb6f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: se-1.cutemedia.lol
+  reality-opts:
+    public-key: IZ9HnoNBZDB0e15eA-_Ve7N6nuilZ_vR-4RzMcSgBV0
+    short-id: '4c9499e6fc251e0c'
+- name: 🌐 Неизвестно | morpheusadam_all.txt_7 | 6.94 Mbps 📺360p
+  type: vless
+  server: fi-b2.golangwikito.cfd
+  port: 443
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
   tls: true
   network: raw
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: newerson.online
+  servername: fi-b2.golangwikito.cfd
   reality-opts:
-    public-key: TiKF_6UGMtWhgDiAGLsAtyYwyv-s3HxG6F0P9ltyf1U
-    short-id: '8888265ef63fba6d'
-- name: 🇸🇪 Швеция | mani-moh_reality.txt | 4.44 Mbps 📺360p
+    public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg
+    short-id: 'dfff7a7a4c7e5f33'
+- name: 🌐 CDN — гео скрыто | nikita29a_20.txt | 6.21 Mbps 📺360p
   type: vless
-  server: 45.80.230.231
-  port: 443
-  uuid: 1011b03e-b5e7-4f7f-af17-1d8f9e727700
-  tls: true
-  network: raw
+  server: 188.114.98.112
+  port: 80
+  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
+  tls: false
+  network: ws
   client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: www.1177.se
-  reality-opts:
-    public-key: wD713tU37fU02OUusCfKXQ5nDsfjjgWIB6ArIO8sjCc
-    short-id: 'a928e81b'
-- name: 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 4.32 Mbps 📺360p
+  ws-opts:
+    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY
+    headers:
+      Host: elenaaaaaaaaaa.cloudns.pro.
+  skip-cert-verify: true
+- name: 🌐 CDN — гео скрыто | nikita29a_20.txt | 6.16 Mbps 📺360p
+  type: vless
+  server: 172.64.147.85
+  port: 80
+  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
+    headers:
+      Host: elenaaaaaaaaaa.cloudns.pro
+- name: 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 5.70 Mbps 📺360p
   type: vless
   server: 138.16.206.147
   port: 9096
@@ -292,692 +224,33 @@ proxies:
     short-id: '6ba85179e30d4fc2'
   grpc-opts:
     grpc-service-name: inetgrpc
-- name: 🌐 Неизвестно | LeilaoMi_all.yaml | 3.65 Mbps 📺360p
-  type: vless
-  server: 176.108.243.24
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: sbmicro740.gangtype.com
-  reality-opts:
-    public-key: QMPA4RVilYFEnDrbdj93up66oDk5I_btjil9vC7ppgc
-    short-id: '9e5b8e221733245f'
-- name: 🇫🇮 Финляндия | flaafix_configs.txt | 3.42 Mbps 📺360p
-  type: vless
-  server: 45.144.52.205
-  port: 443
-  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: fi.convert-cloud.guru
-  reality-opts:
-    public-key: 9kQGK7IuVFWU9xCb4g9ygL1CEv87QmVZJzWLz74pTSc
-    short-id: '0000000000000000'
-- name: 🇮🇪 Ирландия | nikita29a_1.txt | 2.21 Mbps 📺360p
-  type: vless
-  server: 78.17.25.113
-  port: 2066
-  uuid: 4bec3709-0954-4173-ae59-3dee6cb8b961
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: google.com
-  reality-opts:
-    public-key: afczQg2aQdvcZsQsnX_7SGTnSi6N_FI9ADIyxMfDehU
-    short-id: '1b2a3f'
-- name: 🌐 Неизвестно | igareck_Vless-Reality-White-Lists-Rus-Mobile.txt | 2.13 Mbps
-    📺360p
-  type: vless
-  server: 109.107.189.69
-  port: 8443
-  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: gw-721bd5.dobry.monster
-  reality-opts:
-    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
-    short-id: '0912cc7f28aa26ba'
-- name: 🇨🇭 Швейцария | igareck_BLACK_VLESS_RUS_clash_rudirect.yaml | 1.84 Mbps 📺360p
-  type: vless
-  server: 77.232.40.206
-  port: 443
-  uuid: c50eae6b-18de-4bdc-a22f-9edda40a57ed
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: ch02.tunnely.space
-  reality-opts:
-    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
-    short-id: '2e40144ddc07e8e1'
-- name: 🌐 Неизвестно | morpheusadam_all.txt_7 | 1.67 Mbps 📺360p
-  type: vless
-  server: fi-b2.golangwikito.cfd
-  port: 443
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: fi-b2.golangwikito.cfd
-  reality-opts:
-    public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg
-    short-id: 'dfff7a7a4c7e5f33'
-- name: 🌐 Неизвестно | LeilaoMi_all.yaml | 0.89 Mbps 📺360p
-  type: vless
-  server: 153.52.143.118
-  port: 443
-  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: de2.fox-lisa.ru
-  reality-opts:
-    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
-    short-id: '027af64166562b09'
-- name: 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 0.89 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 Неизвестно | mheidari98_vless | 7.80 Mbps 📺360p
-  type: vless
-  server: 143.246.195.157
-  port: 8448
-  uuid: 5d98ff1a-d576-46d3-9504-b158d94bcce9
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: www.telia.se
-  reality-opts:
-    public-key: ZrfnJpQfBnWiNjELJL9kDi1pNa2hrVyosu8a0sjE9WQ
-    short-id: '2355ffa16d2b04a2'
-- name: 🇺🇸 США | nikita29a_1.txt | 7.58 Mbps 📺360p
-  type: vless
-  server: 144.31.5.137
-  port: 443
-  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: se.dataroute.biz
-  reality-opts:
-    public-key: Jg9VG2d5YKA_b6b2oVT8_QaIEHyww04U050ahEPhZlU
-    short-id: '0000000000000000'
-- name: 🇸🇪 Швеция | morpheusadam_all.txt_7 | 6.36 Mbps 📺360p
-  type: vless
-  server: 5.59.205.180
-  port: 38203
-  uuid: 57d33a42-1b6d-47d0-a14e-31cf1dcebb6f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: se-1.cutemedia.lol
-  reality-opts:
-    public-key: IZ9HnoNBZDB0e15eA-_Ve7N6nuilZ_vR-4RzMcSgBV0
-    short-id: '4c9499e6fc251e0c'
-- name: 🇩🇪 Германия | gh_alive_plain_full.txt | 4.66 Mbps 📺360p
-  type: vless
-  server: 83.141.93.80
-  port: 443
-  uuid: 37fc45b0-be4d-4920-a0f7-7389e406f5f3
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: newerson.online
-  reality-opts:
-    public-key: TiKF_6UGMtWhgDiAGLsAtyYwyv-s3HxG6F0P9ltyf1U
-    short-id: '8888265ef63fba6d'
-- name: 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 1.41 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
-    | 1.53 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.02 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: //worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 Неизвестно | whoahaow_bypass-all.txt | 2.32 Mbps 📺360p
-  type: vless
-  server: 153.52.143.118
-  port: 443
-  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: de2.fox-lisa.ru
-  reality-opts:
-    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
-    short-id: '027af64166562b09'
-- name: 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 4.07 Mbps
-    📺360p
-  type: vless
-  server: 153.52.143.118
-  port: 443
-  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: de2.fox-lisa.ru
-  reality-opts:
-    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
-    short-id: '027af64166562b09'
-- name: 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.70 Mbps
-    📺360p
-  type: vless
-  server: 153.52.143.118
-  port: 443
-  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: de2.fox-lisa.ru
-  reality-opts:
-    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
-    short-id: '027af64166562b09'
-- name: 🌐 CDN — гео скрыто | cbusifabcap_Clash.yml | 1.52 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: //worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | alireza786786_clash.yaml_12 | 1.53 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🇨🇭 Швейцария | Delta-Kronecker_batch_009.txt | 2.91 Mbps 📺360p
-  type: vless
-  server: 77.232.40.206
-  port: 443
-  uuid: c50eae6b-18de-4bdc-a22f-9edda40a57ed
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ch02.tunnely.space
-  reality-opts:
-    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
-    short-id: '2e40144ddc07e8e1'
-- name: 🇷🇺 Россия | Delta-Kronecker_batch_008.txt_4 | 4.27 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇺🇸 США | Delta-Kronecker_pl.txt | 7.75 Mbps 📺360p
-  type: vless
-  server: 144.31.5.137
-  port: 443
-  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: se.dataroute.biz
-  reality-opts:
-    public-key: Jg9VG2d5YKA_b6b2oVT8_QaIEHyww04U050ahEPhZlU
-    short-id: '0000000000000000'
-- name: 🇷🇺 Россия | Diversan313_alive_bs.yaml_2 | 4.39 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇨🇭 Швейцария | Diversan313_alive_vless.yaml_2 | 3.66 Mbps 📺360p
-  type: vless
-  server: 77.232.40.206
-  port: 443
-  uuid: c50eae6b-18de-4bdc-a22f-9edda40a57ed
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: ch02.tunnely.space
-  reality-opts:
-    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
-    short-id: '2e40144ddc07e8e1'
-- name: 🇳🇱 Нидерланды | Diversan313_alive_CF.yaml_2 | 5.47 Mbps 📺360p
+- name: 🇳🇱 Нидерланды | mani-moh_nl.txt | 5.46 Mbps 📺360p
   type: vless
   server: 195.209.221.165
   port: 443
   uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
   tls: true
-  network: tcp
+  network: raw
   client-fingerprint: firefox
   flow: xtls-rprx-vision
   servername: ruhsds735.thebestqas.am
   reality-opts:
     public-key: KYCw7cXjogBXLwakD95fS0ez_Ohp841nJv0w0ntu_FU
     short-id: '8b360b27c8ae3791'
-- name: 🇫🇮 Финляндия | Delta-Kronecker_fi_clash.yaml | 6.44 Mbps 📺360p
+- name: 🇳🇱 Нидерланды | mani-moh_nl.txt | 5.00 Mbps 📺360p
   type: vless
-  server: 45.144.52.205
-  port: 4243
-  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: fi.convert-cloud.guru
-  reality-opts:
-    public-key: vCHucdoD_m-TKVHS7si1akKgP6r4dvTLUX8y1TTZQG4
-    short-id: '0000000000000000'
-  grpc-opts:
-    grpc-service-name: ns
-- name: 🇷🇺 Россия | Diversan313_alive_CF.yaml_2 | 5.28 Mbps 📺360p
-  type: vless
-  server: 195.209.221.235
+  server: 94.183.164.68
   port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ruhsds734.thebestqas.am
-  reality-opts:
-    public-key: Jv6OJRVpXGL8SlWq1VoCUbkeKCkG9cTzi2OHI2R9eAQ
-    short-id: 'bd1b77948ad14751'
-- name: 🇺🇸 США | Edsel-Rahimi_nodes.txt | 7.80 Mbps 📺360p
-  type: vless
-  server: 144.31.5.137
-  port: 443
-  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: se.dataroute.biz
-  reality-opts:
-    public-key: Jg9VG2d5YKA_b6b2oVT8_QaIEHyww04U050ahEPhZlU
-    short-id: '0000000000000000'
-- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.55 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇫🇮 Финляндия | Edsel-Rahimi_nodes.txt | 3.60 Mbps 📺360p
-  type: vless
-  server: 45.144.52.205
-  port: 443
-  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: fi.convert-cloud.guru
-  reality-opts:
-    public-key: 9kQGK7IuVFWU9xCb4g9ygL1CEv87QmVZJzWLz74pTSc
-    short-id: '0000000000000000'
-- name: 🇳🇱 Нидерланды | Edsel-Rahimi_nodes.txt | 3.26 Mbps 📺360p
-  type: vless
-  server: 195.209.221.165
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ruhsds735.thebestqas.am
-  reality-opts:
-    public-key: KYCw7cXjogBXLwakD95fS0ez_Ohp841nJv0w0ntu_FU
-    short-id: '8b360b27c8ae3791'
-- name: 🇺🇸 США | flaafix_configs.txt | 8.06 Mbps 📺360p
-  type: vless
-  server: 144.31.5.137
-  port: 443
-  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: se.dataroute.biz
-  reality-opts:
-    public-key: Jg9VG2d5YKA_b6b2oVT8_QaIEHyww04U050ahEPhZlU
-    short-id: '0000000000000000'
-- name: 🇫🇮 Финляндия | flaafix_configs.txt | 7.53 Mbps 📺360p
-  type: vless
-  server: 45.144.52.205
-  port: 4243
-  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: fi.convert-cloud.guru
-  reality-opts:
-    public-key: vCHucdoD_m-TKVHS7si1akKgP6r4dvTLUX8y1TTZQG4
-    short-id: '0000000000000000'
-  grpc-opts:
-    grpc-service-name: ns
-- name: 🇺🇸 США | gh_alive_bl.txt | 8.06 Mbps 📺360p
-  type: vless
-  server: 144.31.5.137
-  port: 443
-  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: se.dataroute.biz
-  reality-opts:
-    public-key: Jg9VG2d5YKA_b6b2oVT8_QaIEHyww04U050ahEPhZlU
-    short-id: '0000000000000000'
-- name: 🇷🇺 Россия | gh_alive_full.txt | 4.54 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇸🇪 Швеция | flaafix_configs.txt | 4.98 Mbps 📺360p
-  type: vless
-  server: 45.80.230.231
-  port: 443
-  uuid: 1011b03e-b5e7-4f7f-af17-1d8f9e727700
-  tls: true
-  network: raw
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: www.1177.se
-  reality-opts:
-    public-key: wD713tU37fU02OUusCfKXQ5nDsfjjgWIB6ArIO8sjCc
-    short-id: 'a928e81b'
-- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.89 Mbps 📺360p
-  type: vless
-  server: 195.209.221.235
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ruhsds734.thebestqas.am
-  reality-opts:
-    public-key: Jv6OJRVpXGL8SlWq1VoCUbkeKCkG9cTzi2OHI2R9eAQ
-    short-id: 'bd1b77948ad14751'
-- name: 🌐 Неизвестно | flaafix_configs.txt | 1.35 Mbps 📺360p
-  type: vless
-  server: 153.52.143.118
-  port: 443
-  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
+  uuid: 4f2de292-cafe-4a5a-80cc-742a957ca43c
   tls: true
   network: raw
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  servername: de2.fox-lisa.ru
+  servername: dogklinik.growmart.site
   reality-opts:
-    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
-    short-id: '027af64166562b09'
-- name: 🇫🇮 Финляндия | Edsel-Rahimi_nodes.txt | 5.14 Mbps 📺360p
-  type: vless
-  server: 45.144.52.205
-  port: 443
-  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: fi.convert-cloud.guru
-  reality-opts:
-    public-key: 9kQGK7IuVFWU9xCb4g9ygL1CEv87QmVZJzWLz74pTSc
-    short-id: '0000000000000000'
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.25 Mbps 📺360p
-  type: vless
-  server: 195.209.217.67
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: raw
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  servername: ruhsds738.gangtype.com
-  reality-opts:
-    public-key: DHNvz0B_jGSTq2uK8Sehqo1u6Vv-fSSvk6-cRQJUKHM
-    short-id: '8aaef249c24f2be7'
-- name: 🇷🇺 Россия | flaafix_configs.txt | 5.63 Mbps 📺360p
-  type: vless
-  server: 191.44.46.255
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: rusbox741.gangtype.com
-  reality-opts:
-    public-key: Jotfph0ZlRdwfssKKJEN-aE1ftSxyZVFGI9VWAx0nRU
-    short-id: 'c88d3c5559ce623b'
-- name: 🇵🇱 Польша | Edsel-Rahimi_nodes.txt | 7.11 Mbps 📺360p
-  type: vless
-  server: 45.132.179.90
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: sbmicro683.gangplatform.com
-  reality-opts:
-    public-key: Ldrfdkq0bJrZWCS0p1u6Z2tPPal0LzRm4cgEYF_2KH8
-    short-id: 'cda7e8556ea56616'
-- name: 🌐 Неизвестно | gh_all.txt_3 | 2.09 Mbps 📺360p
-  type: vless
-  server: 109.107.189.69
-  port: 8443
-  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: gw-721bd5.dobry.monster
-  reality-opts:
-    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
-    short-id: '0912cc7f28aa26ba'
-- name: 🇺🇸 США | LeilaoMi_all.yaml | 7.83 Mbps 📺360p
-  type: vless
-  server: 144.31.5.137
-  port: 443
-  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: se.dataroute.biz
-  reality-opts:
-    public-key: Jg9VG2d5YKA_b6b2oVT8_QaIEHyww04U050ahEPhZlU
-    short-id: '0000000000000000'
-- name: 🌐 Неизвестно | gh_alive_vless.yaml | 4.80 Mbps 📺360p
-  type: vless
-  server: 168.113.254.217
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: sbmicro690.alexdjane.am
-  reality-opts:
-    public-key: Lcqz3jkke-A5WHJv5yxGSUFV4qbT6FEbCASxAswYnFk
-    short-id: '787145828dc7896c'
-- name: 🇷🇺 Россия | flaafix_configs.txt | 4.32 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇨🇭 Швейцария | gh_alive_vless.yaml | 4.01 Mbps 📺360p
-  type: vless
-  server: 77.232.40.206
-  port: 443
-  uuid: c50eae6b-18de-4bdc-a22f-9edda40a57ed
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ch02.tunnely.space
-  reality-opts:
-    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
-    short-id: '2e40144ddc07e8e1'
-- name: 🇵🇱 Польша | LeilaoMi_all.yaml | 6.57 Mbps 📺360p
-  type: vless
-  server: 45.132.179.90
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: sbmicro683.gangplatform.com
-  reality-opts:
-    public-key: Ldrfdkq0bJrZWCS0p1u6Z2tPPal0LzRm4cgEYF_2KH8
-    short-id: 'cda7e8556ea56616'
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.67 Mbps 📺360p
-  type: vless
-  server: 153.52.143.118
-  port: 443
-  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: de2.fox-lisa.ru
-  reality-opts:
-    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
-    short-id: '027af64166562b09'
-- name: 🇷🇺 Россия | flaafix_configs.txt | 4.35 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.97 Mbps 📺360p
-  type: vless
-  server: 84.54.58.149
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  servername: sbmicro656.richhoodfoc.com
-  reality-opts:
-    public-key: t_PE4flX4qNVn1leXcJX_YWgDw9YZxsrCQAPEHYConc
-    short-id: 'f21696d23293b39f'
-- name: 🇷🇺 Россия | LeilaoMi_all.yaml | 4.46 Mbps 📺360p
+    public-key: ju1YyCfbO_sLy_LZK6G7DbHpR8hhmSc4SaOLLbjuGSE
+    short-id: 'cd9c321977831739'
+- name: 🇷🇺 Россия | nikita29a_1.txt | 4.98 Mbps 📺360p
   type: vless
   server: 84.54.58.149
   port: 443
@@ -990,261 +263,7 @@ proxies:
   reality-opts:
     public-key: t_PE4flX4qNVn1leXcJX_YWgDw9YZxsrCQAPEHYConc
     short-id: 'f21696d23293b39f'
-- name: 🌐 Неизвестно | gh_all.txt | 1.68 Mbps 📺360p
-  type: vless
-  server: 109.107.189.69
-  port: 8443
-  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
-  tls: true
-  network: tcp
-  client-fingerprint: random
-  flow: xtls-rprx-vision
-  servername: gw-721bd5.dobry.monster
-  reality-opts:
-    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
-    short-id: '0912cc7f28aa26ba'
-- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.54 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🌐 CDN — гео скрыто | gh_all.txt_3 | 1.67 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🇨🇭 Швейцария | gh_all_configs.txt | 4.24 Mbps 📺360p
-  type: vless
-  server: 77.232.40.206
-  port: 443
-  uuid: c50eae6b-18de-4bdc-a22f-9edda40a57ed
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: ch02.tunnely.space
-  reality-opts:
-    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
-    short-id: '2e40144ddc07e8e1'
-- name: 🇷🇺 Россия | mani-moh_nl.txt | 4.63 Mbps 📺360p
-  type: vless
-  server: 84.54.58.149
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: sbmicro656.richhoodfoc.com
-  reality-opts:
-    public-key: t_PE4flX4qNVn1leXcJX_YWgDw9YZxsrCQAPEHYConc
-    short-id: 'f21696d23293b39f'
-- name: 🇮🇪 Ирландия | LeilaoMi_all.yaml | 4.97 Mbps 📺360p
-  type: vless
-  server: 78.17.25.113
-  port: 2066
-  uuid: 4bec3709-0954-4173-ae59-3dee6cb8b961
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: google.com
-  reality-opts:
-    public-key: afczQg2aQdvcZsQsnX_7SGTnSi6N_FI9ADIyxMfDehU
-    short-id: '1b2a3f'
-- name: 🇺🇸 США | MustafaBaqer_mix-base64.txt | 7.96 Mbps 📺360p
-  type: vless
-  server: 144.31.5.137
-  port: 443
-  uuid: 78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: se.dataroute.biz
-  reality-opts:
-    public-key: Jg9VG2d5YKA_b6b2oVT8_QaIEHyww04U050ahEPhZlU
-    short-id: '0000000000000000'
-- name: 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.33 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml
-    | 1.07 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls_2 |
-    1.51 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🇧🇬 Болгария | alireza786786_mix.txt_2 | 3.26 Mbps 📺360p
-  type: vless
-  server: 157.228.163.99
-  port: 443
-  uuid: 0259e5aa-c188-4334-b204-32cd5ea859f6
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: sofia-talking.keno.su
-  reality-opts:
-    public-key: hSoDrLr8MWmV05ffU4OLAmCgvh7AsoSiwkVjzPPVWSk
-    short-id: 'd84583b7258ac883'
-- name: 🌐 CDN — гео скрыто | alireza786786_luxxuria-harvester-speed_tested.yaml |
-    1.35 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | bily1258-design_clash.yaml_3 | 1.39 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 Неизвестно | Delta-Kronecker_batch_011.txt | 4.90 Mbps 📺360p
-  type: vless
-  server: 138.16.206.147
-  port: 9114
-  uuid: d81db550-4787-467e-b98a-579ee9d41999
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: 4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs
-    short-id: '6ba85179e30d4fc2'
-  grpc-opts:
-    grpc-service-name: inetgrpc
-- name: 🇳🇱 Нидерланды | Delta-Kronecker_batch_009.txt | 4.76 Mbps 📺360p
-  type: vless
-  server: 195.209.221.165
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ruhsds735.thebestqas.am
-  reality-opts:
-    public-key: KYCw7cXjogBXLwakD95fS0ez_Ohp841nJv0w0ntu_FU
-    short-id: '8b360b27c8ae3791'
-- name: 🇷🇺 Россия | Diversan313_alive_CF.yaml_2 | 6.03 Mbps 📺360p
-  type: vless
-  server: 191.44.46.255
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: rusbox741.gangtype.com
-  reality-opts:
-    public-key: Jotfph0ZlRdwfssKKJEN-aE1ftSxyZVFGI9VWAx0nRU
-    short-id: 'c88d3c5559ce623b'
-- name: 🌐 Неизвестно | FLAT447_BLACK_FULL.txt | 5.73 Mbps 📺360p
-  type: vless
-  server: 195.209.217.67
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: raw
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  servername: ruhsds738.gangtype.com
-  reality-opts:
-    public-key: DHNvz0B_jGSTq2uK8Sehqo1u6Vv-fSSvk6-cRQJUKHM
-    short-id: '8aaef249c24f2be7'
-- name: 🌐 Неизвестно | LeilaoMi_all.yaml | 13.94 Mbps 📺360p
-  type: vless
-  server: 138.16.206.147
-  port: 9114
-  uuid: d81db550-4787-467e-b98a-579ee9d41999
-  tls: true
-  network: grpc
-  client-fingerprint: chrome
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: 4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs
-    short-id: '6ba85179e30d4fc2'
-  grpc-opts:
-    grpc-service-name: inetgrpc
-- name: 🇳🇱 Нидерланды | LeilaoMi_all.yaml | 4.94 Mbps 📺360p
-  type: vless
-  server: 195.209.221.165
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: ruhsds735.thebestqas.am
-  reality-opts:
-    public-key: KYCw7cXjogBXLwakD95fS0ez_Ohp841nJv0w0ntu_FU
-    short-id: '8b360b27c8ae3791'
-- name: 🌐 Неизвестно | LeilaoMi_all.yaml | 5.26 Mbps 📺360p
+- name: 🇷🇺 Россия | nikita29a_1.txt | 4.85 Mbps 📺360p
   type: vless
   server: 45.132.179.183
   port: 443
@@ -1257,61 +276,7 @@ proxies:
   reality-opts:
     public-key: rL5LLBbdtOICIFTMYkXQ-XpYtMU91zG58wuRh0f7nig
     short-id: '3bf984c09a8c38a9'
-- name: 🌐 Неизвестно | gh_all_configs.txt | 0.81 Mbps 📺360p
-  type: vless
-  server: 195.209.217.111
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ruhsds737.gangtype.com
-  reality-opts:
-    public-key: cwP4lx0DIWttNWp4IeLj2S-e1Yo2tnBedJ5RiMLtT0E
-    short-id: '7e49fe98f9487e19'
-- name: 🌐 Неизвестно | LeilaoMi_all.yaml | 5.49 Mbps 📺360p
-  type: vless
-  server: 195.209.217.67
-  port: 443
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: ruhsds738.gangtype.com
-  reality-opts:
-    public-key: DHNvz0B_jGSTq2uK8Sehqo1u6Vv-fSSvk6-cRQJUKHM
-    short-id: '8aaef249c24f2be7'
-- name: 🌐 CDN — гео скрыто | ChatGPT-053 | 1.55 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🌐 CDN — гео скрыто | cbusifabcap_README.md_11 | 1.32 Mbps 📺360p
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  tls: false
-  network: ws
-  client-fingerprint: chrome
-  servername: sg-vless-ws.bypass.id
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg-vless-ws.bypass.id
-  skip-cert-verify: true
-- name: 🇷🇺 Россия | LeilaoMi_all.yaml | 1.49 Mbps 📺360p
+- name: 🇷🇺 Россия | nikita29a_1.txt | 4.81 Mbps 📺360p
   type: vless
   server: 195.209.221.235
   port: 443
@@ -1324,6 +289,734 @@ proxies:
   reality-opts:
     public-key: Jv6OJRVpXGL8SlWq1VoCUbkeKCkG9cTzi2OHI2R9eAQ
     short-id: 'bd1b77948ad14751'
+- name: 🇷🇺 Россия | nikita29a_1.txt | 4.53 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇮🇷 Иран | LeilaoMi_all.yaml | 4.44 Mbps 📺360p
+  type: vless
+  server: 84.23.52.104
+  port: 9118
+  uuid: d81db550-4787-467e-b98a-579ee9d41999
+  tls: true
+  network: grpc
+  client-fingerprint: chrome
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: 4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs
+    short-id: '6ba85179e30d4fc2'
+  grpc-opts:
+    grpc-service-name: inetgrpc
+- name: 🇨🇭 Швейцария | igareck_BLACK_VLESS_RUS_clash_rudirect.yaml | 4.00 Mbps 📺360p
+  type: vless
+  server: 77.232.40.206
+  port: 443
+  uuid: c50eae6b-18de-4bdc-a22f-9edda40a57ed
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: ch02.tunnely.space
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: '2e40144ddc07e8e1'
+- name: 🇵🇱 Польша | mani-moh_reality.txt | 3.26 Mbps 📺360p
+  type: vless
+  server: 45.132.179.90
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: sbmicro683.gangplatform.com
+  reality-opts:
+    public-key: Ldrfdkq0bJrZWCS0p1u6Z2tPPal0LzRm4cgEYF_2KH8
+    short-id: 'cda7e8556ea56616'
+- name: 🇧🇬 Болгария | alireza786786_mix.txt_2 | 3.05 Mbps 📺360p
+  type: vless
+  server: 157.228.163.99
+  port: 443
+  uuid: 0259e5aa-c188-4334-b204-32cd5ea859f6
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: sofia-talking.keno.su
+  reality-opts:
+    public-key: hSoDrLr8MWmV05ffU4OLAmCgvh7AsoSiwkVjzPPVWSk
+    short-id: 'd84583b7258ac883'
+- name: 🌐 Неизвестно | igareck_Vless-Reality-White-Lists-Rus-Mobile.txt | 2.39 Mbps
+    📺360p
+  type: vless
+  server: 109.107.189.69
+  port: 8443
+  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: gw-721bd5.dobry.monster
+  reality-opts:
+    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
+    short-id: '0912cc7f28aa26ba'
+- name: 🌐 Неизвестно | LeilaoMi_all.yaml | 2.08 Mbps 📺360p
+  type: vless
+  server: 176.108.243.24
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: sbmicro740.gangtype.com
+  reality-opts:
+    public-key: QMPA4RVilYFEnDrbdj93up66oDk5I_btjil9vC7ppgc
+    short-id: '9e5b8e221733245f'
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.67 Mbps 📺360p
+  type: vless
+  server: 168.113.254.217
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  servername: sbmicro690.alexdjane.am
+  reality-opts:
+    public-key: Lcqz3jkke-A5WHJv5yxGSUFV4qbT6FEbCASxAswYnFk
+    short-id: '787145828dc7896c'
+- name: 🌐 Неизвестно | gh_all_configs.txt | 1.34 Mbps 📺360p
+  type: vless
+  server: 195.209.217.111
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ruhsds737.gangtype.com
+  reality-opts:
+    public-key: cwP4lx0DIWttNWp4IeLj2S-e1Yo2tnBedJ5RiMLtT0E
+    short-id: '7e49fe98f9487e19'
+- name: 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 0.87 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.77 Mbps 📺360p
+  type: vless
+  server: 195.209.217.67
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ruhsds738.gangtype.com
+  reality-opts:
+    public-key: DHNvz0B_jGSTq2uK8Sehqo1u6Vv-fSSvk6-cRQJUKHM
+    short-id: '8aaef249c24f2be7'
+- name: 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 4.90 Mbps
+    📺360p
+  type: vless
+  server: newerson.online
+  port: 443
+  uuid: 37fc45b0-be4d-4920-a0f7-7389e406f5f3
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: newerson.online
+  reality-opts:
+    public-key: TiKF_6UGMtWhgDiAGLsAtyYwyv-s3HxG6F0P9ltyf1U
+    short-id: '8888265ef63fba6d'
+- name: 🇮🇪 Ирландия | nikita29a_1.txt | 4.85 Mbps 📺360p
+  type: vless
+  server: 78.17.25.113
+  port: 2066
+  uuid: 4bec3709-0954-4173-ae59-3dee6cb8b961
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: google.com
+  reality-opts:
+    public-key: afczQg2aQdvcZsQsnX_7SGTnSi6N_FI9ADIyxMfDehU
+    short-id: '1b2a3f'
+- name: 🌐 Неизвестно | LeilaoMi_all.yaml | 4.41 Mbps 📺360p
+  type: vless
+  server: 153.52.143.118
+  port: 443
+  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: de2.fox-lisa.ru
+  reality-opts:
+    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
+    short-id: '027af64166562b09'
+- name: 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.32 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
+    | 1.38 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.36 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: //worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.88 Mbps
+    📺360p
+  type: vless
+  server: 153.52.143.118
+  port: 443
+  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: de2.fox-lisa.ru
+  reality-opts:
+    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
+    short-id: '027af64166562b09'
+- name: 🌐 CDN — гео скрыто | ChatGPT-053 | 0.71 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🌐 Неизвестно | Delta-Kronecker_batch_011.txt | 10.70 Mbps 📺360p
+  type: vless
+  server: 138.16.206.147
+  port: 9114
+  uuid: d81db550-4787-467e-b98a-579ee9d41999
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: 4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs
+    short-id: '6ba85179e30d4fc2'
+  grpc-opts:
+    grpc-service-name: inetgrpc
+- name: 🇨🇭 Швейцария | Delta-Kronecker_batch_009.txt | 3.93 Mbps 📺360p
+  type: vless
+  server: 77.232.40.206
+  port: 443
+  uuid: c50eae6b-18de-4bdc-a22f-9edda40a57ed
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ch02.tunnely.space
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: '2e40144ddc07e8e1'
+- name: 🇷🇺 Россия | Delta-Kronecker_batch_008.txt_4 | 4.13 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇳🇱 Нидерланды | Delta-Kronecker_batch_009.txt | 5.19 Mbps 📺360p
+  type: vless
+  server: 195.209.221.165
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ruhsds735.thebestqas.am
+  reality-opts:
+    public-key: KYCw7cXjogBXLwakD95fS0ez_Ohp841nJv0w0ntu_FU
+    short-id: '8b360b27c8ae3791'
+- name: 🌐 CDN — гео скрыто | cbusifabcap_README.md_11 | 1.54 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  servername: sg-vless-ws.bypass.id
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇷🇺 Россия | Diversan313_alive_bs.yaml_2 | 4.37 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇨🇭 Швейцария | Diversan313_alive_vless.yaml_2 | 2.87 Mbps 📺360p
+  type: vless
+  server: 77.232.40.206
+  port: 443
+  uuid: c50eae6b-18de-4bdc-a22f-9edda40a57ed
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: ch02.tunnely.space
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: '2e40144ddc07e8e1'
+- name: 🇳🇱 Нидерланды | Diversan313_alive_CF.yaml_2 | 5.44 Mbps 📺360p
+  type: vless
+  server: 195.209.221.165
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ruhsds735.thebestqas.am
+  reality-opts:
+    public-key: KYCw7cXjogBXLwakD95fS0ez_Ohp841nJv0w0ntu_FU
+    short-id: '8b360b27c8ae3791'
+- name: 🇷🇺 Россия | Diversan313_alive_CF.yaml_2 | 5.47 Mbps 📺360p
+  type: vless
+  server: 195.209.221.235
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ruhsds734.thebestqas.am
+  reality-opts:
+    public-key: Jv6OJRVpXGL8SlWq1VoCUbkeKCkG9cTzi2OHI2R9eAQ
+    short-id: 'bd1b77948ad14751'
+- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.42 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇳🇱 Нидерланды | Edsel-Rahimi_nodes.txt | 5.30 Mbps 📺360p
+  type: vless
+  server: 195.209.221.165
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ruhsds735.thebestqas.am
+  reality-opts:
+    public-key: KYCw7cXjogBXLwakD95fS0ez_Ohp841nJv0w0ntu_FU
+    short-id: '8b360b27c8ae3791'
+- name: 🌐 Неизвестно | FLAT447_BLACK_FULL.txt | 2.03 Mbps 📺360p
+  type: vless
+  server: 195.209.217.67
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: raw
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  servername: ruhsds738.gangtype.com
+  reality-opts:
+    public-key: DHNvz0B_jGSTq2uK8Sehqo1u6Vv-fSSvk6-cRQJUKHM
+    short-id: '8aaef249c24f2be7'
+- name: 🇷🇺 Россия | gh_alive_full.txt | 4.28 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 1.56 Mbps 📺360p
+  type: vless
+  server: 195.209.221.235
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ruhsds734.thebestqas.am
+  reality-opts:
+    public-key: Jv6OJRVpXGL8SlWq1VoCUbkeKCkG9cTzi2OHI2R9eAQ
+    short-id: 'bd1b77948ad14751'
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.11 Mbps 📺360p
+  type: vless
+  server: 195.209.217.67
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: raw
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  servername: ruhsds738.gangtype.com
+  reality-opts:
+    public-key: DHNvz0B_jGSTq2uK8Sehqo1u6Vv-fSSvk6-cRQJUKHM
+    short-id: '8aaef249c24f2be7'
+- name: 🇵🇱 Польша | Edsel-Rahimi_nodes.txt | 7.27 Mbps 📺360p
+  type: vless
+  server: 45.132.179.90
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: sbmicro683.gangplatform.com
+  reality-opts:
+    public-key: Ldrfdkq0bJrZWCS0p1u6Z2tPPal0LzRm4cgEYF_2KH8
+    short-id: 'cda7e8556ea56616'
+- name: 🌐 Неизвестно | gh_all.txt_3 | 2.20 Mbps 📺360p
+  type: vless
+  server: 109.107.189.69
+  port: 8443
+  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: gw-721bd5.dobry.monster
+  reality-opts:
+    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
+    short-id: '0912cc7f28aa26ba'
+- name: 🌐 Неизвестно | LeilaoMi_all.yaml | 10.88 Mbps 📺360p
+  type: vless
+  server: 138.16.206.147
+  port: 9114
+  uuid: d81db550-4787-467e-b98a-579ee9d41999
+  tls: true
+  network: grpc
+  client-fingerprint: chrome
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: 4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs
+    short-id: '6ba85179e30d4fc2'
+  grpc-opts:
+    grpc-service-name: inetgrpc
+- name: 🇳🇱 Нидерланды | LeilaoMi_all.yaml | 5.28 Mbps 📺360p
+  type: vless
+  server: 195.209.221.165
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: ruhsds735.thebestqas.am
+  reality-opts:
+    public-key: KYCw7cXjogBXLwakD95fS0ez_Ohp841nJv0w0ntu_FU
+    short-id: '8b360b27c8ae3791'
+- name: 🇷🇺 Россия | flaafix_configs.txt | 4.25 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | LeilaoMi_all.yaml | 5.40 Mbps 📺360p
+  type: vless
+  server: 45.132.179.183
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: sbmicro728.alexdjane.am
+  reality-opts:
+    public-key: rL5LLBbdtOICIFTMYkXQ-XpYtMU91zG58wuRh0f7nig
+    short-id: '3bf984c09a8c38a9'
+- name: 🇷🇺 Россия | LeilaoMi_all.yaml | 5.03 Mbps 📺360p
+  type: vless
+  server: 195.209.221.235
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: ruhsds734.thebestqas.am
+  reality-opts:
+    public-key: Jv6OJRVpXGL8SlWq1VoCUbkeKCkG9cTzi2OHI2R9eAQ
+    short-id: 'bd1b77948ad14751'
+- name: 🇨🇭 Швейцария | gh_alive_vless.yaml | 3.74 Mbps 📺360p
+  type: vless
+  server: 77.232.40.206
+  port: 443
+  uuid: c50eae6b-18de-4bdc-a22f-9edda40a57ed
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ch02.tunnely.space
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: '2e40144ddc07e8e1'
+- name: 🇵🇱 Польша | LeilaoMi_all.yaml | 5.48 Mbps 📺360p
+  type: vless
+  server: 45.132.179.90
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: sbmicro683.gangplatform.com
+  reality-opts:
+    public-key: Ldrfdkq0bJrZWCS0p1u6Z2tPPal0LzRm4cgEYF_2KH8
+    short-id: 'cda7e8556ea56616'
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.44 Mbps 📺360p
+  type: vless
+  server: 153.52.143.118
+  port: 443
+  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: de2.fox-lisa.ru
+  reality-opts:
+    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
+    short-id: '027af64166562b09'
+- name: 🇷🇺 Россия | flaafix_configs.txt | 4.37 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🌐 Неизвестно | gh_all.txt | 2.15 Mbps 📺360p
+  type: vless
+  server: 109.107.189.69
+  port: 8443
+  uuid: cfd6ce74-f4c5-4815-bba4-2fd0fa77bf4e
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: gw-721bd5.dobry.monster
+  reality-opts:
+    public-key: q1EhO97gyUBlF7LiAfeAESI0O2Mg95T4yIk7keOnMEE
+    short-id: '0912cc7f28aa26ba'
+- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.33 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🌐 CDN — гео скрыто | gh_all.txt_3 | 1.00 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇨🇭 Швейцария | gh_all_configs.txt | 0.91 Mbps 📺360p
+  type: vless
+  server: 77.232.40.206
+  port: 443
+  uuid: c50eae6b-18de-4bdc-a22f-9edda40a57ed
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: ch02.tunnely.space
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: '2e40144ddc07e8e1'
+- name: 🌐 Неизвестно | LeilaoMi_all.yaml | 1.26 Mbps 📺360p
+  type: vless
+  server: 195.209.217.67
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: ruhsds738.gangtype.com
+  reality-opts:
+    public-key: DHNvz0B_jGSTq2uK8Sehqo1u6Vv-fSSvk6-cRQJUKHM
+    short-id: '8aaef249c24f2be7'
+- name: 🌐 CDN — гео скрыто | ChatGPT-053 | 1.54 Mbps 📺360p
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  tls: false
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /%2Fworryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+- name: 🇹🇷 Турция | Diversan313_alive_bs.txt | 8.14 Mbps 📺360p
+  type: vless
+  server: 84.23.52.104
+  port: 9125
+  uuid: d81db550-4787-467e-b98a-579ee9d41999
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: 4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs
+    short-id: '6ba85179e30d4fc2'
+  grpc-opts:
+    grpc-service-name: inetgrpc
+- name: 🇹🇷 Турция | Diversan313_alive_bs.yaml_2 | 8.22 Mbps 📺360p
+  type: vless
+  server: 84.23.52.104
+  port: 9125
+  uuid: d81db550-4787-467e-b98a-579ee9d41999
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: 4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs
+    short-id: '6ba85179e30d4fc2'
+  grpc-opts:
+    grpc-service-name: inetgrpc
+- name: 🇩🇪 Германия | gh_alive_plain_full.txt | 5.24 Mbps 📺360p
+  type: vless
+  server: newerson.online
+  port: 443
+  uuid: 37fc45b0-be4d-4920-a0f7-7389e406f5f3
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: newerson.online
+  reality-opts:
+    public-key: TiKF_6UGMtWhgDiAGLsAtyYwyv-s3HxG6F0P9ltyf1U
+    short-id: '8888265ef63fba6d'
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.05 Mbps 📺360p
+  type: vless
+  server: 83.141.93.80
+  port: 443
+  uuid: 37fc45b0-be4d-4920-a0f7-7389e406f5f3
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: newerson.online
+  reality-opts:
+    public-key: TiKF_6UGMtWhgDiAGLsAtyYwyv-s3HxG6F0P9ltyf1U
+    short-id: '8888265ef63fba6d'
 proxy-providers:
   top_source:
     type: http
@@ -1349,107 +1042,80 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 15.66 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_010.txt | 14.33 Mbps 📺360p
-  - 🌐 Неизвестно | mheidari98_vless | 11.02 Mbps 📺360p
-  - 🇫🇮 Финляндия | https:_URI.yml | 9.39 Mbps 📺360p
-  - 🇵🇱 Польша | mani-moh_reality.txt | 6.81 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_vless.yaml | 6.69 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.65 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.36 Mbps 📺360p
-  - 🇳🇱 Нидерланды | mani-moh_nl.txt | 5.32 Mbps 📺360p
-  - 🇷🇺 Россия | nikita29a_1.txt | 5.05 Mbps 📺360p
-  - 🇳🇱 Нидерланды | mani-moh_nl.txt | 4.90 Mbps 📺360p
-  - 🇷🇺 Россия | nikita29a_1.txt | 4.69 Mbps 📺360p
-  - 🇷🇺 Россия | nikita29a_1.txt | 4.54 Mbps 📺360p
-  - 🇮🇷 Иран | LeilaoMi_all.yaml | 4.53 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 4.46 Mbps
-    📺360p
-  - 🇸🇪 Швеция | mani-moh_reality.txt | 4.44 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 4.32 Mbps 📺360p
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 3.65 Mbps 📺360p
-  - 🇫🇮 Финляндия | flaafix_configs.txt | 3.42 Mbps 📺360p
-  - 🇮🇪 Ирландия | nikita29a_1.txt | 2.21 Mbps 📺360p
-  - 🌐 Неизвестно | igareck_Vless-Reality-White-Lists-Rus-Mobile.txt | 2.13 Mbps 📺360p
-  - 🇨🇭 Швейцария | igareck_BLACK_VLESS_RUS_clash_rudirect.yaml | 1.84 Mbps 📺360p
-  - 🌐 Неизвестно | morpheusadam_all.txt_7 | 1.67 Mbps 📺360p
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 0.89 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 0.89 Mbps 📺360p
-  - 🌐 Неизвестно | mheidari98_vless | 7.80 Mbps 📺360p
-  - 🇺🇸 США | nikita29a_1.txt | 7.58 Mbps 📺360p
-  - 🇸🇪 Швеция | morpheusadam_all.txt_7 | 6.36 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_plain_full.txt | 4.66 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 1.41 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
-    | 1.53 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.02 Mbps 📺360p
-  - 🌐 Неизвестно | whoahaow_bypass-all.txt | 2.32 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 4.07 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.70 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | cbusifabcap_Clash.yml | 1.52 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_clash.yaml_12 | 1.53 Mbps 📺360p
-  - 🇨🇭 Швейцария | Delta-Kronecker_batch_009.txt | 2.91 Mbps 📺360p
-  - 🇷🇺 Россия | Delta-Kronecker_batch_008.txt_4 | 4.27 Mbps 📺360p
-  - 🇺🇸 США | Delta-Kronecker_pl.txt | 7.75 Mbps 📺360p
-  - 🇷🇺 Россия | Diversan313_alive_bs.yaml_2 | 4.39 Mbps 📺360p
-  - 🇨🇭 Швейцария | Diversan313_alive_vless.yaml_2 | 3.66 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Diversan313_alive_CF.yaml_2 | 5.47 Mbps 📺360p
-  - 🇫🇮 Финляндия | Delta-Kronecker_fi_clash.yaml | 6.44 Mbps 📺360p
-  - 🇷🇺 Россия | Diversan313_alive_CF.yaml_2 | 5.28 Mbps 📺360p
-  - 🇺🇸 США | Edsel-Rahimi_nodes.txt | 7.80 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.55 Mbps 📺360p
-  - 🇫🇮 Финляндия | Edsel-Rahimi_nodes.txt | 3.60 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Edsel-Rahimi_nodes.txt | 3.26 Mbps 📺360p
-  - 🇺🇸 США | flaafix_configs.txt | 8.06 Mbps 📺360p
-  - 🇫🇮 Финляндия | flaafix_configs.txt | 7.53 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_bl.txt | 8.06 Mbps 📺360p
-  - 🇷🇺 Россия | gh_alive_full.txt | 4.54 Mbps 📺360p
-  - 🇸🇪 Швеция | flaafix_configs.txt | 4.98 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.89 Mbps 📺360p
-  - 🌐 Неизвестно | flaafix_configs.txt | 1.35 Mbps 📺360p
-  - 🇫🇮 Финляндия | Edsel-Rahimi_nodes.txt | 5.14 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.25 Mbps 📺360p
-  - 🇷🇺 Россия | flaafix_configs.txt | 5.63 Mbps 📺360p
-  - 🇵🇱 Польша | Edsel-Rahimi_nodes.txt | 7.11 Mbps 📺360p
-  - 🌐 Неизвестно | gh_all.txt_3 | 2.09 Mbps 📺360p
-  - 🇺🇸 США | LeilaoMi_all.yaml | 7.83 Mbps 📺360p
-  - 🌐 Неизвестно | gh_alive_vless.yaml | 4.80 Mbps 📺360p
-  - 🇷🇺 Россия | flaafix_configs.txt | 4.32 Mbps 📺360p
-  - 🇨🇭 Швейцария | gh_alive_vless.yaml | 4.01 Mbps 📺360p
-  - 🇵🇱 Польша | LeilaoMi_all.yaml | 6.57 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_010.txt | 12.97 Mbps 📺360p
+  - 🌐 Неизвестно | mheidari98_vless | 10.79 Mbps 📺360p
+  - 🇫🇮 Финляндия | https:_URI.yml | 9.98 Mbps 📺360p
+  - 🇩🇪 Германия | gh_alive_vless.yaml | 9.80 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 9.16 Mbps 📺360p
+  - 🇺🇸 США | nikita29a_1.txt | 7.87 Mbps 📺360p
+  - 🌐 Неизвестно | mheidari98_vless | 7.60 Mbps 📺360p
+  - 🇸🇪 Швеция | morpheusadam_all.txt_7 | 7.11 Mbps 📺360p
+  - 🌐 Неизвестно | morpheusadam_all.txt_7 | 6.94 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | nikita29a_20.txt | 6.21 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | nikita29a_20.txt | 6.16 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 5.70 Mbps 📺360p
+  - 🇳🇱 Нидерланды | mani-moh_nl.txt | 5.46 Mbps 📺360p
+  - 🇳🇱 Нидерланды | mani-moh_nl.txt | 5.00 Mbps 📺360p
+  - 🇷🇺 Россия | nikita29a_1.txt | 4.98 Mbps 📺360p
+  - 🇷🇺 Россия | nikita29a_1.txt | 4.85 Mbps 📺360p
+  - 🇷🇺 Россия | nikita29a_1.txt | 4.81 Mbps 📺360p
+  - 🇷🇺 Россия | nikita29a_1.txt | 4.53 Mbps 📺360p
+  - 🇮🇷 Иран | LeilaoMi_all.yaml | 4.44 Mbps 📺360p
+  - 🇨🇭 Швейцария | igareck_BLACK_VLESS_RUS_clash_rudirect.yaml | 4.00 Mbps 📺360p
+  - 🇵🇱 Польша | mani-moh_reality.txt | 3.26 Mbps 📺360p
+  - 🇧🇬 Болгария | alireza786786_mix.txt_2 | 3.05 Mbps 📺360p
+  - 🌐 Неизвестно | igareck_Vless-Reality-White-Lists-Rus-Mobile.txt | 2.39 Mbps 📺360p
+  - 🌐 Неизвестно | LeilaoMi_all.yaml | 2.08 Mbps 📺360p
   - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.67 Mbps 📺360p
-  - 🇷🇺 Россия | flaafix_configs.txt | 4.35 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.97 Mbps 📺360p
-  - 🇷🇺 Россия | LeilaoMi_all.yaml | 4.46 Mbps 📺360p
-  - 🌐 Неизвестно | gh_all.txt | 1.68 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.54 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | gh_all.txt_3 | 1.67 Mbps 📺360p
-  - 🇨🇭 Швейцария | gh_all_configs.txt | 4.24 Mbps 📺360p
-  - 🇷🇺 Россия | mani-moh_nl.txt | 4.63 Mbps 📺360p
-  - 🇮🇪 Ирландия | LeilaoMi_all.yaml | 4.97 Mbps 📺360p
-  - 🇺🇸 США | MustafaBaqer_mix-base64.txt | 7.96 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.33 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml |
-    1.07 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls_2 | 1.51
-    Mbps 📺360p
-  - 🇧🇬 Болгария | alireza786786_mix.txt_2 | 3.26 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_luxxuria-harvester-speed_tested.yaml | 1.35
-    Mbps 📺360p
-  - 🌐 CDN — гео скрыто | bily1258-design_clash.yaml_3 | 1.39 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_011.txt | 4.90 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Delta-Kronecker_batch_009.txt | 4.76 Mbps 📺360p
-  - 🇷🇺 Россия | Diversan313_alive_CF.yaml_2 | 6.03 Mbps 📺360p
-  - 🌐 Неизвестно | FLAT447_BLACK_FULL.txt | 5.73 Mbps 📺360p
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 13.94 Mbps 📺360p
-  - 🇳🇱 Нидерланды | LeilaoMi_all.yaml | 4.94 Mbps 📺360p
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 5.26 Mbps 📺360p
-  - 🌐 Неизвестно | gh_all_configs.txt | 0.81 Mbps 📺360p
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 5.49 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.55 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | cbusifabcap_README.md_11 | 1.32 Mbps 📺360p
-  - 🇷🇺 Россия | LeilaoMi_all.yaml | 1.49 Mbps 📺360p
+  - 🌐 Неизвестно | gh_all_configs.txt | 1.34 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 0.87 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.77 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 4.90 Mbps
+    📺360p
+  - 🇮🇪 Ирландия | nikita29a_1.txt | 4.85 Mbps 📺360p
+  - 🌐 Неизвестно | LeilaoMi_all.yaml | 4.41 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.32 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
+    | 1.38 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.36 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.88 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | ChatGPT-053 | 0.71 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_011.txt | 10.70 Mbps 📺360p
+  - 🇨🇭 Швейцария | Delta-Kronecker_batch_009.txt | 3.93 Mbps 📺360p
+  - 🇷🇺 Россия | Delta-Kronecker_batch_008.txt_4 | 4.13 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Delta-Kronecker_batch_009.txt | 5.19 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | cbusifabcap_README.md_11 | 1.54 Mbps 📺360p
+  - 🇷🇺 Россия | Diversan313_alive_bs.yaml_2 | 4.37 Mbps 📺360p
+  - 🇨🇭 Швейцария | Diversan313_alive_vless.yaml_2 | 2.87 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Diversan313_alive_CF.yaml_2 | 5.44 Mbps 📺360p
+  - 🇷🇺 Россия | Diversan313_alive_CF.yaml_2 | 5.47 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.42 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Edsel-Rahimi_nodes.txt | 5.30 Mbps 📺360p
+  - 🌐 Неизвестно | FLAT447_BLACK_FULL.txt | 2.03 Mbps 📺360p
+  - 🇷🇺 Россия | gh_alive_full.txt | 4.28 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 1.56 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.11 Mbps 📺360p
+  - 🇵🇱 Польша | Edsel-Rahimi_nodes.txt | 7.27 Mbps 📺360p
+  - 🌐 Неизвестно | gh_all.txt_3 | 2.20 Mbps 📺360p
+  - 🌐 Неизвестно | LeilaoMi_all.yaml | 10.88 Mbps 📺360p
+  - 🇳🇱 Нидерланды | LeilaoMi_all.yaml | 5.28 Mbps 📺360p
+  - 🇷🇺 Россия | flaafix_configs.txt | 4.25 Mbps 📺360p
+  - 🇷🇺 Россия | LeilaoMi_all.yaml | 5.40 Mbps 📺360p
+  - 🇷🇺 Россия | LeilaoMi_all.yaml | 5.03 Mbps 📺360p
+  - 🇨🇭 Швейцария | gh_alive_vless.yaml | 3.74 Mbps 📺360p
+  - 🇵🇱 Польша | LeilaoMi_all.yaml | 5.48 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.44 Mbps 📺360p
+  - 🇷🇺 Россия | flaafix_configs.txt | 4.37 Mbps 📺360p
+  - 🌐 Неизвестно | gh_all.txt | 2.15 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.33 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | gh_all.txt_3 | 1.00 Mbps 📺360p
+  - 🇨🇭 Швейцария | gh_all_configs.txt | 0.91 Mbps 📺360p
+  - 🌐 Неизвестно | LeilaoMi_all.yaml | 1.26 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.54 Mbps 📺360p
+  - 🇹🇷 Турция | Diversan313_alive_bs.txt | 8.14 Mbps 📺360p
+  - 🇹🇷 Турция | Diversan313_alive_bs.yaml_2 | 8.22 Mbps 📺360p
+  - 🇩🇪 Германия | gh_alive_plain_full.txt | 5.24 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.05 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1457,24 +1123,21 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | Diversan313_alive_CF.yaml_2 | 6.03 Mbps 📺360p
-  - 🇷🇺 Россия | flaafix_configs.txt | 5.63 Mbps 📺360p
-  - 🇷🇺 Россия | Diversan313_alive_CF.yaml_2 | 5.28 Mbps 📺360p
-  - 🇷🇺 Россия | nikita29a_1.txt | 5.05 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.97 Mbps 📺360p
-  - 🇷🇺 Россия | nikita29a_1.txt | 4.69 Mbps 📺360p
-  - 🇷🇺 Россия | mani-moh_nl.txt | 4.63 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.55 Mbps 📺360p
-  - 🇷🇺 Россия | nikita29a_1.txt | 4.54 Mbps 📺360p
-  - 🇷🇺 Россия | gh_alive_full.txt | 4.54 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.54 Mbps 📺360p
-  - 🇷🇺 Россия | LeilaoMi_all.yaml | 4.46 Mbps 📺360p
-  - 🇷🇺 Россия | Diversan313_alive_bs.yaml_2 | 4.39 Mbps 📺360p
-  - 🇷🇺 Россия | flaafix_configs.txt | 4.35 Mbps 📺360p
-  - 🇷🇺 Россия | flaafix_configs.txt | 4.32 Mbps 📺360p
-  - 🇷🇺 Россия | Delta-Kronecker_batch_008.txt_4 | 4.27 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.89 Mbps 📺360p
-  - 🇷🇺 Россия | LeilaoMi_all.yaml | 1.49 Mbps 📺360p
+  - 🇷🇺 Россия | Diversan313_alive_CF.yaml_2 | 5.47 Mbps 📺360p
+  - 🇷🇺 Россия | LeilaoMi_all.yaml | 5.40 Mbps 📺360p
+  - 🇷🇺 Россия | LeilaoMi_all.yaml | 5.03 Mbps 📺360p
+  - 🇷🇺 Россия | nikita29a_1.txt | 4.98 Mbps 📺360p
+  - 🇷🇺 Россия | nikita29a_1.txt | 4.85 Mbps 📺360p
+  - 🇷🇺 Россия | nikita29a_1.txt | 4.81 Mbps 📺360p
+  - 🇷🇺 Россия | nikita29a_1.txt | 4.53 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.42 Mbps 📺360p
+  - 🇷🇺 Россия | Diversan313_alive_bs.yaml_2 | 4.37 Mbps 📺360p
+  - 🇷🇺 Россия | flaafix_configs.txt | 4.37 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 4.33 Mbps 📺360p
+  - 🇷🇺 Россия | gh_alive_full.txt | 4.28 Mbps 📺360p
+  - 🇷🇺 Россия | flaafix_configs.txt | 4.25 Mbps 📺360p
+  - 🇷🇺 Россия | Delta-Kronecker_batch_008.txt_4 | 4.13 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 1.56 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1482,46 +1145,34 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 15.66 Mbps 📺360p
-  - 🇫🇮 Финляндия | https:_URI.yml | 9.39 Mbps 📺360p
-  - 🇺🇸 США | flaafix_configs.txt | 8.06 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_bl.txt | 8.06 Mbps 📺360p
-  - 🇺🇸 США | MustafaBaqer_mix-base64.txt | 7.96 Mbps 📺360p
-  - 🇺🇸 США | LeilaoMi_all.yaml | 7.83 Mbps 📺360p
-  - 🇺🇸 США | Edsel-Rahimi_nodes.txt | 7.80 Mbps 📺360p
-  - 🇺🇸 США | Delta-Kronecker_pl.txt | 7.75 Mbps 📺360p
-  - 🇺🇸 США | nikita29a_1.txt | 7.58 Mbps 📺360p
-  - 🇫🇮 Финляндия | flaafix_configs.txt | 7.53 Mbps 📺360p
-  - 🇵🇱 Польша | Edsel-Rahimi_nodes.txt | 7.11 Mbps 📺360p
-  - 🇵🇱 Польша | mani-moh_reality.txt | 6.81 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_vless.yaml | 6.69 Mbps 📺360p
-  - 🇵🇱 Польша | LeilaoMi_all.yaml | 6.57 Mbps 📺360p
-  - 🇫🇮 Финляндия | Delta-Kronecker_fi_clash.yaml | 6.44 Mbps 📺360p
-  - 🇸🇪 Швеция | morpheusadam_all.txt_7 | 6.36 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Diversan313_alive_CF.yaml_2 | 5.47 Mbps 📺360p
-  - 🇳🇱 Нидерланды | mani-moh_nl.txt | 5.32 Mbps 📺360p
-  - 🇫🇮 Финляндия | Edsel-Rahimi_nodes.txt | 5.14 Mbps 📺360p
-  - 🇸🇪 Швеция | flaafix_configs.txt | 4.98 Mbps 📺360p
-  - 🇮🇪 Ирландия | LeilaoMi_all.yaml | 4.97 Mbps 📺360p
-  - 🇳🇱 Нидерланды | LeilaoMi_all.yaml | 4.94 Mbps 📺360p
-  - 🇳🇱 Нидерланды | mani-moh_nl.txt | 4.90 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Delta-Kronecker_batch_009.txt | 4.76 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_plain_full.txt | 4.66 Mbps 📺360p
-  - 🇮🇷 Иран | LeilaoMi_all.yaml | 4.53 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 4.46 Mbps
+  - 🇫🇮 Финляндия | https:_URI.yml | 9.98 Mbps 📺360p
+  - 🇩🇪 Германия | gh_alive_vless.yaml | 9.80 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 9.16 Mbps 📺360p
+  - 🇹🇷 Турция | Diversan313_alive_bs.yaml_2 | 8.22 Mbps 📺360p
+  - 🇹🇷 Турция | Diversan313_alive_bs.txt | 8.14 Mbps 📺360p
+  - 🇺🇸 США | nikita29a_1.txt | 7.87 Mbps 📺360p
+  - 🇵🇱 Польша | Edsel-Rahimi_nodes.txt | 7.27 Mbps 📺360p
+  - 🇸🇪 Швеция | morpheusadam_all.txt_7 | 7.11 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 5.70 Mbps 📺360p
+  - 🇵🇱 Польша | LeilaoMi_all.yaml | 5.48 Mbps 📺360p
+  - 🇳🇱 Нидерланды | mani-moh_nl.txt | 5.46 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Diversan313_alive_CF.yaml_2 | 5.44 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Edsel-Rahimi_nodes.txt | 5.30 Mbps 📺360p
+  - 🇳🇱 Нидерланды | LeilaoMi_all.yaml | 5.28 Mbps 📺360p
+  - 🇩🇪 Германия | gh_alive_plain_full.txt | 5.24 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Delta-Kronecker_batch_009.txt | 5.19 Mbps 📺360p
+  - 🇳🇱 Нидерланды | mani-moh_nl.txt | 5.00 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 4.90 Mbps
     📺360p
-  - 🇸🇪 Швеция | mani-moh_reality.txt | 4.44 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 4.32 Mbps 📺360p
-  - 🇨🇭 Швейцария | gh_all_configs.txt | 4.24 Mbps 📺360p
-  - 🇨🇭 Швейцария | gh_alive_vless.yaml | 4.01 Mbps 📺360p
-  - 🇨🇭 Швейцария | Diversan313_alive_vless.yaml_2 | 3.66 Mbps 📺360p
-  - 🇫🇮 Финляндия | Edsel-Rahimi_nodes.txt | 3.60 Mbps 📺360p
-  - 🇫🇮 Финляндия | flaafix_configs.txt | 3.42 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Edsel-Rahimi_nodes.txt | 3.26 Mbps 📺360p
-  - 🇧🇬 Болгария | alireza786786_mix.txt_2 | 3.26 Mbps 📺360p
-  - 🇨🇭 Швейцария | Delta-Kronecker_batch_009.txt | 2.91 Mbps 📺360p
-  - 🇮🇪 Ирландия | nikita29a_1.txt | 2.21 Mbps 📺360p
-  - 🇨🇭 Швейцария | igareck_BLACK_VLESS_RUS_clash_rudirect.yaml | 1.84 Mbps 📺360p
+  - 🇮🇪 Ирландия | nikita29a_1.txt | 4.85 Mbps 📺360p
+  - 🇮🇷 Иран | LeilaoMi_all.yaml | 4.44 Mbps 📺360p
+  - 🇨🇭 Швейцария | igareck_BLACK_VLESS_RUS_clash_rudirect.yaml | 4.00 Mbps 📺360p
+  - 🇨🇭 Швейцария | Delta-Kronecker_batch_009.txt | 3.93 Mbps 📺360p
+  - 🇨🇭 Швейцария | gh_alive_vless.yaml | 3.74 Mbps 📺360p
+  - 🇵🇱 Польша | mani-moh_reality.txt | 3.26 Mbps 📺360p
+  - 🇧🇬 Болгария | alireza786786_mix.txt_2 | 3.05 Mbps 📺360p
+  - 🇨🇭 Швейцария | Diversan313_alive_vless.yaml_2 | 2.87 Mbps 📺360p
+  - 🇨🇭 Швейцария | gh_all_configs.txt | 0.91 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1529,76 +1180,37 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Delta-Kronecker_batch_010.txt | 14.33 Mbps 📺360p
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 13.94 Mbps 📺360p
-  - 🌐 Неизвестно | mheidari98_vless | 11.02 Mbps 📺360p
-  - 🌐 Неизвестно | mheidari98_vless | 7.80 Mbps 📺360p
-  - 🌐 Неизвестно | FLAT447_BLACK_FULL.txt | 5.73 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.65 Mbps 📺360p
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 5.49 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.36 Mbps 📺360p
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 5.26 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.25 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_011.txt | 4.90 Mbps 📺360p
-  - 🌐 Неизвестно | gh_alive_vless.yaml | 4.80 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.yaml | 4.07 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.70 Mbps 📺360p
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 3.65 Mbps 📺360p
-  - 🌐 Неизвестно | whoahaow_bypass-all.txt | 2.32 Mbps 📺360p
-  - 🌐 Неизвестно | igareck_Vless-Reality-White-Lists-Rus-Mobile.txt | 2.13 Mbps 📺360p
-  - 🌐 Неизвестно | gh_all.txt_3 | 2.09 Mbps 📺360p
-  - 🌐 Неизвестно | gh_all.txt | 1.68 Mbps 📺360p
-  - 🌐 Неизвестно | morpheusadam_all.txt_7 | 1.67 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_010.txt | 12.97 Mbps 📺360p
+  - 🌐 Неизвестно | LeilaoMi_all.yaml | 10.88 Mbps 📺360p
+  - 🌐 Неизвестно | mheidari98_vless | 10.79 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_011.txt | 10.70 Mbps 📺360p
+  - 🌐 Неизвестно | mheidari98_vless | 7.60 Mbps 📺360p
+  - 🌐 Неизвестно | morpheusadam_all.txt_7 | 6.94 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | nikita29a_20.txt | 6.21 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | nikita29a_20.txt | 6.16 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.44 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.05 Mbps 📺360p
+  - 🌐 Неизвестно | LeilaoMi_all.yaml | 4.41 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.88 Mbps 📺360p
+  - 🌐 Неизвестно | igareck_Vless-Reality-White-Lists-Rus-Mobile.txt | 2.39 Mbps 📺360p
+  - 🌐 Неизвестно | gh_all.txt_3 | 2.20 Mbps 📺360p
+  - 🌐 Неизвестно | gh_all.txt | 2.15 Mbps 📺360p
+  - 🌐 Неизвестно | LeilaoMi_all.yaml | 2.08 Mbps 📺360p
+  - 🌐 Неизвестно | FLAT447_BLACK_FULL.txt | 2.03 Mbps 📺360p
   - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.67 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | gh_all.txt_3 | 1.67 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.55 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.txt_2
-    | 1.53 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_clash.yaml_12 | 1.53 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | cbusifabcap_Clash.yml | 1.52 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | 10Dream_10ium-telegram-configs-collector-non-tls_2 | 1.51
-    Mbps 📺360p
+  - 🌐 CDN — гео скрыто | cbusifabcap_README.md_11 | 1.54 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | ChatGPT-053 | 1.54 Mbps 📺360p
   - 🌐 CDN — гео скрыто | 10Dream_flaafix-AetrisVPN-black-list-configs_unlimited.yaml
-    | 1.41 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | bily1258-design_clash.yaml_3 | 1.39 Mbps 📺360p
-  - 🌐 Неизвестно | flaafix_configs.txt | 1.35 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_luxxuria-harvester-speed_tested.yaml | 1.35
-    Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.33 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | cbusifabcap_README.md_11 | 1.32 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | alireza786786_3inker-v2ray-subscription-all_not_ru.yaml |
-    1.07 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.02 Mbps 📺360p
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 0.89 Mbps 📺360p
-  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 0.89 Mbps 📺360p
-  - 🌐 Неизвестно | gh_all_configs.txt | 0.81 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇺🇸 США
-  type: url-test
-  proxies:
-  - 🇺🇸 США | flaafix_configs.txt | 8.06 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_bl.txt | 8.06 Mbps 📺360p
-  - 🇺🇸 США | MustafaBaqer_mix-base64.txt | 7.96 Mbps 📺360p
-  - 🇺🇸 США | LeilaoMi_all.yaml | 7.83 Mbps 📺360p
-  - 🇺🇸 США | Edsel-Rahimi_nodes.txt | 7.80 Mbps 📺360p
-  - 🇺🇸 США | Delta-Kronecker_pl.txt | 7.75 Mbps 📺360p
-  - 🇺🇸 США | nikita29a_1.txt | 7.58 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇫🇮 Финляндия
-  type: url-test
-  proxies:
-  - 🇫🇮 Финляндия | https:_URI.yml | 9.39 Mbps 📺360p
-  - 🇫🇮 Финляндия | flaafix_configs.txt | 7.53 Mbps 📺360p
-  - 🇫🇮 Финляндия | Delta-Kronecker_fi_clash.yaml | 6.44 Mbps 📺360p
-  - 🇫🇮 Финляндия | Edsel-Rahimi_nodes.txt | 5.14 Mbps 📺360p
-  - 🇫🇮 Финляндия | Edsel-Rahimi_nodes.txt | 3.60 Mbps 📺360p
-  - 🇫🇮 Финляндия | flaafix_configs.txt | 3.42 Mbps 📺360p
+    | 1.38 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Barabama ClashMeta | 1.36 Mbps 📺360p
+  - 🌐 Неизвестно | gh_all_configs.txt | 1.34 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 1.32 Mbps 📺360p
+  - 🌐 Неизвестно | LeilaoMi_all.yaml | 1.26 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.11 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | gh_all.txt_3 | 1.00 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | Edsel-Rahimi_nodes.txt | 0.87 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.77 Mbps 📺360p
+  - 🌐 CDN — гео скрыто | ChatGPT-053 | 0.71 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1606,12 +1218,12 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | Diversan313_alive_CF.yaml_2 | 5.47 Mbps 📺360p
-  - 🇳🇱 Нидерланды | mani-moh_nl.txt | 5.32 Mbps 📺360p
-  - 🇳🇱 Нидерланды | LeilaoMi_all.yaml | 4.94 Mbps 📺360p
-  - 🇳🇱 Нидерланды | mani-moh_nl.txt | 4.90 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Delta-Kronecker_batch_009.txt | 4.76 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Edsel-Rahimi_nodes.txt | 3.26 Mbps 📺360p
+  - 🇳🇱 Нидерланды | mani-moh_nl.txt | 5.46 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Diversan313_alive_CF.yaml_2 | 5.44 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Edsel-Rahimi_nodes.txt | 5.30 Mbps 📺360p
+  - 🇳🇱 Нидерланды | LeilaoMi_all.yaml | 5.28 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Delta-Kronecker_batch_009.txt | 5.19 Mbps 📺360p
+  - 🇳🇱 Нидерланды | mani-moh_nl.txt | 5.00 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1619,12 +1231,12 @@ proxy-groups:
 - name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 15.66 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_vless.yaml | 6.69 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_plain_full.txt | 4.66 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 4.46 Mbps
+  - 🇩🇪 Германия | gh_alive_vless.yaml | 9.80 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 9.16 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 5.70 Mbps 📺360p
+  - 🇩🇪 Германия | gh_alive_plain_full.txt | 5.24 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_luxxuria-harvester-speed_tested.txt_2 | 4.90 Mbps
     📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 4.32 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1632,11 +1244,11 @@ proxy-groups:
 - name: 🗺 🇨🇭 Швейцария
   type: url-test
   proxies:
-  - 🇨🇭 Швейцария | gh_all_configs.txt | 4.24 Mbps 📺360p
-  - 🇨🇭 Швейцария | gh_alive_vless.yaml | 4.01 Mbps 📺360p
-  - 🇨🇭 Швейцария | Diversan313_alive_vless.yaml_2 | 3.66 Mbps 📺360p
-  - 🇨🇭 Швейцария | Delta-Kronecker_batch_009.txt | 2.91 Mbps 📺360p
-  - 🇨🇭 Швейцария | igareck_BLACK_VLESS_RUS_clash_rudirect.yaml | 1.84 Mbps 📺360p
+  - 🇨🇭 Швейцария | igareck_BLACK_VLESS_RUS_clash_rudirect.yaml | 4.00 Mbps 📺360p
+  - 🇨🇭 Швейцария | Delta-Kronecker_batch_009.txt | 3.93 Mbps 📺360p
+  - 🇨🇭 Швейцария | gh_alive_vless.yaml | 3.74 Mbps 📺360p
+  - 🇨🇭 Швейцария | Diversan313_alive_vless.yaml_2 | 2.87 Mbps 📺360p
+  - 🇨🇭 Швейцария | gh_all_configs.txt | 0.91 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1644,9 +1256,34 @@ proxy-groups:
 - name: 🗺 🇵🇱 Польша
   type: url-test
   proxies:
-  - 🇵🇱 Польша | Edsel-Rahimi_nodes.txt | 7.11 Mbps 📺360p
-  - 🇵🇱 Польша | mani-moh_reality.txt | 6.81 Mbps 📺360p
-  - 🇵🇱 Польша | LeilaoMi_all.yaml | 6.57 Mbps 📺360p
+  - 🇵🇱 Польша | Edsel-Rahimi_nodes.txt | 7.27 Mbps 📺360p
+  - 🇵🇱 Польша | LeilaoMi_all.yaml | 5.48 Mbps 📺360p
+  - 🇵🇱 Польша | mani-moh_reality.txt | 3.26 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇹🇷 Турция
+  type: url-test
+  proxies:
+  - 🇹🇷 Турция | Diversan313_alive_bs.yaml_2 | 8.22 Mbps 📺360p
+  - 🇹🇷 Турция | Diversan313_alive_bs.txt | 8.14 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇫🇮 Финляндия
+  type: url-test
+  proxies:
+  - 🇫🇮 Финляндия | https:_URI.yml | 9.98 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇺🇸 США
+  type: url-test
+  proxies:
+  - 🇺🇸 США | nikita29a_1.txt | 7.87 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1654,18 +1291,7 @@ proxy-groups:
 - name: 🗺 🇸🇪 Швеция
   type: url-test
   proxies:
-  - 🇸🇪 Швеция | morpheusadam_all.txt_7 | 6.36 Mbps 📺360p
-  - 🇸🇪 Швеция | flaafix_configs.txt | 4.98 Mbps 📺360p
-  - 🇸🇪 Швеция | mani-moh_reality.txt | 4.44 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇮🇪 Ирландия
-  type: url-test
-  proxies:
-  - 🇮🇪 Ирландия | LeilaoMi_all.yaml | 4.97 Mbps 📺360p
-  - 🇮🇪 Ирландия | nikita29a_1.txt | 2.21 Mbps 📺360p
+  - 🇸🇪 Швеция | morpheusadam_all.txt_7 | 7.11 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1673,7 +1299,7 @@ proxy-groups:
 - name: 🗺 🇮🇷 Иран
   type: url-test
   proxies:
-  - 🇮🇷 Иран | LeilaoMi_all.yaml | 4.53 Mbps 📺360p
+  - 🇮🇷 Иран | LeilaoMi_all.yaml | 4.44 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1681,7 +1307,15 @@ proxy-groups:
 - name: 🗺 🇧🇬 Болгария
   type: url-test
   proxies:
-  - 🇧🇬 Болгария | alireza786786_mix.txt_2 | 3.26 Mbps 📺360p
+  - 🇧🇬 Болгария | alireza786786_mix.txt_2 | 3.05 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇪 Ирландия
+  type: url-test
+  proxies:
+  - 🇮🇪 Ирландия | nikita29a_1.txt | 4.85 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -1689,16 +1323,17 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇺🇸 США
-  - 🗺 🇫🇮 Финляндия
   - 🗺 🇳🇱 Нидерланды
   - 🗺 🇩🇪 Германия
   - 🗺 🇨🇭 Швейцария
   - 🗺 🇵🇱 Польша
+  - 🗺 🇹🇷 Турция
+  - 🗺 🇫🇮 Финляндия
+  - 🗺 🇺🇸 США
   - 🗺 🇸🇪 Швеция
-  - 🗺 🇮🇪 Ирландия
   - 🗺 🇮🇷 Иран
   - 🗺 🇧🇬 Болгария
+  - 🗺 🇮🇪 Ирландия
 - name: 🎯 Direct
   type: select
   proxies:

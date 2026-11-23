@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | ALIILAPRO | 5.59 Mbps 📺360p
+- name: 🌐 Неизвестно | ALIILAPRO | 5.27 Mbps 📺360p
   type: vless
   server: 168.113.254.217
   port: 443
@@ -76,60 +76,40 @@ proxies:
   reality-opts:
     public-key: Lcqz3jkke-A5WHJv5yxGSUFV4qbT6FEbCASxAswYnFk
     short-id: '787145828dc7896c'
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.15 Mbps 📺360p
-  type: vless
-  server: 195.63.143.129
-  port: 8446
-  uuid: 5d98ff1a-d576-46d3-9504-b158d94bcce9
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: www.kpn.com
-  reality-opts:
-    public-key: UzS81axpyoGU0UUzsWPMBi1cdAxo5hyfLkqB9wy9HkI
-    short-id: 'ec685991deb623f7'
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.58 Mbps 📺360p
-  type: vless
-  server: 143.203.216.211
-  port: 443
-  uuid: 6db6b948-655f-4f68-a9e7-865050e05b31
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 143.203.216.211
-  reality-opts:
-    public-key: o7R9liafUMmCf4Sr14gLaB-gZ7mo_axffMCT176tuHw
-    short-id: '672cfc'
-- name: 🌐 Неизвестно | 10ium_clash.yaml_233 | 2.98 Mbps 📺360p
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.71 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
   uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
   tls: true
   network: tcp
-  client-fingerprint: random
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   servername: 144.hexdey.com
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.85 Mbps 📺360p
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.60 Mbps 📺360p
   type: vless
   server: 45.88.176.101
   port: 24443
   uuid: 9c69546a-e435-4037-bc63-f9e5829a8be3
   tls: true
   network: grpc
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   servername: img.suzuki.lol
   reality-opts:
     public-key: 43lt439xcY74Yc_p2bdN9s-U15acPd5PtWUblHTtogw
     short-id: '0000000000000000'
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇳🇱 Нидерланды | Diversan313_alive_vless.yaml_2 | 0.81 Mbps 📺360p
+- name: 🌐 Неизвестно | wiki_1 | 2.77 Mbps 📺360p
+  type: ss
+  server: 46.17.42.129
+  port: 18443
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+- name: 🇳🇱 Нидерланды | Diversan313_alive_vless.yaml_2 | 2.45 Mbps 📺360p
   type: vless
   server: 195.209.223.32
   port: 443
@@ -142,13 +122,40 @@ proxies:
   reality-opts:
     public-key: cwP4lx0DIWttNWp4IeLj2S-e1Yo2tnBedJ5RiMLtT0E
     short-id: '7e49fe98f9487e19'
-- name: 🌐 Неизвестно | wiki_1 | 0.77 Mbps 📺360p
+- name: 🇷🇺 Россия | 0xRadikal_clash.yaml_5 | 1.85 Mbps 📺360p
   type: ss
   server: 46.17.42.129
   port: 18443
   cipher: aes-256-gcm
   password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt_4 | 3.20 Mbps 📺360p
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.78 Mbps 📺360p
+  type: vless
+  server: 45.88.176.101
+  port: 39443
+  uuid: 9c69546a-e435-4037-bc63-f9e5829a8be3
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: static.polina.mom
+  reality-opts:
+    public-key: fdxL-_wJtRHMDPjT2savleui1AgLPJ85z2rr2lZQxCw
+    short-id: '0000000000000000'
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.75 Mbps 📺360p
+  type: vless
+  server: 195.63.143.129
+  port: 8446
+  uuid: 5d98ff1a-d576-46d3-9504-b158d94bcce9
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: www.kpn.com
+  reality-opts:
+    public-key: UzS81axpyoGU0UUzsWPMBi1cdAxo5hyfLkqB9wy9HkI
+    short-id: 'ec685991deb623f7'
+- name: 🌐 Неизвестно | Delta-Kronecker_batch_008.txt_4 | 3.63 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -161,7 +168,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | Diversan313_alive_bs.yaml_2 | 3.53 Mbps 📺360p
+- name: 🌐 Неизвестно | Diversan313_alive_bs.yaml_2 | 3.78 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -174,20 +181,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.38 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | gh_alive_full.txt | 2.98 Mbps 📺360p
+- name: 🌐 Неизвестно | gh_alive_full.txt | 3.84 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -200,7 +194,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | flaafix_configs.txt | 3.56 Mbps 📺360p
+- name: 🌐 Неизвестно | flaafix_configs.txt | 3.64 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -213,7 +207,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | flaafix_configs.txt | 3.54 Mbps 📺360p
+- name: 🌐 Неизвестно | flaafix_configs.txt | 3.77 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -226,7 +220,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.65 Mbps 📺360p
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.11 Mbps 📺360p
   type: vless
   server: 168.113.254.217
   port: 443
@@ -239,7 +233,7 @@ proxies:
   reality-opts:
     public-key: Lcqz3jkke-A5WHJv5yxGSUFV4qbT6FEbCASxAswYnFk
     short-id: '787145828dc7896c'
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 2.88 Mbps 📺360p
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.69 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -252,7 +246,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | nikita29a_1.txt | 3.19 Mbps 📺360p
+- name: 🌐 Неизвестно | nikita29a_1.txt | 3.83 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -265,7 +259,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | pie-with-jam_14.txt | 3.57 Mbps 📺360p
+- name: 🌐 Неизвестно | pie-with-jam_14.txt | 3.86 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -278,7 +272,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | SoliSpirit_3 | 3.36 Mbps 📺360p
+- name: 🌐 Неизвестно | SoliSpirit_3 | 3.97 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -291,7 +285,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | SoliSpirit_3 | 3.11 Mbps 📺360p
+- name: 🌐 Неизвестно | SoliSpirit_3 | 3.69 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -304,7 +298,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | TelegaVPN_all.txt | 3.15 Mbps 📺360p
+- name: 🌐 Неизвестно | TelegaVPN_all.txt | 3.89 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -317,7 +311,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | 10Dream_gheychiamoozesh_mix_count_500 | 3.45 Mbps 📺360p
+- name: 🌐 Неизвестно | 10Dream_gheychiamoozesh_mix_count_500 | 3.72 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -330,7 +324,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | 10Dream_RU_unlimited.yaml | 3.68 Mbps 📺360p
+- name: 🌐 Неизвестно | 10Dream_RU_unlimited.yaml | 4.02 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -343,7 +337,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.03 Mbps
+- name: 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.69 Mbps
     📺360p
   type: vless
   server: 178.248.236.229
@@ -357,7 +351,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | 10ium_clash.yaml_231 | 5.38 Mbps 📺360p
+- name: 🌐 Неизвестно | 10ium_clash.yaml_231 | 4.22 Mbps 📺360p
   type: vless
   server: 168.113.254.217
   port: 443
@@ -370,7 +364,7 @@ proxies:
   reality-opts:
     public-key: Lcqz3jkke-A5WHJv5yxGSUFV4qbT6FEbCASxAswYnFk
     short-id: '787145828dc7896c'
-- name: 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 4.88
+- name: 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 5.05
     Mbps 📺360p
   type: vless
   server: 168.113.254.217
@@ -385,7 +379,7 @@ proxies:
     public-key: Lcqz3jkke-A5WHJv5yxGSUFV4qbT6FEbCASxAswYnFk
     short-id: '787145828dc7896c'
 - name: 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml
-    | 1.37 Mbps 📺360p
+    | 3.93 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -398,7 +392,20 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | 10Dream_mix.txt_2 | 2.74 Mbps 📺360p
+- name: 🌐 Неизвестно | 10ium_clash.yaml_233 | 3.79 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🌐 Неизвестно | 10Dream_mix.txt_2 | 4.03 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -411,7 +418,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 5.11
+- name: 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 1.69
     Mbps 📺360p
   type: vless
   server: 168.113.254.217
@@ -425,12 +432,46 @@ proxies:
   reality-opts:
     public-key: Lcqz3jkke-A5WHJv5yxGSUFV4qbT6FEbCASxAswYnFk
     short-id: '787145828dc7896c'
-- name: 🇷🇺 Россия | 0xRadikal_clash.yaml_5 | 10.80 Mbps 📺360p
-  type: ss
-  server: 46.17.42.129
-  port: 18443
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+- name: 🌐 Неизвестно | Diversan313_alive_bl.yaml | 4.25 Mbps 📺360p
+  type: vless
+  server: 45.88.176.101
+  port: 24443
+  uuid: 9c69546a-e435-4037-bc63-f9e5829a8be3
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: img.suzuki.lol
+  reality-opts:
+    public-key: 43lt439xcY74Yc_p2bdN9s-U15acPd5PtWUblHTtogw
+    short-id: '0000000000000000'
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🌐 Неизвестно | gh_alive_vless.yaml | 4.89 Mbps 📺360p
+  type: vless
+  server: 168.113.254.217
+  port: 443
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: sbmicro690.alexdjane.am
+  reality-opts:
+    public-key: Lcqz3jkke-A5WHJv5yxGSUFV4qbT6FEbCASxAswYnFk
+    short-id: '787145828dc7896c'
+- name: 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.txt | 0.62 Mbps 📺360p
+  type: vless
+  server: 144.124.246.61
+  port: 8442
+  uuid: 5d98ff1a-d576-46d3-9504-b158d94bcce9
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: www.kpn.com
+  reality-opts:
+    public-key: OiVtWvPLqJE7txxfOAgh5LB90JW3f88TYCHwNes3VDw
+    short-id: '681529e72742472e'
 proxy-providers:
   top_source:
     type: http
@@ -456,38 +497,41 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | ALIILAPRO | 5.59 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.15 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.58 Mbps 📺360p
-  - 🌐 Неизвестно | 10ium_clash.yaml_233 | 2.98 Mbps 📺360p
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.85 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Diversan313_alive_vless.yaml_2 | 0.81 Mbps 📺360p
-  - 🌐 Неизвестно | wiki_1 | 0.77 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt_4 | 3.20 Mbps 📺360p
-  - 🌐 Неизвестно | Diversan313_alive_bs.yaml_2 | 3.53 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.38 Mbps 📺360p
-  - 🌐 Неизвестно | gh_alive_full.txt | 2.98 Mbps 📺360p
-  - 🌐 Неизвестно | flaafix_configs.txt | 3.56 Mbps 📺360p
-  - 🌐 Неизвестно | flaafix_configs.txt | 3.54 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.65 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 2.88 Mbps 📺360p
-  - 🌐 Неизвестно | nikita29a_1.txt | 3.19 Mbps 📺360p
-  - 🌐 Неизвестно | pie-with-jam_14.txt | 3.57 Mbps 📺360p
-  - 🌐 Неизвестно | SoliSpirit_3 | 3.36 Mbps 📺360p
-  - 🌐 Неизвестно | SoliSpirit_3 | 3.11 Mbps 📺360p
-  - 🌐 Неизвестно | TelegaVPN_all.txt | 3.15 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_gheychiamoozesh_mix_count_500 | 3.45 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_RU_unlimited.yaml | 3.68 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.03 Mbps 📺360p
-  - 🌐 Неизвестно | 10ium_clash.yaml_231 | 5.38 Mbps 📺360p
-  - 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 4.88 Mbps
+  - 🌐 Неизвестно | ALIILAPRO | 5.27 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.71 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.60 Mbps 📺360p
+  - 🌐 Неизвестно | wiki_1 | 2.77 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Diversan313_alive_vless.yaml_2 | 2.45 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_clash.yaml_5 | 1.85 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.78 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.75 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt_4 | 3.63 Mbps 📺360p
+  - 🌐 Неизвестно | Diversan313_alive_bs.yaml_2 | 3.78 Mbps 📺360p
+  - 🌐 Неизвестно | gh_alive_full.txt | 3.84 Mbps 📺360p
+  - 🌐 Неизвестно | flaafix_configs.txt | 3.64 Mbps 📺360p
+  - 🌐 Неизвестно | flaafix_configs.txt | 3.77 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.11 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.69 Mbps 📺360p
+  - 🌐 Неизвестно | nikita29a_1.txt | 3.83 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_14.txt | 3.86 Mbps 📺360p
+  - 🌐 Неизвестно | SoliSpirit_3 | 3.97 Mbps 📺360p
+  - 🌐 Неизвестно | SoliSpirit_3 | 3.69 Mbps 📺360p
+  - 🌐 Неизвестно | TelegaVPN_all.txt | 3.89 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_gheychiamoozesh_mix_count_500 | 3.72 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_RU_unlimited.yaml | 4.02 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.69 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_231 | 4.22 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 5.05 Mbps
     📺360p
   - 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml |
-    1.37 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_mix.txt_2 | 2.74 Mbps 📺360p
-  - 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 5.11 Mbps
+    3.93 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_233 | 3.79 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt_2 | 4.03 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 1.69 Mbps
     📺360p
-  - 🇷🇺 Россия | 0xRadikal_clash.yaml_5 | 10.80 Mbps 📺360p
+  - 🌐 Неизвестно | Diversan313_alive_bl.yaml | 4.25 Mbps 📺360p
+  - 🌐 Неизвестно | gh_alive_vless.yaml | 4.89 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.txt | 0.62 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -495,7 +539,7 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | 0xRadikal_clash.yaml_5 | 10.80 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_clash.yaml_5 | 1.85 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -503,8 +547,8 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.85 Mbps 📺360p
-  - 🇳🇱 Нидерланды | Diversan313_alive_vless.yaml_2 | 0.81 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Diversan313_alive_vless.yaml_2 | 2.45 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.txt | 0.62 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -512,43 +556,38 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | ALIILAPRO | 5.59 Mbps 📺360p
-  - 🌐 Неизвестно | 10ium_clash.yaml_231 | 5.38 Mbps 📺360p
-  - 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 5.11 Mbps
+  - 🌐 Неизвестно | ALIILAPRO | 5.27 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 5.11 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 5.05 Mbps
     📺360p
-  - 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 4.88 Mbps
-    📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.65 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.15 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_RU_unlimited.yaml | 3.68 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.58 Mbps 📺360p
-  - 🌐 Неизвестно | pie-with-jam_14.txt | 3.57 Mbps 📺360p
-  - 🌐 Неизвестно | flaafix_configs.txt | 3.56 Mbps 📺360p
-  - 🌐 Неизвестно | flaafix_configs.txt | 3.54 Mbps 📺360p
-  - 🌐 Неизвестно | Diversan313_alive_bs.yaml_2 | 3.53 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_gheychiamoozesh_mix_count_500 | 3.45 Mbps 📺360p
-  - 🌐 Неизвестно | SoliSpirit_3 | 3.36 Mbps 📺360p
-  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt_4 | 3.20 Mbps 📺360p
-  - 🌐 Неизвестно | nikita29a_1.txt | 3.19 Mbps 📺360p
-  - 🌐 Неизвестно | TelegaVPN_all.txt | 3.15 Mbps 📺360p
-  - 🌐 Неизвестно | SoliSpirit_3 | 3.11 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.03 Mbps 📺360p
-  - 🌐 Неизвестно | 10ium_clash.yaml_233 | 2.98 Mbps 📺360p
-  - 🌐 Неизвестно | gh_alive_full.txt | 2.98 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 2.88 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_mix.txt_2 | 2.74 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.38 Mbps 📺360p
+  - 🌐 Неизвестно | gh_alive_vless.yaml | 4.89 Mbps 📺360p
+  - 🌐 Неизвестно | Diversan313_alive_bl.yaml | 4.25 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_231 | 4.22 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_mix.txt_2 | 4.03 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_RU_unlimited.yaml | 4.02 Mbps 📺360p
+  - 🌐 Неизвестно | SoliSpirit_3 | 3.97 Mbps 📺360p
   - 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml |
-    1.37 Mbps 📺360p
-  - 🌐 Неизвестно | wiki_1 | 0.77 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇵🇱 Польша
-  type: url-test
-  proxies:
-  - 🇵🇱 Польша | Diversan313_alive_bl.yaml | 1.85 Mbps 📺360p
+    3.93 Mbps 📺360p
+  - 🌐 Неизвестно | TelegaVPN_all.txt | 3.89 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_14.txt | 3.86 Mbps 📺360p
+  - 🌐 Неизвестно | gh_alive_full.txt | 3.84 Mbps 📺360p
+  - 🌐 Неизвестно | nikita29a_1.txt | 3.83 Mbps 📺360p
+  - 🌐 Неизвестно | 10ium_clash.yaml_233 | 3.79 Mbps 📺360p
+  - 🌐 Неизвестно | Diversan313_alive_bs.yaml_2 | 3.78 Mbps 📺360p
+  - 🌐 Неизвестно | flaafix_configs.txt | 3.77 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.75 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_gheychiamoozesh_mix_count_500 | 3.72 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.71 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.69 Mbps 📺360p
+  - 🌐 Неизвестно | SoliSpirit_3 | 3.69 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.69 Mbps 📺360p
+  - 🌐 Неизвестно | flaafix_configs.txt | 3.64 Mbps 📺360p
+  - 🌐 Неизвестно | Delta-Kronecker_batch_008.txt_4 | 3.63 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.60 Mbps 📺360p
+  - 🌐 Неизвестно | wiki_1 | 2.77 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 1.69 Mbps
+    📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.78 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -556,7 +595,8 @@ proxy-groups:
 - name: 🗺 🇳🇱 Нидерланды
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | Diversan313_alive_vless.yaml_2 | 0.81 Mbps 📺360p
+  - 🇳🇱 Нидерланды | Diversan313_alive_vless.yaml_2 | 2.45 Mbps 📺360p
+  - 🇳🇱 Нидерланды | alireza786786_whoahaow-rjsxrd-bypass-all.txt | 0.62 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -564,7 +604,6 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇵🇱 Польша
   - 🗺 🇳🇱 Нидерланды
 - name: 🎯 Direct
   type: select

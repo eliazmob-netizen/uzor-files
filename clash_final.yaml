@@ -63,6 +63,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- name: 🇱🇹 Литва | pie-with-jam_13.txt | 4.67 Mbps 📺360p
+  type: vless
+  server: 84.32.209.118
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  servername: api-dns-gw.galioncc.com
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 'a7d309e4c16b825f'
 - name: 🇩🇪 Германия | pie-with-jam_3.txt | 4.35 Mbps 📺360p
   type: vless
   server: 178.248.236.229
@@ -76,7 +88,15 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇷🇺 Россия | pie-with-jam_28.txt | 3.96 Mbps 📺360p
+- name: 🌐 Неизвестно | pie-with-jam_3.txt | 3.85 Mbps 📺360p
+  type: vless
+  server: 195.110.15.216
+  port: 31652
+  uuid: 2da03bdf-8af3-4207-96c7-d70e0dd22c36
+  tls: false
+  network: tcp
+  client-fingerprint: chrome
+- name: 🇷🇺 Россия | pie-with-jam_28.txt | 2.49 Mbps 📺360p
   type: vless
   server: 141.133.202.12
   port: 1443
@@ -88,19 +108,7 @@ proxies:
   reality-opts:
     public-key: OPBCa6EpdUuRrZm44e2JQbEFoXLcj5-25gm0bi3zzWA
     short-id: '76f547961a8ca082'
-- name: 🇱🇹 Литва | pie-with-jam_28.txt | 0.63 Mbps 📺360p
-  type: vless
-  server: 84.32.209.118
-  port: 443
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  servername: api-dns-gw.galioncc.com
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: 'a7d309e4c16b825f'
-- name: 🇩🇪 Германия | Delta-Kronecker_batch_008.txt_4 | 4.23 Mbps 📺360p
+- name: 🇩🇪 Германия | Delta-Kronecker_batch_008.txt_4 | 2.57 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -113,7 +121,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 4.31 Mbps 📺360p
+- name: 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 2.45 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -126,7 +134,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.39 Mbps 📺360p
+- name: 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 2.07 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -139,7 +147,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | gh_alive_full.txt | 4.18 Mbps 📺360p
+- name: 🇩🇪 Германия | gh_alive_full.txt | 2.02 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -152,7 +160,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | flaafix_configs.txt | 4.23 Mbps 📺360p
+- name: 🇩🇪 Германия | flaafix_configs.txt | 2.58 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -165,7 +173,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | flaafix_configs.txt | 4.06 Mbps 📺360p
+- name: 🇩🇪 Германия | flaafix_configs.txt | 1.94 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -178,7 +186,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 3.79 Mbps 📺360p
+- name: 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.46 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -191,7 +199,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | nikita29a_1.txt | 4.17 Mbps 📺360p
+- name: 🇩🇪 Германия | nikita29a_1.txt | 4.37 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -204,7 +212,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | pie-with-jam_14.txt | 4.14 Mbps 📺360p
+- name: 🇩🇪 Германия | pie-with-jam_14.txt | 4.34 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -217,7 +225,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | SoliSpirit_3 | 4.23 Mbps 📺360p
+- name: 🇩🇪 Германия | SoliSpirit_3 | 4.24 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -230,7 +238,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | SoliSpirit_3 | 4.18 Mbps 📺360p
+- name: 🇩🇪 Германия | SoliSpirit_3 | 4.12 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -243,7 +251,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | TelegaVPN_all.txt | 4.09 Mbps 📺360p
+- name: 🇩🇪 Германия | TelegaVPN_all.txt | 4.50 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -256,7 +264,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.18 Mbps 📺360p
+- name: 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.29 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -269,7 +277,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10Dream_RU_unlimited.yaml | 4.20 Mbps 📺360p
+- name: 🇩🇪 Германия | 10Dream_RU_unlimited.yaml | 4.10 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -282,7 +290,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.37 Mbps
+- name: 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.42 Mbps
     📺360p
   type: vless
   server: 178.248.236.229
@@ -297,7 +305,7 @@ proxies:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
 - name: 🇩🇪 Германия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml
-    | 4.36 Mbps 📺360p
+    | 4.42 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -310,7 +318,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10ium_clash.yaml_233 | 4.39 Mbps 📺360p
+- name: 🇩🇪 Германия | 10ium_clash.yaml_233 | 3.59 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -323,7 +331,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10Dream_mix.txt_2 | 4.24 Mbps 📺360p
+- name: 🇩🇪 Германия | 10Dream_mix.txt_2 | 3.71 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -336,7 +344,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.28 Mbps 📺360p
+- name: 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.55 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -362,7 +370,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇱🇹 Литва | 10Dream_10ium-V2Hub3-reality_2 | 0.76 Mbps 📺360p
+- name: 🇱🇹 Литва | 0xRadikal_clash.yaml_21 | 4.63 Mbps 📺360p
   type: vless
   server: 84.32.209.118
   port: 443
@@ -374,7 +382,19 @@ proxies:
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: 'a7d309e4c16b825f'
-- name: 🇩🇪 Германия | 0xRadikal_clash.yaml_8 | 4.15 Mbps 📺360p
+- name: 🇱🇹 Литва | 10Dream_10ium-V2Hub3-reality_2 | 5.29 Mbps 📺360p
+  type: vless
+  server: 84.32.209.118
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: api-dns-gw.galioncc.com
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 'a7d309e4c16b825f'
+- name: 🇩🇪 Германия | 0xRadikal_clash.yaml_8 | 4.51 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -387,7 +407,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.23 Mbps 📺360p
+- name: 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.28 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -400,7 +420,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 0xRadikal_configs.txt_6 | 4.02 Mbps 📺360p
+- name: 🇩🇪 Германия | 0xRadikal_configs.txt_6 | 4.33 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -413,57 +433,7 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 4.07 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | gh_all.txt_3 | 4.31 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇱🇹 Литва | pie-with-jam_13.txt | 0.81 Mbps 📺360p
-  type: vless
-  server: 84.32.209.118
-  port: 443
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  servername: api-dns-gw.galioncc.com
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: 'a7d309e4c16b825f'
-- name: 🇱🇹 Литва | 0xRadikal_clash.yaml_21 | 0.72 Mbps 📺360p
-  type: vless
-  server: 84.32.209.118
-  port: 443
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  servername: api-dns-gw.galioncc.com
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: 'a7d309e4c16b825f'
-- name: 🇱🇹 Литва | cbusifabcap_URI.yml | 0.78 Mbps 📺360p
+- name: 🇱🇹 Литва | cbusifabcap_URI.yml | 5.10 Mbps 📺360p
   type: vless
   server: 84.32.209.118
   port: 443
@@ -475,7 +445,20 @@ proxies:
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: 'a7d309e4c16b825f'
-- name: 🇱🇹 Литва | Edsel-Rahimi_nodes.txt | 0.74 Mbps 📺360p
+- name: 🇩🇪 Германия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 4.49 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇱🇹 Литва | Edsel-Rahimi_nodes.txt | 5.44 Mbps 📺360p
   type: vless
   server: 84.32.209.118
   port: 443
@@ -487,7 +470,20 @@ proxies:
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: 'a7d309e4c16b825f'
-- name: 🇱🇹 Литва | gh_all.txt_3 | 0.80 Mbps 📺360p
+- name: '🇩🇪 Германия | gh_all.txt_3 | 4.33 Mbps 📺360p #1'
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇱🇹 Литва | gh_all.txt_3 | 5.71 Mbps 📺360p
   type: vless
   server: 84.32.209.118
   port: 443
@@ -499,7 +495,7 @@ proxies:
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: 'a7d309e4c16b825f'
-- name: 🇱🇹 Литва | gh_all.yaml_2 | 0.77 Mbps 📺360p
+- name: 🇱🇹 Литва | gh_all.yaml_2 | 5.70 Mbps 📺360p
   type: vless
   server: 84.32.209.118
   port: 443
@@ -511,7 +507,7 @@ proxies:
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: 'a7d309e4c16b825f'
-- name: 🇱🇹 Литва | mheidari98_vless | 0.75 Mbps 📺360p
+- name: 🇱🇹 Литва | mheidari98_vless | 5.36 Mbps 📺360p
   type: vless
   server: 84.32.209.118
   port: 443
@@ -519,6 +515,42 @@ proxies:
   tls: true
   network: tcp
   client-fingerprint: chrome
+  servername: api-dns-gw.galioncc.com
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 'a7d309e4c16b825f'
+- name: 🇱🇹 Литва | pie-with-jam_28.txt | 5.41 Mbps 📺360p
+  type: vless
+  server: 84.32.209.118
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: api-dns-gw.galioncc.com
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 'a7d309e4c16b825f'
+- name: 🇱🇹 Литва | 0xRadikal_configs.txt_38 | 5.02 Mbps 📺360p
+  type: vless
+  server: 84.32.209.118
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  servername: api-dns-gw.galioncc.com
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 'a7d309e4c16b825f'
+- name: 🇱🇹 Литва | Edsel-Rahimi_nodes.txt | 3.31 Mbps 📺360p
+  type: vless
+  server: 84.32.209.118
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  network: raw
+  client-fingerprint: firefox
   servername: api-dns-gw.galioncc.com
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
@@ -540,6 +572,7 @@ proxy-groups:
   - 🌐 Все серверы
   - 🇷🇺 Только РФ
   - 🌍 Без РФ
+  - ❓ Страна не определена
   - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
@@ -547,43 +580,46 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
+  - 🇱🇹 Литва | pie-with-jam_13.txt | 4.67 Mbps 📺360p
   - 🇩🇪 Германия | pie-with-jam_3.txt | 4.35 Mbps 📺360p
-  - 🇷🇺 Россия | pie-with-jam_28.txt | 3.96 Mbps 📺360p
-  - 🇱🇹 Литва | pie-with-jam_28.txt | 0.63 Mbps 📺360p
-  - 🇩🇪 Германия | Delta-Kronecker_batch_008.txt_4 | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 4.31 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.39 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_full.txt | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | flaafix_configs.txt | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | flaafix_configs.txt | 4.06 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 3.79 Mbps 📺360p
-  - 🇩🇪 Германия | nikita29a_1.txt | 4.17 Mbps 📺360p
-  - 🇩🇪 Германия | pie-with-jam_14.txt | 4.14 Mbps 📺360p
-  - 🇩🇪 Германия | SoliSpirit_3 | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | SoliSpirit_3 | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | TelegaVPN_all.txt | 4.09 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_RU_unlimited.yaml | 4.20 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.37 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml | 4.36
+  - 🌐 Неизвестно | pie-with-jam_3.txt | 3.85 Mbps 📺360p
+  - 🇷🇺 Россия | pie-with-jam_28.txt | 2.49 Mbps 📺360p
+  - 🇩🇪 Германия | Delta-Kronecker_batch_008.txt_4 | 2.57 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 2.45 Mbps 📺360p
+  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 2.07 Mbps 📺360p
+  - 🇩🇪 Германия | gh_alive_full.txt | 2.02 Mbps 📺360p
+  - 🇩🇪 Германия | flaafix_configs.txt | 2.58 Mbps 📺360p
+  - 🇩🇪 Германия | flaafix_configs.txt | 1.94 Mbps 📺360p
+  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.46 Mbps 📺360p
+  - 🇩🇪 Германия | nikita29a_1.txt | 4.37 Mbps 📺360p
+  - 🇩🇪 Германия | pie-with-jam_14.txt | 4.34 Mbps 📺360p
+  - 🇩🇪 Германия | SoliSpirit_3 | 4.24 Mbps 📺360p
+  - 🇩🇪 Германия | SoliSpirit_3 | 4.12 Mbps 📺360p
+  - 🇩🇪 Германия | TelegaVPN_all.txt | 4.50 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.29 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_RU_unlimited.yaml | 4.10 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.42 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml | 4.42
     Mbps 📺360p
-  - 🇩🇪 Германия | 10ium_clash.yaml_233 | 4.39 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 4.24 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.28 Mbps 📺360p
+  - 🇩🇪 Германия | 10ium_clash.yaml_233 | 3.59 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 3.71 Mbps 📺360p
+  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.55 Mbps 📺360p
   - 🇩🇪 Германия | gh_all.txt_3 | 4.33 Mbps 📺360p
-  - 🇱🇹 Литва | 10Dream_10ium-V2Hub3-reality_2 | 0.76 Mbps 📺360p
-  - 🇩🇪 Германия | 0xRadikal_clash.yaml_8 | 4.15 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | 0xRadikal_configs.txt_6 | 4.02 Mbps 📺360p
-  - 🇩🇪 Германия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 4.07 Mbps 📺360p
-  - 🇩🇪 Германия | gh_all.txt_3 | 4.31 Mbps 📺360p
-  - 🇱🇹 Литва | pie-with-jam_13.txt | 0.81 Mbps 📺360p
-  - 🇱🇹 Литва | 0xRadikal_clash.yaml_21 | 0.72 Mbps 📺360p
-  - 🇱🇹 Литва | cbusifabcap_URI.yml | 0.78 Mbps 📺360p
-  - 🇱🇹 Литва | Edsel-Rahimi_nodes.txt | 0.74 Mbps 📺360p
-  - 🇱🇹 Литва | gh_all.txt_3 | 0.80 Mbps 📺360p
-  - 🇱🇹 Литва | gh_all.yaml_2 | 0.77 Mbps 📺360p
-  - 🇱🇹 Литва | mheidari98_vless | 0.75 Mbps 📺360p
+  - 🇱🇹 Литва | 0xRadikal_clash.yaml_21 | 4.63 Mbps 📺360p
+  - 🇱🇹 Литва | 10Dream_10ium-V2Hub3-reality_2 | 5.29 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_clash.yaml_8 | 4.51 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.28 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_6 | 4.33 Mbps 📺360p
+  - 🇱🇹 Литва | cbusifabcap_URI.yml | 5.10 Mbps 📺360p
+  - 🇩🇪 Германия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 4.49 Mbps 📺360p
+  - 🇱🇹 Литва | Edsel-Rahimi_nodes.txt | 5.44 Mbps 📺360p
+  - '🇩🇪 Германия | gh_all.txt_3 | 4.33 Mbps 📺360p #1'
+  - 🇱🇹 Литва | gh_all.txt_3 | 5.71 Mbps 📺360p
+  - 🇱🇹 Литва | gh_all.yaml_2 | 5.70 Mbps 📺360p
+  - 🇱🇹 Литва | mheidari98_vless | 5.36 Mbps 📺360p
+  - 🇱🇹 Литва | pie-with-jam_28.txt | 5.41 Mbps 📺360p
+  - 🇱🇹 Литва | 0xRadikal_configs.txt_38 | 5.02 Mbps 📺360p
+  - 🇱🇹 Литва | Edsel-Rahimi_nodes.txt | 3.31 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -591,7 +627,7 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | pie-with-jam_28.txt | 3.96 Mbps 📺360p
+  - 🇷🇺 Россия | pie-with-jam_28.txt | 2.49 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -599,42 +635,52 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.39 Mbps 📺360p
-  - 🇩🇪 Германия | 10ium_clash.yaml_233 | 4.39 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.37 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml | 4.36
+  - 🇱🇹 Литва | gh_all.txt_3 | 5.71 Mbps 📺360p
+  - 🇱🇹 Литва | gh_all.yaml_2 | 5.70 Mbps 📺360p
+  - 🇱🇹 Литва | Edsel-Rahimi_nodes.txt | 5.44 Mbps 📺360p
+  - 🇱🇹 Литва | pie-with-jam_28.txt | 5.41 Mbps 📺360p
+  - 🇱🇹 Литва | mheidari98_vless | 5.36 Mbps 📺360p
+  - 🇱🇹 Литва | 10Dream_10ium-V2Hub3-reality_2 | 5.29 Mbps 📺360p
+  - 🇱🇹 Литва | cbusifabcap_URI.yml | 5.10 Mbps 📺360p
+  - 🇱🇹 Литва | 0xRadikal_configs.txt_38 | 5.02 Mbps 📺360p
+  - 🇱🇹 Литва | pie-with-jam_13.txt | 4.67 Mbps 📺360p
+  - 🇱🇹 Литва | 0xRadikal_clash.yaml_21 | 4.63 Mbps 📺360p
+  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.55 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_clash.yaml_8 | 4.51 Mbps 📺360p
+  - 🇩🇪 Германия | TelegaVPN_all.txt | 4.50 Mbps 📺360p
+  - 🇩🇪 Германия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 4.49 Mbps 📺360p
+  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.46 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.42 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml | 4.42
     Mbps 📺360p
+  - 🇩🇪 Германия | nikita29a_1.txt | 4.37 Mbps 📺360p
   - 🇩🇪 Германия | pie-with-jam_3.txt | 4.35 Mbps 📺360p
+  - 🇩🇪 Германия | pie-with-jam_14.txt | 4.34 Mbps 📺360p
   - 🇩🇪 Германия | gh_all.txt_3 | 4.33 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 4.31 Mbps 📺360p
-  - 🇩🇪 Германия | gh_all.txt_3 | 4.31 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.28 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 4.24 Mbps 📺360p
-  - 🇩🇪 Германия | Delta-Kronecker_batch_008.txt_4 | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | flaafix_configs.txt | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | SoliSpirit_3 | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_RU_unlimited.yaml | 4.20 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_full.txt | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | SoliSpirit_3 | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | nikita29a_1.txt | 4.17 Mbps 📺360p
-  - 🇩🇪 Германия | 0xRadikal_clash.yaml_8 | 4.15 Mbps 📺360p
-  - 🇩🇪 Германия | pie-with-jam_14.txt | 4.14 Mbps 📺360p
-  - 🇩🇪 Германия | TelegaVPN_all.txt | 4.09 Mbps 📺360p
-  - 🇩🇪 Германия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 4.07 Mbps 📺360p
-  - 🇩🇪 Германия | flaafix_configs.txt | 4.06 Mbps 📺360p
-  - 🇩🇪 Германия | 0xRadikal_configs.txt_6 | 4.02 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 3.79 Mbps 📺360p
-  - 🇱🇹 Литва | pie-with-jam_13.txt | 0.81 Mbps 📺360p
-  - 🇱🇹 Литва | gh_all.txt_3 | 0.80 Mbps 📺360p
-  - 🇱🇹 Литва | cbusifabcap_URI.yml | 0.78 Mbps 📺360p
-  - 🇱🇹 Литва | gh_all.yaml_2 | 0.77 Mbps 📺360p
-  - 🇱🇹 Литва | 10Dream_10ium-V2Hub3-reality_2 | 0.76 Mbps 📺360p
-  - 🇱🇹 Литва | mheidari98_vless | 0.75 Mbps 📺360p
-  - 🇱🇹 Литва | Edsel-Rahimi_nodes.txt | 0.74 Mbps 📺360p
-  - 🇱🇹 Литва | 0xRadikal_clash.yaml_21 | 0.72 Mbps 📺360p
-  - 🇱🇹 Литва | pie-with-jam_28.txt | 0.63 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_6 | 4.33 Mbps 📺360p
+  - '🇩🇪 Германия | gh_all.txt_3 | 4.33 Mbps 📺360p #1'
+  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.29 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.28 Mbps 📺360p
+  - 🇩🇪 Германия | SoliSpirit_3 | 4.24 Mbps 📺360p
+  - 🇩🇪 Германия | SoliSpirit_3 | 4.12 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_RU_unlimited.yaml | 4.10 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 3.71 Mbps 📺360p
+  - 🇩🇪 Германия | 10ium_clash.yaml_233 | 3.59 Mbps 📺360p
+  - 🇱🇹 Литва | Edsel-Rahimi_nodes.txt | 3.31 Mbps 📺360p
+  - 🇩🇪 Германия | flaafix_configs.txt | 2.58 Mbps 📺360p
+  - 🇩🇪 Германия | Delta-Kronecker_batch_008.txt_4 | 2.57 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 2.45 Mbps 📺360p
+  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 2.07 Mbps 📺360p
+  - 🇩🇪 Германия | gh_alive_full.txt | 2.02 Mbps 📺360p
+  - 🇩🇪 Германия | flaafix_configs.txt | 1.94 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: ❓ Страна не определена
+  type: url-test
+  proxies:
+  - 🌐 Неизвестно | pie-with-jam_3.txt | 3.85 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -642,33 +688,33 @@ proxy-groups:
 - name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.39 Mbps 📺360p
-  - 🇩🇪 Германия | 10ium_clash.yaml_233 | 4.39 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.37 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml | 4.36
+  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.55 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_clash.yaml_8 | 4.51 Mbps 📺360p
+  - 🇩🇪 Германия | TelegaVPN_all.txt | 4.50 Mbps 📺360p
+  - 🇩🇪 Германия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 4.49 Mbps 📺360p
+  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.46 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.42 Mbps 📺360p
+  - 🇩🇪 Германия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml | 4.42
     Mbps 📺360p
+  - 🇩🇪 Германия | nikita29a_1.txt | 4.37 Mbps 📺360p
   - 🇩🇪 Германия | pie-with-jam_3.txt | 4.35 Mbps 📺360p
+  - 🇩🇪 Германия | pie-with-jam_14.txt | 4.34 Mbps 📺360p
   - 🇩🇪 Германия | gh_all.txt_3 | 4.33 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 4.31 Mbps 📺360p
-  - 🇩🇪 Германия | gh_all.txt_3 | 4.31 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.28 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 4.24 Mbps 📺360p
-  - 🇩🇪 Германия | Delta-Kronecker_batch_008.txt_4 | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | flaafix_configs.txt | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | SoliSpirit_3 | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_RU_unlimited.yaml | 4.20 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_full.txt | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | SoliSpirit_3 | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | nikita29a_1.txt | 4.17 Mbps 📺360p
-  - 🇩🇪 Германия | 0xRadikal_clash.yaml_8 | 4.15 Mbps 📺360p
-  - 🇩🇪 Германия | pie-with-jam_14.txt | 4.14 Mbps 📺360p
-  - 🇩🇪 Германия | TelegaVPN_all.txt | 4.09 Mbps 📺360p
-  - 🇩🇪 Германия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 4.07 Mbps 📺360p
-  - 🇩🇪 Германия | flaafix_configs.txt | 4.06 Mbps 📺360p
-  - 🇩🇪 Германия | 0xRadikal_configs.txt_6 | 4.02 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 3.79 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_6 | 4.33 Mbps 📺360p
+  - '🇩🇪 Германия | gh_all.txt_3 | 4.33 Mbps 📺360p #1'
+  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.29 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.28 Mbps 📺360p
+  - 🇩🇪 Германия | SoliSpirit_3 | 4.24 Mbps 📺360p
+  - 🇩🇪 Германия | SoliSpirit_3 | 4.12 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_RU_unlimited.yaml | 4.10 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 3.71 Mbps 📺360p
+  - 🇩🇪 Германия | 10ium_clash.yaml_233 | 3.59 Mbps 📺360p
+  - 🇩🇪 Германия | flaafix_configs.txt | 2.58 Mbps 📺360p
+  - 🇩🇪 Германия | Delta-Kronecker_batch_008.txt_4 | 2.57 Mbps 📺360p
+  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 2.45 Mbps 📺360p
+  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 2.07 Mbps 📺360p
+  - 🇩🇪 Германия | gh_alive_full.txt | 2.02 Mbps 📺360p
+  - 🇩🇪 Германия | flaafix_configs.txt | 1.94 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -676,15 +722,17 @@ proxy-groups:
 - name: 🗺 🇱🇹 Литва
   type: url-test
   proxies:
-  - 🇱🇹 Литва | pie-with-jam_13.txt | 0.81 Mbps 📺360p
-  - 🇱🇹 Литва | gh_all.txt_3 | 0.80 Mbps 📺360p
-  - 🇱🇹 Литва | cbusifabcap_URI.yml | 0.78 Mbps 📺360p
-  - 🇱🇹 Литва | gh_all.yaml_2 | 0.77 Mbps 📺360p
-  - 🇱🇹 Литва | 10Dream_10ium-V2Hub3-reality_2 | 0.76 Mbps 📺360p
-  - 🇱🇹 Литва | mheidari98_vless | 0.75 Mbps 📺360p
-  - 🇱🇹 Литва | Edsel-Rahimi_nodes.txt | 0.74 Mbps 📺360p
-  - 🇱🇹 Литва | 0xRadikal_clash.yaml_21 | 0.72 Mbps 📺360p
-  - 🇱🇹 Литва | pie-with-jam_28.txt | 0.63 Mbps 📺360p
+  - 🇱🇹 Литва | gh_all.txt_3 | 5.71 Mbps 📺360p
+  - 🇱🇹 Литва | gh_all.yaml_2 | 5.70 Mbps 📺360p
+  - 🇱🇹 Литва | Edsel-Rahimi_nodes.txt | 5.44 Mbps 📺360p
+  - 🇱🇹 Литва | pie-with-jam_28.txt | 5.41 Mbps 📺360p
+  - 🇱🇹 Литва | mheidari98_vless | 5.36 Mbps 📺360p
+  - 🇱🇹 Литва | 10Dream_10ium-V2Hub3-reality_2 | 5.29 Mbps 📺360p
+  - 🇱🇹 Литва | cbusifabcap_URI.yml | 5.10 Mbps 📺360p
+  - 🇱🇹 Литва | 0xRadikal_configs.txt_38 | 5.02 Mbps 📺360p
+  - 🇱🇹 Литва | pie-with-jam_13.txt | 4.67 Mbps 📺360p
+  - 🇱🇹 Литва | 0xRadikal_clash.yaml_21 | 4.63 Mbps 📺360p
+  - 🇱🇹 Литва | Edsel-Rahimi_nodes.txt | 3.31 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10

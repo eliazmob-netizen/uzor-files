@@ -63,38 +63,52 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇰🇷 Корея | Diversan313_alive_bl.yaml | 4.89 Mbps 📺360p
+- name: 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 39.94 Mbps 📺720p
   type: vless
-  server: 8.220.198.29
-  port: 443
-  uuid: 91d2a8f3-6eb0-4b6a-a8f7-0beabcf06fb7
+  server: 78.159.240.62
+  port: 2053
+  uuid: 37af0181-5598-4aad-a040-d926bcb65757
+  udp: true
+  tls: true
+  network: xhttp
+  client-fingerprint: chrome
+  servername: polarladder.com
+  xhttp-opts:
+    path: /api/v1/upload
+    host: polarladder.com
+    mode: auto
+- name: 🇹🇼 Тайвань | 0xRadikal_clash.yaml_14 | 0.99 Mbps 📺360p
+  type: vless
+  server: free.fugui.lol
+  port: 47396
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
   udp: true
   tls: true
   network: tcp
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  servername: www.cloudflare.com
+  servername: swdist.apple.com
   reality-opts:
-    public-key: 8hnBOcqsETW6u3TchfqlE0Y7wZ002v60fPlFM1qrww4
-    short-id: 'ad9e6079'
-- name: 🇰🇷 Корея | Diversan313_alive_bl.txt | 3.67 Mbps 📺360p
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: 'fa514b83'
+- name: 🇹🇼 Тайвань | 10Dream_10ium-V2rayCollectorLite-vless_iran.txt | 0.69 Mbps 📺360p
   type: vless
-  server: 8.220.198.29
-  port: 443
-  uuid: 91d2a8f3-6eb0-4b6a-a8f7-0beabcf06fb7
+  server: free.fugui.lol
+  port: 47396
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
   udp: true
   tls: true
   network: tcp
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  servername: www.cloudflare.com
+  servername: swdist.apple.com
   reality-opts:
-    public-key: 8hnBOcqsETW6u3TchfqlE0Y7wZ002v60fPlFM1qrww4
-    short-id: 'ad9e6079'
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: 'fa514b83'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/Diversan313/apex-parser/main/subs/main/alive_bl.yaml
+    url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/configs.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -107,6 +121,7 @@ proxy-groups:
   proxies:
   - 🌐 Все серверы
   - 🌍 Без РФ
+  - 📺 YouTube Топ
   - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
@@ -114,8 +129,9 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇰🇷 Корея | Diversan313_alive_bl.yaml | 4.89 Mbps 📺360p
-  - 🇰🇷 Корея | Diversan313_alive_bl.txt | 3.67 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 39.94 Mbps 📺720p
+  - 🇹🇼 Тайвань | 0xRadikal_clash.yaml_14 | 0.99 Mbps 📺360p
+  - 🇹🇼 Тайвань | 10Dream_10ium-V2rayCollectorLite-vless_iran.txt | 0.69 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -123,17 +139,34 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇰🇷 Корея | Diversan313_alive_bl.yaml | 4.89 Mbps 📺360p
-  - 🇰🇷 Корея | Diversan313_alive_bl.txt | 3.67 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 39.94 Mbps 📺720p
+  - 🇹🇼 Тайвань | 0xRadikal_clash.yaml_14 | 0.99 Mbps 📺360p
+  - 🇹🇼 Тайвань | 10Dream_10ium-V2rayCollectorLite-vless_iran.txt | 0.69 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇰🇷 Корея
+- name: 📺 YouTube Топ
   type: url-test
   proxies:
-  - 🇰🇷 Корея | Diversan313_alive_bl.yaml | 4.89 Mbps 📺360p
-  - 🇰🇷 Корея | Diversan313_alive_bl.txt | 3.67 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 39.94 Mbps 📺720p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇹🇼 Тайвань
+  type: url-test
+  proxies:
+  - 🇹🇼 Тайвань | 0xRadikal_clash.yaml_14 | 0.99 Mbps 📺360p
+  - 🇹🇼 Тайвань | 10Dream_10ium-V2rayCollectorLite-vless_iran.txt | 0.69 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇩🇪 Германия
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 39.94 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -141,7 +174,8 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇰🇷 Корея
+  - 🗺 🇹🇼 Тайвань
+  - 🗺 🇩🇪 Германия
 - name: 🎯 Direct
   type: select
   proxies:

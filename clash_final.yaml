@@ -63,61 +63,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | rekt0ro_all-base64.txt | 6.93 Mbps 📺360p
-  type: vless
-  server: 13.143.198.140
-  port: 443
-  uuid: a38e3651-a36c-445d-87e1-336a7855edb4
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: blg01.deflink.net
-  reality-opts:
-    public-key: pqZCztpkaSLv6LDBXXoxYRCclCC85M7LfxEAg3-RDDI
-    short-id: '844ca9e88fa64958'
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500_unlimited.yaml | 4.35
-    Mbps 📺360p
+- name: 🇷🇺 Россия | 0xRadikal_configs.txt_6 | 3.37 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
   uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
   tls: true
-  network: raw
+  network: tcp
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   servername: 144.hexdey.com
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | vlessforu_working_configs.txt | 1.38 Mbps 📺360p
-  type: vless
-  server: vnsrx.klyck.online
-  port: 443
-  uuid: de32225b-374c-4a6a-830e-7c4e367fcfb5
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: vnsrx.klyck.online
-  reality-opts:
-    public-key: YSWZ7wetL2i6_aUTqH5dveg34lnD0C8E-eG97v4dZF8
-    short-id: '93ed8cd8ae86fc05'
-- name: 🇨🇭 Швейцария | vlessforu_working_configs.txt | 1.00 Mbps 📺360p
-  type: vless
-  server: 45.151.136.26
-  port: 443
-  uuid: 11d14aed-3d44-4bb2-b9c0-24e661589e5a
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: ch09.tunnely.space
-  reality-opts:
-    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
-    short-id: '2e40144ddc07e8e1'
-- name: 🇩🇪 Германия | 10Dream_luxxuria-harvester-speed_tested.txt_2 | 0.75 Mbps 📺360p
+- name: 🇩🇪 Германия | 10Dream_luxxuria-harvester-speed_tested.txt_2 | 1.47 Mbps 📺360p
   type: vless
   server: 194.113.35.220
   port: 8443
@@ -130,347 +89,20 @@ proxies:
   reality-opts:
     public-key: 6wEcjCOgl-LIN9otQ_UJgRQYLFlnKTEjdYnnqjj5cRY
     short-id: '911debda80e7b51b'
-- name: 🌐 Неизвестно | SoliSpirit_3 | 0.76 Mbps 📺360p
+- name: 🇺🇸 США | wuqb2i4f Mix-URI | 0.99 Mbps 📺360p
   type: vless
   server: 195.209.209.64
   port: 443
   uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
   tls: true
-  network: tcp
+  network: raw
   client-fingerprint: firefox
   flow: xtls-rprx-vision
   servername: ruhsds744.gangtype.com
   reality-opts:
     public-key: f8nkGMN6JDENHKvHrFYabx4JqSMSAZGS0lyc-KuagnQ
     short-id: 'f3166ffa363ceaef'
-- name: 🇩🇪 Германия | Delta-Kronecker_batch_008.txt_4 | 4.31 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 4.47 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.21 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | gh_alive_full.txt | 4.41 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | flaafix_configs.txt | 4.18 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | flaafix_configs.txt | 4.27 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.41 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | nikita29a_1.txt | 4.23 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | SoliSpirit_3 | 4.47 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | SoliSpirit_3 | 4.19 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | TelegaVPN_all.txt | 4.20 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.42 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: raw
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10Dream_RU_unlimited.yaml | 4.27 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: raw
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.33 Mbps
-    📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: raw
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml
-    | 4.39 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10ium_clash.yaml_233 | 4.18 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: random
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10Dream_mix.txt_2 | 4.24 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.50 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | gh_all.txt_3 | 4.27 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 0xRadikal_clash.yaml_8 | 4.27 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.28 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: raw
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 0xRadikal_configs.txt_6 | 4.47 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 4.23 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | gh_all.txt_3 | 4.02 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | pie-with-jam_3.txt | 4.44 Mbps 📺360p
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | rekt0ro_all-clash.yaml | 0.75 Mbps 📺360p
+- name: 🇷🇺 Россия | rekt0ro_all-clash.yaml | 0.75 Mbps 📺360p
   type: vless
   server: 195.209.217.220
   port: 443
@@ -483,20 +115,72 @@ proxies:
   reality-opts:
     public-key: DHNvz0B_jGSTq2uK8Sehqo1u6Vv-fSSvk6-cRQJUKHM
     short-id: '8aaef249c24f2be7'
-- name: 🇩🇪 Германия | YawStar_proxy_configs_tested.txt | 4.26 Mbps 📺360p
+- name: 🇺🇸 США | rekt0ro_all-base64.txt | 0.81 Mbps 📺360p
+  type: vless
+  server: 195.209.209.64
+  port: 443
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: ruhsds744.gangtype.com
+  reality-opts:
+    public-key: f8nkGMN6JDENHKvHrFYabx4JqSMSAZGS0lyc-KuagnQ
+    short-id: 'f3166ffa363ceaef'
+- name: 🇨🇭 Швейцария | vlessforu_working_configs.txt | 0.69 Mbps 📺360p
+  type: vless
+  server: edge08.tunnely.space
+  port: 443
+  uuid: 11d14aed-3d44-4bb2-b9c0-24e661589e5a
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ch09.tunnely.space
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: '2e40144ddc07e8e1'
+- name: 🇺🇸 США | whoahaow_bypass-3.txt | 0.90 Mbps 📺360p
+  type: vless
+  server: 195.209.209.64
+  port: 443
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ruhsds744.gangtype.com
+  reality-opts:
+    public-key: f8nkGMN6JDENHKvHrFYabx4JqSMSAZGS0lyc-KuagnQ
+    short-id: 'f3166ffa363ceaef'
+- name: 🇷🇺 Россия | Delta-Kronecker_batch_008.txt_4 | 3.69 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
   uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
   tls: true
   network: raw
-  client-fingerprint: edge
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
   servername: 144.hexdey.com
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🇩🇪 Германия | 10Dream_ipv4.txt | 4.30 Mbps 📺360p
+- name: 🇷🇺 Россия | Diversan313_alive_bs.yaml_2 | 3.89 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.88 Mbps 📺360p
   type: vless
   server: 178.248.236.229
   port: 443
@@ -509,24 +193,376 @@ proxies:
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
     short-id: 'd05a120d3506d2cc'
-- name: 🌐 Неизвестно | rekt0ro_all-clash.yaml | 1.03 Mbps 📺360p
+- name: 🇷🇺 Россия | gh_alive_full.txt | 1.40 Mbps 📺360p
   type: vless
-  server: 13.143.198.140
+  server: 178.248.236.229
   port: 443
-  uuid: a38e3651-a36c-445d-87e1-336a7855edb4
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
   tls: true
-  network: grpc
+  network: tcp
   client-fingerprint: firefox
-  servername: blg01.deflink.net
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
   reality-opts:
-    public-key: pqZCztpkaSLv6LDBXXoxYRCclCC85M7LfxEAg3-RDDI
-    short-id: '844ca9e88fa64958'
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | flaafix_configs.txt | 3.11 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | flaafix_configs.txt | 3.90 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.67 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | nikita29a_1.txt | 3.18 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | SoliSpirit_3 | 2.70 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | SoliSpirit_3 | 3.57 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | TelegaVPN_all.txt | 3.69 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 3.66 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: raw
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | 10Dream_RU_unlimited.yaml | 2.90 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: raw
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.86 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml |
+    3.09 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | 10ium_clash.yaml_233 | 3.14 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | 10Dream_mix.txt_2 | 3.14 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 3.62 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | gh_all.txt_3 | 3.61 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | 0xRadikal_clash.yaml_8 | 3.40 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 3.63 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: raw
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | 0xRadikal_configs.txt_6 | 3.46 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 3.40 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | gh_all.txt_3 | 3.02 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | pie-with-jam_3.txt | 3.17 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | YawStar_proxy_configs_tested.txt | 3.65 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: raw
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500_unlimited.yaml | 3.15 Mbps
+    📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: raw
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | 10Dream_ipv4.txt | 2.81 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | pie-with-jam_14.txt | 3.59 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇷🇺 Россия | whoahaow_bypass-3.txt | 0.57 Mbps 📺360p
+  type: vless
+  server: 195.209.217.220
+  port: 443
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ruhsds738.gangtype.com
+  reality-opts:
+    public-key: DHNvz0B_jGSTq2uK8Sehqo1u6Vv-fSSvk6-cRQJUKHM
+    short-id: '8aaef249c24f2be7'
+- name: 🇦🇪 ОАЭ | rekt0ro_all-clash.yaml | 1.31 Mbps 📺360p
+  type: vless
+  server: 94.228.167.18
+  port: 443
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: ruaesing656.gangplatform.com
+  reality-opts:
+    public-key: 90uNUU-i14MO0VEIipqtK_Pk3xMhtDDDWtfcv_Y1X2s
+    short-id: 'b0f28b824c4f18f5'
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/Protocols/vless.txt
+    url: https://raw.githubusercontent.com/Edsel-Rahimi/Ariston/data/nodes.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -538,8 +574,8 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
+  - 🇷🇺 Только РФ
   - 🌍 Без РФ
-  - ❓ Страна не определена
   - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
@@ -547,43 +583,85 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | rekt0ro_all-base64.txt | 6.93 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500_unlimited.yaml | 4.35 Mbps
-    📺360p
-  - 🇩🇪 Германия | vlessforu_working_configs.txt | 1.38 Mbps 📺360p
-  - 🇨🇭 Швейцария | vlessforu_working_configs.txt | 1.00 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_luxxuria-harvester-speed_tested.txt_2 | 0.75 Mbps 📺360p
-  - 🌐 Неизвестно | SoliSpirit_3 | 0.76 Mbps 📺360p
-  - 🇩🇪 Германия | Delta-Kronecker_batch_008.txt_4 | 4.31 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 4.47 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.21 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_full.txt | 4.41 Mbps 📺360p
-  - 🇩🇪 Германия | flaafix_configs.txt | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | flaafix_configs.txt | 4.27 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.41 Mbps 📺360p
-  - 🇩🇪 Германия | nikita29a_1.txt | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | SoliSpirit_3 | 4.47 Mbps 📺360p
-  - 🇩🇪 Германия | SoliSpirit_3 | 4.19 Mbps 📺360p
-  - 🇩🇪 Германия | TelegaVPN_all.txt | 4.20 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.42 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_RU_unlimited.yaml | 4.27 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.33 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml | 4.39
+  - 🇷🇺 Россия | 0xRadikal_configs.txt_6 | 3.37 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_luxxuria-harvester-speed_tested.txt_2 | 1.47 Mbps 📺360p
+  - 🇺🇸 США | wuqb2i4f Mix-URI | 0.99 Mbps 📺360p
+  - 🇷🇺 Россия | rekt0ro_all-clash.yaml | 0.75 Mbps 📺360p
+  - 🇺🇸 США | rekt0ro_all-base64.txt | 0.81 Mbps 📺360p
+  - 🇨🇭 Швейцария | vlessforu_working_configs.txt | 0.69 Mbps 📺360p
+  - 🇺🇸 США | whoahaow_bypass-3.txt | 0.90 Mbps 📺360p
+  - 🇷🇺 Россия | Delta-Kronecker_batch_008.txt_4 | 3.69 Mbps 📺360p
+  - 🇷🇺 Россия | Diversan313_alive_bs.yaml_2 | 3.89 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.88 Mbps 📺360p
+  - 🇷🇺 Россия | gh_alive_full.txt | 1.40 Mbps 📺360p
+  - 🇷🇺 Россия | flaafix_configs.txt | 3.11 Mbps 📺360p
+  - 🇷🇺 Россия | flaafix_configs.txt | 3.90 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.67 Mbps 📺360p
+  - 🇷🇺 Россия | nikita29a_1.txt | 3.18 Mbps 📺360p
+  - 🇷🇺 Россия | SoliSpirit_3 | 2.70 Mbps 📺360p
+  - 🇷🇺 Россия | SoliSpirit_3 | 3.57 Mbps 📺360p
+  - 🇷🇺 Россия | TelegaVPN_all.txt | 3.69 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 3.66 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_RU_unlimited.yaml | 2.90 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.86 Mbps 📺360p
+  - 🇷🇺 Россия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml | 3.09
     Mbps 📺360p
-  - 🇩🇪 Германия | 10ium_clash.yaml_233 | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 4.24 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.50 Mbps 📺360p
-  - 🇩🇪 Германия | gh_all.txt_3 | 4.27 Mbps 📺360p
-  - 🇩🇪 Германия | 0xRadikal_clash.yaml_8 | 4.27 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.28 Mbps 📺360p
-  - 🇩🇪 Германия | 0xRadikal_configs.txt_6 | 4.47 Mbps 📺360p
-  - 🇩🇪 Германия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | gh_all.txt_3 | 4.02 Mbps 📺360p
-  - 🇩🇪 Германия | pie-with-jam_3.txt | 4.44 Mbps 📺360p
-  - 🌐 Неизвестно | rekt0ro_all-clash.yaml | 0.75 Mbps 📺360p
-  - 🇩🇪 Германия | YawStar_proxy_configs_tested.txt | 4.26 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_ipv4.txt | 4.30 Mbps 📺360p
-  - 🌐 Неизвестно | rekt0ro_all-clash.yaml | 1.03 Mbps 📺360p
+  - 🇷🇺 Россия | 10ium_clash.yaml_233 | 3.14 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 3.14 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 3.62 Mbps 📺360p
+  - 🇷🇺 Россия | gh_all.txt_3 | 3.61 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_clash.yaml_8 | 3.40 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 3.63 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_configs.txt_6 | 3.46 Mbps 📺360p
+  - 🇷🇺 Россия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 3.40 Mbps 📺360p
+  - 🇷🇺 Россия | gh_all.txt_3 | 3.02 Mbps 📺360p
+  - 🇷🇺 Россия | pie-with-jam_3.txt | 3.17 Mbps 📺360p
+  - 🇷🇺 Россия | YawStar_proxy_configs_tested.txt | 3.65 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500_unlimited.yaml | 3.15 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_ipv4.txt | 2.81 Mbps 📺360p
+  - 🇷🇺 Россия | pie-with-jam_14.txt | 3.59 Mbps 📺360p
+  - 🇷🇺 Россия | whoahaow_bypass-3.txt | 0.57 Mbps 📺360p
+  - 🇦🇪 ОАЭ | rekt0ro_all-clash.yaml | 1.31 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🇷🇺 Только РФ
+  type: url-test
+  proxies:
+  - 🇷🇺 Россия | flaafix_configs.txt | 3.90 Mbps 📺360p
+  - 🇷🇺 Россия | Diversan313_alive_bs.yaml_2 | 3.89 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 3.86 Mbps 📺360p
+  - 🇷🇺 Россия | Delta-Kronecker_batch_008.txt_4 | 3.69 Mbps 📺360p
+  - 🇷🇺 Россия | TelegaVPN_all.txt | 3.69 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 3.66 Mbps 📺360p
+  - 🇷🇺 Россия | YawStar_proxy_configs_tested.txt | 3.65 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 3.63 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 3.62 Mbps 📺360p
+  - 🇷🇺 Россия | gh_all.txt_3 | 3.61 Mbps 📺360p
+  - 🇷🇺 Россия | pie-with-jam_14.txt | 3.59 Mbps 📺360p
+  - 🇷🇺 Россия | SoliSpirit_3 | 3.57 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_configs.txt_6 | 3.46 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_clash.yaml_8 | 3.40 Mbps 📺360p
+  - 🇷🇺 Россия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 3.40 Mbps 📺360p
+  - 🇷🇺 Россия | 0xRadikal_configs.txt_6 | 3.37 Mbps 📺360p
+  - 🇷🇺 Россия | nikita29a_1.txt | 3.18 Mbps 📺360p
+  - 🇷🇺 Россия | pie-with-jam_3.txt | 3.17 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500_unlimited.yaml | 3.15 Mbps 📺360p
+  - 🇷🇺 Россия | 10ium_clash.yaml_233 | 3.14 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 3.14 Mbps 📺360p
+  - 🇷🇺 Россия | flaafix_configs.txt | 3.11 Mbps 📺360p
+  - 🇷🇺 Россия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml | 3.09
+    Mbps 📺360p
+  - 🇷🇺 Россия | gh_all.txt_3 | 3.02 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_RU_unlimited.yaml | 2.90 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.88 Mbps 📺360p
+  - 🇷🇺 Россия | 10Dream_ipv4.txt | 2.81 Mbps 📺360p
+  - 🇷🇺 Россия | SoliSpirit_3 | 2.70 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.67 Mbps 📺360p
+  - 🇷🇺 Россия | gh_alive_full.txt | 1.40 Mbps 📺360p
+  - 🇷🇺 Россия | rekt0ro_all-clash.yaml | 0.75 Mbps 📺360p
+  - 🇷🇺 Россия | whoahaow_bypass-3.txt | 0.57 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -591,50 +669,22 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.50 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 4.47 Mbps 📺360p
-  - 🇩🇪 Германия | SoliSpirit_3 | 4.47 Mbps 📺360p
-  - 🇩🇪 Германия | 0xRadikal_configs.txt_6 | 4.47 Mbps 📺360p
-  - 🇩🇪 Германия | pie-with-jam_3.txt | 4.44 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.42 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_full.txt | 4.41 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.41 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml | 4.39
-    Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500_unlimited.yaml | 4.35 Mbps
-    📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.33 Mbps 📺360p
-  - 🇩🇪 Германия | Delta-Kronecker_batch_008.txt_4 | 4.31 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_ipv4.txt | 4.30 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.28 Mbps 📺360p
-  - 🇩🇪 Германия | flaafix_configs.txt | 4.27 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_RU_unlimited.yaml | 4.27 Mbps 📺360p
-  - 🇩🇪 Германия | gh_all.txt_3 | 4.27 Mbps 📺360p
-  - 🇩🇪 Германия | 0xRadikal_clash.yaml_8 | 4.27 Mbps 📺360p
-  - 🇩🇪 Германия | YawStar_proxy_configs_tested.txt | 4.26 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 4.24 Mbps 📺360p
-  - 🇩🇪 Германия | nikita29a_1.txt | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.21 Mbps 📺360p
-  - 🇩🇪 Германия | TelegaVPN_all.txt | 4.20 Mbps 📺360p
-  - 🇩🇪 Германия | SoliSpirit_3 | 4.19 Mbps 📺360p
-  - 🇩🇪 Германия | flaafix_configs.txt | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | 10ium_clash.yaml_233 | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | gh_all.txt_3 | 4.02 Mbps 📺360p
-  - 🇩🇪 Германия | vlessforu_working_configs.txt | 1.38 Mbps 📺360p
-  - 🇨🇭 Швейцария | vlessforu_working_configs.txt | 1.00 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_luxxuria-harvester-speed_tested.txt_2 | 0.75 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_luxxuria-harvester-speed_tested.txt_2 | 1.47 Mbps 📺360p
+  - 🇦🇪 ОАЭ | rekt0ro_all-clash.yaml | 1.31 Mbps 📺360p
+  - 🇺🇸 США | wuqb2i4f Mix-URI | 0.99 Mbps 📺360p
+  - 🇺🇸 США | whoahaow_bypass-3.txt | 0.90 Mbps 📺360p
+  - 🇺🇸 США | rekt0ro_all-base64.txt | 0.81 Mbps 📺360p
+  - 🇨🇭 Швейцария | vlessforu_working_configs.txt | 0.69 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: ❓ Страна не определена
+- name: 🗺 🇺🇸 США
   type: url-test
   proxies:
-  - 🌐 Неизвестно | rekt0ro_all-base64.txt | 6.93 Mbps 📺360p
-  - 🌐 Неизвестно | rekt0ro_all-clash.yaml | 1.03 Mbps 📺360p
-  - 🌐 Неизвестно | SoliSpirit_3 | 0.76 Mbps 📺360p
-  - 🌐 Неизвестно | rekt0ro_all-clash.yaml | 0.75 Mbps 📺360p
+  - 🇺🇸 США | wuqb2i4f Mix-URI | 0.99 Mbps 📺360p
+  - 🇺🇸 США | whoahaow_bypass-3.txt | 0.90 Mbps 📺360p
+  - 🇺🇸 США | rekt0ro_all-base64.txt | 0.81 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -642,38 +692,7 @@ proxy-groups:
 - name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.50 Mbps 📺360p
-  - 🇩🇪 Германия | Diversan313_alive_bs.yaml_2 | 4.47 Mbps 📺360p
-  - 🇩🇪 Германия | SoliSpirit_3 | 4.47 Mbps 📺360p
-  - 🇩🇪 Германия | 0xRadikal_configs.txt_6 | 4.47 Mbps 📺360p
-  - 🇩🇪 Германия | pie-with-jam_3.txt | 4.44 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.42 Mbps 📺360p
-  - 🇩🇪 Германия | gh_alive_full.txt | 4.41 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.41 Mbps 📺360p
-  - 🇩🇪 Германия | alireza786786_10ium-VpnClashFaCollector-mixed_unlimited.yaml | 4.39
-    Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500_unlimited.yaml | 4.35 Mbps
-    📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 4.33 Mbps 📺360p
-  - 🇩🇪 Германия | Delta-Kronecker_batch_008.txt_4 | 4.31 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_ipv4.txt | 4.30 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_gheychiamoozesh_mix_count_500 | 4.28 Mbps 📺360p
-  - 🇩🇪 Германия | flaafix_configs.txt | 4.27 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_RU_unlimited.yaml | 4.27 Mbps 📺360p
-  - 🇩🇪 Германия | gh_all.txt_3 | 4.27 Mbps 📺360p
-  - 🇩🇪 Германия | 0xRadikal_clash.yaml_8 | 4.27 Mbps 📺360p
-  - 🇩🇪 Германия | YawStar_proxy_configs_tested.txt | 4.26 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 4.24 Mbps 📺360p
-  - 🇩🇪 Германия | nikita29a_1.txt | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | DukeMehdi_Lite-DukeMehdi-Configs.txt_2 | 4.23 Mbps 📺360p
-  - 🇩🇪 Германия | Edsel-Rahimi_nodes.txt | 4.21 Mbps 📺360p
-  - 🇩🇪 Германия | TelegaVPN_all.txt | 4.20 Mbps 📺360p
-  - 🇩🇪 Германия | SoliSpirit_3 | 4.19 Mbps 📺360p
-  - 🇩🇪 Германия | flaafix_configs.txt | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | 10ium_clash.yaml_233 | 4.18 Mbps 📺360p
-  - 🇩🇪 Германия | gh_all.txt_3 | 4.02 Mbps 📺360p
-  - 🇩🇪 Германия | vlessforu_working_configs.txt | 1.38 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_luxxuria-harvester-speed_tested.txt_2 | 0.75 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_luxxuria-harvester-speed_tested.txt_2 | 1.47 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -681,7 +700,15 @@ proxy-groups:
 - name: 🗺 🇨🇭 Швейцария
   type: url-test
   proxies:
-  - 🇨🇭 Швейцария | vlessforu_working_configs.txt | 1.00 Mbps 📺360p
+  - 🇨🇭 Швейцария | vlessforu_working_configs.txt | 0.69 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇦🇪 ОАЭ
+  type: url-test
+  proxies:
+  - 🇦🇪 ОАЭ | rekt0ro_all-clash.yaml | 1.31 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -689,8 +716,10 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
+  - 🗺 🇺🇸 США
   - 🗺 🇩🇪 Германия
   - 🗺 🇨🇭 Швейцария
+  - 🗺 🇦🇪 ОАЭ
 - name: 🎯 Direct
   type: select
   proxies:

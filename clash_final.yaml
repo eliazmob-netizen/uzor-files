@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия | 10Dream_mix.txt_2 | 7.88 Mbps 📺720p
+- name: 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 32.40 Mbps 📺720p
   type: vless
   server: 78.159.240.62
   port: 2053
@@ -77,38 +77,24 @@ proxies:
     path: /api/v1/upload
     host: polarladder.com
     mode: auto
-- name: 🇷🇺 Россия | 0xRadikal_configs.txt_7 | 6.58 Mbps 📺720p
+- name: 🇩🇪 Германия | 10Dream_zieng2-wl-vless_universal.txt_2 | 29.52 Mbps 📺720p
   type: vless
   server: 78.159.240.62
   port: 2053
   uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: chrome
-  servername: polarladder.com
-  xhttp-opts:
-    path: /api/v1/upload
-    host: polarladder.com
-    mode: auto
-- name: 🇳🇱 Нидерланды | alireza786786_flaafix-AetrisVPN-black-list-configs.txt | 14.59
-    Mbps 📺360p
-  type: vless
-  server: 72.56.69.70
-  port: 443
-  uuid: 00799b08-1090-4ed3-bec0-0fa26816a703
   udp: true
   tls: true
   network: xhttp
   client-fingerprint: firefox
-  servername: plaksa.bootless.ru
+  servername: polarladder.com
   xhttp-opts:
-    path: /api/v2/stream
-    host: plaksa.bootless.ru
+    path: /api/v1/upload
+    host: polarladder.com
+    mode: auto
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/alireza786786/V2RAY-BREACHING-THE-BARRIERS/main/sub/normal/flaafix-AetrisVPN-black-list-configs.txt
+    url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/configs.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -120,7 +106,6 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
   - 🌍 Без РФ
   - 📺 YouTube Топ
   - 🌍 Страны
@@ -130,19 +115,8 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 7.88 Mbps 📺720p
-  - 🇷🇺 Россия | 0xRadikal_configs.txt_7 | 6.58 Mbps 📺720p
-  - 🇳🇱 Нидерланды | alireza786786_flaafix-AetrisVPN-black-list-configs.txt | 14.59
-    Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🇷🇺 Только РФ
-  type: url-test
-  proxies:
-  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 7.88 Mbps 📺720p
-  - 🇷🇺 Россия | 0xRadikal_configs.txt_7 | 6.58 Mbps 📺720p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 32.40 Mbps 📺720p
+  - 🇩🇪 Германия | 10Dream_zieng2-wl-vless_universal.txt_2 | 29.52 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -150,8 +124,8 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | alireza786786_flaafix-AetrisVPN-black-list-configs.txt | 14.59
-    Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 32.40 Mbps 📺720p
+  - 🇩🇪 Германия | 10Dream_zieng2-wl-vless_universal.txt_2 | 29.52 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -159,17 +133,17 @@ proxy-groups:
 - name: 📺 YouTube Топ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | 10Dream_mix.txt_2 | 7.88 Mbps 📺720p
-  - 🇷🇺 Россия | 0xRadikal_configs.txt_7 | 6.58 Mbps 📺720p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 32.40 Mbps 📺720p
+  - 🇩🇪 Германия | 10Dream_zieng2-wl-vless_universal.txt_2 | 29.52 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇳🇱 Нидерланды
+- name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇳🇱 Нидерланды | alireza786786_flaafix-AetrisVPN-black-list-configs.txt | 14.59
-    Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 32.40 Mbps 📺720p
+  - 🇩🇪 Германия | 10Dream_zieng2-wl-vless_universal.txt_2 | 29.52 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -177,7 +151,7 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇳🇱 Нидерланды
+  - 🗺 🇩🇪 Германия
 - name: 🎯 Direct
   type: select
   proxies:

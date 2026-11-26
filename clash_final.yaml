@@ -63,30 +63,27 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | ChatGPT-053 | 29.35 Mbps 📺360p
+- name: 🇯🇵 Япония | Diversan313_alive_full.yaml | 5.02 Mbps 📺720p
   type: vless
-  server: h-pl.ok-habits.xyz
+  server: 50.7.159.242
   port: 443
-  uuid: 259ec8bc-5a6b-4b33-8a71-c40e8d150c24
+  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
   udp: true
   tls: true
   network: tcp
-  client-fingerprint: chrome
-  servername: 1.4.8.8
-  reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: 'db04ce8bdb8900f1'
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 7.89 Mbps 📺360p
-  type: trojan
-  server: 186.241.106.5
+  client-fingerprint: firefox
+  servername: jp.reddotcorp.org
+- name: 🇯🇵 Япония | Edsel-Rahimi_nodes.txt | 4.84 Mbps 📺360p
+  type: vless
+  server: 50.7.159.242
   port: 443
-  password: qpbw_r_Ykr5EZTGKX3mNZSVTj9liEAL3
+  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
   udp: true
+  tls: true
   network: tcp
-  client-fingerprint: chrome
-  sni: 186.241.106.5
-  skip-cert-verify: true
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.87 Mbps 📺360p
+  client-fingerprint: firefox
+  servername: jp.reddotcorp.org
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.46 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -101,27 +98,7 @@ proxies:
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
-- name: 🇯🇵 Япония | Diversan313_alive_full.yaml | 4.78 Mbps 📺360p
-  type: vless
-  server: 50.7.159.242
-  port: 443
-  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
-  udp: true
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  servername: jp.reddotcorp.org
-- name: 🇯🇵 Япония | Edsel-Rahimi_nodes.txt | 3.95 Mbps 📺360p
-  type: vless
-  server: 50.7.159.242
-  port: 443
-  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
-  udp: true
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  servername: jp.reddotcorp.org
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.20 Mbps 📺360p
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.15 Mbps 📺360p
   type: vless
   server: api.ggssstreaming.ru
   port: 443
@@ -138,7 +115,7 @@ proxies:
     path: /fc89f5f455d4/766e712c
     host: api.ggssstreaming.ru
     mode: auto
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.04 Mbps 📺360p
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.82 Mbps 📺360p
   type: vless
   server: 23.237.202.252
   port: 443
@@ -153,22 +130,6 @@ proxies:
   xhttp-opts:
     path: /
     host: id-0173d52e.vmagnum.win
-    mode: auto
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.66 Mbps 📺360p
-  type: vless
-  server: 50.7.28.214
-  port: 443
-  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
-  udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: firefox
-  servername: api-v3-0173d52e.vmagnum.win
-  alpn:
-  - h2
-  xhttp-opts:
-    path: /
-    host: api-v3-0173d52e.vmagnum.win
     mode: auto
 proxy-providers:
   top_source:
@@ -187,6 +148,7 @@ proxy-groups:
   - 🌐 Все серверы
   - 🌍 Без РФ
   - ❓ Страна не определена
+  - 📺 YouTube Топ
   - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
@@ -194,14 +156,11 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | ChatGPT-053 | 29.35 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 7.89 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.87 Mbps 📺360p
-  - 🇯🇵 Япония | Diversan313_alive_full.yaml | 4.78 Mbps 📺360p
-  - 🇯🇵 Япония | Edsel-Rahimi_nodes.txt | 3.95 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.20 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.04 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.66 Mbps 📺360p
+  - 🇯🇵 Япония | Diversan313_alive_full.yaml | 5.02 Mbps 📺720p
+  - 🇯🇵 Япония | Edsel-Rahimi_nodes.txt | 4.84 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.46 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.15 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.82 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -209,8 +168,8 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇯🇵 Япония | Diversan313_alive_full.yaml | 4.78 Mbps 📺360p
-  - 🇯🇵 Япония | Edsel-Rahimi_nodes.txt | 3.95 Mbps 📺360p
+  - 🇯🇵 Япония | Diversan313_alive_full.yaml | 5.02 Mbps 📺720p
+  - 🇯🇵 Япония | Edsel-Rahimi_nodes.txt | 4.84 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -218,12 +177,17 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | ChatGPT-053 | 29.35 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 7.89 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.87 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.20 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.04 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.66 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.46 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 4.15 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.82 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 📺 YouTube Топ
+  type: url-test
+  proxies:
+  - 🇯🇵 Япония | Diversan313_alive_full.yaml | 5.02 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -231,8 +195,8 @@ proxy-groups:
 - name: 🗺 🇯🇵 Япония
   type: url-test
   proxies:
-  - 🇯🇵 Япония | Diversan313_alive_full.yaml | 4.78 Mbps 📺360p
-  - 🇯🇵 Япония | Edsel-Rahimi_nodes.txt | 3.95 Mbps 📺360p
+  - 🇯🇵 Япония | Diversan313_alive_full.yaml | 5.02 Mbps 📺720p
+  - 🇯🇵 Япония | Edsel-Rahimi_nodes.txt | 4.84 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10

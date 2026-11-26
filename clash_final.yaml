@@ -63,7 +63,22 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 10.49 Mbps 📺720p
+- name: 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-mixed_iran.txt | 13.40
+    Mbps 📺720p
+  type: vless
+  server: 72.56.69.70
+  port: 443
+  uuid: 00799b08-1090-4ed3-bec0-0fa26816a703
+  udp: true
+  tls: true
+  network: xhttp
+  client-fingerprint: firefox
+  servername: plaksa.bootless.ru
+  xhttp-opts:
+    path: /api/v2/stream
+    host: plaksa.bootless.ru
+- name: 🇩🇪 Германия | alireza786786_10Dream-VpnClashFaCollector-mixed.txt_2 | 4.33
+    Mbps 📺360p
   type: vless
   server: 78.159.240.62
   port: 2053
@@ -77,7 +92,7 @@ proxies:
     path: /api/v1/upload
     host: polarladder.com
     mode: auto
-- name: 🌐 Неизвестно | 10Dream_RU.txt_2 | 9.92 Mbps 📺720p
+- name: 🇩🇪 Германия | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 3.92 Mbps 📺360p
   type: vless
   server: 78.159.240.62
   port: 2053
@@ -85,7 +100,7 @@ proxies:
   udp: true
   tls: true
   network: xhttp
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   servername: polarladder.com
   xhttp-opts:
     path: /api/v1/upload
@@ -94,7 +109,7 @@ proxies:
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/10Dream/sub-mod/main/sub/normal/SoliSpirit-v2ray-configs-vless.txt
+    url: https://raw.githubusercontent.com/alireza786786/V2RAY-BREACHING-THE-BARRIERS/main/sub/normal/10ium-V2rayCollectorLite-mixed_iran.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -106,16 +121,31 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
+  - 🌍 Без РФ
   - ❓ Страна не определена
   - 📺 YouTube Топ
+  - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 10.49 Mbps 📺720p
-  - 🌐 Неизвестно | 10Dream_RU.txt_2 | 9.92 Mbps 📺720p
+  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-mixed_iran.txt | 13.40 Mbps
+    📺720p
+  - 🇩🇪 Германия | alireza786786_10Dream-VpnClashFaCollector-mixed.txt_2 | 4.33 Mbps
+    📺360p
+  - 🇩🇪 Германия | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 3.92 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🌍 Без РФ
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия | alireza786786_10Dream-VpnClashFaCollector-mixed.txt_2 | 4.33 Mbps
+    📺360p
+  - 🇩🇪 Германия | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 3.92 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -123,8 +153,8 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 10.49 Mbps 📺720p
-  - 🌐 Неизвестно | 10Dream_RU.txt_2 | 9.92 Mbps 📺720p
+  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-mixed_iran.txt | 13.40 Mbps
+    📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -132,12 +162,26 @@ proxy-groups:
 - name: 📺 YouTube Топ
   type: url-test
   proxies:
-  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 10.49 Mbps 📺720p
-  - 🌐 Неизвестно | 10Dream_RU.txt_2 | 9.92 Mbps 📺720p
+  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-mixed_iran.txt | 13.40 Mbps
+    📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
+- name: 🗺 🇩🇪 Германия
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия | alireza786786_10Dream-VpnClashFaCollector-mixed.txt_2 | 4.33 Mbps
+    📺360p
+  - 🇩🇪 Германия | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 3.92 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🌍 Страны
+  type: select
+  proxies:
+  - 🗺 🇩🇪 Германия
 - name: 🎯 Direct
   type: select
   proxies:

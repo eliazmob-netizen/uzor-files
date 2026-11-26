@@ -63,21 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 32.40 Mbps 📺720p
-  type: vless
-  server: 78.159.240.62
-  port: 2053
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: chrome
-  servername: polarladder.com
-  xhttp-opts:
-    path: /api/v1/upload
-    host: polarladder.com
-    mode: auto
-- name: 🇩🇪 Германия | 10Dream_zieng2-wl-vless_universal.txt_2 | 29.52 Mbps 📺720p
+- name: 🇷🇺 Россия | 10Dream_zieng2-wl-vless_universal.txt_2 | 12.67 Mbps 📺720p
   type: vless
   server: 78.159.240.62
   port: 2053
@@ -91,10 +77,75 @@ proxies:
     path: /api/v1/upload
     host: polarladder.com
     mode: auto
+- name: 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 12.13 Mbps 📺720p
+  type: vless
+  server: 78.159.240.62
+  port: 2053
+  uuid: 37af0181-5598-4aad-a040-d926bcb65757
+  udp: true
+  tls: true
+  network: xhttp
+  client-fingerprint: chrome
+  servername: polarladder.com
+  xhttp-opts:
+    path: /api/v1/upload
+    host: polarladder.com
+    mode: auto
+- name: 🌐 Неизвестно | ChatGPT-053 | 28.52 Mbps 📺360p
+  type: vless
+  server: h-pl.ok-habits.xyz
+  port: 443
+  uuid: 259ec8bc-5a6b-4b33-8a71-c40e8d150c24
+  udp: true
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  servername: 1.4.8.8
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: 'db04ce8bdb8900f1'
+- name: 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-mixed_iran.txt | 6.04
+    Mbps 📺360p
+  type: vless
+  server: 72.56.69.70
+  port: 443
+  uuid: 00799b08-1090-4ed3-bec0-0fa26816a703
+  udp: true
+  tls: true
+  network: xhttp
+  client-fingerprint: firefox
+  servername: plaksa.bootless.ru
+  xhttp-opts:
+    path: /api/v2/stream
+    host: plaksa.bootless.ru
+- name: 🇯🇵 Япония | Diversan313_alive_full.yaml | 4.40 Mbps 📺360p
+  type: vless
+  server: 50.7.159.242
+  port: 443
+  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
+  udp: true
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  servername: jp.reddotcorp.org
+- name: 🌐 Неизвестно | alireza786786_flaafix-AetrisVPN-black-list-configs.txt | 3.79
+    Mbps 📺360p
+  type: vless
+  server: 72.56.69.70
+  port: 443
+  uuid: 00799b08-1090-4ed3-bec0-0fa26816a703
+  udp: true
+  tls: true
+  network: xhttp
+  client-fingerprint: firefox
+  servername: plaksa.bootless.ru
+  xhttp-opts:
+    path: /api/v2/stream
+    host: plaksa.bootless.ru
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/configs.txt
+    url: https://raw.githubusercontent.com/mheidari98/.proxy/main/all
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -106,7 +157,9 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
+  - 🇷🇺 Только РФ
   - 🌍 Без РФ
+  - ❓ Страна не определена
   - 📺 YouTube Топ
   - 🌍 Страны
   - 🛡 Реклама
@@ -115,8 +168,23 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 32.40 Mbps 📺720p
-  - 🇩🇪 Германия | 10Dream_zieng2-wl-vless_universal.txt_2 | 29.52 Mbps 📺720p
+  - 🇷🇺 Россия | 10Dream_zieng2-wl-vless_universal.txt_2 | 12.67 Mbps 📺720p
+  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 12.13 Mbps 📺720p
+  - 🌐 Неизвестно | ChatGPT-053 | 28.52 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-mixed_iran.txt | 6.04 Mbps
+    📺360p
+  - 🇯🇵 Япония | Diversan313_alive_full.yaml | 4.40 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_flaafix-AetrisVPN-black-list-configs.txt | 3.79 Mbps
+    📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🇷🇺 Только РФ
+  type: url-test
+  proxies:
+  - 🇷🇺 Россия | 10Dream_zieng2-wl-vless_universal.txt_2 | 12.67 Mbps 📺720p
+  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 12.13 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -124,8 +192,19 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 32.40 Mbps 📺720p
-  - 🇩🇪 Германия | 10Dream_zieng2-wl-vless_universal.txt_2 | 29.52 Mbps 📺720p
+  - 🇯🇵 Япония | Diversan313_alive_full.yaml | 4.40 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: ❓ Страна не определена
+  type: url-test
+  proxies:
+  - 🌐 Неизвестно | ChatGPT-053 | 28.52 Mbps 📺360p
+  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-mixed_iran.txt | 6.04 Mbps
+    📺360p
+  - 🌐 Неизвестно | alireza786786_flaafix-AetrisVPN-black-list-configs.txt | 3.79 Mbps
+    📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -133,17 +212,16 @@ proxy-groups:
 - name: 📺 YouTube Топ
   type: url-test
   proxies:
-  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 32.40 Mbps 📺720p
-  - 🇩🇪 Германия | 10Dream_zieng2-wl-vless_universal.txt_2 | 29.52 Mbps 📺720p
+  - 🇷🇺 Россия | 10Dream_zieng2-wl-vless_universal.txt_2 | 12.67 Mbps 📺720p
+  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 12.13 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇩🇪 Германия
+- name: 🗺 🇯🇵 Япония
   type: url-test
   proxies:
-  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 32.40 Mbps 📺720p
-  - 🇩🇪 Германия | 10Dream_zieng2-wl-vless_universal.txt_2 | 29.52 Mbps 📺720p
+  - 🇯🇵 Япония | Diversan313_alive_full.yaml | 4.40 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -151,7 +229,7 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇩🇪 Германия
+  - 🗺 🇯🇵 Япония
 - name: 🎯 Direct
   type: select
   proxies:

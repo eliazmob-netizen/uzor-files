@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 43.27 Mbps 📺720p
+- name: 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 45.34 Mbps 📺720p
   type: vless
   server: 78.159.240.62
   port: 2053
@@ -77,7 +77,7 @@ proxies:
     path: /api/v1/upload
     host: polarladder.com
     mode: auto
-- name: 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 42.87 Mbps 📺720p
+- name: 🇩🇪 Германия | 10Dream_mix.txt_2 | 44.43 Mbps 📺720p
   type: vless
   server: 78.159.240.62
   port: 2053
@@ -91,90 +91,46 @@ proxies:
     path: /api/v1/upload
     host: polarladder.com
     mode: auto
-- name: 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-AetrisVPN.txt_2 | 23.52 Mbps 📺360p
+- name: 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 7.20 Mbps 📺720p
   type: vless
-  server: 31.77.144.255
-  port: 8444
-  uuid: 95580a09-cce7-4b62-af74-a514083ba9e4
+  server: 108.138.26.63
+  port: 80
+  uuid: 05f53797-bd04-4006-8a78-41c071e67837
   udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: chrome
-  servername: www.amd.com
-  reality-opts:
-    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
-    short-id: '635a76c25a4b1820'
-  xhttp-opts:
-    path: /xh
-    host: www.amd.com
-    mode: stream-one
-- name: 🌐 Неизвестно | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 21.93 Mbps
-    📺360p
+  tls: false
+  network: ws
+  ws-opts:
+    path: /tikvpn2/
+    headers:
+      Host: d27g7kjkk3cw22.cloudfront.net
+  skip-cert-verify: true
+- name: 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.yaml | 6.50 Mbps 📺720p
   type: vless
-  server: leviko-se5306.shopingggg.ir
-  port: 8444
-  uuid: 95580a09-cce7-4b62-af74-a514083ba9e4
+  server: 108.138.26.63
+  port: 80
+  uuid: 05f53797-bd04-4006-8a78-41c071e67837
   udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: chrome
-  servername: www.amd.com
-  reality-opts:
-    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
-    short-id: '635a76c25a4b1820'
-  xhttp-opts:
-    path: /xh
-    host: www.amd.com
-    mode: stream-one
-- name: 🇺🇸 США | 10Dream_mix.txt_2 | 19.35 Mbps 📺360p
+  tls: false
+  network: ws
+  ws-opts:
+    path: /tikvpn2/
+    headers:
+      Host: d27g7kjkk3cw22.cloudfront.net
+  skip-cert-verify: true
+- name: 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 15.82 Mbps 📺360p
   type: vless
-  server: cloud-de01.dynv6.net
+  server: 72.56.69.70
   port: 443
-  uuid: 1d1eda2e-0bd7-4478-877b-1c5425c6c4dd
-  udp: true
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: tradingview.com
-  reality-opts:
-    public-key: yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38
-    short-id: '8f3c6e2a1b5d4f09'
-- name: 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-AetrisVPN.txt_2 | 19.12 Mbps 📺360p
-  type: vless
-  server: leviko-se5306.shopingggg.ir
-  port: 8444
-  uuid: 95580a09-cce7-4b62-af74-a514083ba9e4
+  uuid: 00799b08-1090-4ed3-bec0-0fa26816a703
   udp: true
   tls: true
   network: xhttp
   client-fingerprint: chrome
-  servername: www.amd.com
-  reality-opts:
-    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
-    short-id: '635a76c25a4b1820'
+  servername: plaksa.bootless.ru
   xhttp-opts:
-    path: /xh
-    host: www.amd.com
-    mode: stream-one
-- name: 🇮🇱 Израиль | 10Dream_hamedp-71-Sub_Checker_Creator-final.yaml | 2.58 Mbps
-    📺360p
-  type: vless
-  server: 717252g.nl8.h1clayd.click
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: 717252g.nl8.h1clayd.click
-  reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: 'd3bd772514c87d28'
-  grpc-opts:
-    grpc-service-name: 204adda7e3da
-- name: 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-white-list-lite-AetrisVPN_unlimited.yaml
-    | 2.55 Mbps 📺360p
+    path: /api/v2/stream
+    host: plaksa.bootless.ru
+- name: 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 1.97 Mbps 📺360p
   type: vless
   server: 153.56.231.73
   port: 443
@@ -182,31 +138,14 @@ proxies:
   udp: true
   tls: true
   network: grpc
-  client-fingerprint: edge
+  client-fingerprint: ios
   servername: 717252g.nl8.h1clayd.click
   reality-opts:
     public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
     short-id: 'd3bd772514c87d28'
   grpc-opts:
     grpc-service-name: 204adda7e3da
-- name: 🇮🇱 Израиль | 10Dream_hamedp-71-Sub_Checker_Creator-final.yaml | 2.49 Mbps
-    📺360p
-  type: vless
-  server: 717252g.nl8.h1clayd.click
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  network: grpc
-  client-fingerprint: chrome
-  servername: 717252g.nl8.h1clayd.click
-  reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: 'd3bd772514c87d28'
-  grpc-opts:
-    grpc-service-name: 204adda7e3da
-- name: 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 2.30 Mbps
-    📺360p
+- name: 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 1.29 Mbps 📺360p
   type: vless
   server: 153.56.231.73
   port: 443
@@ -224,7 +163,7 @@ proxies:
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/10Dream/sub-mod/main/sub/normal/mix.txt
+    url: https://raw.githubusercontent.com/10Dream/sub-mod/main/sub/normal/whoahaow-rjsxrd-bypass-all.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -236,7 +175,6 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
   - 🌍 Без РФ
   - ❓ Страна не определена
   - 📺 YouTube Топ
@@ -247,26 +185,13 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 43.27 Mbps 📺720p
-  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 42.87 Mbps 📺720p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-AetrisVPN.txt_2 | 23.52 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 21.93 Mbps 📺360p
-  - 🇺🇸 США | 10Dream_mix.txt_2 | 19.35 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-AetrisVPN.txt_2 | 19.12 Mbps 📺360p
-  - 🇮🇱 Израиль | 10Dream_hamedp-71-Sub_Checker_Creator-final.yaml | 2.58 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-white-list-lite-AetrisVPN_unlimited.yaml
-    | 2.55 Mbps 📺360p
-  - 🇮🇱 Израиль | 10Dream_hamedp-71-Sub_Checker_Creator-final.yaml | 2.49 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 2.30 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🇷🇺 Только РФ
-  type: url-test
-  proxies:
-  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 43.27 Mbps 📺720p
-  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 42.87 Mbps 📺720p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 45.34 Mbps 📺720p
+  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 44.43 Mbps 📺720p
+  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 7.20 Mbps 📺720p
+  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.yaml | 6.50 Mbps 📺720p
+  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 15.82 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 1.97 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 1.29 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -274,13 +199,10 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-AetrisVPN.txt_2 | 23.52 Mbps 📺360p
-  - 🇺🇸 США | 10Dream_mix.txt_2 | 19.35 Mbps 📺360p
-  - 🇮🇱 Израиль | 10Dream_hamedp-71-Sub_Checker_Creator-final.yaml | 2.58 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-white-list-lite-AetrisVPN_unlimited.yaml
-    | 2.55 Mbps 📺360p
-  - 🇮🇱 Израиль | 10Dream_hamedp-71-Sub_Checker_Creator-final.yaml | 2.49 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 2.30 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 45.34 Mbps 📺720p
+  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 44.43 Mbps 📺720p
+  - 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 1.97 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 1.29 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -288,8 +210,9 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 21.93 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_flaafix-AetrisVPN-AetrisVPN.txt_2 | 19.12 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 15.82 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 7.20 Mbps 📺720p
+  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.yaml | 6.50 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -297,8 +220,10 @@ proxy-groups:
 - name: 📺 YouTube Топ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 43.27 Mbps 📺720p
-  - 🇷🇺 Россия | 10Dream_gheychiamoozesh_mix_count_500 | 42.87 Mbps 📺720p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 45.34 Mbps 📺720p
+  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 44.43 Mbps 📺720p
+  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 7.20 Mbps 📺720p
+  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.yaml | 6.50 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -306,27 +231,10 @@ proxy-groups:
 - name: 🗺 🇩🇪 Германия
   type: url-test
   proxies:
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-AetrisVPN.txt_2 | 23.52 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-white-list-lite-AetrisVPN_unlimited.yaml
-    | 2.55 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-black-list-configs.txt | 2.30 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇮🇱 Израиль
-  type: url-test
-  proxies:
-  - 🇮🇱 Израиль | 10Dream_hamedp-71-Sub_Checker_Creator-final.yaml | 2.58 Mbps 📺360p
-  - 🇮🇱 Израиль | 10Dream_hamedp-71-Sub_Checker_Creator-final.yaml | 2.49 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇺🇸 США
-  type: url-test
-  proxies:
-  - 🇺🇸 США | 10Dream_mix.txt_2 | 19.35 Mbps 📺360p
+  - 🇩🇪 Германия | 0xRadikal_configs.txt_7 | 45.34 Mbps 📺720p
+  - 🇩🇪 Германия | 10Dream_mix.txt_2 | 44.43 Mbps 📺720p
+  - 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 1.97 Mbps 📺360p
+  - 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 1.29 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -335,8 +243,6 @@ proxy-groups:
   type: select
   proxies:
   - 🗺 🇩🇪 Германия
-  - 🗺 🇮🇱 Израиль
-  - 🗺 🇺🇸 США
 - name: 🎯 Direct
   type: select
   proxies:

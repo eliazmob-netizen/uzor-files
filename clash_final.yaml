@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 37.22 Mbps 📺720p
+- name: 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 10.49 Mbps 📺720p
   type: vless
   server: 78.159.240.62
   port: 2053
@@ -77,7 +77,7 @@ proxies:
     path: /api/v1/upload
     host: polarladder.com
     mode: auto
-- name: 🇩🇪 Германия | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 36.79 Mbps 📺720p
+- name: 🌐 Неизвестно | 10Dream_RU.txt_2 | 9.92 Mbps 📺720p
   type: vless
   server: 78.159.240.62
   port: 2053
@@ -85,167 +85,16 @@ proxies:
   udp: true
   tls: true
   network: xhttp
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   servername: polarladder.com
   xhttp-opts:
     path: /api/v1/upload
     host: polarladder.com
     mode: auto
-- name: 🇵🇱 Польша | Andrejewild_base64.txt_4 | 12.15 Mbps 📺720p
-  type: vless
-  server: api.mediatropa.cc
-  port: 443
-  uuid: ed9a4102-24ce-4f64-8312-df534ad56049
-  udp: true
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: api.mediatropa.cc
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: 'a8'
-- name: 🇳🇱 Нидерланды | api_alive_plain_bl.txt | 23.36 Mbps 📺360p
-  type: vless
-  server: 152.234.248.165
-  port: 6443
-  uuid: 45e1f8c5-ac5f-4e4f-a102-9bad231aa95d
-  udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: firefox
-  servername: nl.overgroup.cloud
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: '6b2f4e6ac9b1d2f0'
-  xhttp-opts:
-    path: /067d0a4b4e242e01cf58828e
-    host: nl.overgroup.cloud
-- name: 🌐 Неизвестно | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 18.15 Mbps
-    📺360p
-  type: vless
-  server: leviko-se5306.shopingggg.ir
-  port: 8444
-  uuid: 95580a09-cce7-4b62-af74-a514083ba9e4
-  udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: chrome
-  servername: www.amd.com
-  reality-opts:
-    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
-    short-id: '635a76c25a4b1820'
-  xhttp-opts:
-    path: /xh
-    host: www.amd.com
-    mode: stream-one
-- name: 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 16.07 Mbps 📺360p
-  type: vless
-  server: 72.56.69.70
-  port: 443
-  uuid: 00799b08-1090-4ed3-bec0-0fa26816a703
-  udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: chrome
-  servername: plaksa.bootless.ru
-  xhttp-opts:
-    path: /api/v2/stream
-    host: plaksa.bootless.ru
-- name: 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-mixed_iran.txt | 15.73
-    Mbps 📺360p
-  type: vless
-  server: 72.56.69.70
-  port: 443
-  uuid: 00799b08-1090-4ed3-bec0-0fa26816a703
-  udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: firefox
-  servername: plaksa.bootless.ru
-  xhttp-opts:
-    path: /api/v2/stream
-    host: plaksa.bootless.ru
-- name: 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-AetrisVPN.txt_2 | 15.29 Mbps 📺360p
-  type: vless
-  server: 31.77.144.255
-  port: 8444
-  uuid: 95580a09-cce7-4b62-af74-a514083ba9e4
-  udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: chrome
-  servername: www.amd.com
-  reality-opts:
-    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
-    short-id: '635a76c25a4b1820'
-  xhttp-opts:
-    path: /xh
-    host: www.amd.com
-    mode: stream-one
-- name: 🇩🇪 Германия | api_alive_plain_bl.txt | 13.97 Mbps 📺360p
-  type: vless
-  server: 31.77.144.255
-  port: 8444
-  uuid: 95580a09-cce7-4b62-af74-a514083ba9e4
-  udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: chrome
-  servername: www.amd.com
-  reality-opts:
-    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
-    short-id: '635a76c25a4b1820'
-  xhttp-opts:
-    path: /xh
-    host: www.amd.com
-    mode: stream-one
-- name: 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 12.31
-    Mbps 📺360p
-  type: vless
-  server: leviko-se5306.shopingggg.ir
-  port: 8444
-  uuid: 95580a09-cce7-4b62-af74-a514083ba9e4
-  udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: chrome
-  servername: www.amd.com
-  reality-opts:
-    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
-    short-id: '635a76c25a4b1820'
-  xhttp-opts:
-    path: /xh
-    host: www.amd.com
-    mode: stream-one
-- name: 🇸🇬 Сингапур | alireza786786_snakem982-proxypool-v2ray-2.yaml | 5.96 Mbps 📺360p
-  type: vless
-  server: vl-x2.qz10086.top
-  port: 37998
-  uuid: d235ad20-8f30-441e-871e-ee2695e4c430
-  udp: true
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  servername: www.apple.com
-  reality-opts:
-    public-key: j7lihAdLvNKWg67WMGQsRSM8WFbaUK5dAi7D2R7iXHM
-    short-id: 'd5a01375'
-- name: 🇯🇵 Япония | api_alive_plain_bl.txt | 3.78 Mbps 📺360p
-  type: vless
-  server: 50.7.159.242
-  port: 443
-  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
-  udp: true
-  tls: true
-  network: tcp
-  client-fingerprint: firefox
-  servername: jp.reddotcorp.org
 proxy-providers:
   top_source:
     type: http
-    url: https://gitverse.ru/api/repos/bikinitw22/apelsintel/raw/branch/main/alive_plain_bl.txt
+    url: https://raw.githubusercontent.com/10Dream/sub-mod/main/sub/normal/SoliSpirit-v2ray-configs-vless.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -257,45 +106,16 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🌍 Без РФ
   - ❓ Страна не определена
   - 📺 YouTube Топ
-  - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 37.22 Mbps 📺720p
-  - 🇩🇪 Германия | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 36.79 Mbps 📺720p
-  - 🇵🇱 Польша | Andrejewild_base64.txt_4 | 12.15 Mbps 📺720p
-  - 🇳🇱 Нидерланды | api_alive_plain_bl.txt | 23.36 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 18.15 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 16.07 Mbps 📺360p
-  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-mixed_iran.txt | 15.73 Mbps
-    📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-AetrisVPN.txt_2 | 15.29 Mbps 📺360p
-  - 🇩🇪 Германия | api_alive_plain_bl.txt | 13.97 Mbps 📺360p
-  - 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 12.31 Mbps
-    📺360p
-  - 🇸🇬 Сингапур | alireza786786_snakem982-proxypool-v2ray-2.yaml | 5.96 Mbps 📺360p
-  - 🇯🇵 Япония | api_alive_plain_bl.txt | 3.78 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🌍 Без РФ
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 37.22 Mbps 📺720p
-  - 🇩🇪 Германия | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 36.79 Mbps 📺720p
-  - 🇳🇱 Нидерланды | api_alive_plain_bl.txt | 23.36 Mbps 📺360p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-AetrisVPN.txt_2 | 15.29 Mbps 📺360p
-  - 🇩🇪 Германия | api_alive_plain_bl.txt | 13.97 Mbps 📺360p
-  - 🇵🇱 Польша | Andrejewild_base64.txt_4 | 12.15 Mbps 📺720p
-  - 🇸🇬 Сингапур | alireza786786_snakem982-proxypool-v2ray-2.yaml | 5.96 Mbps 📺360p
-  - 🇯🇵 Япония | api_alive_plain_bl.txt | 3.78 Mbps 📺360p
+  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 10.49 Mbps 📺720p
+  - 🌐 Неизвестно | 10Dream_RU.txt_2 | 9.92 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -303,12 +123,8 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | 10Dream_10ium-V2rayCollectorLite-mixed_iran.txt | 18.15 Mbps 📺360p
-  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 16.07 Mbps 📺360p
-  - 🌐 Неизвестно | alireza786786_10ium-V2rayCollectorLite-mixed_iran.txt | 15.73 Mbps
-    📺360p
-  - 🌐 Неизвестно | alireza786786_10ium-VpnClashFaCollector-mixed.txt_2 | 12.31 Mbps
-    📺360p
+  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 10.49 Mbps 📺720p
+  - 🌐 Неизвестно | 10Dream_RU.txt_2 | 9.92 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -316,64 +132,12 @@ proxy-groups:
 - name: 📺 YouTube Топ
   type: url-test
   proxies:
-  - 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 37.22 Mbps 📺720p
-  - 🇩🇪 Германия | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 36.79 Mbps 📺720p
-  - 🇵🇱 Польша | Andrejewild_base64.txt_4 | 12.15 Mbps 📺720p
+  - 🌐 Неизвестно | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 10.49 Mbps 📺720p
+  - 🌐 Неизвестно | 10Dream_RU.txt_2 | 9.92 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇩🇪 Германия
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия | 10Dream_whoahaow-rjsxrd-bypass-all.txt | 37.22 Mbps 📺720p
-  - 🇩🇪 Германия | 10Dream_SoliSpirit-v2ray-configs-vless.txt | 36.79 Mbps 📺720p
-  - 🇩🇪 Германия | 10Dream_flaafix-AetrisVPN-AetrisVPN.txt_2 | 15.29 Mbps 📺360p
-  - 🇩🇪 Германия | api_alive_plain_bl.txt | 13.97 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇵🇱 Польша
-  type: url-test
-  proxies:
-  - 🇵🇱 Польша | Andrejewild_base64.txt_4 | 12.15 Mbps 📺720p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇳🇱 Нидерланды
-  type: url-test
-  proxies:
-  - 🇳🇱 Нидерланды | api_alive_plain_bl.txt | 23.36 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇸🇬 Сингапур
-  type: url-test
-  proxies:
-  - 🇸🇬 Сингапур | alireza786786_snakem982-proxypool-v2ray-2.yaml | 5.96 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇯🇵 Япония
-  type: url-test
-  proxies:
-  - 🇯🇵 Япония | api_alive_plain_bl.txt | 3.78 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🌍 Страны
-  type: select
-  proxies:
-  - 🗺 🇩🇪 Германия
-  - 🗺 🇵🇱 Польша
-  - 🗺 🇳🇱 Нидерланды
-  - 🗺 🇸🇬 Сингапур
-  - 🗺 🇯🇵 Япония
 - name: 🎯 Direct
   type: select
   proxies:

@@ -63,36 +63,51 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇩🇪 Германия | MohammadBahemmat_all_servers.txt | 23.53 Mbps 📺360p
-  type: ss
-  server: 8.209.80.17
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  udp: true
-- name: 🌐 Неизвестно | mani-moh_iran-optimized.txt | 3.88 Mbps 📺360p
+- name: 🌐 Неизвестно | morpheusadam_all.txt_7 | 4.76 Mbps 📺360p
   type: vless
-  server: highspeed.sahanwickramasinghe.com
-  port: 443
-  uuid: 633abdfb-ccea-4e59-a062-fc8698512467
+  server: 66.81.247.6
+  port: 2096
+  uuid: 293733e5-a8ac-4132-ba79-7dcbd0d642b7
   udp: true
   tls: true
-  network: tcp
+  network: ws
   client-fingerprint: chrome
-  servername: aka.ms
-  skip-cert-verify: true
-- name: 🌐 Неизвестно | mheidari98_vless | 1.97 Mbps 📺360p
+  servername: rAyaN19-Nb4nzBlz-v2.raYAn-19.workERs.deV
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rAyaN19-Nb4nzBlz-v2.raYAn-19.workERs.deV
+- name: 🇷🇺 Россия | mani-moh_ru.txt | 3.87 Mbps 📺360p
   type: vless
-  server: highspeed.sahanwickramasinghe.com
+  server: 195.58.46.231
   port: 443
-  uuid: 633abdfb-ccea-4e59-a062-fc8698512467
+  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
   udp: true
   tls: true
-  network: tcp
+  network: grpc
   client-fingerprint: chrome
-  servername: www.googleapis.cn
-  skip-cert-verify: true
-- name: 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 1.61 Mbps 📺360p
+  servername: node43.lmdscdn.ru
+  reality-opts:
+    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
+    short-id: 'b8abb26d3cfadcfb'
+  grpc-opts:
+    grpc-service-name: livestreamcontent
+- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.44 Mbps 📺360p
+  type: vless
+  server: 195.58.46.231
+  port: 443
+  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
+  udp: true
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: node43.lmdscdn.ru
+  reality-opts:
+    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
+    short-id: 'b8abb26d3cfadcfb'
+  grpc-opts:
+    grpc-service-name: livestreamcontent
+- name: 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 0.94 Mbps 📺360p
   type: vless
   server: 93.184.169.233
   port: 443
@@ -109,40 +124,10 @@ proxies:
     path: /e90d4e998aad/9d1d9b8b
     host: srartsfoparts.store
     mode: auto
-- name: 🇷🇺 Россия | flaafix_configs.txt | 1.54 Mbps 📺360p
-  type: vless
-  server: 195.58.46.231
-  port: 443
-  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
-  udp: true
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: node43.lmdscdn.ru
-  reality-opts:
-    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
-    short-id: 'b8abb26d3cfadcfb'
-  grpc-opts:
-    grpc-service-name: livestreamcontent
-- name: 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 1.52 Mbps 📺360p
-  type: vless
-  server: 195.58.46.231
-  port: 443
-  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
-  udp: true
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: node43.lmdscdn.ru
-  reality-opts:
-    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
-    short-id: 'b8abb26d3cfadcfb'
-  grpc-opts:
-    grpc-service-name: livestreamcontent
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/MohammadBahemmat/V2ray-Collector/main/all_servers.txt
+    url: https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/all.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -155,21 +140,17 @@ proxy-groups:
   proxies:
   - 🌐 Все серверы
   - 🇷🇺 Только РФ
-  - 🌍 Без РФ
   - ❓ Страна не определена
-  - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇩🇪 Германия | MohammadBahemmat_all_servers.txt | 23.53 Mbps 📺360p
-  - 🌐 Неизвестно | mani-moh_iran-optimized.txt | 3.88 Mbps 📺360p
-  - 🌐 Неизвестно | mheidari98_vless | 1.97 Mbps 📺360p
-  - 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 1.61 Mbps 📺360p
-  - 🇷🇺 Россия | flaafix_configs.txt | 1.54 Mbps 📺360p
-  - 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 1.52 Mbps 📺360p
+  - 🌐 Неизвестно | morpheusadam_all.txt_7 | 4.76 Mbps 📺360p
+  - 🇷🇺 Россия | mani-moh_ru.txt | 3.87 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.44 Mbps 📺360p
+  - 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 0.94 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -177,17 +158,9 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 1.61 Mbps 📺360p
-  - 🇷🇺 Россия | flaafix_configs.txt | 1.54 Mbps 📺360p
-  - 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 1.52 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🌍 Без РФ
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия | MohammadBahemmat_all_servers.txt | 23.53 Mbps 📺360p
+  - 🇷🇺 Россия | mani-moh_ru.txt | 3.87 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.44 Mbps 📺360p
+  - 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 0.94 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -195,24 +168,11 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | mani-moh_iran-optimized.txt | 3.88 Mbps 📺360p
-  - 🌐 Неизвестно | mheidari98_vless | 1.97 Mbps 📺360p
+  - 🌐 Неизвестно | morpheusadam_all.txt_7 | 4.76 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇩🇪 Германия
-  type: url-test
-  proxies:
-  - 🇩🇪 Германия | MohammadBahemmat_all_servers.txt | 23.53 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🌍 Страны
-  type: select
-  proxies:
-  - 🗺 🇩🇪 Германия
 - name: 🎯 Direct
   type: select
   proxies:

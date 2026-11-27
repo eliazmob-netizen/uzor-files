@@ -63,22 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | LeilaoMi_all.yaml | 1.42 Mbps 📺360p
-  type: vless
-  server: 195.58.46.231
-  port: 443
-  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
-  udp: true
-  tls: true
-  network: grpc
-  client-fingerprint: chrome
-  servername: node43.lmdscdn.ru
-  reality-opts:
-    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
-    short-id: 'b8abb26d3cfadcfb'
-  grpc-opts:
-    grpc-service-name: livestreamcontent
-- name: 🌐 Неизвестно | gh_alive_vless.txt | 1.41 Mbps 📺360p
+- name: 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 2.20 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -93,10 +78,25 @@ proxies:
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
+- name: 🇷🇺 Россия | mani-moh_ru.txt | 2.20 Mbps 📺360p
+  type: vless
+  server: 195.58.46.231
+  port: 443
+  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
+  udp: true
+  tls: true
+  network: grpc
+  client-fingerprint: chrome
+  servername: node43.lmdscdn.ru
+  reality-opts:
+    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
+    short-id: 'b8abb26d3cfadcfb'
+  grpc-opts:
+    grpc-service-name: livestreamcontent
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/data/output/all.yaml
+    url: https://raw.githubusercontent.com/FLAT447/v2ray-lists/refs/heads/main/BLACK_FULL.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -108,24 +108,24 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - ❓ Страна не определена
+  - 🇷🇺 Только РФ
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 1.42 Mbps 📺360p
-  - 🌐 Неизвестно | gh_alive_vless.txt | 1.41 Mbps 📺360p
+  - 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 2.20 Mbps 📺360p
+  - 🇷🇺 Россия | mani-moh_ru.txt | 2.20 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: ❓ Страна не определена
+- name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 1.42 Mbps 📺360p
-  - 🌐 Неизвестно | gh_alive_vless.txt | 1.41 Mbps 📺360p
+  - 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 2.20 Mbps 📺360p
+  - 🇷🇺 Россия | mani-moh_ru.txt | 2.20 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10

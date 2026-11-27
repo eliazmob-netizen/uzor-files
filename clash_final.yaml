@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | morpheusadam_all.txt_7 | 4.76 Mbps 📺360p
+- name: 🌐 Неизвестно | morpheusadam_all.txt_7 | 15.76 Mbps 📺360p
   type: vless
   server: 66.81.247.6
   port: 2096
@@ -77,7 +77,22 @@ proxies:
     path: /?ed=2560
     headers:
       Host: rAyaN19-Nb4nzBlz-v2.raYAn-19.workERs.deV
-- name: 🇷🇺 Россия | mani-moh_ru.txt | 3.87 Mbps 📺360p
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.70 Mbps 📺360p
+  type: vless
+  server: 195.58.46.231
+  port: 443
+  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
+  udp: true
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: node43.lmdscdn.ru
+  reality-opts:
+    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
+    short-id: 'b8abb26d3cfadcfb'
+  grpc-opts:
+    grpc-service-name: livestreamcontent
+- name: 🌐 Неизвестно | mani-moh_ru.txt | 1.69 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -92,38 +107,6 @@ proxies:
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
-- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.44 Mbps 📺360p
-  type: vless
-  server: 195.58.46.231
-  port: 443
-  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
-  udp: true
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: node43.lmdscdn.ru
-  reality-opts:
-    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
-    short-id: 'b8abb26d3cfadcfb'
-  grpc-opts:
-    grpc-service-name: livestreamcontent
-- name: 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 0.94 Mbps 📺360p
-  type: vless
-  server: 93.184.169.233
-  port: 443
-  uuid: 9a9f167d-b461-466f-be50-f0ffd598a6f8
-  udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: firefox
-  servername: srartsfoparts.store
-  reality-opts:
-    public-key: pF63V3JDoxSa9lMMKoXyxpjBJNqIsajj84LMXElvF1w
-    short-id: '1205987ccd622887'
-  xhttp-opts:
-    path: /e90d4e998aad/9d1d9b8b
-    host: srartsfoparts.store
-    mode: auto
 proxy-providers:
   top_source:
     type: http
@@ -139,7 +122,6 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
   - ❓ Страна не определена
   - 🛡 Реклама
   - 🔞 18+
@@ -147,20 +129,9 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | morpheusadam_all.txt_7 | 4.76 Mbps 📺360p
-  - 🇷🇺 Россия | mani-moh_ru.txt | 3.87 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.44 Mbps 📺360p
-  - 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 0.94 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🇷🇺 Только РФ
-  type: url-test
-  proxies:
-  - 🇷🇺 Россия | mani-moh_ru.txt | 3.87 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.44 Mbps 📺360p
-  - 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 0.94 Mbps 📺360p
+  - 🌐 Неизвестно | morpheusadam_all.txt_7 | 15.76 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.70 Mbps 📺360p
+  - 🌐 Неизвестно | mani-moh_ru.txt | 1.69 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -168,7 +139,9 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | morpheusadam_all.txt_7 | 4.76 Mbps 📺360p
+  - 🌐 Неизвестно | morpheusadam_all.txt_7 | 15.76 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.70 Mbps 📺360p
+  - 🌐 Неизвестно | mani-moh_ru.txt | 1.69 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10

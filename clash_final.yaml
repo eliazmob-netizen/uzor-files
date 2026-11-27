@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия | mani-moh_ru.txt | 2.23 Mbps 📺360p
+- name: 🌐 Неизвестно | LeilaoMi_all.yaml | 2.48 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -78,7 +78,7 @@ proxies:
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
-- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 1.63 Mbps 📺360p
+- name: 🌐 Неизвестно | flaafix_configs.txt | 2.46 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -96,7 +96,7 @@ proxies:
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/mani-moh/pattn/master/subs/countries/ru.txt
+    url: https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/data/output/all.yaml
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -108,24 +108,24 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
+  - ❓ Страна не определена
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия | mani-moh_ru.txt | 2.23 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 1.63 Mbps 📺360p
+  - 🌐 Неизвестно | LeilaoMi_all.yaml | 2.48 Mbps 📺360p
+  - 🌐 Неизвестно | flaafix_configs.txt | 2.46 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🇷🇺 Только РФ
+- name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🇷🇺 Россия | mani-moh_ru.txt | 2.23 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 1.63 Mbps 📺360p
+  - 🌐 Неизвестно | LeilaoMi_all.yaml | 2.48 Mbps 📺360p
+  - 🌐 Неизвестно | flaafix_configs.txt | 2.46 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10

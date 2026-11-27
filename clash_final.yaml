@@ -63,48 +63,63 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇺🇸 США | gh_alive_plain_bl.txt | 7.43 Mbps 📺720p
+- name: 🇫🇮 Финляндия | gh_alive_plain_bl.txt | 20.64 Mbps 📺720p
   type: vless
-  server: 23.237.202.252
-  port: 443
+  server: one.alpheratzz.org
+  port: 8443
   uuid: 0173d52e-8e1b-4681-831e-11529677b72f
   udp: true
   tls: true
-  network: xhttp
-  client-fingerprint: safari
-  servername: id-0173d52e.vmagnum.win
-  alpn:
-  - h2
-  xhttp-opts:
-    path: /
-    host: id-0173d52e.vmagnum.win
-    mode: auto
-- name: 🇺🇸 США | Edsel-Rahimi_nodes.txt | 6.18 Mbps 📺720p
-  type: vless
-  server: 23.237.202.252
-  port: 443
-  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
-  udp: true
-  tls: true
-  network: xhttp
-  client-fingerprint: safari
-  servername: id-0173d52e.vmagnum.win
-  alpn:
-  - h2
-  xhttp-opts:
-    path: /
-    host: id-0173d52e.vmagnum.win
-    mode: auto
-- name: 🇺🇸 США | gh_alive_bs.yaml | 24.99 Mbps 📺360p
-  type: trojan
-  server: 78.159.250.189
-  port: 443
-  password: F9uC3FnWeXPZ9KqEd7oZrcJxfNvvkegq
-  udp: true
   network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: api-6b04608f.adhil.uk
+- name: 🇫🇮 Финляндия | gh_all.txt_3 | 14.72 Mbps 📺720p
+  type: vless
+  server: one.alpheratzz.org
+  port: 8443
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  udp: true
+  tls: true
+  network: tcp
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  servername: api-6b04608f.adhil.uk
+- name: 🇮🇷 Иран | FLAT447_BLACK_FULL.txt | 13.20 Mbps 📺720p
+  type: vless
+  server: test.electrowizard.ir
+  port: 5566
+  uuid: 41bcd5ea-f90c-4227-ab6f-23de50b0a226
+  udp: true
+  tls: true
+  network: xhttp
   client-fingerprint: chrome
-  sni: node228.overgroup.cloud
-- name: 🇺🇸 США | gh_alive_bs.txt | 24.37 Mbps 📺360p
+  servername: aparat.com
+  reality-opts:
+    public-key: h0x6NgjJ74LUvMlu3Iz7QsFYNjTG9LzZ3sdNalmJrwY
+    short-id: 'ef7377a43eb6a6d4'
+  xhttp-opts:
+    path: /
+    host: aparat.com
+    mode: auto
+- name: 🇮🇷 Иран | FLAT447_BLACK_FULL.txt | 12.85 Mbps 📺720p
+  type: vless
+  server: test03.electrowizard.ir
+  port: 5556
+  uuid: 41bcd5ea-f90c-4227-ab6f-23de50b0a226
+  udp: true
+  tls: true
+  network: xhttp
+  client-fingerprint: chrome
+  servername: aparat.com
+  reality-opts:
+    public-key: JgGE6qaoYh6lQY-pZa7OD9HS3xHCTgfnnwJYpiiRHks
+    short-id: 'a1788b9d2bef8630'
+  xhttp-opts:
+    path: /
+    host: aparat.com
+    mode: auto
+- name: 🇺🇸 США | gh_alive_bs.txt | 30.43 Mbps 📺360p
   type: trojan
   server: 78.159.250.189
   port: 443
@@ -116,7 +131,16 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 🌐 Неизвестно | gh_all.yaml_2 | 22.12 Mbps 📺360p
+- name: 🇺🇸 США | gh_alive_bs.yaml | 30.05 Mbps 📺360p
+  type: trojan
+  server: 78.159.250.189
+  port: 443
+  password: F9uC3FnWeXPZ9KqEd7oZrcJxfNvvkegq
+  udp: true
+  network: tcp
+  client-fingerprint: chrome
+  sni: node228.overgroup.cloud
+- name: 🌐 Неизвестно | gh_all.yaml_2 | 22.50 Mbps 📺360p
   type: vless
   server: 208.103.161.2
   port: 2083
@@ -130,37 +154,7 @@ proxies:
     path: /
     headers:
       Host: ZGqHW1lxrVKVdFe0t.17ys7jQ251.woRKeRs.DEV
-- name: 🇷🇺 Россия | flaafix_configs.txt | 8.46 Mbps 📺360p
-  type: vless
-  server: 195.58.46.231
-  port: 443
-  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
-  udp: true
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: node43.lmdscdn.ru
-  reality-opts:
-    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
-    short-id: 'b8abb26d3cfadcfb'
-  grpc-opts:
-    grpc-service-name: livestreamcontent
-- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 8.46 Mbps 📺360p
-  type: vless
-  server: 195.58.46.231
-  port: 443
-  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
-  udp: true
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: node43.lmdscdn.ru
-  reality-opts:
-    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
-    short-id: 'b8abb26d3cfadcfb'
-  grpc-opts:
-    grpc-service-name: livestreamcontent
-- name: 🇷🇴 Румыния | flaafix_configs.txt | 7.92 Mbps 📺360p
+- name: 🇷🇴 Румыния | flaafix_configs.txt | 16.93 Mbps 📺360p
   type: vless
   server: molda.thewalkingded.life
   port: 443
@@ -174,7 +168,37 @@ proxies:
   reality-opts:
     public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
     short-id: 'ff776ff77be48b88'
-- name: 🇺🇸 США | gh_alive_bl.yaml | 7.60 Mbps 📺360p
+- name: 🇹🇭 Таиланд | gh_alive_vless.txt | 8.45 Mbps 📺360p
+  type: vless
+  server: 195.58.46.231
+  port: 443
+  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
+  udp: true
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: node43.lmdscdn.ru
+  reality-opts:
+    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
+    short-id: 'b8abb26d3cfadcfb'
+  grpc-opts:
+    grpc-service-name: livestreamcontent
+- name: 🇹🇭 Таиланд | FLAT447_BLACK_FULL.txt | 7.80 Mbps 📺360p
+  type: vless
+  server: 195.58.46.231
+  port: 443
+  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
+  udp: true
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: node43.lmdscdn.ru
+  reality-opts:
+    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
+    short-id: 'b8abb26d3cfadcfb'
+  grpc-opts:
+    grpc-service-name: livestreamcontent
+- name: 🇺🇸 США | gh_alive_bl.yaml | 6.82 Mbps 📺360p
   type: vless
   server: 83.141.73.90
   port: 443
@@ -188,7 +212,23 @@ proxies:
   reality-opts:
     public-key: cEapNjAtrnPz_dCSziCJVvXJf2Mq_FtY5UabpQFmI0w
     short-id: '449f801b009f33f4'
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.35 Mbps 📺360p
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 2.11 Mbps 📺360p
+  type: vless
+  server: 23.237.202.252
+  port: 443
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  udp: true
+  tls: true
+  network: xhttp
+  client-fingerprint: safari
+  servername: id-0173d52e.vmagnum.win
+  alpn:
+  - h2
+  xhttp-opts:
+    path: /
+    host: id-0173d52e.vmagnum.win
+    mode: auto
+- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 2.03 Mbps 📺360p
   type: vless
   server: 153.56.231.73
   port: 443
@@ -204,10 +244,40 @@ proxies:
   xhttp-opts:
     path: /0616f2d729aa
     host: fc82dfx.nl8.h1clayd.click
+- name: 🇺🇸 США | gh_alive_plain_bl.txt | 1.99 Mbps 📺360p
+  type: vless
+  server: us.alpheratzz.org
+  port: 443
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  udp: true
+  tls: true
+  network: xhttp
+  client-fingerprint: safari
+  servername: id-0173d52e.vmagnum.win
+  xhttp-opts:
+    path: /
+    host: id-0173d52e.vmagnum.win
+    mode: stream-one
+- name: 🌐 Неизвестно | gh_alive_plain_bl.txt | 1.96 Mbps 📺360p
+  type: vless
+  server: 23.237.202.252
+  port: 443
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  udp: true
+  tls: true
+  network: xhttp
+  client-fingerprint: safari
+  servername: id-0173d52e.vmagnum.win
+  alpn:
+  - h2
+  xhttp-opts:
+    path: /
+    host: id-0173d52e.vmagnum.win
+    mode: auto
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/Edsel-Rahimi/Ariston/data/nodes.txt
+    url: https://cdn.jsdelivr.net/gh/Diversan313/apex-parser/subs/main/alive_plain_bl.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -219,7 +289,6 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
   - 🌍 Без РФ
   - ❓ Страна не определена
   - 📺 YouTube Топ
@@ -230,25 +299,21 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇺🇸 США | gh_alive_plain_bl.txt | 7.43 Mbps 📺720p
-  - 🇺🇸 США | Edsel-Rahimi_nodes.txt | 6.18 Mbps 📺720p
-  - 🇺🇸 США | gh_alive_bs.yaml | 24.99 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_bs.txt | 24.37 Mbps 📺360p
-  - 🌐 Неизвестно | gh_all.yaml_2 | 22.12 Mbps 📺360p
-  - 🇷🇺 Россия | flaafix_configs.txt | 8.46 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 8.46 Mbps 📺360p
-  - 🇷🇴 Румыния | flaafix_configs.txt | 7.92 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_bl.yaml | 7.60 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.35 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🇷🇺 Только РФ
-  type: url-test
-  proxies:
-  - 🇷🇺 Россия | flaafix_configs.txt | 8.46 Mbps 📺360p
-  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 8.46 Mbps 📺360p
+  - 🇫🇮 Финляндия | gh_alive_plain_bl.txt | 20.64 Mbps 📺720p
+  - 🇫🇮 Финляндия | gh_all.txt_3 | 14.72 Mbps 📺720p
+  - 🇮🇷 Иран | FLAT447_BLACK_FULL.txt | 13.20 Mbps 📺720p
+  - 🇮🇷 Иран | FLAT447_BLACK_FULL.txt | 12.85 Mbps 📺720p
+  - 🇺🇸 США | gh_alive_bs.txt | 30.43 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_bs.yaml | 30.05 Mbps 📺360p
+  - 🌐 Неизвестно | gh_all.yaml_2 | 22.50 Mbps 📺360p
+  - 🇷🇴 Румыния | flaafix_configs.txt | 16.93 Mbps 📺360p
+  - 🇹🇭 Таиланд | gh_alive_vless.txt | 8.45 Mbps 📺360p
+  - 🇹🇭 Таиланд | FLAT447_BLACK_FULL.txt | 7.80 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_bl.yaml | 6.82 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 2.11 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 2.03 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_plain_bl.txt | 1.99 Mbps 📺360p
+  - 🌐 Неизвестно | gh_alive_plain_bl.txt | 1.96 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -256,12 +321,17 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇺🇸 США | gh_alive_bs.yaml | 24.99 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_bs.txt | 24.37 Mbps 📺360p
-  - 🇷🇴 Румыния | flaafix_configs.txt | 7.92 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_bl.yaml | 7.60 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_plain_bl.txt | 7.43 Mbps 📺720p
-  - 🇺🇸 США | Edsel-Rahimi_nodes.txt | 6.18 Mbps 📺720p
+  - 🇺🇸 США | gh_alive_bs.txt | 30.43 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_bs.yaml | 30.05 Mbps 📺360p
+  - 🇫🇮 Финляндия | gh_alive_plain_bl.txt | 20.64 Mbps 📺720p
+  - 🇷🇴 Румыния | flaafix_configs.txt | 16.93 Mbps 📺360p
+  - 🇫🇮 Финляндия | gh_all.txt_3 | 14.72 Mbps 📺720p
+  - 🇮🇷 Иран | FLAT447_BLACK_FULL.txt | 13.20 Mbps 📺720p
+  - 🇮🇷 Иран | FLAT447_BLACK_FULL.txt | 12.85 Mbps 📺720p
+  - 🇹🇭 Таиланд | gh_alive_vless.txt | 8.45 Mbps 📺360p
+  - 🇹🇭 Таиланд | FLAT447_BLACK_FULL.txt | 7.80 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_bl.yaml | 6.82 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_plain_bl.txt | 1.99 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -269,8 +339,10 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | gh_all.yaml_2 | 22.12 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 3.35 Mbps 📺360p
+  - 🌐 Неизвестно | gh_all.yaml_2 | 22.50 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 2.11 Mbps 📺360p
+  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 2.03 Mbps 📺360p
+  - 🌐 Неизвестно | gh_alive_plain_bl.txt | 1.96 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -278,8 +350,10 @@ proxy-groups:
 - name: 📺 YouTube Топ
   type: url-test
   proxies:
-  - 🇺🇸 США | gh_alive_plain_bl.txt | 7.43 Mbps 📺720p
-  - 🇺🇸 США | Edsel-Rahimi_nodes.txt | 6.18 Mbps 📺720p
+  - 🇫🇮 Финляндия | gh_alive_plain_bl.txt | 20.64 Mbps 📺720p
+  - 🇫🇮 Финляндия | gh_all.txt_3 | 14.72 Mbps 📺720p
+  - 🇮🇷 Иран | FLAT447_BLACK_FULL.txt | 13.20 Mbps 📺720p
+  - 🇮🇷 Иран | FLAT447_BLACK_FULL.txt | 12.85 Mbps 📺720p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -287,11 +361,37 @@ proxy-groups:
 - name: 🗺 🇺🇸 США
   type: url-test
   proxies:
-  - 🇺🇸 США | gh_alive_bs.yaml | 24.99 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_bs.txt | 24.37 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_bl.yaml | 7.60 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_plain_bl.txt | 7.43 Mbps 📺720p
-  - 🇺🇸 США | Edsel-Rahimi_nodes.txt | 6.18 Mbps 📺720p
+  - 🇺🇸 США | gh_alive_bs.txt | 30.43 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_bs.yaml | 30.05 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_bl.yaml | 6.82 Mbps 📺360p
+  - 🇺🇸 США | gh_alive_plain_bl.txt | 1.99 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇫🇮 Финляндия
+  type: url-test
+  proxies:
+  - 🇫🇮 Финляндия | gh_alive_plain_bl.txt | 20.64 Mbps 📺720p
+  - 🇫🇮 Финляндия | gh_all.txt_3 | 14.72 Mbps 📺720p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇷 Иран
+  type: url-test
+  proxies:
+  - 🇮🇷 Иран | FLAT447_BLACK_FULL.txt | 13.20 Mbps 📺720p
+  - 🇮🇷 Иран | FLAT447_BLACK_FULL.txt | 12.85 Mbps 📺720p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇹🇭 Таиланд
+  type: url-test
+  proxies:
+  - 🇹🇭 Таиланд | gh_alive_vless.txt | 8.45 Mbps 📺360p
+  - 🇹🇭 Таиланд | FLAT447_BLACK_FULL.txt | 7.80 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -299,7 +399,7 @@ proxy-groups:
 - name: 🗺 🇷🇴 Румыния
   type: url-test
   proxies:
-  - 🇷🇴 Румыния | flaafix_configs.txt | 7.92 Mbps 📺360p
+  - 🇷🇴 Румыния | flaafix_configs.txt | 16.93 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -308,6 +408,9 @@ proxy-groups:
   type: select
   proxies:
   - 🗺 🇺🇸 США
+  - 🗺 🇫🇮 Финляндия
+  - 🗺 🇮🇷 Иран
+  - 🗺 🇹🇭 Таиланд
   - 🗺 🇷🇴 Румыния
 - name: 🎯 Direct
   type: select

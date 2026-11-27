@@ -63,21 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | morpheusadam_all.txt_7 | 15.76 Mbps 📺360p
-  type: vless
-  server: 66.81.247.6
-  port: 2096
-  uuid: 293733e5-a8ac-4132-ba79-7dcbd0d642b7
-  udp: true
-  tls: true
-  network: ws
-  client-fingerprint: chrome
-  servername: rAyaN19-Nb4nzBlz-v2.raYAn-19.workERs.deV
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rAyaN19-Nb4nzBlz-v2.raYAn-19.workERs.deV
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.70 Mbps 📺360p
+- name: 🇹🇭 Таиланд | gh_alive_vless.txt | 1.87 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -92,7 +78,7 @@ proxies:
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
-- name: 🌐 Неизвестно | mani-moh_ru.txt | 1.69 Mbps 📺360p
+- name: 🇹🇭 Таиланд | FLAT447_BLACK_FULL.txt | 1.87 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -100,7 +86,7 @@ proxies:
   udp: true
   tls: true
   network: grpc
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   servername: node43.lmdscdn.ru
   reality-opts:
     public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
@@ -110,7 +96,7 @@ proxies:
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/all.txt
+    url: https://cdn.jsdelivr.net/gh/Diversan313/apex-parser/subs/other/protocols/vless/alive_vless.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -122,30 +108,42 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - ❓ Страна не определена
+  - 🌍 Без РФ
+  - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | morpheusadam_all.txt_7 | 15.76 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.70 Mbps 📺360p
-  - 🌐 Неизвестно | mani-moh_ru.txt | 1.69 Mbps 📺360p
+  - 🇹🇭 Таиланд | gh_alive_vless.txt | 1.87 Mbps 📺360p
+  - 🇹🇭 Таиланд | FLAT447_BLACK_FULL.txt | 1.87 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: ❓ Страна не определена
+- name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🌐 Неизвестно | morpheusadam_all.txt_7 | 15.76 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 1.70 Mbps 📺360p
-  - 🌐 Неизвестно | mani-moh_ru.txt | 1.69 Mbps 📺360p
+  - 🇹🇭 Таиланд | gh_alive_vless.txt | 1.87 Mbps 📺360p
+  - 🇹🇭 Таиланд | FLAT447_BLACK_FULL.txt | 1.87 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
+- name: 🗺 🇹🇭 Таиланд
+  type: url-test
+  proxies:
+  - 🇹🇭 Таиланд | gh_alive_vless.txt | 1.87 Mbps 📺360p
+  - 🇹🇭 Таиланд | FLAT447_BLACK_FULL.txt | 1.87 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🌍 Страны
+  type: select
+  proxies:
+  - 🗺 🇹🇭 Таиланд
 - name: 🎯 Direct
   type: select
   proxies:

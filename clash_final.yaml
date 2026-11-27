@@ -63,7 +63,36 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 7.05 Mbps 📺360p
+- name: 🇩🇪 Германия | MohammadBahemmat_all_servers.txt | 23.53 Mbps 📺360p
+  type: ss
+  server: 8.209.80.17
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: 🌐 Неизвестно | mani-moh_iran-optimized.txt | 3.88 Mbps 📺360p
+  type: vless
+  server: highspeed.sahanwickramasinghe.com
+  port: 443
+  uuid: 633abdfb-ccea-4e59-a062-fc8698512467
+  udp: true
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  servername: aka.ms
+  skip-cert-verify: true
+- name: 🌐 Неизвестно | mheidari98_vless | 1.97 Mbps 📺360p
+  type: vless
+  server: highspeed.sahanwickramasinghe.com
+  port: 443
+  uuid: 633abdfb-ccea-4e59-a062-fc8698512467
+  udp: true
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  servername: www.googleapis.cn
+  skip-cert-verify: true
+- name: 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 1.61 Mbps 📺360p
   type: vless
   server: 93.184.169.233
   port: 443
@@ -80,18 +109,7 @@ proxies:
     path: /e90d4e998aad/9d1d9b8b
     host: srartsfoparts.store
     mode: auto
-- name: 🇸🇬 Сингапур - Сингапур | mani-moh_iran-optimized.txt | 5.46 Mbps 📺360p
-  type: vless
-  server: highspeed.sahanwickramasinghe.com
-  port: 443
-  uuid: 633abdfb-ccea-4e59-a062-fc8698512467
-  udp: true
-  tls: true
-  network: tcp
-  client-fingerprint: chrome
-  servername: aka.ms
-  skip-cert-verify: true
-- name: 🇷🇺 Россия - Екатеринбург | LeilaoMi_all.yaml | 1.43 Mbps 📺360p
+- name: 🇷🇺 Россия | flaafix_configs.txt | 1.54 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -99,14 +117,14 @@ proxies:
   udp: true
   tls: true
   network: grpc
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   servername: node43.lmdscdn.ru
   reality-opts:
     public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
-- name: 🇷🇺 Россия - Екатеринбург | flaafix_configs.txt | 1.42 Mbps 📺360p
+- name: 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 1.52 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -124,7 +142,7 @@ proxies:
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/mani-moh/pattn/master/subs/categories/whitelist_base64.txt
+    url: https://raw.githubusercontent.com/MohammadBahemmat/V2ray-Collector/main/all_servers.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -138,6 +156,7 @@ proxy-groups:
   - 🌐 Все серверы
   - 🇷🇺 Только РФ
   - 🌍 Без РФ
+  - ❓ Страна не определена
   - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
@@ -145,10 +164,12 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 7.05 Mbps 📺360p
-  - 🇸🇬 Сингапур - Сингапур | mani-moh_iran-optimized.txt | 5.46 Mbps 📺360p
-  - 🇷🇺 Россия - Екатеринбург | LeilaoMi_all.yaml | 1.43 Mbps 📺360p
-  - 🇷🇺 Россия - Екатеринбург | flaafix_configs.txt | 1.42 Mbps 📺360p
+  - 🇩🇪 Германия | MohammadBahemmat_all_servers.txt | 23.53 Mbps 📺360p
+  - 🌐 Неизвестно | mani-moh_iran-optimized.txt | 3.88 Mbps 📺360p
+  - 🌐 Неизвестно | mheidari98_vless | 1.97 Mbps 📺360p
+  - 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 1.61 Mbps 📺360p
+  - 🇷🇺 Россия | flaafix_configs.txt | 1.54 Mbps 📺360p
+  - 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 1.52 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -156,9 +177,9 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 7.05 Mbps 📺360p
-  - 🇷🇺 Россия - Екатеринбург | LeilaoMi_all.yaml | 1.43 Mbps 📺360p
-  - 🇷🇺 Россия - Екатеринбург | flaafix_configs.txt | 1.42 Mbps 📺360p
+  - 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 1.61 Mbps 📺360p
+  - 🇷🇺 Россия | flaafix_configs.txt | 1.54 Mbps 📺360p
+  - 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 1.52 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -166,15 +187,24 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇸🇬 Сингапур - Сингапур | mani-moh_iran-optimized.txt | 5.46 Mbps 📺360p
+  - 🇩🇪 Германия | MohammadBahemmat_all_servers.txt | 23.53 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇸🇬 Сингапур
+- name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🇸🇬 Сингапур - Сингапур | mani-moh_iran-optimized.txt | 5.46 Mbps 📺360p
+  - 🌐 Неизвестно | mani-moh_iran-optimized.txt | 3.88 Mbps 📺360p
+  - 🌐 Неизвестно | mheidari98_vless | 1.97 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇩🇪 Германия
+  type: url-test
+  proxies:
+  - 🇩🇪 Германия | MohammadBahemmat_all_servers.txt | 23.53 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -182,7 +212,7 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇸🇬 Сингапур
+  - 🗺 🇩🇪 Германия
 - name: 🎯 Direct
   type: select
   proxies:

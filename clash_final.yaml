@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 2.20 Mbps 📺360p
+- name: 🇷🇺 Россия | flaafix_configs.txt | 2.33 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -78,7 +78,7 @@ proxies:
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
-- name: 🇷🇺 Россия | mani-moh_ru.txt | 2.20 Mbps 📺360p
+- name: 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.32 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -86,7 +86,7 @@ proxies:
   udp: true
   tls: true
   network: grpc
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   servername: node43.lmdscdn.ru
   reality-opts:
     public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
@@ -96,7 +96,7 @@ proxies:
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/FLAT447/v2ray-lists/refs/heads/main/BLACK_FULL.txt
+    url: https://raw.githubusercontent.com/flaafix/AetrisVPN-black-list/refs/heads/main/configs.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -115,8 +115,8 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 2.20 Mbps 📺360p
-  - 🇷🇺 Россия | mani-moh_ru.txt | 2.20 Mbps 📺360p
+  - 🇷🇺 Россия | flaafix_configs.txt | 2.33 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.32 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -124,8 +124,8 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 2.20 Mbps 📺360p
-  - 🇷🇺 Россия | mani-moh_ru.txt | 2.20 Mbps 📺360p
+  - 🇷🇺 Россия | flaafix_configs.txt | 2.33 Mbps 📺360p
+  - 🇷🇺 Россия | Edsel-Rahimi_nodes.txt | 2.32 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10

@@ -63,77 +63,68 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇺🇸 США | gh_alive_bs.txt | 25.65 Mbps 📺360p
-  type: trojan
-  server: 78.159.250.189
-  port: 443
-  password: F9uC3FnWeXPZ9KqEd7oZrcJxfNvvkegq
-  udp: true
-  network: tcp
-  client-fingerprint: firefox
-  sni: node228.overgroup.cloud
-  alpn:
-  - h2
-  - http/1.1
-- name: 🇺🇸 США | gh_alive_bs.yaml | 24.24 Mbps 📺360p
-  type: trojan
-  server: 78.159.250.189
-  port: 443
-  password: F9uC3FnWeXPZ9KqEd7oZrcJxfNvvkegq
-  udp: true
-  network: tcp
-  client-fingerprint: chrome
-  sni: node228.overgroup.cloud
-- name: 🇷🇺 Россия - Екатеринбург | Edsel-Rahimi_nodes.txt | 3.03 Mbps 📺360p
+- name: 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 7.05 Mbps 📺360p
   type: vless
-  server: 195.58.46.231
+  server: 93.184.169.233
   port: 443
-  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
-  udp: true
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: node43.lmdscdn.ru
-  reality-opts:
-    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
-    short-id: 'b8abb26d3cfadcfb'
-  grpc-opts:
-    grpc-service-name: livestreamcontent
-- name: 🇷🇺 Россия - Екатеринбург | gh_alive_vless.txt | 2.75 Mbps 📺360p
-  type: vless
-  server: 195.58.46.231
-  port: 443
-  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
-  udp: true
-  tls: true
-  network: grpc
-  client-fingerprint: firefox
-  servername: node43.lmdscdn.ru
-  reality-opts:
-    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
-    short-id: 'b8abb26d3cfadcfb'
-  grpc-opts:
-    grpc-service-name: livestreamcontent
-- name: 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.86 Mbps 📺360p
-  type: vless
-  server: 153.56.231.73
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  uuid: 9a9f167d-b461-466f-be50-f0ffd598a6f8
   udp: true
   tls: true
   network: xhttp
   client-fingerprint: firefox
-  servername: fc82dfx.nl8.h1clayd.click
+  servername: srartsfoparts.store
   reality-opts:
-    public-key: dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw
-    short-id: '7b2b1a14a6e0630d'
+    public-key: pF63V3JDoxSa9lMMKoXyxpjBJNqIsajj84LMXElvF1w
+    short-id: '1205987ccd622887'
   xhttp-opts:
-    path: /0616f2d729aa
-    host: fc82dfx.nl8.h1clayd.click
+    path: /e90d4e998aad/9d1d9b8b
+    host: srartsfoparts.store
+    mode: auto
+- name: 🇸🇬 Сингапур - Сингапур | mani-moh_iran-optimized.txt | 5.46 Mbps 📺360p
+  type: vless
+  server: highspeed.sahanwickramasinghe.com
+  port: 443
+  uuid: 633abdfb-ccea-4e59-a062-fc8698512467
+  udp: true
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  servername: aka.ms
+  skip-cert-verify: true
+- name: 🇷🇺 Россия - Екатеринбург | LeilaoMi_all.yaml | 1.43 Mbps 📺360p
+  type: vless
+  server: 195.58.46.231
+  port: 443
+  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
+  udp: true
+  tls: true
+  network: grpc
+  client-fingerprint: chrome
+  servername: node43.lmdscdn.ru
+  reality-opts:
+    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
+    short-id: 'b8abb26d3cfadcfb'
+  grpc-opts:
+    grpc-service-name: livestreamcontent
+- name: 🇷🇺 Россия - Екатеринбург | flaafix_configs.txt | 1.42 Mbps 📺360p
+  type: vless
+  server: 195.58.46.231
+  port: 443
+  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
+  udp: true
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: node43.lmdscdn.ru
+  reality-opts:
+    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
+    short-id: 'b8abb26d3cfadcfb'
+  grpc-opts:
+    grpc-service-name: livestreamcontent
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/Edsel-Rahimi/Ariston/data/nodes.txt
+    url: https://raw.githubusercontent.com/mani-moh/pattn/master/subs/categories/whitelist_base64.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -147,7 +138,6 @@ proxy-groups:
   - 🌐 Все серверы
   - 🇷🇺 Только РФ
   - 🌍 Без РФ
-  - ❓ Страна не определена
   - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
@@ -155,11 +145,10 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇺🇸 США | gh_alive_bs.txt | 25.65 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_bs.yaml | 24.24 Mbps 📺360p
-  - 🇷🇺 Россия - Екатеринбург | Edsel-Rahimi_nodes.txt | 3.03 Mbps 📺360p
-  - 🇷🇺 Россия - Екатеринбург | gh_alive_vless.txt | 2.75 Mbps 📺360p
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.86 Mbps 📺360p
+  - 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 7.05 Mbps 📺360p
+  - 🇸🇬 Сингапур - Сингапур | mani-moh_iran-optimized.txt | 5.46 Mbps 📺360p
+  - 🇷🇺 Россия - Екатеринбург | LeilaoMi_all.yaml | 1.43 Mbps 📺360p
+  - 🇷🇺 Россия - Екатеринбург | flaafix_configs.txt | 1.42 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -167,8 +156,9 @@ proxy-groups:
 - name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия - Екатеринбург | Edsel-Rahimi_nodes.txt | 3.03 Mbps 📺360p
-  - 🇷🇺 Россия - Екатеринбург | gh_alive_vless.txt | 2.75 Mbps 📺360p
+  - 🇷🇺 Россия | mani-moh_whitelist_base64.txt | 7.05 Mbps 📺360p
+  - 🇷🇺 Россия - Екатеринбург | LeilaoMi_all.yaml | 1.43 Mbps 📺360p
+  - 🇷🇺 Россия - Екатеринбург | flaafix_configs.txt | 1.42 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -176,25 +166,15 @@ proxy-groups:
 - name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇺🇸 США | gh_alive_bs.txt | 25.65 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_bs.yaml | 24.24 Mbps 📺360p
+  - 🇸🇬 Сингапур - Сингапур | mani-moh_iran-optimized.txt | 5.46 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: ❓ Страна не определена
+- name: 🗺 🇸🇬 Сингапур
   type: url-test
   proxies:
-  - 🌐 Неизвестно | Edsel-Rahimi_nodes.txt | 0.86 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🗺 🇺🇸 США
-  type: url-test
-  proxies:
-  - 🇺🇸 США | gh_alive_bs.txt | 25.65 Mbps 📺360p
-  - 🇺🇸 США | gh_alive_bs.yaml | 24.24 Mbps 📺360p
+  - 🇸🇬 Сингапур - Сингапур | mani-moh_iran-optimized.txt | 5.46 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -202,7 +182,7 @@ proxy-groups:
 - name: 🌍 Страны
   type: select
   proxies:
-  - 🗺 🇺🇸 США
+  - 🗺 🇸🇬 Сингапур
 - name: 🎯 Direct
   type: select
   proxies:

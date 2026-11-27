@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | LeilaoMi_all.yaml | 3.08 Mbps 📺360p
+- name: 🇹🇭 Таиланд | gh_alive_vless.txt | 3.31 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -71,14 +71,14 @@ proxies:
   udp: true
   tls: true
   network: grpc
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   servername: node43.lmdscdn.ru
   reality-opts:
     public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
-- name: 🌐 Неизвестно | mani-moh_ru.txt | 2.88 Mbps 📺360p
+- name: 🇹🇭 Таиланд | FLAT447_BLACK_FULL.txt | 3.31 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -86,7 +86,7 @@ proxies:
   udp: true
   tls: true
   network: grpc
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   servername: node43.lmdscdn.ru
   reality-opts:
     public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
@@ -96,7 +96,7 @@ proxies:
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/data/output/all.yaml
+    url: https://cdn.jsdelivr.net/gh/Diversan313/apex-parser/subs/other/protocols/vless/alive_vless.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -108,28 +108,42 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - ❓ Страна не определена
+  - 🌍 Без РФ
+  - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 3.08 Mbps 📺360p
-  - 🌐 Неизвестно | mani-moh_ru.txt | 2.88 Mbps 📺360p
+  - 🇹🇭 Таиланд | gh_alive_vless.txt | 3.31 Mbps 📺360p
+  - 🇹🇭 Таиланд | FLAT447_BLACK_FULL.txt | 3.31 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: ❓ Страна не определена
+- name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🌐 Неизвестно | LeilaoMi_all.yaml | 3.08 Mbps 📺360p
-  - 🌐 Неизвестно | mani-moh_ru.txt | 2.88 Mbps 📺360p
+  - 🇹🇭 Таиланд | gh_alive_vless.txt | 3.31 Mbps 📺360p
+  - 🇹🇭 Таиланд | FLAT447_BLACK_FULL.txt | 3.31 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
+- name: 🗺 🇹🇭 Таиланд
+  type: url-test
+  proxies:
+  - 🇹🇭 Таиланд | gh_alive_vless.txt | 3.31 Mbps 📺360p
+  - 🇹🇭 Таиланд | FLAT447_BLACK_FULL.txt | 3.31 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🌍 Страны
+  type: select
+  proxies:
+  - 🗺 🇹🇭 Таиланд
 - name: 🎯 Direct
   type: select
   proxies:

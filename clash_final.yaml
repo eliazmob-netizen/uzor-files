@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | nyeinkokoaung404 | 1.68 Mbps 📺360p
+- name: 🌐 Неизвестно | pie-with-jam_10.txt | 7.03 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -71,14 +71,14 @@ proxies:
   udp: true
   tls: true
   network: grpc
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   servername: node43.lmdscdn.ru
   reality-opts:
     public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
-- name: 🌐 Неизвестно | pie-with-jam_22.txt | 1.67 Mbps 📺360p
+- name: 🌐 Неизвестно | gh_alive_vless.txt | 5.09 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -96,7 +96,7 @@ proxies:
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt
+    url: https://github.com/pie-with-jam/PulseProxy/raw/refs/heads/main/githubmirror/10.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -115,8 +115,8 @@ proxy-groups:
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | nyeinkokoaung404 | 1.68 Mbps 📺360p
-  - 🌐 Неизвестно | pie-with-jam_22.txt | 1.67 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_10.txt | 7.03 Mbps 📺360p
+  - 🌐 Неизвестно | gh_alive_vless.txt | 5.09 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -124,8 +124,8 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | nyeinkokoaung404 | 1.68 Mbps 📺360p
-  - 🌐 Неизвестно | pie-with-jam_22.txt | 1.67 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_10.txt | 7.03 Mbps 📺360p
+  - 🌐 Неизвестно | gh_alive_vless.txt | 5.09 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10

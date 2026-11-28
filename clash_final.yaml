@@ -63,7 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇹🇭 Таиланд | gh_alive_vless.txt | 7.96 Mbps 📺360p
+- name: 🇷🇺 Россия | mani-moh_ru.txt | 8.45 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -71,14 +71,14 @@ proxies:
   udp: true
   tls: true
   network: grpc
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   servername: node43.lmdscdn.ru
   reality-opts:
     public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
-- name: 🇹🇭 Таиланд | Edsel-Rahimi_nodes.txt | 7.95 Mbps 📺360p
+- name: 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 7.66 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -96,7 +96,7 @@ proxies:
 proxy-providers:
   top_source:
     type: http
-    url: https://cdn.jsdelivr.net/gh/Diversan313/apex-parser/subs/other/protocols/vless/alive_vless.txt
+    url: https://raw.githubusercontent.com/mani-moh/pattn/master/subs/countries/ru.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -108,42 +108,28 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🌍 Без РФ
-  - 🌍 Страны
+  - 🇷🇺 Только РФ
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇹🇭 Таиланд | gh_alive_vless.txt | 7.96 Mbps 📺360p
-  - 🇹🇭 Таиланд | Edsel-Rahimi_nodes.txt | 7.95 Mbps 📺360p
+  - 🇷🇺 Россия | mani-moh_ru.txt | 8.45 Mbps 📺360p
+  - 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 7.66 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🌍 Без РФ
+- name: 🇷🇺 Только РФ
   type: url-test
   proxies:
-  - 🇹🇭 Таиланд | gh_alive_vless.txt | 7.96 Mbps 📺360p
-  - 🇹🇭 Таиланд | Edsel-Rahimi_nodes.txt | 7.95 Mbps 📺360p
+  - 🇷🇺 Россия | mani-moh_ru.txt | 8.45 Mbps 📺360p
+  - 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 7.66 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🗺 🇹🇭 Таиланд
-  type: url-test
-  proxies:
-  - 🇹🇭 Таиланд | gh_alive_vless.txt | 7.96 Mbps 📺360p
-  - 🇹🇭 Таиланд | Edsel-Rahimi_nodes.txt | 7.95 Mbps 📺360p
-  url: https://www.gstatic.com/generate_204
-  interval: 20
-  tolerance: 10
-  lazy: true
-- name: 🌍 Страны
-  type: select
-  proxies:
-  - 🗺 🇹🇭 Таиланд
 - name: 🎯 Direct
   type: select
   proxies:

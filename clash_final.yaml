@@ -63,7 +63,35 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🌐 Неизвестно | pie-with-jam_10.txt | 7.03 Mbps 📺360p
+- name: 🇺🇸 США | 0xRadikal_clash.yaml_3_2 | 6.77 Mbps 📺720p
+  type: trojan
+  server: ipfast.kingmna.com
+  port: 443
+  password: Z-jckziI1rW4yrUMorrv0Q
+  udp: true
+  network: ws
+  client-fingerprint: chrome
+  sni: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
+    headers:
+      Host: looazzboijji.global.ssl.fastly.net
+- name: 🇺🇸 США | 0xRadikal_configs.txt_6 | 6.57 Mbps 📺720p
+  type: trojan
+  server: ipfast.kingmna.com
+  port: 443
+  password: Z-jckziI1rW4yrUMorrv0Q
+  udp: true
+  network: ws
+  client-fingerprint: chrome
+  sni: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
+    headers:
+      Host: looasaaaboijji.global.ssl.fastly.net.
+- name: 🌐 Неизвестно | pie-with-jam_10.txt | 4.75 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -78,7 +106,7 @@ proxies:
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
-- name: 🌐 Неизвестно | gh_alive_vless.txt | 5.09 Mbps 📺360p
+- name: 🌐 Неизвестно | pie-with-jam_22.txt | 4.60 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -93,10 +121,87 @@ proxies:
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
+- name: 🇷🇺 Россия | 029danio_README.md_8 | 4.32 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  udp: true
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🇺🇸 США | 0xRadikal_clash.yaml_3_2 | 2.53 Mbps 📺360p
+  type: trojan
+  server: 146.75.59.186
+  port: 443
+  password: Z-jckziI1rW4yrUMorrv0Q
+  udp: true
+  network: ws
+  client-fingerprint: chrome
+  sni: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
+    headers:
+      Host: looasaaaboijji.global.ssl.fastly.net
+- name: 🇮🇷 Иран | 0xRadikal_clash.yaml_3_2 | 0.77 Mbps 📺360p
+  type: ss
+  server: Ir.wbzo.ir
+  port: 2060
+  cipher: chacha20-ietf-poly1305
+  password: pmZmPZcbrauTSbfdc6-RLIaR_F7bW3H1
+  udp: true
+- name: 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_24 | 5.23 Mbps 📺360p
+  type: vless
+  server: 81.94.148.30
+  port: 443
+  uuid: f4b08bf1-d9bd-4755-aa88-ba922282c608
+  udp: true
+  tls: true
+  network: tcp
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  servername: m6.richhoodfoc.com
+  reality-opts:
+    public-key: 7Vxh4zGjWhTahJSLBItfK8ywBHKI_R1MULmNV7vn3DA
+    short-id: '21c48be99d7e13c8'
+- name: 🇷🇺 Россия | Diversan313_alive_bs.yaml_2 | 4.57 Mbps 📺360p
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  udp: true
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: 'd05a120d3506d2cc'
+- name: 🌐 Неизвестно | pie-with-jam_10.txt | 3.27 Mbps 📺360p
+  type: vless
+  server: rusbox729.alexdjane.am
+  port: 443
+  uuid: f4b08bf1-d9bd-4755-aa88-ba922282c608
+  udp: true
+  tls: true
+  network: tcp
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  servername: rusbox729.alexdjane.am
+  reality-opts:
+    public-key: IU5C8_llRrimMDeJDPc3XM256DZOWIYblUdDYilAcFM
+    short-id: '686f7ed96ec0227d'
 proxy-providers:
   top_source:
     type: http
-    url: https://github.com/pie-with-jam/PulseProxy/raw/refs/heads/main/githubmirror/10.txt
+    url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/heavy/clash.yaml
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -108,15 +213,48 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
+  - 🇷🇺 Только РФ
+  - 🌍 Без РФ
   - ❓ Страна не определена
+  - 📺 YouTube Топ
+  - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🌐 Неизвестно | pie-with-jam_10.txt | 7.03 Mbps 📺360p
-  - 🌐 Неизвестно | gh_alive_vless.txt | 5.09 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_clash.yaml_3_2 | 6.77 Mbps 📺720p
+  - 🇺🇸 США | 0xRadikal_configs.txt_6 | 6.57 Mbps 📺720p
+  - 🌐 Неизвестно | pie-with-jam_10.txt | 4.75 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_22.txt | 4.60 Mbps 📺360p
+  - 🇷🇺 Россия | 029danio_README.md_8 | 4.32 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_clash.yaml_3_2 | 2.53 Mbps 📺360p
+  - 🇮🇷 Иран | 0xRadikal_clash.yaml_3_2 | 0.77 Mbps 📺360p
+  - 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_24 | 5.23 Mbps 📺360p
+  - 🇷🇺 Россия | Diversan313_alive_bs.yaml_2 | 4.57 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_10.txt | 3.27 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🇷🇺 Только РФ
+  type: url-test
+  proxies:
+  - 🇷🇺 Россия | Diversan313_alive_bs.yaml_2 | 4.57 Mbps 📺360p
+  - 🇷🇺 Россия | 029danio_README.md_8 | 4.32 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🌍 Без РФ
+  type: url-test
+  proxies:
+  - 🇺🇸 США | 0xRadikal_clash.yaml_3_2 | 6.77 Mbps 📺720p
+  - 🇺🇸 США | 0xRadikal_configs.txt_6 | 6.57 Mbps 📺720p
+  - 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_24 | 5.23 Mbps 📺360p
+  - 🇺🇸 США | 0xRadikal_clash.yaml_3_2 | 2.53 Mbps 📺360p
+  - 🇮🇷 Иран | 0xRadikal_clash.yaml_3_2 | 0.77 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
@@ -124,12 +262,54 @@ proxy-groups:
 - name: ❓ Страна не определена
   type: url-test
   proxies:
-  - 🌐 Неизвестно | pie-with-jam_10.txt | 7.03 Mbps 📺360p
-  - 🌐 Неизвестно | gh_alive_vless.txt | 5.09 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_10.txt | 4.75 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_22.txt | 4.60 Mbps 📺360p
+  - 🌐 Неизвестно | pie-with-jam_10.txt | 3.27 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
+- name: 📺 YouTube Топ
+  type: url-test
+  proxies:
+  - 🇺🇸 США | 0xRadikal_clash.yaml_3_2 | 6.77 Mbps 📺720p
+  - 🇺🇸 США | 0xRadikal_configs.txt_6 | 6.57 Mbps 📺720p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇺🇸 США
+  type: url-test
+  proxies:
+  - 🇺🇸 США | 0xRadikal_clash.yaml_3_2 | 6.77 Mbps 📺720p
+  - 🇺🇸 США | 0xRadikal_configs.txt_6 | 6.57 Mbps 📺720p
+  - 🇺🇸 США | 0xRadikal_clash.yaml_3_2 | 2.53 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇮🇷 Иран
+  type: url-test
+  proxies:
+  - 🇮🇷 Иран | 0xRadikal_clash.yaml_3_2 | 0.77 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🗺 🇳🇱 Нидерланды
+  type: url-test
+  proxies:
+  - 🇳🇱 Нидерланды | 0xRadikal_clash.yaml_24 | 5.23 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🌍 Страны
+  type: select
+  proxies:
+  - 🗺 🇺🇸 США
+  - 🗺 🇮🇷 Иран
+  - 🗺 🇳🇱 Нидерланды
 - name: 🎯 Direct
   type: select
   proxies:

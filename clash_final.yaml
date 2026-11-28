@@ -63,22 +63,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 🇷🇺 Россия | mani-moh_ru.txt | 8.45 Mbps 📺360p
-  type: vless
-  server: 195.58.46.231
-  port: 443
-  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
-  udp: true
-  tls: true
-  network: grpc
-  client-fingerprint: chrome
-  servername: node43.lmdscdn.ru
-  reality-opts:
-    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
-    short-id: 'b8abb26d3cfadcfb'
-  grpc-opts:
-    grpc-service-name: livestreamcontent
-- name: 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 7.66 Mbps 📺360p
+- name: 🇹🇭 Таиланд | gh_alive_vless.txt | 6.98 Mbps 📺360p
   type: vless
   server: 195.58.46.231
   port: 443
@@ -93,10 +78,25 @@ proxies:
     short-id: 'b8abb26d3cfadcfb'
   grpc-opts:
     grpc-service-name: livestreamcontent
+- name: 🇹🇭 Таиланд | LeilaoMi_all.yaml | 6.85 Mbps 📺360p
+  type: vless
+  server: 195.58.46.231
+  port: 443
+  uuid: bbb945a6-7d16-4099-b802-d3a7ccebd3ca
+  udp: true
+  tls: true
+  network: grpc
+  client-fingerprint: chrome
+  servername: node43.lmdscdn.ru
+  reality-opts:
+    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
+    short-id: 'b8abb26d3cfadcfb'
+  grpc-opts:
+    grpc-service-name: livestreamcontent
 proxy-providers:
   top_source:
     type: http
-    url: https://raw.githubusercontent.com/mani-moh/pattn/master/subs/countries/ru.txt
+    url: https://cdn.jsdelivr.net/gh/Diversan313/apex-parser/subs/other/protocols/vless/alive_vless.txt
     interval: 3600
     path: ./providers/top_source.yaml
     health-check:
@@ -108,28 +108,42 @@ proxy-groups:
   type: select
   proxies:
   - 🌐 Все серверы
-  - 🇷🇺 Только РФ
+  - 🌍 Без РФ
+  - 🌍 Страны
   - 🛡 Реклама
   - 🔞 18+
   - 🎯 Direct
 - name: 🌐 Все серверы
   type: url-test
   proxies:
-  - 🇷🇺 Россия | mani-moh_ru.txt | 8.45 Mbps 📺360p
-  - 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 7.66 Mbps 📺360p
+  - 🇹🇭 Таиланд | gh_alive_vless.txt | 6.98 Mbps 📺360p
+  - 🇹🇭 Таиланд | LeilaoMi_all.yaml | 6.85 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
-- name: 🇷🇺 Только РФ
+- name: 🌍 Без РФ
   type: url-test
   proxies:
-  - 🇷🇺 Россия | mani-moh_ru.txt | 8.45 Mbps 📺360p
-  - 🇷🇺 Россия | FLAT447_BLACK_FULL.txt | 7.66 Mbps 📺360p
+  - 🇹🇭 Таиланд | gh_alive_vless.txt | 6.98 Mbps 📺360p
+  - 🇹🇭 Таиланд | LeilaoMi_all.yaml | 6.85 Mbps 📺360p
   url: https://www.gstatic.com/generate_204
   interval: 20
   tolerance: 10
   lazy: true
+- name: 🗺 🇹🇭 Таиланд
+  type: url-test
+  proxies:
+  - 🇹🇭 Таиланд | gh_alive_vless.txt | 6.98 Mbps 📺360p
+  - 🇹🇭 Таиланд | LeilaoMi_all.yaml | 6.85 Mbps 📺360p
+  url: https://www.gstatic.com/generate_204
+  interval: 20
+  tolerance: 10
+  lazy: true
+- name: 🌍 Страны
+  type: select
+  proxies:
+  - 🗺 🇹🇭 Таиланд
 - name: 🎯 Direct
   type: select
   proxies:
